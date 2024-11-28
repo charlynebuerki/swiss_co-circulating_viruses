@@ -12,7 +12,7 @@ bin/
 
 # Keep ingest/data directory, but ignore all files within it; keep those in references 
 !ingest/data/
-!ingest/data/references/*
+!ingest/data/references/** */
 ingest/data/*
 # Explicitly include sequences that we want to add to the automated ingest
 
