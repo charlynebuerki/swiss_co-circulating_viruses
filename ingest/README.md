@@ -1,8 +1,8 @@
-# nextstrain.org/mpox/ingest
+# Ingest pipeline (adapted) for HPIV-3 sequences
 
 This is the adapted ingest pipeline for mpox virus sequences to HPIV-3 sequences.
 
-Of note, one needs the reference genome in data/references/
+Of note, one needs the reference genome in data/references/. To do so, you need to first run a script (tbd)
 
 ## Software requirements
 

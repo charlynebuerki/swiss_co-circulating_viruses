@@ -1,0 +1,1 @@
+NC_001796.2 # Reference strain

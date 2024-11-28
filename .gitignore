@@ -23,6 +23,9 @@ env.d/
 # Snakemake state dir
 .snakemake/
 
+#config pathogen
+pathogen/config/
+
 # Git dir
 .git/
 
