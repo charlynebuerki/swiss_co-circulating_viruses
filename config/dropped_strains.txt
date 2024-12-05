@@ -1,1 +1,5 @@
 NC_001796.2 # Reference strain
+U51116 # probelmatic for clock rate estimation
+OP821798
+Z11575
+KJ672531
