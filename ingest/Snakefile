@@ -23,7 +23,8 @@ def _get_all_targets(wildcards):
     # Default targets are the metadata TSV and sequences FASTA files
     all_targets = [
         "results/sequences.fasta",
-        "results/metadata.tsv"
+        "results/metadata.tsv",
+        "results/local_sequences.fasta" # should comment this out if you have no local sequences to add 
     ]
 
     # Add additional targets based on upload config
@@ -57,7 +58,7 @@ rule all:
     input: _get_all_targets
 
 
-
+include: "rules/fetch_from_local.smk" # should comment out if there are no local sequences to include
 include: "rules/fetch_from_ncbi.smk"
 include: "rules/curate.smk"
 include: "rules/sort.smk"
