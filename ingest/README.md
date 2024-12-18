@@ -11,7 +11,7 @@ Follow the [standard installation instructions](https://docs.nextstrain.org/en/l
 ## Usage
 
 > NOTE: All command examples assume you are within the `ingest` directory.
-> If running commands from the outer `mpox` directory, please replace the `.` with `ingest`
+> If running commands from the outer `hpiv-3` directory, please replace the `.` with `ingest`
 
 Fetch sequences with
 
@@ -25,16 +25,27 @@ Run the complete ingest pipeline with
 nextstrain build .
 ```
 
-This will produce two files (within the `ingest` directory):
+This will produce three files (within the `ingest` directory):
 
 - `results/metadata.tsv`
 - `results/sequences.fasta`
+- `results/local_sequences.fasta`
 
 Run the complete ingest pipeline and upload results to AWS S3 with
 
 ```sh
 nextstrain build . --configfiles build-configs/nextstrain-automation/config.yaml
 ```
+
+### Including local sequences not from GenBank
+
+By default, this workflow includes local sequences that are not on GenBank. If you wish to remove this part, you can comment out the target in the all rule (insert line number) and the 
+rule include statement (line xx). 
+
+If you wish to keep these, you must include your fasta sequences in `data/pathogen_local`. The pipeline expects the following:
+- a metadata file saved as a `.tsv` file. This file must at least have a column called accession which identifies the accession or reference of the sequence.
+- all the different fasta files for your sequences. By default, this pipeline reads all the fasta files in `pathogen_local/` folder, will filter the potentially multi-fastsa files on the reference
+accession name, and will concatenate all the fastas in one multifasta file in `results/local_sequences.fasta`. 
 
 ### Adding new sequences not from GenBank
 

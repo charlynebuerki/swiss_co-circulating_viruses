@@ -27,7 +27,12 @@ segments = ['whole']
 # Expand augur JSON paths
 rule all:
     input:
-        augur_jsons = expand("auspice/hpiv3_{segs}.json", segs=segments)
+        #augur_jsons = expand("auspice/hpiv3_{segs}.json", segs=segments)
+        #augur_jsons = "results/nextclade_dataset/tree.json", "results/nextclade_dataset/sequences"
+        tree_nextcalde=expand("results/nextclade_dataset_{segs}/tree.json", segs=segments),
+        pathogen_nextclade=expand("results/nextclade_dataset_{segs}/pathogen.json",segs=segments),
+        sequences_nextclade =expand("results/nextclade_dataset_{segs}/annotation.gff3",segs=segments),
+        reference_nextclade = expand("results/nextclade_dataset_{segs}/reference.fasta", segs=segments)
 
 #rule all_genes:
 #    input:
@@ -56,7 +61,7 @@ rule files:
         auspice_config =    "pathogen/config/auspice_config.json",
         clades =            "pathogen/clades_genome.tsv",
         meta=               "data/metadata_updated.tsv",
-        extended_metafile=  "data/assign_publications_corrected.tsv",
+        #extended_metafile=  "data/assign_publications_corrected.tsv",
         last_updated_file = "data/date_last_updated.txt",
         local_accn_file =   "data/local_accn.txt"
 
@@ -71,10 +76,14 @@ rule fetch:
         dir = "ingest"
     output:
         sequences="data/sequences.fasta",
-        metadata= "data/metadata.tsv"
+        metadata= "data/metadata.tsv",
+        local_sequences = "data/local_sequences.fasta",
+        local_metadata = "data/local_metadata.fasta"
     params:
         seq="ingest/results/sequences.fasta",
-        meta="ingest/results/metadata.tsv"
+        meta="ingest/results/metadata.tsv",
+        seq_loc = "ingest/results/local_sequences.fasta",
+        meta_loc = "ingest/data/pathogen_local/1_HPIV_3_meta.tsv"
     shell:
         """
         cd {input.dir} 
@@ -82,6 +91,8 @@ rule fetch:
         cd ../
         cp -u {params.seq} {output.sequences}
         cp -u {params.meta} {output.metadata}
+        cp -u {params.seq_loc} {output.local_sequences}
+        cp -u {params.meta_loc} {output.local_metadata}
         """
 
 
@@ -108,28 +119,42 @@ rule update_strain_names:
 # Add additional sequences
 # if you have sequences that are not on NCBI Virus
 ###############################
+rule add_local_sequences:
+    input:
+        local_sequences = rules.fetch.output.local_sequences,
+        all_sequences = rules.fetch.output.sequences
+    output:
+        sequences = "data/all_sequences.fasta"
+    shell:
+        """
+        cat {input.local_sequences} {input.all_sequences} > {output.sequences}
+        """
+
+
+
 '''
 rule update_sequences:
     input:
         sequences = "data/sequences.fasta",
-        metadata=files.meta,
-        add_metadata = files.extended_metafile
+        metadata=files.meta #,
+        #add_metadata = files.extended_metafile
     output:
         sequences = "data/sequences_added.fasta"
     params:
-        file_ending = "data/*.fas*",
+        file_ending = "data/all_consensus_hpiv3/*.fa*",
         temp = "data/temp_sequences_added.fasta",
         date_last_updated = files.last_updated_file,
-        local_accn = files.local_accn_file,
+        local_accn = files.local_accn_file, # --dates {params.date_last_updated} --local_accession {params.local_accn} --meta {input.metadata} --add {input.add_metadata}
     shell:
         """
         touch {params.temp} && rm {params.temp}
         cat {params.file_ending} > {params.temp}
-        python scripts/update_sequences.py --in_seq {params.temp} --out_seq {output.sequences} --dates {params.date_last_updated} --local_accession {params.local_accn} --meta {input.metadata} --add {input.add_metadata}
+        python scripts/update_sequences.py --in_seq {params.temp} --out_seq {output.sequences} 
         rm {params.temp}
         awk '/^>/{{if (seen[$1]++ == 0) print; next}} !/^>/{{print}}' {output.sequences} > {params.temp} && mv {params.temp} {output.sequences}
         """
-    '''
+'''
+    
 
 ##############################
 # Change the format of the dates in the metadata
@@ -227,13 +252,33 @@ rule add_metadata:
             --output {output.metadata}
         """
 '''
+rule add_local_metadata:
+    message:
+        """
+            adding in local metadata
+        """
+    input:
+        metadata= rules.fetch.output.metadata,
+        local_metadata = rules.fetch.output.local_metadata
+    output:
+        metadata = "data/all_metadata.tsv"
+    shell: 
+        """
+        augur merge \
+            --metadata metadata={input.metadata} \
+            --metadata local_metadata={input.local_metadata} \
+            --metadata-id-columns accession \
+            --output-metadata {output.metadata}
+        """
+
+
 rule rename_metadata_columns:
     message:
         """
         renaming metadata columns 
         """
     input: 
-        meta = rules.fetch.output.metadata
+        meta = rules.add_local_metadata.output.metadata
     output:
         meta_updated = "data/metadata_updated.tsv"
 
@@ -261,7 +306,7 @@ rule index_sequences:
         Creating an index of sequence composition for filtering
         """
     input:
-        sequences = rules.fetch.output.sequences
+        sequences = rules.add_local_sequences.output.sequences
     output:
         sequence_index = "results/sequence_index.tsv"
     shell:
@@ -280,7 +325,7 @@ rule filter:
           - excluding strains in {input.exclude}
         """
     input:
-        sequences = rules.fetch.output.sequences,
+        sequences = rules.add_local_sequences.output.sequences,
         sequence_index = rules.index_sequences.output.sequence_index,
         metadata = files.meta,
         exclude = files.dropped_strains
@@ -304,7 +349,7 @@ rule filter:
             --sequences-per-group {params.sequences_per_group} \
             --min-date {params.min_date} \
             --min-length {params.min_length} \
-            --query 'qc_overallStatus== "good" | qc_overallStatus == "mediocre" ' \
+            --query 'qc_overallStatus== "good" | qc_overallStatus == "mediocre" | database== "ReVSeq" ' \
             --output {output.sequences}
         """
 
@@ -525,8 +570,42 @@ rule export:
             --output {output.auspice_json}
         """
 
+rule assemble_dataset:
+    input:
+        tree= rules.export.output.auspice_json,
+        sequences= rules.add_local_sequences.output.sequences
+    params:
+        directory = "results/nextclade_dataset_{segs}"
+    output:
+        tree="results/nextclade_dataset_{segs}/tree.json",
+        sequences="results/nextclade_dataset_{segs}/sequences.fasta"
+    shell:
+        """
+        mkdir -p {params.directory}
+        sed -E 's/\\"node_attrs\\": \\{{/\\"node_attrs\\": \\{{\\"clade_membership\\": \\{{\\"value\\": \\"\\"\\}}, /g' {input.tree} > {output.tree}
+        cp {input.sequences} {output.sequences}
+        """
 
 
+
+rule assemble_nextclade_dataset:
+    input:
+        pathogen = "ingest/data/references/pathogen.json",
+        sequence_annotation = "ingest/data/references/annotation.gff3",
+        reference = "ingest/data/references/reference.fasta"
+    params:
+        directory = rules.assemble_dataset.params.directory
+    output:
+        pathogen="results/nextclade_dataset_{segs}/pathogen.json",
+        sequence_annotation="results/nextclade_dataset_{segs}/annotation.gff3",
+        reference="results/nextclade_dataset_{segs}/reference.fasta"
+    shell:
+        """
+        mkdir -p {params.directory}
+        cp -u {input.pathogen} {output.pathogen}
+        cp -u {input.sequence_annotation} {output.sequence_annotation}
+        cp -u {input.reference} {output.reference}
+        """
 
 # ##############################
 rule clean:
