@@ -497,7 +497,6 @@ rule translate:
             --output-node-data {output.node_data}
         """
 
-'''
 rule clades: 
     message: "Assigning clades according to nucleotide mutations"
     input:
@@ -515,7 +514,6 @@ rule clades:
             --clades {input.clades} \
             --output-node-data {output.clade_data}
         """
-'''
 rule traits:
     message: "Inferring ancestral traits for {params.traits!s}"
     input:
@@ -547,7 +545,7 @@ rule export:
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        #clades = rules.clades.output.clade_data,
+        clades = rules.clades.output.clade_data,
         colors = files.colors,
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config
@@ -563,7 +561,7 @@ rule export:
             --tree {input.tree} \
             --metadata {input.metadata} \
             --metadata-id-columns {params.strain_id_field} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts}  \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} {input.clades} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
