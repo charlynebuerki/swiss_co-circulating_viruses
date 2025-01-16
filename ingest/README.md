@@ -2,7 +2,7 @@
 
 This is the adapted ingest pipeline for mpox virus sequences to HPIV-3 sequences.
 
-Of note, one needs the reference genome in data/references/. To do so, you need to first run a script (tbd)
+Of note, one needs the reference genome in data/references/. You also need the annotated gff3 file of that genome. To create it, you can run this script [generate_from_genbank.py](bin/generate_from_genbank.py) manually. Once you have acquired these files, you may run the ingest pipeline. 
 
 ## Software requirements
 
@@ -39,43 +39,21 @@ nextstrain build . --configfiles build-configs/nextstrain-automation/config.yaml
 
 ### Including local sequences not from GenBank
 
-By default, this workflow includes local sequences that are not on GenBank. If you wish to remove this part, you can comment out the target in the all rule (insert line number) and the 
-rule include statement (line xx). 
+By default, this workflow includes local sequences that are not on GenBank. If you wish to remove this part, you can comment out the Snakemake target in the _get_all_targets rule (line number 27) and the 
+rule in the include statement (line 61). 
 
 If you wish to keep these, you must include your fasta sequences in `data/pathogen_local`. The pipeline expects the following:
 - a metadata file saved as a `.tsv` file. This file must at least have a column called accession which identifies the accession or reference of the sequence.
 - all the different fasta files for your sequences. By default, this pipeline reads all the fasta files in `pathogen_local/` folder, will filter the potentially multi-fastsa files on the reference
 accession name, and will concatenate all the fastas in one multifasta file in `results/local_sequences.fasta`. 
 
-### Adding new sequences not from GenBank
-
-#### Static Files
-
-Do the following to include sequences from static FASTA files.
-
-1. Convert the FASTA files to NDJSON files with:
-
-    ```sh
-    ./ingest/bin/fasta-to-ndjson \
-        --fasta {path-to-fasta-file} \
-        --fields {fasta-header-field-names} \
-        --separator {field-separator-in-header} \
-        --exclude {fields-to-exclude-in-output} \
-        > ingest/data/{file-name}.ndjson
-    ```
-
-2. Add the following to the `.gitignore` to allow the file to be included in the repo:
-
-    ```gitignore
-    !ingest/data/{file-name}.ndjson
-    ```
-
-3. Add the `file-name` (without the `.ndjson` extension) as a source to `defaults/config.yaml`. This will tell the ingest pipeline to concatenate the records to the GenBank sequences and run them through the same transform pipeline.
 
 ## Configuration
 
 Configuration takes place in `defaults/config.yaml` by default.
 Optional configs for uploading files and Slack notifications are in `build-configs/nextstrain-automation/config.yaml`.
+
+If you wish to run another pathogen, head there to alter the pathogen taxon id number and accession number. 
 
 ### Environment Variables
 

@@ -5,6 +5,11 @@ ncbi_taxon_id: '11216'
 # Renames the NCBI dataset headers
 ncbi_field_map: 'defaults/ncbi-dataset-field-map.tsv'
 
+#params for the local rule
+local:
+  #accession reference used from our sequencing files. 
+  accession_reference: "NC_001796"
+
 # Params for the curate rule
 curate:
   # Fields to rename.

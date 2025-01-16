@@ -13,8 +13,8 @@ import glob
 import os
 
 
-#tbd move into config file
-accession_reference = "NC_001796"
+#fetch accession reference from the config file 
+accession_reference = config["local"]["accession_reference"]
 
 # Dynamically fetch all file names from the specified directory
 input_dir = "data/pathogen_local"
