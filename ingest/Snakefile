@@ -15,16 +15,24 @@ min_version(
 #        "results/sequences.fasta",
 #        "results/metadata.tsv",
 
+
 if not config:
     configfile: "defaults/config.yaml"
 
+strains = config["strains"]
+
+rule all:
+    input: 
+        sequences = expand("results/{strain}/sequences.fasta", strain=strains),
+        metadata = expand("results/{strain}/metadata.tsv", strain=strains),
+        #local_sequences = expand("results/{strain}/local_sequences.fasta", strain=strains) # should comment this out if you have no local sequences to add
 
 def _get_all_targets(wildcards):
     # Default targets are the metadata TSV and sequences FASTA files
     all_targets = [
-        "results/sequences.fasta",
-        "results/metadata.tsv",
-        "results/local_sequences.fasta" # should comment this out if you have no local sequences to add 
+        expand("results/{strain}/sequences.fasta", strain=strains),
+        expand("results/{strain}/metadata.tsv", strain=strains),
+        #expand("results/{strain}/local_sequences.fasta", strain=strains) # should comment this out if you have no local sequences to add 
     ]
 
     # Add additional targets based on upload config
@@ -54,11 +62,9 @@ def _get_all_targets(wildcards):
             )
     return all_targets
 
-rule all:
-    input: _get_all_targets
 
 
-include: "rules/fetch_from_local.smk" # should comment out if there are no local sequences to include
+#include: "rules/fetch_from_local.smk" # should comment out if there are no local sequences to include
 include: "rules/fetch_from_ncbi.smk"
 include: "rules/curate.smk"
 include: "rules/sort.smk"

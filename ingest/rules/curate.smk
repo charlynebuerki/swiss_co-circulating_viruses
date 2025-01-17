@@ -7,7 +7,7 @@ formats and expects input file
 This will produce output files as
 
     metadata = "data/subset_metadata.tsv"
-    sequences = "results/sequences.fasta"
+    sequences = "data/sequences.fasta"
 
 Parameters are expected to be defined in `config.curate`.
 """
@@ -45,14 +45,14 @@ def format_field_map(field_map: dict[str, str]) -> str:
 
 rule curate:
     input:
-        sequences_ndjson="data/sequences.ndjson",
+        sequences_ndjson="data/{strain}/sequences.ndjson",
         all_geolocation_rules="data/all-geolocation-rules.tsv",
         annotations=config["curate"]["annotations"],
     output:
-        metadata="data/all_metadata.tsv",
-        sequences="results/sequences.fasta",
+        metadata="data/{strain}/curated_metadata.tsv",
+        sequences="data/{strain}/sequences.fasta",
     log:
-        "logs/curate.txt",
+        "logs/{strain}_curate.txt",
     params:
         field_map=format_field_map(config["curate"]["field_map"]),
         strain_regex=config["curate"]["strain_regex"],
@@ -105,9 +105,9 @@ rule curate:
 
 rule subset_metadata:
     input:
-        metadata="data/all_metadata.tsv",
+        metadata="data/{strain}/curated_metadata.tsv",
     output:
-        subset_metadata="data/subset_metadata.tsv",
+        subset_metadata="data/{strain}/metadata.tsv",
     params:
         metadata_fields=",".join(config["curate"]["metadata_columns"]),
     shell:

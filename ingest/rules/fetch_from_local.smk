@@ -14,7 +14,7 @@ import os
 
 
 #fetch accession reference from the config file 
-accession_reference = config["local"]["accession_reference"]
+accession_reference = config["local"]["HPIV_3"]["accession_reference"]
 
 # Dynamically fetch all file names from the specified directory
 input_dir = "data/pathogen_local"

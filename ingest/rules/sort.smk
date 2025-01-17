@@ -4,8 +4,8 @@ by aligning them to reference sequences.
 
 It produces output files as
 
-    metadata = "data/metadata.tsv"
-    sequences = "data/sequences.fasta"
+    metadata = "data/{strain}/metadata.tsv"
+    sequences = "data/{strain}/sequences.fasta"
 
 """
 
@@ -13,18 +13,19 @@ rule sort:
     input:
         sequences = rules.curate.output.sequences
     output:
-        "data/sequences.fasta",
+        sequences = "results/{strain}/sequences.fasta"
     shell:
         '''
         seqkit rmdup {input.sequences} > {output}
         '''
 
+
 rule metadata:
     input:
-        metadata = rules.curate.output.metadata,
-        sequences = "data/sequences.fasta"
+        metadata = rules.subset_metadata.output.subset_metadata,
+        sequences = "results/{strain}/sequences.fasta"
     output:
-        metadata = "data/metadata_raw.tsv"
+        metadata = "data/{strain}/metadata_raw.tsv"
     run:
         import pandas as pd
         from Bio import SeqIO
@@ -35,12 +36,12 @@ rule metadata:
 
 rule nextclade:
     input:
-        sequences = "data/sequences.fasta",
-        ref = "data/references/reference.fasta"
+        sequences = "results/{strain}/sequences.fasta",
+        ref = "data/{strain}/reference.fasta"
     output:
-        nextclade = "results/nextclade.tsv"
+        nextclade = "results/{strain}/nextclade.tsv"
     params:
-        dataset = "data/references/",
+        dataset = "data/{strain}/",
         output_columns = "seqName clade qc.overallScore qc.overallStatus alignmentScore  alignmentStart  alignmentEnd  coverage dynamic"
     threads: 8
     shell:
@@ -53,14 +54,15 @@ rule nextclade:
 
 rule extend_metadata: 
     input:
-        nextclade = "results/nextclade.tsv",
-        metadata = "data/metadata_raw.tsv"
+        nextclade = "results/{strain}/nextclade.tsv",
+        metadata = "data/{strain}/metadata_raw.tsv"
     output:
-        metadata = "results/metadata.tsv"
+        metadata = "results/{strain}/metadata.tsv"
     shell:
         """
         python3 bin/extend-metadata.py --metadata {input.metadata} \
                                        --id-field accession \
+                                       --virus-type {wildcards.strain} \
                                        --nextclade {input.nextclade} \
                                        --output {output.metadata}
         """

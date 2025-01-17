@@ -15,16 +15,16 @@ Produces final output as
 
 
 rule fetch_ncbi_dataset_package:
+    params:
+        ncbi_taxon_id=lambda w: config["ncbi_taxon_id"][w.strain],
     output:
-        dataset_package=temp("data/ncbi_dataset.zip"),
+        dataset_package=temp("data/{strain}/ncbi_dataset.zip"),
     retries: 5  # Requires snakemake 7.7.0 or later
     benchmark:
-        "benchmarks/fetch_ncbi_dataset_package.txt"
-    params:
-        ncbi_taxon_id=config["ncbi_taxon_id"],
+        "benchmarks/{strain}/fetch_ncbi_dataset_package.txt"
     shell:
         """
-        datasets download virus genome taxon {params.ncbi_taxon_id} \
+        datasets download virus genome taxon {params.ncbi_taxon_id:q} \
             --no-progressbar \
             --filename {output.dataset_package}
         """
@@ -32,11 +32,11 @@ rule fetch_ncbi_dataset_package:
 
 rule extract_ncbi_dataset_sequences:
     input:
-        dataset_package="data/ncbi_dataset.zip",
+        dataset_package="data/{strain}/ncbi_dataset.zip",
     output:
-        ncbi_dataset_sequences=temp("data/ncbi_dataset_sequences.fasta"),
+        ncbi_dataset_sequences=temp("data/{strain}/ncbi_dataset_sequences.fasta"),
     benchmark:
-        "benchmarks/extract_ncbi_dataset_sequences.txt"
+        "benchmarks/{strain}/extract_ncbi_dataset_sequences.txt"
     shell:
         """
         unzip -jp {input.dataset_package} \
@@ -79,14 +79,14 @@ rule format_ncbi_dataset_report:
     # Formats the headers to be the same as before we used NCBI Datasets
     # The only fields we do not have equivalents for are "title" and "publications"
     input:
-        dataset_package="data/ncbi_dataset.zip",
-        ncbi_field_map=config["ncbi_field_map"],
+        dataset_package="data/{strain}/ncbi_dataset.zip",
+        ncbi_field_map=config["ncbi_field_map"]
     output:
-        ncbi_dataset_tsv=temp("data/ncbi_dataset_report.tsv"),
+        ncbi_dataset_tsv=temp("data/{strain}/ncbi_dataset_report.tsv"),
     params:
-        fields_to_include=_get_ncbi_dataset_field_mnemonics,
+        fields_to_include= _get_ncbi_dataset_field_mnemonics,
     benchmark:
-        "benchmarks/format_ncbi_dataset_report.txt"
+        "benchmarks/{strain}/format_ncbi_dataset_report.txt"
     shell:
         """
         dataformat tsv virus-genome \
@@ -101,14 +101,14 @@ rule format_ncbi_dataset_report:
 
 rule format_ncbi_datasets_ndjson:
     input:
-        ncbi_dataset_sequences="data/ncbi_dataset_sequences.fasta",
-        ncbi_dataset_tsv="data/ncbi_dataset_report.tsv",
+        ncbi_dataset_sequences="data/{strain}/ncbi_dataset_sequences.fasta",
+        ncbi_dataset_tsv="data/{strain}/ncbi_dataset_report.tsv",
     output:
-        ndjson="data/genbank.ndjson",
+        ndjson="data/{strain}/ncbi.ndjson",
     log:
-        "logs/format_ncbi_datasets_ndjson.txt",
+        "logs/{strain}/format_ncbi_datasets_ndjson.txt",
     benchmark:
-        "benchmarks/format_ncbi_datasets_ndjson.txt"
+        "benchmarks/{strain}/format_ncbi_datasets_ndjson.txt"
     shell:
         """
         augur curate passthru \
@@ -121,6 +121,17 @@ rule format_ncbi_datasets_ndjson:
             2> {log} > {output.ndjson}
         """
 
+rule fetch_all_genbank_sequences:
+    input:
+        all_taxon_ids=expand(
+            "data/{strain}/ncbi.ndjson", strain=list(config["ncbi_taxon_id"].keys())
+        ),
+    output:
+        sequences_ndjson="data/genbank.ndjson",
+    shell:
+        """
+        cat {input.all_taxon_ids} > {output.sequences_ndjson}
+        """
 
 def _get_all_sources(wildcards):
     return [f"data/{source}.ndjson" for source in config["sources"]]
@@ -130,7 +141,7 @@ rule fetch_all_sequences:
     input:
         all_sources=_get_all_sources,
     output:
-        sequences_ndjson="data/sequences.ndjson",
+        sequences_ndjson="data/{strain}/sequences.ndjson",
     shell:
         """
         cat {input.all_sources} > {output.sequences_ndjson}

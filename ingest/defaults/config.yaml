@@ -1,14 +1,26 @@
 # Sources of sequences to include in the ingest run
 sources: ['genbank']
+
+#strains used:
+strains: ['HPIV_1', 'HPIV_2', 'HPIV_3', 'HPIV_4']
+
 # Pathogen NCBI Taxonomy ID
-ncbi_taxon_id: '11216'
+ncbi_taxon_id: 
+  HPIV_1: '12730'
+  HPIV_2: '2560525'
+  HPIV_3: '11216'
+  HPIV_4: '11224'
 # Renames the NCBI dataset headers
 ncbi_field_map: 'defaults/ncbi-dataset-field-map.tsv'
 
 #params for the local rule
 local:
   #accession reference used from our sequencing files. 
-  accession_reference: "NC_001796"
+  accession_reference:
+    HPIV_1: "NC_003461.1"
+    HPIV_2: "NC_003443.1"
+    HPIV_3: "NC_001796"
+    HPIV_4: "NC_021928.1"
 
 # Params for the curate rule
 curate:
