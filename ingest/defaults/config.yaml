@@ -2,7 +2,7 @@
 sources: ['genbank']
 
 #strains used:
-strains: ['HPIV_1', 'HPIV_2', 'HPIV_3', 'HPIV_4']
+strains: ['HPIV_1', 'HPIV_2', 'HPIV_3']
 
 # Pathogen NCBI Taxonomy ID
 ncbi_taxon_id: 
@@ -17,10 +17,10 @@ ncbi_field_map: 'defaults/ncbi-dataset-field-map.tsv'
 local:
   #accession reference used from our sequencing files. 
   accession_reference:
-    HPIV_1: "NC_003461.1"
-    HPIV_2: "NC_003443.1"
+    HPIV_1: "NC_003461"
+    HPIV_2: "NC_003443"
     HPIV_3: "NC_001796"
-    HPIV_4: "NC_021928.1"
+    HPIV_4: "NC_021928"
 
 # Params for the curate rule
 curate:

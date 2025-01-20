@@ -4,6 +4,9 @@ This is the adapted ingest pipeline for mpox virus sequences to HPIV-3 sequences
 
 Of note, one needs the reference genome in data/references/. You also need the annotated gff3 file of that genome. To create it, you can run this script [generate_from_genbank.py](bin/generate_from_genbank.py) manually. Once you have acquired these files, you may run the ingest pipeline. 
 
+TBD: first need to get sequences
+local strains must be in folder project_strains
+
 ## Software requirements
 
 Follow the [standard installation instructions](https://docs.nextstrain.org/en/latest/install.html) for Nextstrain's suite of software tools.

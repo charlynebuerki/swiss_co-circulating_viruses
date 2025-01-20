@@ -21,18 +21,12 @@ if not config:
 
 strains = config["strains"]
 
-rule all:
-    input: 
-        sequences = expand("results/{strain}/sequences.fasta", strain=strains),
-        metadata = expand("results/{strain}/metadata.tsv", strain=strains),
-        #local_sequences = expand("results/{strain}/local_sequences.fasta", strain=strains) # should comment this out if you have no local sequences to add
-
 def _get_all_targets(wildcards):
     # Default targets are the metadata TSV and sequences FASTA files
     all_targets = [
         expand("results/{strain}/sequences.fasta", strain=strains),
         expand("results/{strain}/metadata.tsv", strain=strains),
-        #expand("results/{strain}/local_sequences.fasta", strain=strains) # should comment this out if you have no local sequences to add 
+        expand("results/{strain}/local_sequences.fasta", strain=strains) # should comment this out if you have no local sequences to add 
     ]
 
     # Add additional targets based on upload config
@@ -60,22 +54,37 @@ def _get_all_targets(wildcards):
                     remote_file_name=remote_file_names
                 )
             )
-    return all_targets
+    return [item for sublist in all_targets for item in (sublist if isinstance(sublist, list) else [sublist])]
+
+rule all:
+    input: _get_all_targets
 
 
-
-#include: "rules/fetch_from_local.smk" # should comment out if there are no local sequences to include
+include: "rules/fetch_from_local.smk" # should comment out if there are no local sequences to include
 include: "rules/fetch_from_ncbi.smk"
 include: "rules/curate.smk"
 include: "rules/sort.smk"
 
 
 rule clean:
-    message: "Removing directories: {params}"
+    message:
+        "Removing files and directories for cleaning."
     params:
-        "results"
+        # Specify directories to remove
+        directories="results",
+    input:
+        # Specify the metadata files to clean dynamically
+        expand("data/{strain}/curated_metadata.tsv", strain=strains),
+        expand("data/{strain}/metadata.tsv", strain=strains),
+        expand("data/{strain}/metadata_raw.tsv", strain=strains)
     shell:
-        "rm -rfv {params}"
+        """
+        # Remove specified files
+        rm -fv {input}
+        # Remove specified directories
+        rm -rfv {params.directories}
+        """
+
 
 
 
