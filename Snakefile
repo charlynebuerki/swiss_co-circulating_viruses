@@ -7,13 +7,13 @@
 ###############
 wildcard_constraints:
     seg="whole",
-    #gene="|-5utr|-vp4|-vp2|-vp3|-vp1|-2A|-2B|-2C|-3A|-3B|-3C|-3D|-3utr"
+    #gene="|-ncp|-pp|-D1|-D2|-C|-MP|-FP|-HN|-L"
    
 #     #from: https://bitbucket.org/snakemake/snakemake/issues/910/empty-wildcard-assignment-works-only-if
 
 # Define segments to analyze
-segments = ['whole']
-#GENES=["-5utr","-vp4", "-vp2", "-vp3", "-vp1", "-2A", "-2B", "-2C", "-3A", "-3B", "-3C", "-3D","-3utr"]
+segments = ['whole'] #, 'HN']
+
 '''GENES = [
     "nucleocapsid_protein",
     "phosphoprotein",
@@ -78,7 +78,7 @@ rule fetch:
         sequences="data/sequences.fasta",
         metadata= "data/metadata.tsv",
         local_sequences = "data/local_sequences.fasta",
-        local_metadata = "data/local_metadata.fasta"
+        local_metadata = "data/local_metadata.tsv"
     params:
         seq="ingest/results/sequences.fasta",
         meta="ingest/results/metadata.tsv",

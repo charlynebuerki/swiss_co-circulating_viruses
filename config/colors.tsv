@@ -209,11 +209,13 @@ region	eastern africa	#058A3C
 region	middle africa	#13F672
 region	western africa	#9DFBC4
 region	southern africa	#C8E6C9
+region	africa	#C8E6C9
 
 region	northern europe	#FD151B
 region	southern europe	#F53500
 region	eastern europe	#AC0006
 region	western europe	#FF5733
+region	europe	#FD151B
 
 region	caribbean	#FFB326
 region	central america	#C99739
@@ -226,14 +228,33 @@ region	central asia	#0D47A1
 region	southern asia	#0A0074
 region	south-eastern asia	#8157C4
 region	western asia	#6C0D79
+region	asia	#1E88E5
 
 region	oceania	#26A69A
 
-age range	0-3 m/o	#FFB6C1
-age range	4-6 m/o	#FF69B4
-age range	7-12 m/o	#FF1493
-age range	<1 y/o	#DB7093
-age range	1-5 y/o	#C71585
-age range	6-10 y/o	#8B008B
-age range	11-17 y/o	#800080
-age range	18+ y/o	#4B0082
+location	VD	#26A69A
+location	ZH	#26A64B
+location	BE	#FD151B
+location	LU	#FD152B
+location	UR	#E38737
+location	SZ	#D77929
+location	OW	#87DDD8
+location	NW	#87DDD8
+location	GL	#8157C4
+location	ZG	#026AF2
+location	FR	#58BEA3
+location	SO	#058A3C
+location	BS	#86DDD7
+location	BL	#86DDD7
+location	SH	#6E1985
+location	AR	#BF6109
+location	AI	#BF6109
+location	SG	#58BEA3
+location	GR	#1E88E5
+location	AG	#1A3E9B
+location	TG	#FF7F4D
+location	TI	#B2FF7B
+location	VS	#7AA7FF
+location	NE	#FF9A1B
+location	GE	#6C0D79
+location	JU	#0E3A89
