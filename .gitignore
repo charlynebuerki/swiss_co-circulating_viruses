@@ -15,9 +15,9 @@ config/*/reference.fa
 
 # Keep ingest/data directory, but ignore all files within it; keep those in references 
 !ingest/data/
-!ingest/data/references/** 
 ingest/data/*
 # Explicitly include sequences that we want to add to the automated ingest
+!ingest/data/*/pathogen.json
 
 # Sensitive environment variables
 environment*
@@ -26,8 +26,6 @@ env.d/
 # Snakemake state dir
 .snakemake/
 
-#config pathogen
-pathogen/config/
 
 # Git dir
 .git/
