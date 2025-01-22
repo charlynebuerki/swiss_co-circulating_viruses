@@ -14,8 +14,6 @@ wildcard_constraints:
    
 #     #from: https://bitbucket.org/snakemake/snakemake/issues/910/empty-wildcard-assignment-works-only-if
 
-# Define segments to analyze
-segments = ['whole'] #, 'HN']
 
 build_dir = 'results'
 auspice_dir = 'auspice'
@@ -23,8 +21,7 @@ auspice_dir = 'auspice'
 # Expand augur JSON paths
 rule all:
     input:
-        #augur_jsons = expand("auspice/hpiv3_{segs}.json", segs=segments)
-        #augur_jsons = "results/nextclade_dataset/tree.json", "results/nextclade_dataset/sequences"
+
         tree_nextclade=expand("results/{strain}/nextclade_dataset_{build}/tree.json", 
                                 strain=config.get("strains", ['HPIV-3']),
                                 build= config.get("builds_to_run", ['whole'])

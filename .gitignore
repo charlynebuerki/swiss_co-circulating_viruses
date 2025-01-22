@@ -10,6 +10,9 @@ staging/
 benchmarks/
 
 
+#reference files in subpathogen folders
+config/*/reference.fa
+
 # Keep ingest/data directory, but ignore all files within it; keep those in references 
 !ingest/data/
 !ingest/data/references/** 
