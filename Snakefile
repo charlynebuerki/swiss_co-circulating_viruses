@@ -21,7 +21,6 @@ auspice_dir = 'auspice'
 # Expand augur JSON paths
 rule all:
     input:
-
         tree_nextclade=expand("results/{strain}/nextclade_dataset_{build}/tree.json", 
                                 strain=config.get("strains", ['HPIV-3']),
                                 build= config.get("builds_to_run", ['whole'])
