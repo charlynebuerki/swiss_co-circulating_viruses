@@ -1,0 +1,74 @@
+{
+  "title": "HPIV-3 build",
+  "maintainers": [
+    {"name": "Charlyne Bürki", "url": "https://bsse.ethz.ch/cevo/the-group/people/person-detail.cbuerki.html"}
+  ],
+  "data_provenance": [
+    {
+      "name": "GenBank",
+      "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+    }
+  ],
+  "build_url": "https://github.com/charlynebuerki/1_main_HPIV-3/tree/main/ingest",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "title": "Published Lineages",
+      "type": "categorical",
+      "key": "clade"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "location",
+      "title": "Location",
+      "type": "categorical"
+    },
+    {
+      "key": "isolation_source",
+      "title": "Isolation source",
+      "type": "categorical"
+    },
+    {
+      "key": "length",
+      "title": "Total Length",
+      "type": "continuous"
+    },
+    {
+      "key": "author",
+      "title": "Authors"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "place",
+    "region"
+  ],
+  "panels": [
+     "tree",
+    "map",
+    "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "author",
+    "length",
+    "date"
+  ]
+  }
