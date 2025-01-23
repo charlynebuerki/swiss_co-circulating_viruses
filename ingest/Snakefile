@@ -70,21 +70,27 @@ rule clean:
     message:
         "Removing files and directories for cleaning."
     params:
-        # Specify directories to remove
+        # Use a lambda to dynamically expand the file paths
+        files=lambda wildcards: expand(
+            [
+                "data/{strain}/curated_metadata.tsv",
+                "data/{strain}/metadata.tsv",
+                "data/{strain}/metadata_raw.tsv",
+                "data/{strain}/sequences.fasta",
+                "data/{strain}/sequences.ndjson",
+                "data/{strain}/ncbi.ndjson",
+                "data/genbank.ndjson"
+            ],
+            strain=strains
+        ),
         directories="results",
-    input:
-        # Specify the metadata files to clean dynamically
-        expand("data/{strain}/curated_metadata.tsv", strain=strains),
-        expand("data/{strain}/metadata.tsv", strain=strains),
-        expand("data/{strain}/metadata_raw.tsv", strain=strains)
     shell:
         """
         # Remove specified files
-        rm -fv {input}
+        rm -fv {params.files}
         # Remove specified directories
         rm -rfv {params.directories}
         """
-
 
 
 

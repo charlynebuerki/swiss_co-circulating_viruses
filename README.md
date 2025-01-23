@@ -15,7 +15,11 @@ It is adapted from [coxsackievirus_a16](https://github.com/hodcroftlab/coxsackie
 
 # Running the whole work flow:
 
-To run the workflow from scratch:
+First, populate the pathogen folders with sequences from genbank:
+You must first acquire the reference genomes in ingest/data/{pathogen}/. You also need the annotated gff3 file of that genome. To create it, you can run this script: [generate_from_genbank.py](bin/generate_from_genbank.py) manually (i.e from a terminal launch python3 ingest/bin/generate_from_genbank.py --reference "NC_003461" --output-dir "ingest/data/HPIV_1" ) with arguments (1) the genbank reference of the sequence and (2) the output directory. The outputs should be stored in ingest/data/{pathogen}. You can find the genbank references in ingest/defaults/config.yaml under accession_reference. 
+
+
+Run the workflow:
 - run command 'nextstrain build .' provided you have installed the [nextstrain tool](https://docs.nextstrain.org/en/latest/install.html) 
 
 To view the build:
