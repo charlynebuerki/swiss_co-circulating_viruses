@@ -13,10 +13,13 @@ benchmarks/
 #reference files in subpathogen folders
 config/*/reference.fa
 
-# Keep ingest/data directory, but ignore all files within it; keep those in references 
-!ingest/data/
+# Ignore everything in ingest/data
 ingest/data/*
-# Explicitly include sequences that we want to add to the automated ingest
+
+# But do not ignore subdirectories in ingest/data
+!ingest/data/*/
+
+# Explicitly include pathogen.json files in subdirectories
 !ingest/data/*/pathogen.json
 
 # Sensitive environment variables

@@ -1,8 +1,8 @@
-# Nextstrain repository for Human parainfluenzas (HPIV-1,2,3,4)
+# Nextstrain repository for the 4 Human seasonal coronaviruses 
 
-This repository provides the pipeline to run the Nextstrain analysis of the family of HPIV viruses on whole-genome. 
+This repository provides the pipeline to run the Nextstrain analysis of the 4 seasonal coronaviruses.  
 
-It is adapted from [coxsackievirus_a16](https://github.com/hodcroftlab/coxsackievirus_a16) and the official [rsv build](https://github.com/nextstrain/rsv).
+It is adapted from [coxsackievirus_a16](https://github.com/hodcroftlab/coxsackievirus_a16) and the official [rsv build](https://github.com/nextstrain/rsv) and a literal copy-paste with config modifications of the [HPIV build](https://github.com/charlynebuerki/HPIV_nextstrain_builds)
 
 # Repository organization 
 
