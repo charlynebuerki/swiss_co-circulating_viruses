@@ -1,6 +1,6 @@
-# Ingest pipeline (adapted) for HPIV-3 sequences
+# Ingest pipeline (adapted) for Human parainfluenza (1,2,3,4)
 
-This is the adapted ingest pipeline for mpox virus sequences to HPIV-3 sequences.
+This is the adapted ingest pipeline for mpox virus sequences to HPIV-1/2/3/4 sequences.
 
 Of note, one needs the reference genome in data/references/. You also need the annotated gff3 file of that genome. To create it, you can run this script [generate_from_genbank.py](bin/generate_from_genbank.py) manually. Once you have acquired these files, you may run the ingest pipeline. 
 

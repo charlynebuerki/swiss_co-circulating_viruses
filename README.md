@@ -1,4 +1,4 @@
-# Nextstrain repository for Human parainfluenza 3 virus
+# Nextstrain repository for Human parainfluenzas (HPIV-1,2,3,4)
 
 This repository provides the pipeline to run the Nextstrain analysis of the family of HPIV viruses on whole-genome. 
 
