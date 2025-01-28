@@ -1,5 +1,5 @@
 #strains and types of builds to run
-strains: ['HPIV_1','HPIV_2', 'HPIV_3']
+strains: ['coronavirus_229E', 'coronavirus_HKU1', 'coronavirus_NL63', 'coronavirus_OC43']
 builds_to_run: ["whole"]
 
 
@@ -9,34 +9,40 @@ files:
   color_schemes: "config/colors.tsv"
   latitude_longitude_schemes: "config/lat_longs.tsv"
   auspice_config:
-    HPIV_1: "config/HPIV_1/auspice_config.json"
-    HPIV_2: "config/HPIV_2/auspice_config.json"
-    HPIV_3: "config/HPIV_3/auspice_config.json"
+    coronavirus_229E: "config/coronavirus_229E/auspice_config.json"
+    coronavirus_HKU1: "config/coronavirus_HKU1/auspice_config.json"
+    coronavirus_NL63: "config/coronavirus_NL63/auspice_config.json"
+    coronavirus_OC43: "config/coronavirus_OC43/auspice_config.json"
   reference_config:
-    HPIV_1: "ingest/data/HPIV_1/reference.gbk" #to change
-    HPIV_2: "ingest/data/HPIV_2/reference.gbk"
-    HPIV_3: "ingest/data/HPIV_3/reference.gbk"
+    coronavirus_229E: "ingest/data/coronavirus_229E/reference.gbk" #to change
+    coronavirus_HKU1: "ingest/data/coronavirus_HKU1/reference.gbk"
+    coronavirus_NL63: "ingest/data/coronavirus_NL63/reference.gbk"
+    coronavirus_OC43: "ingest/data/coronavirus_OC43/reference.gbk"
   clades_config:
-    HPIV_1: "config/HPIV_1/clades_genome.tsv"
-    HPIV_2: "config/HPIV_2/clades_genome.tsv"
-    HPIV_3: "config/HPIV_3/clades_genome.tsv"
+    coronavirus_229E: "config/coronavirus_229E/clades_genome.tsv"
+    coronavirus_HKU1: "config/coronavirus_HKU1/clades_genome.tsv"
+    coronavirus_NL63: "config/coronavirus_NL63/clades_genome.tsv"
+    coronavirus_OC43: "config/coronavirus_OC43/clades_genome.tsv"
   pathogen_config:
-    HPIV_1: "ingest/data/HPIV_1/pathogen.json"
-    HPIV_2: "ingest/data/HPIV_2/pathogen.json"
-    HPIV_3: "ingest/data/HPIV_3/pathogen.json" 
+    coronavirus_229E: "ingest/data/coronavirus_229E/pathogen.json"
+    coronavirus_HKU1: "ingest/data/coronavirus_HKU1/pathogen.json"
+    coronavirus_NL63: "ingest/data/coronavirus_NL63/pathogen.json" 
+    coronavirus_OC43: "ingest/data/coronavirus_OC43/pathogen.json" 
   sequence_annotation:
-    HPIV_1: "ingest/data/HPIV_1/annotation.gff3"
-    HPIV_2: "ingest/data/HPIV_2/annotation.gff3"
-    HPIV_3: "ingest/data/HPIV_3/annotation.gff3"   
+    coronavirus_229E: "ingest/data/coronavirus_229E/annotation.gff3"
+    coronavirus_HKU1: "ingest/data/coronavirus_HKU1/annotation.gff3"
+    coronavirus_NL63: "ingest/data/coronavirus_NL63/annotation.gff3"  
+    coronavirus_OC43: "ingest/data/coronavirus_OC43/annotation.gff3" 
 
 filter:
   group_by: "country"
 
   subsample_max_sequences: 100 # set lower if you want to have a max sequences per group
   min_length: 
-    HPIV_1: 13000 #length of 15600
-    HPIV_2: 13000 #length of 15646
-    HPIV_3: 13000 #length of 15462
+    coronavirus_229E: 22670 #length of 27317
+    coronavirus_HKU1: 23940 #length of 29926
+    coronavirus_NL63: 24040 #length of  27553
+    coronavirus_OC43: 24590 #length of 30738
   min_date: 100Y
 
 align:

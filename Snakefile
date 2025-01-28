@@ -9,7 +9,7 @@ configfile: "config/configfile.yaml"
 
 wildcard_constraints:
     build="whole",
-    strain= r"HPIV_1|HPIV_2|HPIV_3"
+    strain= r"coronavirus_229E|coronavirus_HKU1|coronavirus_NL63|coronavirus_OC43"
     #gene="|-ncp|-pp|-D1|-D2|-C|-MP|-FP|-HN|-L"
    
 #     #from: https://bitbucket.org/snakemake/snakemake/issues/910/empty-wildcard-assignment-works-only-if
@@ -22,19 +22,19 @@ auspice_dir = 'auspice'
 rule all:
     input:
         tree_nextclade=expand("results/{strain}/nextclade_dataset_{build}/tree.json", 
-                                strain=config.get("strains", ['HPIV-3']),
+                                strain=config.get("strains", ['coronavirus_229E']),
                                 build= config.get("builds_to_run", ['whole'])
                                 ),
         pathogen_nextclade=expand("results/{strain}/nextclade_dataset_{build}/pathogen.json",
-                                strain=config.get("strains", ['HPIV-3']),
+                                strain=config.get("strains", ['coronavirus_229E']),
                                 build= config.get("builds_to_run", ['whole'])
                                 ),
         sequences_nextclade =expand("results/{strain}/nextclade_dataset_{build}/annotation.gff3",
-                                strain=config.get("strains", ['HPIV-3']),
+                                strain=config.get("strains", ['coronavirus_229E']),
                                 build= config.get("builds_to_run", ['whole'])
                                 ),
         reference_nextclade = expand("results/{strain}/nextclade_dataset_{build}/reference.fasta", 
-                                strain=config.get("strains", ['HPIV-3']),
+                                strain=config.get("strains", ['coronavirus_229E']),
                                 build= config.get("builds_to_run", ['whole'])
                                 )
 

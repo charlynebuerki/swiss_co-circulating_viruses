@@ -1,5 +1,5 @@
 {
-  "title": "HPIV-3 build",
+  "title": "human coronavirus OC43",
   "maintainers": [
     {"name": "Charlyne Bürki", "url": "https://bsse.ethz.ch/cevo/the-group/people/person-detail.cbuerki.html"}
   ],
@@ -9,7 +9,7 @@
       "url": "https://www.ncbi.nlm.nih.gov/genbank/"
     }
   ],
-  "build_url": "https://github.com/charlynebuerki/1_main_HPIV-3/tree/main/ingest",
+  "build_url": "https://github.com/charlynebuerki/1_seasonal_coronaviruses",
   "colorings": [
     {
       "key": "gt",
