@@ -30,11 +30,11 @@ files:
     HPIV_3: "ingest/data/HPIV_3/annotation.gff3"   
 
 filter:
-  group_by: "country"
-
+  group_by: "year country"
+  min_coverage: 0.3
   subsample_max_sequences: 100 # set lower if you want to have a max sequences per group
   min_length: 
-    HPIV_1: 13000 #length of 15600
+    HPIV_1: 7500 #length of 15600
     HPIV_2: 13000 #length of 15646
     HPIV_3: 13000 #length of 15462
   min_date: 100Y

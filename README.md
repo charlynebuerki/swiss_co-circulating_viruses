@@ -41,3 +41,8 @@ This workflow is specially customized to insert your local, unpublished dataset 
     - 'location': state or cantonal sub-regions. 
 - your consensus fasta files of each sample located in each {pathogen_name}/project_strains/ folder. They should contain the sample name in their file name and end with"consensus.fa" (i.e. Sample_1_consensus.fa)
 
+Additional configurations include:
+- changing the name of the virus you are making this build for in the main auspice config files: these are included in each virus subfolder in config/{strain}/auspice_config.json 
+- add additional clade notations for each virus in config/{strain}/clades_genome.tsv
+ 
+

@@ -32,13 +32,15 @@ rule filter:
         metadata = files.meta,
         exclude = files.exclude
     output:
-        sequences = build_dir +"/{strain}/filtered.fasta"
+        sequences = build_dir +"/{strain}/filtered.fasta",
+        log = build_dir + "/{strain}/filtered.log"
     params:
         group_by = config['filter']['group_by'],
         sequences_per_group = lambda wildcards: config['filter']['subsample_max_sequences'], 
         strain_id_field= "accession",
         min_date = config['filter']['min_date'], 
-        min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain]
+        min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain],
+        min_coverage = f"genome_coverage>{config['filter']['min_coverage']}"
     shell:
         """
         augur filter \
@@ -51,8 +53,9 @@ rule filter:
             --sequences-per-group {params.sequences_per_group} \
             --min-date {params.min_date} \
             --min-length {params.min_length} \
-            --query 'qc_overallStatus== "good" | qc_overallStatus == "mediocre" | database== "ReVSeq" ' \
-            --output {output.sequences}
+            --query '{params.min_coverage} | database== "ReVSeq" ' \
+            --output {output.sequences} \
+            --output-log {output.log}
         """
 
 rule align: 
