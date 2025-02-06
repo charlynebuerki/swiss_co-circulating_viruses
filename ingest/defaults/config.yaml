@@ -32,6 +32,7 @@ curate:
     submitted: date_submitted
     genbank_accession: accession
     submitting_organization: institution
+
   # Standardized strain name regex
   # Currently accepts any characters because we do not have a clear standard for strain names
   strain_regex: '^.+$'
@@ -90,7 +91,8 @@ curate:
     'sra_accession',
     'authors',
     'full_authors',
-    'institution'
+    'institution',
+    'bioproject_accession'
   ]
 
 # Params for Nextclade related rules

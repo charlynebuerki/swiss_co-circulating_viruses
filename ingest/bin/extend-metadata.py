@@ -16,8 +16,11 @@ column_map = {
     "totalNonACGTNs": "nonACGTN"
 }
 
-coordinates = {'a':{'G':[4652, 5617], 'F':[5697,7421]},
-                'b':{'G':[4646, 5578], 'F':[5676,7400]}}
+coordinates = {'coronavirus_229E':{'S':[20570, 24091]},
+                'coronavirus_HKU1':{'S':[22942, 27012]},
+                'coronavirus_NL63':{'S':[20472, 24542]},
+                'coronavirus_OC43':{'S':[23644, 27729]},
+                }
 
 def coverage(target, total):
     if total[0]>target[1] or total[1]<target[0]:
@@ -63,4 +66,15 @@ if __name__=="__main__":
         how='left'
     )
 
+    for gene in coordinates[args.virus_type]:
+        def get_coverage(d):
+            try:
+                return coverage(coordinates[args.virus_type][gene], [int(d.alignmentStart), int(d.alignmentEnd)])
+            except:
+                print('missing alignment for ',d.name)
+                return np.nan
+
+        result[f"{gene}_coverage"] = result.apply(get_coverage, axis=1)
+
     result.to_csv(args.output, index_label=args.id_field, sep='\t')
+

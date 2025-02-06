@@ -35,12 +35,12 @@ files:
     coronavirus_OC43: "ingest/data/coronavirus_OC43/annotation.gff3" 
 
 filter:
-  group_by: "country"
-
+  group_by: "year country"
+  min_coverage: 0.3
   subsample_max_sequences: 100 # set lower if you want to have a max sequences per group
   min_length: 
     coronavirus_229E: 22670 #length of 27317
-    coronavirus_HKU1: 23940 #length of 29926
+    coronavirus_HKU1: 18000 #length of 29926
     coronavirus_NL63: 24040 #length of  27553
     coronavirus_OC43: 24590 #length of 30738
   min_date: 100Y
@@ -51,7 +51,7 @@ align:
 refine:
   coalescent: "opt"
   date_inference: "marginal" 
-  clock_filter_iqd: 3 
+  clock_filter_iqd: 10 
 
 ancestral:
   inference: "joint"
