@@ -90,7 +90,8 @@ curate:
     'sra_accession',
     'authors',
     'full_authors',
-    'institution'
+    'institution',
+    'bioproject_accession'
   ]
 
 # Params for Nextclade related rules

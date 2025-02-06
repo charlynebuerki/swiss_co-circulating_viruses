@@ -45,7 +45,7 @@ align:
 refine:
   coalescent: "opt"
   date_inference: "marginal" 
-  clock_filter_iqd: 3 
+  clock_filter_iqd: 10 
 
 ancestral:
   inference: "joint"

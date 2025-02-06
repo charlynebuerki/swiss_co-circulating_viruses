@@ -9,14 +9,14 @@ file must exist as a static file in the repo.
 
 Produces final output as
 
-    sequences_ndjson = "data/sequences.ndjson"
+    sequences_ndjson = "data/{strain}/sequences.ndjson"
 
 """
 
 
 rule fetch_ncbi_dataset_package:
     params:
-        ncbi_taxon_id=lambda w: config["ncbi_taxon_id"][w.strain],
+        ncbi_taxon_id=lambda w: config["ncbi_taxon_id"].get(w.strain, None),
     output:
         dataset_package=temp("data/{strain}/ncbi_dataset.zip"),
     retries: 5  # Requires snakemake 7.7.0 or later
@@ -123,18 +123,19 @@ rule format_ncbi_datasets_ndjson:
 
 rule fetch_all_genbank_sequences:
     input:
-        all_taxon_ids=expand(
-            "data/{strain}/ncbi.ndjson", strain=list(config["ncbi_taxon_id"].keys())
-        ),
+        #all_taxon_ids=expand(
+        #    "data/{strain}/ncbi.ndjson", strain=list(config["ncbi_taxon_id"].keys())
+        #),
+        all_taxon_ids = "data/{strain}/ncbi.ndjson"
     output:
-        sequences_ndjson="data/genbank.ndjson",
+        sequences_ndjson="data/{strain}/genbank.ndjson",
     shell:
         """
         cat {input.all_taxon_ids} > {output.sequences_ndjson}
         """
 
 def _get_all_sources(wildcards):
-    return [f"data/{source}.ndjson" for source in config["sources"]]
+    return [f"data/{wildcards.strain}/{source}.ndjson" for source in config["sources"]]
 
 
 rule fetch_all_sequences:

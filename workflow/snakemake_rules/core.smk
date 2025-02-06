@@ -53,7 +53,7 @@ rule filter:
             --sequences-per-group {params.sequences_per_group} \
             --min-date {params.min_date} \
             --min-length {params.min_length} \
-            --query '{params.min_coverage} | database== "ReVSeq" ' \
+            --query '{params.min_coverage} & bioproject_accession != "PRJEB83635" | database== "ReVSeq" ' \
             --output {output.sequences} \
             --output-log {output.log}
         """
