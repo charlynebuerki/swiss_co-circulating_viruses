@@ -13,7 +13,9 @@ rule all:
                build = config.get("builds_to_run", ['genome']),
                resolution = config.get("resolutions_to_run", ["all-time"])),
 
-include: "workflow/snakemake_rules/chores.smk"
+include: "workflow/snakemake_rules/import_local_sequences.smk"
+
+#include: "workflow/snakemake_rules/chores.smk"
 
 include: "workflow/snakemake_rules/core.smk"
 
@@ -21,7 +23,7 @@ include: "workflow/snakemake_rules/export.smk"
 
 include: "workflow/snakemake_rules/download.smk"
 
-include: "workflow/snakemake_rules/glycosylation.smk"
+#include: "workflow/snakemake_rules/glycosylation.smk"
 
 include: "workflow/snakemake_rules/clades.smk"
 

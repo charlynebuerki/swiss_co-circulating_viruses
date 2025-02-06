@@ -1,7 +1,7 @@
 '''
 This part of the workflow expects input files
-            sequences = "data/sequences.fasta"
-            metadata = "data/metadata.tsv"
+            sequences = "data/all_sequences.fasta"
+            metadata = "data/all_metadata.tsv"
 '''
 
 rule index_sequences:
@@ -10,7 +10,7 @@ rule index_sequences:
         Creating an index of sequence composition for filtering.
         """
     input:
-        sequences = "data/{a_or_b}/sequences.fasta"
+        sequences = "data/{a_or_b}/all_sequences.fasta"
     output:
         sequence_index = build_dir + "/{a_or_b}/{build_name}/{resolution}/sequence_index.tsv"
     shell:
@@ -47,13 +47,14 @@ rule filter_recent:
         filtering sequences
         """
     input:
-        sequences = "data/{a_or_b}/sequences.fasta",
+        sequences = "data/{a_or_b}/all_sequences.fasta",
         reference = "config/{a_or_b}reference.gbk",
-        metadata = "data/{a_or_b}/metadata.tsv",
+        metadata = "data/{a_or_b}/all_metadata.tsv",
         sequence_index = rules.index_sequences.output,
         exclude = config['exclude']
     output:
-    	sequences = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_recent.fasta"
+    	sequences = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_recent.fasta",
+        log = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_recent.log"
     params:
         group_by = config["filter"]["group_by"],
         min_coverage = lambda w: f'{w.build_name}_coverage>{config["filter"]["min_coverage"].get(w.build_name, 10000)}',
@@ -75,7 +76,8 @@ rule filter_recent:
             --output {output.sequences} \
             --group-by {params.group_by} \
             --subsample-max-sequences {params.subsample_max_sequences} \
-            --query '{params.min_coverage}'
+            --query '{params.min_coverage} & institution != "ETH Zurich, Computational Evolution group, Mattenstrasse 26" | database== "ReVSeq"' \
+            --output-log {output.log}
         """
 
 rule filter_background:
@@ -84,13 +86,14 @@ rule filter_background:
         filtering sequences
         """
     input:
-        sequences = "data/{a_or_b}/sequences.fasta",
+        sequences = "data/{a_or_b}/all_sequences.fasta",
         reference = "config/{a_or_b}reference.gbk",
-        metadata = "data/{a_or_b}/metadata.tsv",
+        metadata = "data/{a_or_b}/all_metadata.tsv",
         sequence_index = rules.index_sequences.output,
         exclude = config['exclude']
     output:
-    	sequences = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_background.fasta"
+    	sequences = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_background.fasta",
+        log = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_background.log"
     params:
         group_by = config["filter"]["group_by"],
         min_coverage = lambda w: f'{w.build_name}_coverage>{config["filter"]["min_coverage"].get(w.build_name, 10000)}',
@@ -114,7 +117,8 @@ rule filter_background:
             --output {output.sequences} \
             --group-by {params.group_by} \
             --subsample-max-sequences {params.subsample_max_sequences} \
-            --query '{params.min_coverage}'
+            --query '{params.min_coverage} & institution != "ETH Zurich, Computational Evolution group, Mattenstrasse 26" | database== "ReVSeq"' \
+            --output-log {output.log}
         """
 
 rule combine_samples:
@@ -247,7 +251,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment =get_alignment,
-        metadata = "data/{a_or_b}/metadata.tsv"
+        metadata = "data/{a_or_b}/all_metadata.tsv"
     output:
         tree = build_dir + "/{a_or_b}/{build_name}/{resolution}/tree.nwk",
         node_data = build_dir + "/{a_or_b}/{build_name}/{resolution}/branch_lengths.json"
@@ -320,7 +324,7 @@ rule translate:
 rule traits:
     input:
         tree = rules.refine.output.tree,
-        metadata = "data/{a_or_b}/metadata.tsv"
+        metadata = "data/{a_or_b}/all_metadata.tsv"
     output:
         node_data = build_dir + "/{a_or_b}/{build_name}/{resolution}/traits.json"
     log:
