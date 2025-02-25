@@ -18,6 +18,7 @@ files:
     SARS-CoV-2: "ingest/data/SARS-CoV-2/pathogen.json"
   sequence_annotation:
     SARS-CoV-2: "ingest/data/SARS-CoV-2/annotation.gff3"
+  clade_name_mapping: "config/clade_display_names.yml"
 
 filter:
   group_by: "year country"

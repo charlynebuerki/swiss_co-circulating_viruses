@@ -18,75 +18,10 @@ rule index_sequences:
             --output {output.sequence_index}
         """
 
-'''
-rule filter:
-    message:
-        """
-        Filtering to
-          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
-          - from {params.min_date} onwards
-          - excluding strains in {input.exclude}
-        """
-    input:
-        sequences = rules.add_local_sequences.output.sequences,
-        sequence_index = rules.index_sequences.output.sequence_index,
-        metadata = files.meta,
-        exclude = files.exclude
-    output:
-        sequences = build_dir +"/{strain}/filtered_aligned.fasta",
-        log = build_dir + "/{strain}/filtered.log"
-    params:
-        group_by = config['filter']['group_by'],
-        sequences_per_group = lambda wildcards: config['filter']['subsample_max_sequences'], 
-        strain_id_field= "accession",
-        min_date = config['filter']['min_date'], 
-        min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain],
-        min_coverage = f"genome_coverage>{config['filter']['min_coverage']}"
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --sequence-index {input.sequence_index} \
-            --metadata {input.metadata} \
-            --metadata-id-columns {params.strain_id_field} \
-            --exclude {input.exclude} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
-            --min-date {params.min_date} \
-            --min-length {params.min_length} \
-            --query '{params.min_coverage} | database== "ReVSeq" ' \
-            --output {output.sequences} \
-            --output-log {output.log}
-        """
-'''
+#skipping filtering step since it already contained filtered data 
 
 #skipping aligned since they are already aligned
-'''
-rule align: 
-    message:
-        """
-        Aligning sequences to {input.reference} using Nextalign
-        """
-    input:
-        sequences = rules.filter.output.sequences,
-        reference = rules.copy_reference.output.destination
-    output:
-        alignment = "results/{strain}/aligned.fasta"
 
-    params:
-        nuc_mismatch_all = config['align']['allowed_mismatches'],
-        nuc_seed_length = 30
-    shell:
-        """
-        nextclade run \
-        {input.sequences}  \
-        --input-ref {input.reference}\
-        --allowed-mismatches {params.nuc_mismatch_all} \
-        --min-length {params.nuc_seed_length} \
-        --include-reference false \
-        --output-fasta {output.alignment} 
-        """
-'''
 
 rule tree:
     message:
@@ -189,8 +124,23 @@ rule translate:
             --output-node-data {output.node_data}
         """
 
-#should add renaming clades from ncov: https://github.com/nextstrain/ncov/blob/bc5100ba3f3630f64c1d65232debc3ba832417a9/workflow/snakemake_rules/main_workflow.smk#L954
-#need renaming yaml file in download mapping and a pythonscript 
+#renaming clades with help of ncov scripts
+rule clade_files:
+    input:
+        clade_file = files.clades
+    output:
+        new_clades = "results/{strain}/clades_new.tsv"
+    params:
+        name_mapping = config['files']['clade_name_mapping']
+    benchmark:
+        "benchmarks/clade_files_{strain}.txt"
+    shell:
+        """
+        python3 scripts/rename_clades.py --input-clade-files {input.clade_file} \
+                                        --name-mapping {params.name_mapping} \
+            --output-clades {output.new_clades}
+        """
+
 
 rule clades: 
     message: "Assigning clades according to nucleotide mutations"
@@ -198,7 +148,7 @@ rule clades:
         tree=rules.refine.output.tree,
         aa_muts = rules.translate.output.node_data,
         nuc_muts = rules.ancestral.output.node_data,
-        clades = files.clades
+        clades = rules.clade_files.output.new_clades
     output:
         # clade_data = "{seg}/results/clades.json"
         clade_data = build_dir+"/{strain}/clades.json"
