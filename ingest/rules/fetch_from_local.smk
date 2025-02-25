@@ -4,6 +4,7 @@ workflow by removing the line in the  ingest/snakemake that includes this workfl
 
 expected input of this part:
 - fasta files for each sample in data/local_pathogen
+- nextstrain_download.tsv in data -- which is a tsv format data for all the sequences wished to be included in the build. 
 
 output:
 - concatenated fasta file for all of the local sequences in "results/{strain}/local_sequences.fasta". 

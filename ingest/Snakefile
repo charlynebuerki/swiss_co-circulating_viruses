@@ -61,9 +61,7 @@ rule all:
 
 
 include: "rules/fetch_from_local.smk" # should comment out if there are no local sequences to include
-#include: "rules/fetch_from_ncbi.smk"
-#include: "rules/curate.smk"
-#include: "rules/sort.smk"
+
 
 
 rule clean:
