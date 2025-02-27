@@ -49,6 +49,10 @@
     {
       "key": "author",
       "title": "Authors"
+    },
+    {
+      "key": "database",
+      "title": "Database"
     }
   ],
   "geo_resolutions": [
@@ -62,13 +66,16 @@
     "entropy"
   ],
   "display_defaults": {
-    "map_triplicate": true
+    "map_triplicate": true,
+    "color_by" : "clade_membership",
+    "transmission_lines": false
   },
   "filters": [
     "country",
     "region",
     "author",
     "length",
-    "date"
+    "date",
+    "database"
   ]
   }

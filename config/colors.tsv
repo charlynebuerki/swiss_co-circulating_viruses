@@ -258,3 +258,6 @@ location	VS	#7AA7FF
 location	NE	#FF9A1B
 location	GE	#6C0D79
 location	JU	#0E3A89
+
+database	ReVSeq	#6C0D79
+
