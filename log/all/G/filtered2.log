@@ -1,0 +1,12 @@
+strain	filter	kwargs
+HXHQAT	filter_by_min_length	"[[""min_length"", 500]]"
+ON461519	filter_by_min_length	"[[""min_length"", 500]]"
+KF686741	filter_by_min_length	"[[""min_length"", 500]]"
+KF686743	filter_by_min_length	"[[""min_length"", 500]]"
+LC778033	filter_by_min_length	"[[""min_length"", 500]]"
+KY474538	filter_by_min_length	"[[""min_length"", 500]]"
+3MV28K	filter_by_min_length	"[[""min_length"", 500]]"
+KF530166	filter_by_min_length	"[[""min_length"", 500]]"
+3DtGJW	filter_by_min_length	"[[""min_length"", 500]]"
+PQ226465	filter_by_min_length	"[[""min_length"", 500]]"
+LC778034	filter_by_min_length	"[[""min_length"", 500]]"
