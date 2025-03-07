@@ -47,7 +47,7 @@ rule files:
         lat_longs = config['files']['latitude_longitude_schemes'],
         colors =    config['files']['color_schemes'],
         reference = lambda wildcards: config['files']['reference_config'][wildcards.strain],
-        auspice_config = lambda wildcards: config['files']['auspice_config'][wildcards.strain] ,
+        auspice_config = config['files']['auspice_config'],
         clades =   lambda wildcards:      config['files']['clades_config'][wildcards.strain],
         meta=               "data/{strain}/metadata_updated.tsv",
         last_updated_file = "data/{strain}/date_last_updated.txt", #no need

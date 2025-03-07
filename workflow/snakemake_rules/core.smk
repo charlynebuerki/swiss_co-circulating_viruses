@@ -40,7 +40,8 @@ rule filter:
         strain_id_field= "accession",
         min_date = config['filter']['min_date'], 
         min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain],
-        min_coverage = f"genome_coverage>{config['filter']['min_coverage']}"
+        min_coverage = f"genome_coverage>{config['filter']['min_coverage']}",
+        include = "config/{strain}/strains_to_include.txt",
     shell:
         """
         augur filter \
@@ -55,7 +56,8 @@ rule filter:
             --min-length {params.min_length} \
             --query '{params.min_coverage} & bioproject_accession != "PRJEB83635" | database== "ReVSeq" ' \
             --output {output.sequences} \
-            --output-log {output.log}
+            --output-log {output.log} \
+            --include {params.include}
         """
 
 rule align: 

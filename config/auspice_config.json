@@ -1,5 +1,5 @@
 {
-  "title": "HPIV-2 build",
+  "title": "Human parainfluenza build",
   "maintainers": [
     {"name": "Charlyne Bürki", "url": "https://bsse.ethz.ch/cevo/the-group/people/person-detail.cbuerki.html"}
   ],
@@ -15,11 +15,6 @@
       "key": "gt",
       "title": "Genotype",
       "type": "categorical"
-    },
-    {
-      "title": "Published Lineages",
-      "type": "categorical",
-      "key": "clade"
     },
     {
       "key": "country",
@@ -49,6 +44,15 @@
     {
       "key": "author",
       "title": "Authors"
+    },
+    {
+      "key": "database",
+      "title": "Database"
+    },
+    {
+      "key": "clade",
+      "title": "Clade",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [
@@ -69,6 +73,8 @@
     "region",
     "author",
     "length",
-    "date"
+    "date",
+    "database",
+    "clade_membership"
   ]
   }

@@ -42,7 +42,11 @@ This workflow is specially customized to insert your local, unpublished dataset 
 - your consensus fasta files of each sample located in each {pathogen_name}/project_strains/ folder. They should contain the sample name in their file name and end with"consensus.fa" (i.e. Sample_1_consensus.fa)
 
 Additional configurations include:
-- changing the name of the virus you are making this build for in the main auspice config files: these are included in each virus subfolder in config/{strain}/auspice_config.json 
+- changing the name of the virus you are making this build for in the auspice file: config/auspice_config.json 
 - add additional clade notations for each virus in config/{strain}/clades_genome.tsv
- 
+- we force include all the ReVSeq samples in the filter rule, this is provided by a list of strains to include located in config/{strain}/strains_to_include.txt
 
+
+# Clade nomenclature
+
+HPIV-3 clade names were pulled from Zhu, Yun et al. (10.1128/spectrum.03432-23) and Mao et al. (10.1371/journal.pone.0043893) for the C clade definition and Almajhdi et al. (10.1159/000369208) for the basis of clades name. 
