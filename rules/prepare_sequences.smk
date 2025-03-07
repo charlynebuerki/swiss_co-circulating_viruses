@@ -66,6 +66,7 @@ rule filter:
         build = lambda wc: wc.build,
         min_coverage = lambda w: f'{config["filter"]["min_coverage"].get(w.build, 10000)}',
         subsample_max_sequences = lambda w: config["filter"]["subsample_max_sequences"].get(w.build, 10000),
+        include = "data/project_strains/1_names_Human_metapneumovirus_CAN97-83.txt",
     shell:
         """
         augur filter \
@@ -78,7 +79,8 @@ rule filter:
             --group-by {params.group_by} \
             --subsample-max-sequences {params.subsample_max_sequences} \
             --min-date {params.min_date} \
-            --output-log {output.log}
+            --output-log {output.log} \
+            --include {params.include}
         """
 
 rule align:
@@ -125,7 +127,7 @@ rule filter2:
             --min-length {params.min_length} \
             --output-sequences {output.filtered_alignment} \
             --output-metadata {output.filtered_metadata} \
-            --output-log {output.log}
+            --output-log {output.log} 
         """
 
 rule add_insertion:
