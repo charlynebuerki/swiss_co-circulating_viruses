@@ -30,7 +30,8 @@ rule filter:
         sequences = rules.add_local_sequences.output.sequences,
         sequence_index = rules.index_sequences.output.sequence_index,
         metadata = files.meta,
-        exclude = files.exclude
+        exclude = files.exclude,
+        include = "config/{strain}/strains_to_include.txt"
     output:
         sequences = build_dir +"/{strain}/filtered.fasta",
         log = build_dir + "/{strain}/filtered.log"

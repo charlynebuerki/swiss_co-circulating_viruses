@@ -8,9 +8,7 @@ exclude: "config/dropped_strains.txt"
 files:
   color_schemes: "config/colors.tsv"
   latitude_longitude_schemes: "config/lat_longs.tsv"
-  auspice_config:
-    adenovirus_b1: "config/adenovirus_b1/auspice_config.json"
-    adenovirus_c2: "config/adenovirus_c2/auspice_config.json"
+  auspice_config: "config/auspice_config.json"
   reference_config:
     adenovirus_b1: "ingest/data/adenovirus_b1/reference.gbk" #to change
     adenovirus_c2: "ingest/data/adenovirus_c2/reference.gbk" 

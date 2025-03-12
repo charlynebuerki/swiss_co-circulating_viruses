@@ -1,5 +1,5 @@
 {
-  "title": "Human Adenovirus B build",
+  "title": "RevSeq Human Adenovirus build",
   "maintainers": [
     {"name": "Charlyne Bürki", "url": "https://bsse.ethz.ch/cevo/the-group/people/person-detail.cbuerki.html"}
   ],
@@ -42,6 +42,10 @@
       "type": "categorical"
     },
     {
+      "key": "database",
+      "title": "Database"
+    },
+    {
       "key": "length",
       "title": "Total Length",
       "type": "continuous"
@@ -69,6 +73,7 @@
     "region",
     "author",
     "length",
-    "date"
+    "date",
+    "database"
   ]
   }
