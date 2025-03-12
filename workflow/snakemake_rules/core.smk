@@ -125,10 +125,12 @@ rule refine:
         date_inference = config['refine']['date_inference'],
         clock_filter_iqd = config['refine']['clock_filter_iqd'],
         strain_id_field ="accession",
+        root = lambda wildcards: config['refine']['root'][wildcards.strain],
         # clock_rate = 0.004, # remove for estimation
         # clock_std_dev = 0.0015
         # clock_rate_string = lambda wildcards: f"--clock-rate 0.004 --clock-std-dev 0.0015" if wildcards.gene else ""
-        clock_rate_string = "--clock-rate 0.004 --clock-std-dev 0.0015"
+        clock_rate_string = "--clock-rate 0.004 --clock-std-dev 0.0015",
+        root_option = lambda wildcards: f"--root {config['refine']['root'][wildcards.strain]}" if wildcards.strain != "HPIV_2" else ""
     shell:
         """
         augur refine \
@@ -143,7 +145,8 @@ rule refine:
             --date-confidence \
             {params.clock_rate_string} \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd}
+            --clock-filter-iqd {params.clock_filter_iqd} \
+            {params.root_option}
         """
 
 rule ancestral:

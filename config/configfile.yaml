@@ -43,6 +43,10 @@ refine:
   coalescent: "opt"
   date_inference: "marginal" 
   clock_filter_iqd: 10 
+  root:
+    HPIV_1: "JQ901971"
+    HPIV_2: ""
+    HPIV_3: "LC817393"
 
 ancestral:
   inference: "joint"
