@@ -17,8 +17,49 @@ rule index_sequences:
             --sequences {input.sequences} \
             --output {output.sequence_index}
         """
+        
 
 #skipping filtering step since it already contained filtered data 
+#filter out bad strains 
+rule filter:
+    message:
+        """
+        Filtering to
+          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
+          - from {params.min_date} onwards
+          - excluding strains in {input.exclude}
+        """
+    input:
+        sequences = rules.add_local_sequences.output.sequences,
+        sequence_index = rules.index_sequences.output.sequence_index,
+        metadata = files.meta,
+        exclude = files.exclude
+    output:
+        sequences = build_dir +"/{strain}/filtered.fasta",
+        log = "logs/{strain}/filtered.log"
+    params:
+        group_by = config['filter']['group_by'],
+        sequences_per_group = lambda wildcards: config['filter']['subsample_max_sequences'], 
+        strain_id_field= "strain",
+        min_date = config['filter']['min_date'], 
+        min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain],
+        include = "config/{strain}/strains_to_include.txt",
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
+            --metadata {input.metadata} \
+            --metadata-id-columns {params.strain_id_field} \
+            --exclude {input.exclude} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --min-date {params.min_date} \
+            --min-length {params.min_length} \
+            --output {output.sequences} \
+            --output-log {output.log} \
+            --include {params.include}
+        """
 
 #skipping aligned since they are already aligned
 
@@ -30,7 +71,7 @@ rule tree:
         """
     input:
         # alignment = rules.fix_align_codon.output.alignment,
-        alignment = rules.add_local_sequences.output.sequences #rules.filter.output.sequences
+        alignment = rules.filter.output.sequences
     output:
         tree = build_dir+"/{strain}/tree_raw.nwk"
     threads: 9
@@ -53,7 +94,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = rules.add_local_sequences.output.sequences, #rules.filter.output.sequences,
+        alignment = rules.filter.output.sequences,
         metadata =  files.meta,
     output:
         tree = build_dir+"/{strain}/tree.nwk",
@@ -92,7 +133,7 @@ rule ancestral:
     message: "Reconstructing ancestral sequences and mutations"
     input:
         tree = rules.refine.output.tree,
-        alignment = rules.add_local_sequences.output.sequences #rules.filter.output.sequences
+        alignment = rules.filter.output.sequences
     output:
         node_data = build_dir+"/{strain}/nt_muts.json"
     params:

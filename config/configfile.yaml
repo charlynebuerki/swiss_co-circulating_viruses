@@ -22,8 +22,7 @@ files:
 
 filter:
   group_by: "year country"
-  min_coverage: 0.3
-  subsample_max_sequences: 100 # set lower if you want to have a max sequences per group
+  subsample_max_sequences: 200 # set lower if you want to have a max sequences per group
   min_length: 
     SARS-CoV-2: 27000 #nearly whole genome length 
   min_date: "2019-12-01"
@@ -33,8 +32,8 @@ align:
 
 refine:
 
-  clock_filter_iqd: 10 
-  root: "RUS/SPb-117/2021"
+  clock_filter_iqd: 8
+  root: "Wuhan/IPBCAMS-WH-02/2019" #"RUS/SPb-117/2021"
   clock_rate: 0.0008
   clock_std_dev: 0.0004
   coalescent: "opt"
