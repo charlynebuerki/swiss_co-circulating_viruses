@@ -51,7 +51,8 @@ rule filter_recent:
         reference = "config/{a_or_b}reference.gbk",
         metadata = "data/{a_or_b}/all_metadata.tsv",
         sequence_index = rules.index_sequences.output,
-        exclude = config['exclude']
+        exclude = config['exclude'],
+        include = "config/strains_to_include_{a_or_b}.txt"
     output:
     	sequences = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_recent.fasta",
         log = build_dir + "/{a_or_b}/{build_name}/{resolution}/filtered_recent.log"
@@ -77,7 +78,8 @@ rule filter_recent:
             --group-by {params.group_by} \
             --subsample-max-sequences {params.subsample_max_sequences} \
             --query '{params.min_coverage} & institution != "ETH Zurich, Computational Evolution group, Mattenstrasse 26" | database== "ReVSeq"' \
-            --output-log {output.log}
+            --output-log {output.log} \
+            --include {input.include}
         """
 
 rule filter_background:

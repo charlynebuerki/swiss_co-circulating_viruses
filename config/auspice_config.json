@@ -34,6 +34,10 @@
       "type": "categorical"
     },
     {
+      "key": "database",
+      "title": "Database"
+    },
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"
@@ -60,6 +64,7 @@
   "filters": [
     "country",
     "region",
-    "clade_membership"
+    "clade_membership",
+    "database"
   ]
 }

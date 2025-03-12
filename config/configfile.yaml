@@ -2,11 +2,11 @@ conda_environment: "workflow/envs/nextstrain.yaml"
 
 genesforglycosylation: ["G", "F"]
 
-#builds_to_run: ["genome", "G", "F"]
-builds_to_run: ["genome"]
+builds_to_run: ["genome", "G", "F"]
+#builds_to_run: ["genome"]
 
-#resolutions_to_run: ["all-time", "6y", "3y"]
-resolutions_to_run: ["3y"]
+resolutions_to_run: ["all-time", "6y", "3y"]
+#resolutions_to_run: ["3y"]
 
 local:
   accession_reference:
@@ -20,7 +20,6 @@ description: "config/description.md"
 strain_id_field: "accession"
 display_strain_field: "strain"
 
-#subtypes: ['a', 'b']
 subtypes: ['a', 'b']
 
 filter:
@@ -31,7 +30,7 @@ filter:
     F: 0.3
 
   min_length:
-    genome: 3200 #10000
+    genome: 10000
     G: 600
     F: 1200
   resolutions:
@@ -62,7 +61,7 @@ ancestral:
   inference: "joint"
 
 traits:
-  columns: "country"
+  columns: ["country", "database", "location"]
 
 nextclade_attributes:
   a:

@@ -23,7 +23,7 @@ include: "workflow/snakemake_rules/export.smk"
 
 include: "workflow/snakemake_rules/download.smk"
 
-#include: "workflow/snakemake_rules/glycosylation.smk"
+include: "workflow/snakemake_rules/glycosylation.smk"
 
 include: "workflow/snakemake_rules/clades.smk"
 
