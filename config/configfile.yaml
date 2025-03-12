@@ -8,11 +8,7 @@ exclude: "config/dropped_strains.txt"
 files:
   color_schemes: "config/colors.tsv"
   latitude_longitude_schemes: "config/lat_longs.tsv"
-  auspice_config:
-    coronavirus_229E: "config/coronavirus_229E/auspice_config.json"
-    coronavirus_HKU1: "config/coronavirus_HKU1/auspice_config.json"
-    coronavirus_NL63: "config/coronavirus_NL63/auspice_config.json"
-    coronavirus_OC43: "config/coronavirus_OC43/auspice_config.json"
+  auspice_config: "config/auspice_config.json"
   reference_config:
     coronavirus_229E: "ingest/data/coronavirus_229E/reference.gbk" #to change
     coronavirus_HKU1: "ingest/data/coronavirus_HKU1/reference.gbk"
@@ -39,10 +35,10 @@ filter:
   min_coverage: 0.3
   subsample_max_sequences: 100 # set lower if you want to have a max sequences per group
   min_length: 
-    coronavirus_229E: 22670 #length of 27317
-    coronavirus_HKU1: 18000 #length of 29926
-    coronavirus_NL63: 24040 #length of  27553
-    coronavirus_OC43: 24590 #length of 30738
+    coronavirus_229E: 16391 #length of 27317 60%
+    coronavirus_HKU1: 17956 #length of 29926
+    coronavirus_NL63: 16532 #length of  27553
+    coronavirus_OC43: 18442 #length of 30738
   min_date: 100Y
 
 align:
@@ -52,6 +48,16 @@ refine:
   coalescent: "opt"
   date_inference: "marginal" 
   clock_filter_iqd: 10 
+  clock_rate:
+    coronavirus_229E: 0.000250
+    coronavirus_HKU1: 0.000120
+    coronavirus_NL63: 0.000120   
+    coronavirus_OC43: 0.000250
+  clock_std_dev: 
+    coronavirus_229E: 0.00010
+    coronavirus_HKU1: 0.00005
+    coronavirus_NL63: 0.00005   
+    coronavirus_OC43: 0.00010 
 
 ancestral:
   inference: "joint"

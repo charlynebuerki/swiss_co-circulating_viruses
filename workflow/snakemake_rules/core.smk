@@ -40,7 +40,8 @@ rule filter:
         strain_id_field= "accession",
         min_date = config['filter']['min_date'], 
         min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain],
-        min_coverage = f"genome_coverage>{config['filter']['min_coverage']}"
+        min_coverage = f"genome_coverage>{config['filter']['min_coverage']}",
+        include = "config/{strain}/strains_to_include.txt"
     shell:
         """
         augur filter \
@@ -55,7 +56,8 @@ rule filter:
             --min-length {params.min_length} \
             --query '{params.min_coverage} & bioproject_accession != "PRJEB83635" | database== "ReVSeq" ' \
             --output {output.sequences} \
-            --output-log {output.log}
+            --output-log {output.log} \
+            --include {params.include}
         """
 
 rule align: 
@@ -123,10 +125,12 @@ rule refine:
         date_inference = config['refine']['date_inference'],
         clock_filter_iqd = config['refine']['clock_filter_iqd'],
         strain_id_field ="accession",
-        # clock_rate = 0.004, # remove for estimation
+        clock_rate = lambda wildcards: config['refine']['clock_rate'][wildcards.strain], # remove for estimation
+        clock_std_dev = lambda wildcards: config['refine']['clock_std_dev'][wildcards.strain],
+        #root_option = lambda wildcards: "--reroot 'min-dev' " if wildcards.strain == "coronavirus_HKU1" else ""
         # clock_std_dev = 0.0015
         # clock_rate_string = lambda wildcards: f"--clock-rate 0.004 --clock-std-dev 0.0015" if wildcards.gene else ""
-        clock_rate_string = "--clock-rate 0.004 --clock-std-dev 0.0015"
+        #clock_rate_string = "--clock-rate 0.004 --clock-std-dev 0.0015"
     shell:
         """
         augur refine \
@@ -139,9 +143,10 @@ rule refine:
             --timetree \
             --coalescent {params.coalescent} \
             --date-confidence \
-            {params.clock_rate_string} \
+            --clock-rate {params.clock_rate} \
+            --clock-std-dev {params.clock_std_dev} \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd}
+            --clock-filter-iqd {params.clock_filter_iqd} \
         """
 
 rule ancestral:

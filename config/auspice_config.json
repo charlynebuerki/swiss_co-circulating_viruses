@@ -1,5 +1,5 @@
 {
-  "title": "human coronavirus HKU1",
+  "title": "human coronavirus build",
   "maintainers": [
     {"name": "Charlyne Bürki", "url": "https://bsse.ethz.ch/cevo/the-group/people/person-detail.cbuerki.html"}
   ],
@@ -49,6 +49,10 @@
     {
       "key": "author",
       "title": "Authors"
+    },
+    {
+      "key": "database",
+      "title": "Database"
     }
   ],
   "geo_resolutions": [
@@ -69,6 +73,7 @@
     "region",
     "author",
     "length",
-    "date"
+    "date",
+    "database"
   ]
   }
