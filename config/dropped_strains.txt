@@ -1,0 +1,3 @@
+
+NC_011203.1 # Reference strain
+NC_001405.1 # Reference strain
