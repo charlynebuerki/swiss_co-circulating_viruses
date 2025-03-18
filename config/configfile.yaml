@@ -52,4 +52,4 @@ ancestral:
   inference: "joint"
 
 traits:
-  columns: "country"
+  columns: ["country", "region"]
