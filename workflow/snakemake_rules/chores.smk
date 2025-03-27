@@ -31,7 +31,7 @@ any discrepencies between local and all sequences
 
 
 ## align local sequences:
-rule align_local: 
+'''rule align_local: 
     message:
         """
         Aligning local sequences to {input.reference} using Nextalign
@@ -55,7 +55,7 @@ rule align_local:
         --include-reference false \
         --output-fasta {output.alignment} 
         """
-
+'''
 rule add_local_metadata:
     message:
         """
@@ -81,10 +81,10 @@ rule add_local_sequences:
             merging all aligned sequences into one file. 
         """
     input:
-        local_sequences = rules.align_local.output.alignment,
+        local_sequences = rules.fetch.output.local_sequences,
         all_sequences = "data/{strain}/aligned.fasta"
     output:
-        sequences = "data/{strain}/all_aligned_sequences.fasta"
+        sequences = "data/{strain}/all_sequences.fasta"
     shell:
         """
         cat {input.local_sequences} {input.all_sequences} > {output.sequences}

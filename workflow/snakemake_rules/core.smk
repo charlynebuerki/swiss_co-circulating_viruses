@@ -61,8 +61,30 @@ rule filter:
             --include {params.include}
         """
 
-#skipping aligned since they are already aligned
+rule align: 
+    message:
+        """
+        Aligning sequences to {input.reference} using Nextalign
+        """
+    input:
+        sequences = rules.filter.output.sequences,
+        reference = rules.copy_reference.output.destination
+    output:
+        alignment = "results/{strain}/aligned.fasta"
 
+    params:
+        nuc_mismatch_all = config['align']['allowed_mismatches'],
+        nuc_seed_length = 30
+    shell:
+        """
+        nextclade run \
+        {input.sequences}  \
+        --input-ref {input.reference}\
+        --allowed-mismatches {params.nuc_mismatch_all} \
+        --min-length {params.nuc_seed_length} \
+        --include-reference false \
+        --output-fasta {output.alignment} 
+        """
 
 rule tree:
     message:
@@ -71,7 +93,7 @@ rule tree:
         """
     input:
         # alignment = rules.fix_align_codon.output.alignment,
-        alignment = rules.filter.output.sequences
+        alignment = rules.align.output.alignment
     output:
         tree = build_dir+"/{strain}/tree_raw.nwk"
     threads: 9
@@ -94,7 +116,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = rules.filter.output.sequences,
+        alignment = rules.align.output.alignment,
         metadata =  files.meta,
     output:
         tree = build_dir+"/{strain}/tree.nwk",
@@ -123,17 +145,16 @@ rule refine:
             --coalescent {params.coalescent} \
             --date-confidence \
             --root {params.root} \
-            --keep-polytomies \
             --no-covariance \
             --date-inference {params.date_inference} \
             --clock-filter-iqd {params.clock_filter_iqd}
         """
-
+# --keep-polytomies \
 rule ancestral:
     message: "Reconstructing ancestral sequences and mutations"
     input:
         tree = rules.refine.output.tree,
-        alignment = rules.filter.output.sequences
+        alignment = rules.align.output.alignment
     output:
         node_data = build_dir+"/{strain}/nt_muts.json"
     params:
