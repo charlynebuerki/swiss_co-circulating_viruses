@@ -18,10 +18,10 @@ rule index_sequences:
             --output {output.sequence_index}
         """
 
-rule filter:
+rule filter_recent:
     message:
         """
-        Filtering to
+        Filtering recent sequences to: 
           - {params.sequences_per_group} sequence(s) per {params.group_by!s}
           - from {params.min_date} onwards
           - excluding strains in {input.exclude}
@@ -32,16 +32,17 @@ rule filter:
         metadata = files.meta,
         exclude = files.exclude
     output:
-        sequences = build_dir +"/{strain}/filtered.fasta",
-        log = build_dir + "/{strain}/filtered.log"
+        sequences = build_dir +"/{strain}/filtered_recent.fasta",
+        log = build_dir + "/{strain}/filtered_recent.log"
     params:
         group_by = config['filter']['group_by'],
-        sequences_per_group = lambda wildcards: config['filter']['subsample_max_sequences'], 
+        sequences_per_group = config['filter']['subsample_max_sequences']['recent'], 
         strain_id_field= "accession",
-        min_date = config['filter']['min_date'], 
+        min_date = lambda wildcards: config['filter']['resolution']['2y']['min_date'], 
+        max_date = lambda wildcards: config['filter']['resolution']['2y']['max_date'],
         min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain],
         min_coverage = f"genome_coverage>{config['filter']['min_coverage']}",
-        include = "config/{strain}/strains_to_include.txt",
+        include = "config/{strain}/strains_to_include.txt"
     shell:
         """
         augur filter \
@@ -53,11 +54,66 @@ rule filter:
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
             --min-date {params.min_date} \
+            --max-date {params.max_date} \
             --min-length {params.min_length} \
             --query '{params.min_coverage} & bioproject_accession != "PRJEB83635" | database== "ReVSeq" ' \
+            --include-where 'database="ReVSeq"' \
+            --include {params.include} \
             --output {output.sequences} \
-            --output-log {output.log} \
-            --include {params.include}
+            --output-log {output.log}
+        """
+
+rule filter_background:
+    message:
+        """
+        Filtering background sequences to
+          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
+          - from {params.min_date} onwards
+          - excluding strains in {input.exclude}
+        """
+    input:
+        sequences = rules.add_local_sequences.output.sequences,
+        sequence_index = rules.index_sequences.output.sequence_index,
+        metadata = files.meta,
+        exclude = files.exclude
+    output:
+        sequences = build_dir +"/{strain}/filtered_background.fasta",
+        log = build_dir + "/{strain}/filtered_background.log"
+    params:
+        group_by = config['filter']['group_by'],
+        sequences_per_group = config['filter']['subsample_max_sequences']['background'], 
+        strain_id_field= "accession",
+        min_date = config['filter']['resolution']['2y']["background_min_date"], 
+        max_date = config['filter']['resolution']['2y']["min_date"],
+        min_length = lambda wildcards: config['filter']['min_length'][wildcards.strain],
+        min_coverage = f"genome_coverage>{config['filter']['min_coverage']}"
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
+            --metadata {input.metadata} \
+            --metadata-id-columns {params.strain_id_field} \
+            --exclude {input.exclude} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --min-date {params.min_date} \
+            --max-date {params.max_date} \
+            --min-length {params.min_length} \
+            --query '{params.min_coverage} & bioproject_accession != "PRJEB83635"' \
+            --output {output.sequences} \
+            --output-log {output.log}
+        """
+
+
+rule combine_samples:
+    input:
+        subsamples = [rules.filter_recent.output.sequences, rules.filter_background.output.sequences] 
+    output:
+        sequences = build_dir + "/{strain}/filtered.fasta"
+    shell:
+        """
+        cat {input.subsamples} | seqkit rmdup > {output}
         """
 
 rule align: 
@@ -66,7 +122,7 @@ rule align:
         Aligning sequences to {input.reference} using Nextalign
         """
     input:
-        sequences = rules.filter.output.sequences,
+        sequences = rules.combine_samples.output.sequences,
         reference = rules.copy_reference.output.destination
     output:
         alignment = "results/{strain}/aligned.fasta"
