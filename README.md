@@ -2,6 +2,7 @@
 Associated code with for the study of respiratory viruses sequenced in Switzerland during the 2023/24 season.
 
 The repository is structured as follows:
+```
 .
 ├── Data
 ├── Overview_circulating_viruses
@@ -18,6 +19,7 @@ The repository is structured as follows:
 │   └── fig_3_plot.R
 ├── Supplements
 └── analysis_pipeline.Rmd
+```
 
 - Data repository contains all pertinent data for the analysis
 - Overview_circulating_viruses directory contains scripts to generate the first figure
