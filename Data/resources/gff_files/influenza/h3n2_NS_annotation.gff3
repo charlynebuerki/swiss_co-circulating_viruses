@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY114385.1 1 863
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393902
+CY114385.1	Genbank	CDS	12	41	.	+	0	Name=NEP;gbkey=CDS;gene=NEP;protein_id=AFH00654.1;ID=cds-AFH00654.1;Dbxref=NCBI_GP:AFH00654.1;product=nuclear export protein;Note=nonstructural protein 2
+CY114385.1	Genbank	CDS	514	849	.	+	0	Name=NEP;gbkey=CDS;gene=NEP;protein_id=AFH00654.1;ID=cds-AFH00654.1;Dbxref=NCBI_GP:AFH00654.1;product=nuclear export protein;Note=nonstructural protein 2
+CY114385.1	Genbank	CDS	12	704	.	+	0	Name=NS1;gbkey=CDS;gene=NS1;protein_id=AFH00653.1;ID=cds-AFH00653.1;Dbxref=NCBI_GP:AFH00653.1;product=nonstructural protein 1

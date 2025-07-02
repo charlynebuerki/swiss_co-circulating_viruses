@@ -1,0 +1,6 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY121685.1 1 2192
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809
+CY121685.1	Genbank	CDS	5	2155	.	+	0	Name=PA;gene=PA;gbkey=CDS;protein_id=AFM72839.1;product=polymerase PA;ID=cds-AFM72839.1;Dbxref=NCBI_GP:AFM72839.1

@@ -1,0 +1,7 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY121684.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809
+CY121684.1	Genbank	region	1	865	.	+	.	ID=CY121684.1:1..865;Dbxref=taxon:641809;Name=8;collection-date=2009;country=USA: California;gbkey=Src;lab-host=Egg passage(s);mol_type=viral cRNA;nat-host=human;segment=8;serotype=H1N1;strain=A/California/07/2009
+CY121684.1	Genbank	gene	15	674	.	+	0	Name=NS1;gbkey=CDS;gene=NS1;protein_id=AFM72837.1;ID=cds-AFM72837.1;Dbxref=NCBI_GP:AFM72837.1;product=nonstructural protein 1

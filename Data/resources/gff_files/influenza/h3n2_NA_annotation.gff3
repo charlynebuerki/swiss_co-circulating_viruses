@@ -1,0 +1,6 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY114383.1 1 1436
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393902
+CY114383.1	Genbank	CDS	4	1413	.	+	0	Name=NA;gene=NA;gbkey=CDS;protein_id=AFH00651.1;product=neuraminidase;ID=cds-AFH00651.1;Dbxref=NCBI_GP:AFH00651.1

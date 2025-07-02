@@ -1,0 +1,7 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KU509703.1 1 1701
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1777792
+KU509703.1	Genbank	CDS	52	1032	.	+	.	Name=HA1;product=HA1;gbkey=Prot;ID=id-AMA11475.1:18..344
+KU509703.1	Genbank	CDS	1033	1698	.	+	.	Name=HA2;product=HA2;gbkey=Prot;ID=id-AMA11475.1:345..566

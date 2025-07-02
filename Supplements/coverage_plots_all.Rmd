@@ -1,0 +1,55 @@
+---
+title: "Coverage plots for all single-stranded viruses"
+output: html_document
+date: "2025-07-02"
+---
+
+```{r}
+#sourcing all packages
+```
+
+```{r}
+#sourcing functions for plotting
+
+#coverage plots
+source("coverage_genome_data_format.R") #requires external docs > to add (bedfile and gff files)
+source("coverage_genome_plot.R")
+
+```
+
+```{r}
+#data set needed
+hq_data<-read.csv("data/final_analysis/1_19_05_25_pull/manuscript_public/sample_data.csv")
+```
+
+# RSV-A 
+
+```{r, warning=FALSE}
+# RSV-A
+#get data
+virus_strain <- "Respiratory syncytial virus (type A)"
+rsv_a_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+
+df <- format_coverage_plot_data(rsv_a_data, virus_strain)
+make_figure_coverage_genome(df, virus_strain, save=FALSE)
+
+```
+
+# RSV-B
+
+```{r}
+
+```
+
+# HPIV-3
+
+```{r}
+# Parainfluenza-3
+virus_strain <- "Human parainfluenza virus 3"
+hpiv_3_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+
+df <- format_coverage_plot_data(hpiv_3_data, virus_strain)
+make_figure_coverage_genome(df, virus_strain, save=FALSE)
+
+```
+

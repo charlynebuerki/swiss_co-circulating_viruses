@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY114382.1 1 999
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393902
+CY114382.1	Genbank	region	1	999	.	+	.	ID=CY114382.1:1..999;Dbxref=taxon:393902;Name=7;bio-material=CEIRS#CIP047WI6705#;collection-date=2005;country=USA: Wisconsin;gbkey=Src;lab-host=xMDCK2 passage(s);mol_type=viral cRNA;nat-host=human;segment=7;serotype=H3N2;strain=A/Wisconsin/67/2005
+CY114382.1	Genbank	CDS	11	36	.	+	0	Name=M2;gene=M2;gbkey=CDS;protein_id=AFH00650.1;ID=cds-AFH00650.1;product=matrix protein 2;Dbxref=NCBI_GP:AFH00650.1
+CY114382.1	Genbank	CDS	725	992	.	+	1	Name=M2;gene=M2;gbkey=CDS;protein_id=AFH00650.1;ID=cds-AFH00650.1;product=matrix protein 2;Dbxref=NCBI_GP:AFH00650.1
+CY114382.1	Genbank	CDS	11	769	.	+	0	Name=M1;gene=M1;gbkey=CDS;protein_id=AFH00649.1;ID=cds-AFH00649.1;product=matrix protein 1;Dbxref=NCBI_GP:AFH00649.1

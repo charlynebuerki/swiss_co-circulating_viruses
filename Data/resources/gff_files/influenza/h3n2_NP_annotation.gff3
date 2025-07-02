@@ -1,0 +1,6 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY114384.1 1 1538
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393902
+CY114384.1	Genbank	CDS	31	1527	.	+	0	Name=NP;gene=NP;gbkey=CDS;protein_id=AFH00652.1;ID=cds-AFH00652.1;Dbxref=NCBI_GP:AFH00652.1;product=nucleocapsid protein

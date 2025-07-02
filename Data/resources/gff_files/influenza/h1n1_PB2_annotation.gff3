@@ -1,0 +1,6 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY121687.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809
+CY121687.1	Genbank	gene	16	2295	.	+	0	Name=PB2;gbkey=CDS;gene=PB2;protein_id=AFM72841.1;ID=cds-AFM72841.1;product=polymerase PB2;Dbxref=NCBI_GP:AFM72841.1
