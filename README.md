@@ -27,3 +27,7 @@ The repository is structured as follows:
 - Sequencing_results directory contains the scripts to generate the figures pertaining to the sequencing results, including coverage plots
 - Supplements contains the scripts to generate the supplementary figures and the coverage plots of all single-stranded viruses from this study
 - analysis_pipeline.Rmd contains the main analysis of this study 
+
+# Running the pipeline
+
+You must unzip the depth files (Data/depth_files/) to obtain the coverage figures. 
