@@ -15,7 +15,7 @@ format_matrix_co_infection_plot<-function(data)
     bind_rows(., rename(., strain_1=strain_2, strain_2=strain_1))
   
   single <- expand.grid(strain_1 = data$substrain_name %>% unique(), strain_2 = data$substrain_name %>% unique()) %>% 
-    filter(strain_1 != strain_2) %>% 
+    #filter(strain_1 != strain_2) %>% 
     mutate(n=0)
   
   matrix_co <- left_join(single, co, by=c("strain_1", "strain_2")) %>% 

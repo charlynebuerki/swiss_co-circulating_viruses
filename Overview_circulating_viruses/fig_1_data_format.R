@@ -2,7 +2,7 @@
 
 
 #format for the b plot for frequencies 
-format_frequencies_plot <- function(meta_data, all_data, detected_data ,substrain_to_highlight="")
+format_frequencies_plot <- function(meta_data, all_data, detected_data=NULL ,substrain_to_highlight="")
 {
   
   df_sampling_freq <- meta_data %>% 
@@ -14,15 +14,19 @@ format_frequencies_plot <- function(meta_data, all_data, detected_data ,substrai
     rename(n_all=n)
   
   #what sequencing detects without hq threshold
-  df_sampling_freq_detect <- detected_data %>% 
-    mutate(
-      pseudonymized_id = make.unique(as.character(pseudonymized_id)),
-      date= as.Date(ent_date)
-    ) %>% 
-    filter(!grepl(".1", pseudonymized_id)) %>% #just get all samples not doubles
-    select(pseudonymized_id,date) %>% 
-    dplyr::count(date) %>% 
-    rename(n_detect=n)
+  if(!is.null(detected_data))
+  {
+    df_sampling_freq_detect <- detected_data %>% 
+      mutate(
+        pseudonymized_id = make.unique(as.character(pseudonymized_id)),
+        date= as.Date(ent_date)
+      ) %>% 
+      filter(!grepl(".1", pseudonymized_id)) %>% #just get all samples not doubles
+      select(pseudonymized_id,date) %>% 
+      dplyr::count(date) %>% 
+      rename(n_detect=n)
+  }
+  
   
   #hq data 
   df_sampling_freq_sub <- all_data %>% 
@@ -49,12 +53,12 @@ format_frequencies_plot <- function(meta_data, all_data, detected_data ,substrai
   
   df_sampling_freq_all <- df_sampling_freq %>% 
     left_join(df_sampling_freq_sub, by="date") %>% 
-    left_join(df_sampling_freq_detect, by="date") %>% 
+    {if (!is.null(detected_data)) left_join(., df_sampling_freq_detect, by = "date") %>% 
+        mutate( n_detect = ifelse(!is.null(detected_data) & is.na(n_detect), 0, n_detect)) 
+      else .} %>%
     left_join(df_sampling_freq_highlight, by="date") %>% 
     mutate(n_hq= ifelse(is.na(n_hq), 0, n_hq),
-           n_highlight= ifelse(is.na(n_highlight), 0, n_highlight),
-           n_detect = ifelse(is.na(n_detect),0, n_detect)
-    ) %>% 
+           n_highlight= ifelse(is.na(n_highlight), 0, n_highlight)) %>% 
     group_by(date=lubridate::ceiling_date(date, "week", week_start=1)) %>% 
     summarise(across(n_all:n_highlight, sum))
   
@@ -92,7 +96,7 @@ format_grid_pathogen_plot <- function(data, pcr=FALSE)
 #gets sentinella data to format
 get_sentinella_data<- function()
 {
-  sentinella <- read.csv("data/final_analysis/sentinella/data.csv", stringsAsFactors = FALSE)
+  sentinella <- read.csv("Data/data/sentinella.csv", stringsAsFactors = FALSE)
   
   sentinella_df <- sentinella %>% 
     mutate(
@@ -127,4 +131,41 @@ get_sentinella_data<- function()
     filter(date <= as.Date("2023-06-01") | date >= as.Date("2023-10-15"))
   
   return(sentinella_df_plt)
+}
+
+#get wastewater data to format
+get_wastewater_data <- function()
+{
+  wastewater <- read.csv("Data/data/wastewater_national_estimate_data.csv", stringsAsFactors = FALSE)
+  
+  wastewater_df <- wastewater %>% 
+    mutate(
+      date = as.Date(Date),
+      seven_day_median_viral_load = X7.day.Median.Viral.Load..gc.person.day.
+    ) %>% 
+    group_by(date) %>% 
+    mutate(
+      seven_day_median_viral_load_avg = case_when(
+        #any(grepl("RSV", Virus)) ~mean( seven_day_median_viral_load[grepl("RSV", Virus)], na.rm=TRUE),
+        #any(grepl("SARS", Virus)) ~mean( seven_day_median_viral_load[grepl("SARS", Virus)], na.rm=TRUE),
+        #n_distinct(Virus[grepl("SARS", Virus)]) > 0 ~ mean(seven_day_median_viral_load[grepl("SARS", Virus)], na.rm = TRUE),
+        grepl("SARS", Virus) > 0 ~ mean(seven_day_median_viral_load[grepl("SARS", Virus)], na.rm = TRUE),
+        grepl("RSV", Virus) > 0 ~ mean(seven_day_median_viral_load[grepl("RSV", Virus)], na.rm = TRUE),
+        !grepl("SARS", Virus) & !grepl("RSV", Virus) ~ seven_day_median_viral_load,
+        TRUE ~ seven_day_median_viral_load
+      ),
+      pathogen_name = case_when(
+        Virus == "IAV-M" ~ "influenza_A",
+        Virus == "IBV-M" ~ "influenza_B",
+        Virus == "RSV-M" | Virus == "RSV-N"  ~ "respiratory_syncytial_virus",
+        Virus == "SARS-N1" | Virus == "SARS-N2" ~ "sars-cov-2"
+      )
+    ) %>% 
+    select(date, pathogen_name, seven_day_median_viral_load_avg) %>% 
+    distinct() %>% 
+    filter(date <= as.Date("2023-06-01") | date >= as.Date("2023-10-15")) %>%  
+    group_by(date=lubridate::ceiling_date(date, "week", week_start=1), pathogen_name) %>% 
+    summarise(across(seven_day_median_viral_load_avg, mean)) %>%
+    
+    return(wastewater_df)
 }

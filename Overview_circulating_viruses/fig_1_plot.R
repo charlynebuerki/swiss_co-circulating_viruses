@@ -3,7 +3,7 @@
 # returns virus abbreviations for plot
 get_virus_abbreviation<-function()
 {
-  abbreviations <- read.csv("virus_abreviation.csv", header = TRUE, stringsAsFactors = FALSE)
+  abbreviations <- read.csv("Data/resources/virus_abbreviations.csv", header = TRUE, stringsAsFactors = FALSE)
   abbreviation_scheme <- as_vector(abbreviations$virus_abbr)
   names(abbreviation_scheme) <- abbreviations$virus
   return(abbreviation_scheme)
@@ -19,13 +19,14 @@ get_virus_order<-function(PCR=FALSE)
                     "Human parainfluenza virus 1" , #parainfluenzas
                     "Human parainfluenza virus 2", 
                     "Human parainfluenza virus 3",
-                    #"Human parainfluenza virus 4a",
+                    "Human parainfluenza virus 4a",
                     "Influenza B virus (B/Brisbane/60/2008)", #influenza B
                     "Influenza A virus (A/Michigan/45/2015(H1N1))", #influenza A
                     "Influenza A virus (A/Texas/50/2012(H3N2))",
                     "Respiratory syncytial virus (type A)", #RSVs
                     "Human Respiratory syncytial virus 9320 (type B)",
-                    "Human metapneumovirus (CAN97-83)",  #metapneumo
+                    "Human metapneumovirus A",   
+                    "Human metapneumovirus B",  #metapneumo
                     "Human adenovirus B1" , #adenoviruses
                     "Human adenovirus C2",
                     "Human parechovirus type 1 PicoBank/HPeV1/a", #picornaviridae family
@@ -185,12 +186,12 @@ make_figure_one<-function(data, frequencies_data ,sentinella_data, highlight, su
   {
     if(!pcr){
       substrain_to_highlight <- substrain_to_highlight[1]
-      ggsave(paste0("images/final_analysis/f1_DP10", ifelse(highlight, paste0("_highlight_", getElement(virus_abbreviations, substrain_to_highlight)), ""), ".pdf"),
+      ggsave(paste0("Figures/f1_DP10", ifelse(highlight, paste0("_highlight_", getElement(virus_abbreviations, substrain_to_highlight)), ""), ".pdf"),
              f1 , dpi="retina", units="mm", width=174, height=123)
       
     } else
     {
-      ggsave("images/final_analysis/f1_pcr.pdf", f1,  dpi="retina", units="mm", width=174, height=123)
+      ggsave("Figures/f1_pcr.pdf", f1,  dpi="retina", units="mm", width=174, height=123)
     }
     
   }

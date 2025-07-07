@@ -1,7 +1,7 @@
 #functions to format the data for coverage plots by pathogen
 
 #get a full folder path based on the barcode, pseudo_id and base filepath
-get_full_folder_path<-function(barcode, pseudonymized_id, base_filepath="data/final_analysis/1_19_05_25_pull/depth_files/") 
+get_full_folder_path<-function(barcode, pseudonymized_id, base_filepath="Data/data/depth_files/") 
 {
   return(paste0(base_filepath, barcode, "/", pseudonymized_id, "/depth/", pseudonymized_id, "_depth.tsv"))
 }
@@ -22,7 +22,7 @@ read_tsv_file <- function(path) {
 #given a virus reference, read from the lookup table and translate to substrain name
 get_virus_reference_conversion_table<-function()
 {
-  virus_lookup<-read.table("../resources/RespiratoryVirus.20200409.bed", sep="\t", header = FALSE)
+  virus_lookup<-read.table("Data/resources/virus_lookup_table.bed", sep="\t", header = FALSE)
   names(virus_lookup) <- c("accession_number", "start", "end", "substrain_name")
   
   return(virus_lookup)
@@ -61,8 +61,6 @@ format_gff3_data<-function(virus_reference, filepath= "../Nextstrain/z_gff_files
   
   return(gff_df)
 }
-
-reference_virus <- "NC_001796" #this comes from extraction of dataset 
 
 
 #coverage plots; requires data to have pseuodnymized column and a barcode (plate number) for file lookup purposes as well as an "ent_date" for date of sampling; requires the name of the pathogen to seek

@@ -195,7 +195,7 @@ make_figure_coverage_genome_single<-function(data, pathogen_name, save)
   
   if(save)
   {
-    ggsave(paste0("images/final_analysis/1_19_05_25_pull/coverage_plots/", str_replace_all(pathogen_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="retina", units="mm", width=174, height=123)
+    ggsave(paste0("Figures/coverage_plots/", str_replace_all(pathogen_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="retina", units="mm", width=174, height=123)
     
   }
   
@@ -299,7 +299,7 @@ make_figure_coverage_genome_influenza<-function(data, pathogen_name, save)
     
     if(save)
     {
-      ggsave(paste0("images/final_analysis/coverage_plots/influenza/", str_replace_all(segment_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="retina", units="mm", width=174, height=123)
+      ggsave(paste0("Figures/coverage_plots/influenza/", str_replace_all(segment_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="retina", units="mm", width=174, height=123)
     }
     
     #add semgent to list of plots

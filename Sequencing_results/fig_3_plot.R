@@ -4,10 +4,14 @@
 plot_matrix <- function(data)
 {
   virus_abbreviations <-get_virus_abbreviation()
-  
+ 
   fig <- ggplot() + 
-    geom_tile(data=matrix_co, 
+    geom_tile(data=data, 
               aes(x=strain_1, y=strain_2, fill=n), color="grey") +
+    geom_tile(data = data %>% filter(strain_1 == strain_2),
+              aes(x = strain_1, y = strain_2),
+              fill = "darkgrey", # Set the fill color for diagonal elements to grey
+              linewidth = 0.5) +
     theme_minimal() +
     #scale_fill_gradient(low= "white",high="#403e9a") +
     scale_fill_gradient(low = "white", high="#403e9a") +
@@ -69,7 +73,7 @@ make_figure_3<-function(matrix_data, percent_data, save=TRUE)
   
   if(save)
   {
-    ggsave("images/final_analysis/f2_seq.pdf",f2 , dpi="retina", units="mm", width=174, height=123)
+    ggsave("Figures/f3_coinf.pdf",f2 , dpi="retina", units="mm", width=174, height=123)
   }
   return(f2)
 }

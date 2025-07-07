@@ -35,7 +35,7 @@ plot_alluvial<-function(data, stratum_labels, fill_labels, legend_title, plot_ti
   
   legend <- get_legend(fig_all)
   fig<-fig_all + theme(legend.position = "none")
-  
+
   #return legend and figure separately 
   return(list(plot=fig, legend=legend))
 }
@@ -130,10 +130,9 @@ make_figure_comparison<-function(formated_pcr_detected, formated_detected_hq, sa
 {
   plot_a<-plot_alluvial_pcr_to_detected(formated_pcr_detected)
   plot_b<-plot_alluvial_detected_to_hq(formated_detected_hq)
-  
   fig <-plot_grid(plot_a$plot, plot_b$plot, plot_a$legend,  plot_b$legend, nrow=2, ncol = 2 ,rel_heights = c(1,0.15), align="v", axis="l")
   
-  if(save) {ggsave("images/final_analysis/fig_pcr_comparison.pdf",fig , dpi="retina", units="mm", width=174, height=123)}
+  if(save) {ggsave("Figures/f2_comparison.pdf",fig , dpi="retina", units="mm", width=174, height=123)}
   
   return(fig)
 }
