@@ -1,0 +1,65 @@
+﻿virus,virus_abbr,color,
+Human coronavirus OC43,OC43,#004CFF,G32
+Human coronavirus NL63,NL63,#93D4FF,G31
+Human coronavirus HKU1,HKU1,#00479E,G29
+Human coronavirus 229E,229E,#14F9FF,G28
+SARS-CoV-2,SARS-CoV-2,#FE8F42,G17
+Human adenovirus B1,HAdV-B1,#02AD24,G22
+Human adenovirus C2,HAdV-C2,#C8FF00,G23
+Human adenovirus E4,HAdV-E4,#00FF00,G4
+Human enterovirus C104 strain: AK11,EVC103,#005300,G7
+Human enterovirus C109 isolate NICA08-4327,EVC109,#005300,G7
+Human rhinovirus A89,HRV-A,#886C00,G24
+Human rhinovirus B14,HRV-B,#858567,G26
+Human rhinovirus C (strain 024),HRV-C,#9A4D42,G10
+Human metapneumovirus A,HMPV-A,#B1CC71,
+Human metapneumovirus B,HMPV-B,#B1CC71,
+Human metapneumovirus (CAN97-83),Metapn.,#B1CC71,G15
+Human parainfluenza virus 4a,HPIV-4,#1F9698,G13
+Influenza B virus (B/Brisbane/60/2008),B/Victoria,#DC5E93,G30
+Influenza B virus (B/Colorado/06/2017),B/Colorado,#A10300,G27
+Influenza B virus (B/Lee/1940),B/Lee,#720055,G20
+Influenza B virus (B/Washington/02/2019),B/Wash.,#DD00FF,G18
+Influenza B virus (B/Wisconsin/01/2010),B/Wisc.,#F1085C,G16
+Influenza A virus  (A/Zhejiang/DTID-ZJU01/2013(H7N9)),A/H7N9,#FF0000,G3
+Influenza A virus (A/Hong Kong/1073/99(H9N2)),A/H9N2,#783FC1,G12
+Influenza A virus (A/Korea/426/1968(H2N2)),H2N2,#FF0000,G3
+Influenza A virus (A/Michigan/45/2015(H1N1)),A/H1N1,#DC5E93,G30
+Influenza A virus (A/New York/392/2004(H3N2)),A/H3N2,#FF00B6,G6
+Influenza A virus (A/Puerto Rico/8/1934(H1N1)),A/H1N1,#FF0000,G3
+Influenza A virus (A/Texas/50/2012(H3N2)),A/H3N2,#FFB79F,G25
+Influenza A virus (A/goose/Guangdong/1/1996(H5N1)),A/H5N1,#FF0000,G3
+Human parainfluenza virus 3,HPIV-3,#00FFBE,G11
+Human parainfluenza virus 2,HPIV-2,#0000FF,G2
+Human parainfluenza virus 1,HPIV-1,#009FFF,G9
+Human Respiratory syncytial virus 9320 (type B),RSV-B,#766C95,G21
+Respiratory syncytial virus (type A),RSV-A,#720055,G20
+Human bocavirus 1 (Primate bocaparvovirus 1 isolate st2),HBoV-1,#201A01,G19
+Human bocavirus 2c PK isolate PK-5510,HBoV-2,#201A01,G19
+Human bocavirus 3,HBoV-3,#201A01,G19
+Human bocavirus 4 NI strain HBoV4-NI-385,HBoV-4,#201A01,G19
+Human parechovirus 6,HPeV-6,#000033,G5
+Human parechovirus type 1 PicoBank/HPeV1/a,HPeV-1,#000033,G5
+KI polyomavirus Stockholm 60,HPyV-KI,#FFD300,G8
+WU polyomavirus,HPyV-WU,#FFB79F,G25
+Rhino- / Enterovirus,R/E.V,,
+Adenovirus,HAdV,,
+Metapneumovirus,HMPV,,
+RSV - A/B,RSV-A/B,,
+Influenza A,Inf.A,,
+Influenza B,Inf.B,,
+Parainfluenza 1,HPIV-1,,
+Parainfluenza 2,HPIV-2,,
+Parainfluenza 3,HPIV-3,,
+Parainfluenza 4,HPIV-4,,
+coronavirus NL63,NL63,,
+coronavirus 229E,229E,,
+coronavirus HKU1,HKU1,,
+coronavirus OC43,OC43,,
+sars-cov-2,SARS-CoV-2,,
+rhinovirus,HRV,,
+respiratory_syncytial_virus,RSV-A/B,,
+other,Others,,
+influenza_A,FluA,,
+influenza_B,FluB,,
+adenovirus,HAdV,,

@@ -1,0 +1,5 @@
+"x","y","type","label"
+2024-06-30,-0.9,"n_pcr/n_detected","R2 = 0.64"
+2024-06-30,3.1,"n_seq/n_detected","R2 = 0.74"
+2024-06-30,7.1,"n_detected/percentage","R2 = 0.01"
+2024-06-30,11.1,"n_pcr/percentage","R2 = 0.02"

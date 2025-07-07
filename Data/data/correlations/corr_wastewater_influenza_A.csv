@@ -1,0 +1,5 @@
+"x","y","type","label"
+2024-06-30,22,"n_pcr/n_detected","R2 = 0.94"
+2024-06-30,26,"n_seq/n_detected","R2 = 0.93"
+2024-06-30,30,"n_detected/viralload","R2 = 0.72"
+2024-06-30,34,"n_pcr/viralload","R2 = 0.75"
