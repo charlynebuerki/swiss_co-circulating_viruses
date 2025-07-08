@@ -1,0 +1,79 @@
+###############
+# Snakemake execution templates:
+
+# To run a default whole genome run ( <6400bp):
+# snakemake whole_genome/auspice/cva16_whole_genome.json --cores 1
+
+###############
+configfile: "config/configfile.yaml"
+
+wildcard_constraints:
+    #build="whole",
+    strain= r"h1n1|h3n2|vic",
+    build=r"PB2|PB1|PA|HA|NP|NA|MP|NS"
+   
+#     #from: https://bitbucket.org/snakemake/snakemake/issues/910/empty-wildcard-assignment-works-only-if
+
+
+build_dir = 'results'
+auspice_dir = 'auspice'
+
+# Expand augur JSON paths
+rule all:
+    input:
+        tree_nextclade=expand("results/{strain}/nextclade_dataset_{build}/tree.json", 
+                                strain=config.get("strains", ['h1n1']),
+                                build= config.get("builds_to_run", ['HA'])
+                                ),
+        pathogen_nextclade=expand("results/{strain}/nextclade_dataset_{build}/pathogen.json",
+                                strain=config.get("strains", ['h1n1']),
+                                build= config.get("builds_to_run", ['HA'])
+                                ),
+        sequences_nextclade =expand("results/{strain}/nextclade_dataset_{build}/annotation.gff3",
+                                strain=config.get("strains", ['h1n1']),
+                                build= config.get("builds_to_run", ['HA'])
+                                ),
+        reference_nextclade = expand("results/{strain}/nextclade_dataset_{build}/reference.fasta", 
+                                strain=config.get("strains", ['h1n1']),
+                                build= config.get("builds_to_run", ['HA'])
+                                )
+
+
+# Rule to handle configuration files
+rule files:
+    input:
+        #sequence_length =   "{seg}",
+        exclude =   config['exclude'],
+        lat_longs = config['files']['latitude_longitude_schemes'],
+        colors =    config['files']['color_schemes'],
+        reference = lambda wildcards: config['files']['sequence_annotation'][wildcards.strain][wildcards.build],
+        auspice_config = lambda wildcards: config['files']['auspice_config'][wildcards.strain][wildcards.build] ,
+        clades =   lambda wildcards:      config['files']['clades_config'][wildcards.strain][wildcards.build],
+        subclades =   lambda wildcards:      config['files']['subclades_config'][wildcards.strain][wildcards.build],
+        meta=               "data/{strain}/all_metadata_{build}.tsv",
+        local_meta=  "ingest/data/{strain}/project_strains/1_metadata.csv",
+        last_updated_file = "data/{strain}/date_last_updated.txt", #no need
+        local_accn_file =   "data/{strain}/local_accn.txt" #no need
+
+files = rules.files.input
+
+##############################
+# Download from NBCI Virus with ingest snakefile
+###############################
+
+include: "workflow/snakemake_rules/import_from_ingest.smk"
+include: "workflow/snakemake_rules/chores.smk"
+include: "workflow/snakemake_rules/core.smk"
+
+
+        
+
+# ##############################
+rule clean:
+    message: "Removing directories: {params}"
+    params:
+        "results ",
+        "auspice", 
+        "data"
+    shell:
+        "rm -rfv {params}"

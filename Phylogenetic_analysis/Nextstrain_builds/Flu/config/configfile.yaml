@@ -1,0 +1,234 @@
+#strains and types of builds to run
+strains: ['h1n1', 'h3n2', 'vic']
+#strains: ['h1n1', 'h3n2']
+#builds_to_run: ['PB2', 'PB1', 'PA', 'HA', 'NP', 'NA', 'MP', 'NS']
+builds_to_run: ['HA', 'NA']
+
+exclude: "config/dropped_strains.txt"
+
+files:
+  color_schemes: "config/colors.tsv"
+  latitude_longitude_schemes: "config/lat_longs.tsv"
+  auspice_config:
+    h1n1: 
+      PB2: "config/h1n1/PB2/auspice_config.json" 
+      PB1: "config/h1n1/PB1/auspice_config.json"
+      PA: "config/h1n1/PA/auspice_config.json"
+      HA: "config/h1n1/HA/auspice_config.json"
+      NP: "config/h1n1/NP/auspice_config.json"
+      NA: "config/h1n1/NA/auspice_config.json"
+      MP: "config/h1n1/MP/auspice_config.json"
+      NS: "config/h1n1/NS/auspice_config.json"
+    h3n2: 
+      PB2: "config/h3n2/PB2/auspice_config.json" 
+      PB1: "config/h3n2/PB1/auspice_config.json"
+      PA: "config/h3n2/PA/auspice_config.json"
+      HA: "config/h3n2/HA/auspice_config.json"
+      NP: "config/h3n2/NP/auspice_config.json"
+      NA: "config/h3n2/NA/auspice_config.json"
+      MP: "config/h3n2/MP/auspice_config.json"
+      NS: "config/h3n2/NS/auspice_config.json"
+    vic: 
+      PB2: "config/vic/PB2/auspice_config.json" 
+      PB1: "config/vic/PB1/auspice_config.json"
+      PA: "config/vic/PA/auspice_config.json"
+      HA: "config/vic/HA/auspice_config.json"
+      NP: "config/vic/NP/auspice_config.json"
+      NA: "config/vic/NA/auspice_config.json"
+      MP: "config/vic/MP/auspice_config.json"
+      NS: "config/vic/NS/auspice_config.json"
+  reference_config:
+    h1n1:  
+      PB2: "ingest/data/h1n1/PB2/reference.gbk" 
+      PB1: "ingest/data/h1n1/PB1/reference.gbk"
+      PA: "ingest/data/h1n1/PA/reference.gbk"
+      HA: "ingest/data/h1n1/HA/reference.gbk"
+      NP: "ingest/data/h1n1/NP/reference.gbk"
+      NA: "ingest/data/h1n1/NA/reference.gbk"
+      MP: "ingest/data/h1n1/MP/reference.gbk"
+      NS: "ingest/data/h1n1/NS/reference.gbk"
+    h3n2: 
+      PB2: "ingest/data/h3n2/PB2/reference.gbk" 
+      PB1: "ingest/data/h3n2/PB1/reference.gbk"
+      PA: "ingest/data/h3n2/PA/reference.gbk"
+      HA: "ingest/data/h3n2/HA/reference.gbk"
+      NP: "ingest/data/h3n2/NP/reference.gbk"
+      NA: "ingest/data/h3n2/NA/reference.gbk"
+      MP: "ingest/data/h3n2/MP/reference.gbk"
+      NS: "ingest/data/h3n2/NS/reference.gbk"
+    vic: 
+      PB2: "ingest/data/vic/PB2/reference.gbk" 
+      PB1: "ingest/data/vic/PB1/reference.gbk"
+      PA: "ingest/data/vic/PA/reference.gbk"
+      HA: "ingest/data/vic/HA/reference.gbk"
+      NP: "ingest/data/vic/NP/reference.gbk"
+      NA: "ingest/data/vic/NA/reference.gbk"
+      MP: "ingest/data/vic/MP/reference.gbk"
+      NS: "ingest/data/vic/NS/reference.gbk"
+  clades_config:
+    h1n1: 
+      PB2: "config/h1n1/clades_genome.tsv" 
+      PB1: "config/h1n1/clades_genome.tsv"
+      PA:  "config/h1n1/clades_genome.tsv"
+      HA: "config/h1n1/HA/clades.tsv"
+      NP: "config/h1n1/clades_genome.tsv"
+      NA: "config/h1n1/clades_genome.tsv"
+      MP: "config/h1n1/clades_genome.tsv"
+      NS: "config/h1n1/clades_genome.tsv"
+    h3n2: 
+      PB2: "config/h3n2/clades_genome.tsv" 
+      PB1: "config/h3n2/clades_genome.tsv"
+      PA:  "config/h3n2/clades_genome.tsv"
+      HA: "config/h3n2/HA/clades.tsv"
+      NP: "config/h3n2/clades_genome.tsv"
+      NA: "config/h3n2/clades_genome.tsv"
+      MP: "config/h3n2/clades_genome.tsv"
+      NS: "config/h3n2/clades_genome.tsv"
+    vic: 
+      PB2: "config/vic/clades_genome.tsv" 
+      PB1: "config/vic/clades_genome.tsv"
+      PA:  "config/vic/clades_genome.tsv"
+      HA: "config/vic/HA/clades.tsv"
+      NP: "config/vic/clades_genome.tsv"
+      NA: "config/vic/clades_genome.tsv"
+      MP: "config/vic/clades_genome.tsv"
+      NS: "config/vic/clades_genome.tsv"
+  subclades_config:
+    h1n1:
+      HA: "config/h1n1/HA/subclades.tsv"
+      NA: "config/h1n1/NA/subclades.tsv"
+    h3n2:
+      HA: "config/h3n2/HA/subclades.tsv"
+      NA: "config/h3n2/NA/subclades.tsv"
+    vic:
+      HA: "config/vic/HA/subclades.tsv"
+      NA: "config/vic/NA/subclades.tsv"
+  pathogen_config:
+    h1n1: 
+      PB2: "ingest/data/h1n1/PB2/pathogen.json" 
+      PB1: "ingest/data/h1n1/PB1/pathogen.json"
+      PA: "ingest/data/h1n1/PA/pathogen.json"
+      HA: "ingest/data/h1n1/HA/pathogen.json"
+      NP: "ingest/data/h1n1/NP/pathogen.json"
+      NA: "ingest/data/h1n1/NA/pathogen.json"
+      MP: "ingest/data/h1n1/MP/pathogen.json"
+      NS: "ingest/data/h1n1/NS/pathogen.json"
+    h3n2:
+      PB2: "ingest/data/h3n2/PB2/pathogen.json" 
+      PB1: "ingest/data/h3n2/PB1/pathogen.json"
+      PA: "ingest/data/h3n2/PA/pathogen.json"
+      HA: "ingest/data/h3n2/HA/pathogen.json"
+      NP: "ingest/data/h3n2/NP/pathogen.json"
+      NA: "ingest/data/h3n2/NA/pathogen.json"
+      MP: "ingest/data/h3n2/MP/pathogen.json"
+      NS: "ingest/data/h3n2/NS/pathogen.json"
+    vic:
+      PB2: "ingest/data/vic/PB2/pathogen.json" 
+      PB1: "ingest/data/vic/PB1/pathogen.json"
+      PA: "ingest/data/vic/PA/pathogen.json"
+      HA: "ingest/data/vic/HA/pathogen.json"
+      NP: "ingest/data/vic/NP/pathogen.json"
+      NA: "ingest/data/vic/NA/pathogen.json"
+      MP: "ingest/data/vic/MP/pathogen.json"
+      NS: "ingest/data/vic/NS/pathogen.json"
+
+  sequence_annotation:
+    h1n1: 
+      PB2: "ingest/data/h1n1/PB2/annotation.gff3" 
+      PB1: "ingest/data/h1n1/PB1/annotation.gff3"
+      PA: "ingest/data/h1n1/PA/annotation.gff3"
+      HA: "ingest/data/h1n1/HA/annotation.gff3"
+      NP: "ingest/data/h1n1/NP/annotation.gff3"
+      NA: "ingest/data/h1n1/NA/annotation.gff3"
+      MP: "ingest/data/h1n1/MP/annotation.gff3"
+      NS: "ingest/data/h1n1/NS/annotation.gff3"
+    h3n2:
+      PB2: "ingest/data/h3n2/PB2/annotation.gff3" 
+      PB1: "ingest/data/h3n2/PB1/annotation.gff3"
+      PA: "ingest/data/h3n2/PA/annotation.gff3"
+      HA: "ingest/data/h3n2/HA/annotation.gff3"
+      NP: "ingest/data/h3n2/NP/annotation.gff3"
+      NA: "ingest/data/h3n2/NA/annotation.gff3"
+      MP: "ingest/data/h3n2/MP/annotation.gff3"
+      NS: "ingest/data/h3n2/NS/annotation.gff3"
+    vic:
+      PB2: "ingest/data/vic/PB2/annotation.gff3" 
+      PB1: "ingest/data/vic/PB1/annotation.gff3"
+      PA: "ingest/data/vic/PA/annotation.gff3"
+      HA: "ingest/data/vic/HA/annotation.gff3"
+      NP: "ingest/data/vic/NP/annotation.gff3"
+      NA: "ingest/data/vic/NA/annotation.gff3"
+      MP: "ingest/data/vic/MP/annotation.gff3"
+      NS: "ingest/data/vic/NS/annotation.gff3"
+
+filter:
+  group_by:
+    background: "year" 
+    recent: "year country"
+  subsample_max_sequences:
+    background: 30
+    recent: 300
+  min_coverage: 0.6
+  min_length: 
+    h1n1: 
+      HA: 1700 #341 #1701
+      MP: 197 #982
+      NA:  1400 #282 #1410
+      NP: 300 # 1497
+      NS: 173 #  863
+      PA: 431 #2151
+      PB1: 455 # 2274
+      PB2: 456 #  2280 
+    h3n2:
+      HA: 1700 #341 #1701 #lengths to change
+      MP: 197 #982
+      NA:  1400 #282 #1410
+      NP: 300 # 1497
+      NS: 173 #  863
+      PA: 431 #2151
+      PB1: 455 # 2274
+      PB2: 456 #  2280 
+    vic:
+      HA: 1800 #566 #1885
+      NA: 1500 #455 #1516
+  resolution:  #just want last 5 years
+    background_min_date:
+      h1n1: "2009-03-28" #"2009-02-28" #start of H1N1 pdm
+      h3n2: "2007-01-01" #"2017-01-01" #start of B/brisbane
+      vic: "2008-01-01"
+    min_date:
+      h1n1: "2021-01-01" #"2009-02-28" #start of H1N1 pdm
+      h3n2: "2021-01-01" #"2017-01-01" #start of B/brisbane
+      vic: "2021-01-01"
+    max_date: "2024-08-01" #end of study period
+
+align:
+  allowed_mismatches: 10
+
+refine:
+  root:
+    h1n1:
+      HA: "GS_002QBWD.1" #CY181393.1 #https://loculus.genspectrum.org/h1n1pdm/search?visibility_length_seg1=false&visibility_length_seg2=false&visibility_length_seg3=false&visibility_length_seg5=false&visibility_length_seg6=false&visibility_length_seg7=false&visibility_length_seg8=false&visibility_insdcAccessionBase_seg4=true&visibility_insdcAccessionFull_seg4=true&visibility_insdcVersion_seg4=true&sampleCollectionDateFrom=2009-03-31&sampleCollectionDateTo=2009-04-27&cladeHA=1&page=2&selectedSeq=GS_002GUCG.1
+      NA: "GS_002QBWD.1" #CY181395.1
+    h3n2: 
+      HA: "GS_0046LW5.1" #https://loculus.genspectrum.org/influenza-a/search?visibility_insdcAccessionFull_seg4=true&insdcAccessionFull_seg4=CY163680.1 #"GS_003EV9Q.1" #https://loculus.genspectrum.org/influenza-a/search?subtypeHA=H3&subtypeNA=N2&sampleCollectionDateFrom=2007-01-01&sampleCollectionDateTo=2008-01-01&orderBy=sampleCollectionDate&order=ascending&country=Australia (B/brisbane)
+      NA: "GS_003Z57D.1" #new ref: CY121530.1 INSDC ref: CY114383.1 
+    vic:
+      HA:  "GS_0012K26.1" #https://loculus.genspectrum.org/influenza-b/search?lineageHA=vic&sampleCollectionDateFrom=2008-01-01&sampleCollectionDateTo=2009-01-01&country=Australia&division=Brisbane&orderBy=length_seg4&page=1&order=ascending B/Brisbane/80
+      NA:  "GS_0012K26.1" #for now keep the same 
+  coalescent: "opt"
+  date_inference: "marginal" 
+  clock_filter_iqd: 10 
+
+ancestral:
+  inference: "joint"
+
+traits:
+  columns: ["country", "location", "database", "region"]
+
+curate:
+  field_map:
+    accession: old_accession
+    qc.overallStatus: qc_overallStatus
+  field_map_2:
+    accession_2: accession
