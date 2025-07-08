@@ -2,11 +2,11 @@ conda_environment: "workflow/envs/nextstrain.yaml"
 
 genesforglycosylation: ["G", "F"]
 
-builds_to_run: ["genome", "G", "F"]
-#builds_to_run: ["genome"]
+#builds_to_run: ["genome", "G", "F"]
+builds_to_run: ["genome"]
 
-resolutions_to_run: ["all-time", "6y", "3y"]
-#resolutions_to_run: ["3y"]
+#resolutions_to_run: ["all-time", "6y", "3y"]
+resolutions_to_run: ["2y"]
 
 local:
   accession_reference:
@@ -39,8 +39,9 @@ filter:
     6y:
       min_date: 6Y
       background_min_date: 100Y
-    3y:
-      min_date: 3Y
+    2y:
+      min_date: "2021-01-01" #2Y
+      max_date: "2024-08-01"
       background_min_date: 100Y
 
   subsample_max_sequences:
@@ -61,7 +62,7 @@ ancestral:
   inference: "joint"
 
 traits:
-  columns: ["country", "database", "location"]
+  columns: ["country", "database", "location", "region"]
 
 nextclade_attributes:
   a:

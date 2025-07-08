@@ -62,7 +62,8 @@ rule filter_recent:
         min_length = lambda w: config["filter"]["min_length"].get(w.build_name, 10000),
         subsample_max_sequences = lambda w: config["filter"]["subsample_max_sequences"].get(w.build_name, 1000),
         strain_id=config["strain_id_field"],
-        min_date=lambda w: config['filter']['resolutions'][w.resolution]["min_date"]
+        min_date=lambda w: config['filter']['resolutions'][w.resolution]["min_date"],
+        max_date=lambda w: config['filter']['resolutions'][w.resolution]["max_date"]
     shell:
         """
         augur filter \
@@ -73,6 +74,7 @@ rule filter_recent:
             --exclude {input.exclude} \
             --exclude-where 'qc.overallStatus=bad' \
             --min-date {params.min_date} \
+            --max-date {params.max_date} \
             --min-length {params.min_length} \
             --output {output.sequences} \
             --group-by {params.group_by} \
