@@ -1,4 +1,4 @@
-# nextstrain.org/rsv
+# Adapted nextstrain.org/rsv build 
 
 This is the Nextstrain build for respiratory syncytial virus (RSV). Output from this build is available at nextstrain.org/rsv.
 
