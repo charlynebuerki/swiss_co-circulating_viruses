@@ -4,6 +4,7 @@
 "2023-04-03",FALSE,"m2-35jsqp","BS","2023-04-03",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-04-04",FALSE,"m2-35s5ZM","SG","2023-04-03",NA,"coronavirus NL63, Rhino- / Enterovirus","resp30, resp16","4, 4",FALSE
 "2023-04-27",FALSE,"m2-37aJ9J","GE","2023-04-27",NA,"Metapneumovirus","resp9","4",TRUE
+"2023-05-11",FALSE,"m2-37cQGL","VD","2023-05-11",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-04-19",FALSE,"m2-37mqBc","AG","2023-04-18",NA,"Influenza B","flub","4",TRUE
 "2023-04-14",FALSE,"m2-39rzrY","BS","2023-04-14",NA,"Adenovirus","resp24","4",TRUE
 "2023-04-13",FALSE,"m2-3Bn49V","VD","2023-04-13",NA,NA,NA,NA,TRUE
@@ -29,8 +30,11 @@
 "2023-04-11",FALSE,"m2-3jumkR","BL","2023-04-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-04-02",FALSE,"m2-3o2c88","AG","2023-04-02",NA,"Influenza B","resp7","4",TRUE
 "2023-04-20",FALSE,"m2-3qDrEd","AG","2023-04-19","ambulant","Influenza A","flua4p","18",TRUE
+"2023-05-10",FALSE,"m2-3qdHwU","VD","2023-05-10",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-04-05",FALSE,"m2-3qxhnT","BL","2023-04-05",NA,"coronavirus NL63","resp30","4",TRUE
 "2023-04-14",FALSE,"m2-3t9qbU","BS","2023-04-13",NA,"Metapneumovirus","resp9","4",TRUE
+"2023-04-28",FALSE,"m2-3to32p","ZH","2023-04-28",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-04-10",FALSE,"m2-3ufwXL","BS","2023-04-10",NA,NA,NA,NA,TRUE
 "2023-04-22",FALSE,"m2-3utgsA","AG","2023-04-22",NA,"Metapneumovirus","resp9","4",TRUE
 "2023-04-25",FALSE,"m2-3xWWe7","BE","2023-04-24",NA,"Adenovirus, Parainfluenza 3","resp24, resp5","4, 4",FALSE
 "2023-03-28",FALSE,"m2-3zPstM","AG","2023-03-28",NA,"Adenovirus","resp24","4",TRUE
@@ -38,6 +42,7 @@
 "2023-04-05",FALSE,"m2-45TcQv","BS","2023-04-05",NA,NA,NA,NA,TRUE
 "2023-04-09",FALSE,"m2-468ARL","AG","2023-04-08",NA,"Adenovirus","resp24","4",TRUE
 "2023-05-05",FALSE,"m2-48cAtM","AG","2023-05-05",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-04-04",FALSE,"m2-4Aidk7","BE","2023-04-04",NA,NA,NA,NA,TRUE
 "2023-04-15",FALSE,"m2-4Bx73L","AG","2023-04-15",NA,"Influenza B","flub","4",TRUE
 "2023-04-19",FALSE,"m2-4C3HuT","GR","2023-04-18",NA,"RSV - A/B","rspc","4",TRUE
 "2023-04-24",FALSE,"m2-4DhvfL","AG","2023-04-24",NA,"Adenovirus","resp24","4",TRUE
@@ -64,6 +69,7 @@
 "2023-04-18",FALSE,"m2-7cbADj","BE","2023-04-18","stationär",NA,NA,NA,TRUE
 "2023-05-09",FALSE,"m2-9jS4Ro","BS","2023-05-09",NA,"Parainfluenza 3","resp5","4",TRUE
 "2023-04-20",FALSE,"m2-AWBv2b","ZH","2023-04-20",NA,"Influenza B","flub","4",TRUE
+"2023-04-28",FALSE,"m2-ArnJuA","BS","2023-04-28","stationär","Rhino- / Enterovirus","resp16","4",TRUE
 "2023-04-13",FALSE,"m2-DCpfUZ","BS","2023-04-13",NA,"Parainfluenza 3","resp5","4",TRUE
 "2023-04-19",FALSE,"m2-Du5V3b","BS","2023-04-19","stationär",NA,NA,NA,TRUE
 "2023-04-19",FALSE,"m2-FMccqA","BL","2023-04-19",NA,"Influenza B","flub4p","15",TRUE
@@ -75,13 +81,18 @@
 "2023-04-18",FALSE,"m2-Y5q9tC","BS","2023-04-18","stationär","Rhino- / Enterovirus","resp16","4",TRUE
 "2023-04-24",FALSE,"m2-YAdfpF","AG","2023-04-24",NA,"coronavirus NL63","resp30","4",TRUE
 "2023-04-15",FALSE,"m2-Ywx3oF","BS","2023-04-15",NA,"Metapneumovirus","resp9","4",TRUE
+"2023-05-11",FALSE,"m2-ZNzLxp","LU","2023-05-11",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-04-14",FALSE,"m2-gYFizT","AG","2023-04-14",NA,"Parainfluenza 3","resp5","4",TRUE
+"2023-04-06",FALSE,"m2-iFTbvS","TI","2023-04-05",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-04-04",FALSE,"m2-iVksLf","BE","2023-04-04","stationär","Metapneumovirus","resp9","4",TRUE
 "2023-04-05",FALSE,"m2-mVqwfv","VS","2023-04-04",NA,"Parainfluenza 3","resp5","4",TRUE
 "2023-03-27",FALSE,"m2-mwJTAW","BL","2023-03-27",NA,"coronavirus NL63, Adenovirus, Influenza B","resp30, resp24, resp7","4, 4, 4",FALSE
+"2023-05-10",FALSE,"m2-nV37Xp","ZH","2023-05-10",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-04-11",FALSE,"m2-nVaDMr","AG","2023-04-10",NA,"Influenza B","flub","4",TRUE
 "2023-04-12",FALSE,"m2-qc8o6V","BS","2023-04-12","ambulant",NA,NA,NA,TRUE
 "2023-05-11",FALSE,"m2-qrHDjp","LU","2023-05-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-04-17",FALSE,"m2-sV9gGC","AG","2023-04-17",NA,"Influenza B","flub","4",TRUE
+"2023-05-01",FALSE,"m2-u5PUKW","AG","2023-05-01",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-10-23",FALSE,"m2-36z874","ZH","2023-10-23",NA,"RSV - A/B","rspc","4",TRUE
 "2023-10-25",FALSE,"m2-3D8278","BL","2023-10-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-10-25",FALSE,"m2-3TbZZN","BS","2023-10-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -109,21 +120,30 @@
 "2023-12-06",FALSE,"m2-33eCP4","AG","2023-12-06",NA,"Adenovirus, RSV - A/B","resp24, resp1","4, 4",FALSE
 "2023-11-23",FALSE,"m2-33t8W2","TI","2023-11-23",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-11-25",FALSE,"m2-352ofD","AG","2023-11-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-11-29",FALSE,"m2-373vMd","GE","2023-11-29",NA,"Adenovirus","resp24","4",TRUE
 "2023-12-08",FALSE,"m2-375EUk","BS","2023-12-08",NA,"SARS-CoV-2","wuhan0","4",TRUE
+"2023-11-21",FALSE,"m2-38nVTV","AG","2023-11-21",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-09",FALSE,"m2-3EacQU","AG","2023-12-09",NA,NA,NA,NA,TRUE
+"2023-12-07",FALSE,"m2-3Ft7q9","GE","2023-12-07",NA,"Influenza A","flua4p","17",TRUE
 "2023-12-07",FALSE,"m2-3GB6to","BS","2023-12-07",NA,"Influenza A","flua","4",TRUE
+"2023-11-25",FALSE,"m2-3KZQzJ","AG","2023-11-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-11-16",FALSE,"m2-3Lmsdt","SZ","2023-11-16",NA,"Influenza B","flub","4",TRUE
 "2023-12-02",FALSE,"m2-3MgVni","BS","2023-12-02",NA,"Influenza A","resp6","4",TRUE
 "2023-11-22",FALSE,"m2-3R4KS6","BS","2023-11-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-12-07",FALSE,"m2-3R93nD","BS","2023-12-07",NA,NA,NA,NA,TRUE
+"2023-11-26",FALSE,"m2-3SXzSV","VD","2023-11-26",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-04",FALSE,"m2-3SjSCR","BS","2023-12-04",NA,NA,NA,NA,TRUE
 "2023-11-30",FALSE,"m2-3TMBNi","VD","2023-11-30",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-11-17",FALSE,"m2-3TrvVw","BS","2023-11-16",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-07",FALSE,"m2-3URpmc","TI","2023-12-07",NA,"RSV - A/B","rsv4p","28",TRUE
 "2023-11-22",FALSE,"m2-3UcdFR","GE","2023-11-22",NA,"RSV - A/B","resp1","4",TRUE
 "2023-11-23",FALSE,"m2-3UvJZf","BE","2023-11-23",NA,"Influenza A","flua4p","25",TRUE
 "2023-12-05",FALSE,"m2-3UwjS8","GE","2023-12-05",NA,"coronavirus OC43, RSV - A/B, SARS-CoV-2","resp31, resp1, wuhan0","4, 4, 4",FALSE
 "2023-12-09",FALSE,"m2-3VEruH","BL","2023-12-09","ambulant","RSV - A/B","rsv4p","20",TRUE
 "2023-12-09",FALSE,"m2-3Vw5ij","BL","2023-12-09",NA,"Influenza A","flua4p","27",TRUE
+"2023-11-21",FALSE,"m2-3WcUWh","ZH","2023-11-21",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-04",FALSE,"m2-3X6288","BS","2023-12-04",NA,NA,NA,NA,TRUE
+"2023-12-06",FALSE,"m2-3ZDMe5","BS","2023-12-06",NA,NA,NA,NA,TRUE
 "2023-11-28",FALSE,"m2-3aogRq","BL","2023-11-28",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-07",FALSE,"m2-3eGjGj","AG","2023-12-07",NA,NA,NA,NA,TRUE
 "2023-12-04",FALSE,"m2-3eYL5p","BE","2023-12-04",NA,"SARS-CoV-2","resp27","4",TRUE
@@ -143,22 +163,39 @@
 "2023-11-22",FALSE,"m2-4AbQfJ","GR","2023-11-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-05",FALSE,"m2-4Brnpo","BS","2023-12-05",NA,"Influenza A","resp6","4",TRUE
 "2023-11-29",FALSE,"m2-4Die3B","VD","2023-11-29",NA,"SARS-CoV-2","resp27","4",TRUE
+"2023-11-16",FALSE,"m2-4H6FKQ","BS","2023-11-16",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-11-29",FALSE,"m2-4JSa55","AG","2023-11-29",NA,"RSV - A/B","resp1","4",TRUE
+"2023-11-25",FALSE,"m2-4MRt65","VD","2023-11-24",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-11-29",FALSE,"m2-4QDHvj","AG","2023-11-29","stationär","Rhino- / Enterovirus","resp16","4",TRUE
 "2023-11-17",FALSE,"m2-4RKSgc","TI","2023-11-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-11-26",FALSE,"m2-4Rt9sw","AG","2023-11-26",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-11-21",FALSE,"m2-4SRYNi","VD","2023-11-21",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-04",FALSE,"m2-4SWHMc","AG","2023-12-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-11-30",FALSE,"m2-4Wa6oG","BL","2023-11-30",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-05",FALSE,"m2-4XJ7rc","ZH","2023-12-05",NA,"coronavirus OC43","resp31","4",TRUE
+"2023-11-25",FALSE,"m2-4kXick","AG","2023-11-25","stationär","SARS-CoV-2","wuhan0","4",TRUE
+"2023-12-04",FALSE,"m2-5xXjjp","GE","2023-12-04",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-04",FALSE,"m2-77H3ok","BE","2023-12-03",NA,NA,NA,NA,TRUE
+"2023-11-17",FALSE,"m2-7D5wpA","GE","2023-11-17",NA,"SARS-CoV-2, Rhino- / Enterovirus","resp27, resp16","4, 4",FALSE
 "2023-11-21",FALSE,"m2-84T89p","BL","2023-11-21",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-08",FALSE,"m2-8ERNNJ","VD","2023-12-07",NA,"RSV - A/B","rspc","4",TRUE
 "2023-11-24",FALSE,"m2-8YYVHP","AG","2023-11-24",NA,"RSV - A/B","rspc","4",TRUE
+"2023-12-05",FALSE,"m2-A3wnwq","GE","2023-12-05",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-12-04",FALSE,"m2-BF2ufp","BE","2023-12-04",NA,"SARS-CoV-2, Rhino- / Enterovirus","resp27, resp16","4, 4",FALSE
+"2023-11-23",FALSE,"m2-BJn2VZ","GE","2023-11-23",NA,"Rhino- / Enterovirus, RSV - A/B","resp16, resp1","4, 4",FALSE
 "2023-11-21",FALSE,"m2-BdtP8F","ZH","2023-11-21",NA,"Influenza A","flua4p","19",TRUE
+"2023-11-20",FALSE,"m2-DxMevL","AG","2023-11-20",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-11-17",FALSE,"m2-HAfT3D","AG","2023-11-17",NA,"Influenza A","flua","4",TRUE
+"2023-12-08",FALSE,"m2-HNd8Cf","AG","2023-12-08",NA,NA,NA,NA,TRUE
+"2023-11-24",FALSE,"m2-HZ7QyC","AG","2023-11-23",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-11-17",FALSE,"m2-JF6ZLz","SO","2023-11-17",NA,"Adenovirus","resp24","4",TRUE
+"2023-12-06",FALSE,"m2-LHQjQ8","GR","2023-12-06",NA,NA,NA,NA,TRUE
+"2023-11-17",FALSE,"m2-Mj6hgu","BL","2023-11-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-11-23",FALSE,"m2-ViCNzM","GR","2023-11-23",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-11-21",FALSE,"m2-WxABYR","GE","2023-11-21",NA,"Parainfluenza 3","resp5","4",TRUE
+"2023-11-17",FALSE,"m2-bkrZsY","BS","2023-11-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-11-29",FALSE,"m2-cGQaRk","BS","2023-11-29",NA,"Adenovirus","resp24","4",TRUE
+"2023-12-08",FALSE,"m2-cJ4gjw","BL","2023-12-08",NA,NA,NA,NA,TRUE
 "2023-12-05",FALSE,"m2-cYQuLw","BS","2023-12-05",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-07",FALSE,"m2-ea6Auk","AG","2023-12-07",NA,"RSV - A/B","rspc","4",TRUE
 "2023-11-20",FALSE,"m2-g7ypWt","VD","2023-11-20",NA,"SARS-CoV-2, Rhino- / Enterovirus","resp27, resp16","4, 4",FALSE
@@ -166,6 +203,9 @@
 "2023-12-04",FALSE,"m2-mDSp2Z","AG","2023-12-04",NA,NA,NA,NA,TRUE
 "2023-11-21",FALSE,"m2-n8JDPN","BS","2023-11-21",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-11-23",FALSE,"m2-pRRooX","AG","2023-11-23",NA,"Adenovirus","resp24","4",TRUE
+"2023-11-16",FALSE,"m2-py6xjr","GE","2023-11-16",NA,"RSV - A/B","resp1","4",TRUE
+"2023-11-26",FALSE,"m2-xeWWEH","BL","2023-11-25","Stationär","SARS-CoV-2","wuhan0","4",TRUE
+"2023-11-29",FALSE,"m2-xvyMxE","BS","2023-11-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-11-20",FALSE,"m2-zGrf4n","GE","2023-11-20",NA,"RSV - A/B","rspc","4",TRUE
 "2023-11-23",FALSE,"m2-zwqknf","GE","2023-11-23",NA,"RSV - A/B","rspc","4",TRUE
 "2023-12-25",FALSE,"m2-2HYR6q","GR","2023-12-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -174,9 +214,12 @@
 "2023-12-29",FALSE,"m2-4RTfpW","BS","2023-12-29",NA,NA,NA,NA,TRUE
 "2023-12-29",FALSE,"m2-4UF9K6","GE","2023-12-28",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-12-29",FALSE,"m2-4i2tZF","BL","2023-12-29",NA,NA,NA,NA,TRUE
+"2023-12-28",FALSE,"m2-5P6eKi","AG","2023-12-28",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-22",FALSE,"m2-5zYzVn","VD","2023-12-22",NA,"Influenza A","resp6","4",TRUE
 "2023-12-27",FALSE,"m2-6ASK9F","ZH","2023-12-27",NA,"RSV - A/B","resp1","4",TRUE
 "2023-12-27",FALSE,"m2-6B9WTD","GR","2023-12-27",NA,"Adenovirus, Rhino- / Enterovirus","resp24, resp16","4, 4",FALSE
+"2024-01-17",FALSE,"m2-8CWP2k","ZH","2024-01-17",NA,NA,NA,NA,TRUE
+"2023-12-29",FALSE,"m2-8jaeDX","GR","2023-12-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-20",FALSE,"m2-95v8yR","BS","2023-12-20",NA,"RSV - A/B","rspc","4",TRUE
 "2023-12-29",FALSE,"m2-996Nxe","TI","2023-12-29",NA,"Influenza A","flua","4",TRUE
 "2023-12-20",FALSE,"m2-B2Ndjg","VD","2023-12-19",NA,"Influenza A, RSV - A/B","resp6, resp1","4, 4",FALSE
@@ -185,15 +228,23 @@
 "2023-12-21",FALSE,"m2-CSKcEb","VD","2023-12-21",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-26",FALSE,"m2-CdKgNc","AG","2023-12-26",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-25",FALSE,"m2-E6qgW7","GR","2023-12-25",NA,"coronavirus HKU1","resp29","4",TRUE
+"2023-12-23",FALSE,"m2-FcqVwz","BS","2023-12-22",NA,"coronavirus 229E","resp28","4",TRUE
 "2023-12-29",FALSE,"m2-FuwQuA","BE","2023-12-29",NA,"Influenza A","resp6","4",TRUE
+"2023-12-28",FALSE,"m2-G4bQxE","BS","2023-12-28",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-27",FALSE,"m2-HAAUgG","ZH","2023-12-27",NA,"RSV - A/B","rspc","4",TRUE
 "2023-12-28",FALSE,"m2-HXGr8V","SZ","2023-12-28",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-12-20",FALSE,"m2-HXHQAT","BS","2023-12-20",NA,"Rhino- / Enterovirus, Metapneumovirus, RSV - A/B","resp16, resp9, resp1","4, 4, 4",FALSE
+"2023-12-21",FALSE,"m2-Kjepas","BL","2023-12-20",NA,"Adenovirus","resp24","4",TRUE
 "2023-12-29",FALSE,"m2-LtV5Uc","AG","2023-12-29",NA,NA,NA,NA,TRUE
 "2023-12-20",FALSE,"m2-MT4r8p","BE","2023-12-20",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-29",FALSE,"m2-NmHGDa","BL","2023-12-29",NA,NA,NA,NA,TRUE
+"2023-12-29",FALSE,"m2-QGowTB","GR","2023-12-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-12-21",FALSE,"m2-QtXNo7","BL","2023-12-21",NA,"SARS-CoV-2","resp27","4",TRUE
+"2023-12-20",FALSE,"m2-RAPmA7","GR","2023-12-20",NA,"RSV - A/B","resp1","4",TRUE
 "2023-12-27",FALSE,"m2-RyXauM","TI","2023-12-27",NA,"Influenza A","flua4p","14",TRUE
+"2023-12-26",FALSE,"m2-SsQjxe","BS","2023-12-26",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-21",FALSE,"m2-SykDBG","BS","2023-12-21",NA,"SARS-CoV-2","resp27","4",TRUE
+"2023-12-21",FALSE,"m2-TzR6v7","GR","2023-11-21",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-23",FALSE,"m2-UqhsDL","BS","2023-12-23",NA,"coronavirus HKU1","resp29","4",TRUE
 "2023-12-24",FALSE,"m2-WrM4pr","GR","2023-12-23",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-22",FALSE,"m2-WrRPVN","GR","2023-12-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -204,7 +255,9 @@
 "2023-12-19",FALSE,"m2-ZAyjrq","BS","2023-12-18",NA,"Influenza A","flua","4",TRUE
 "2023-12-27",FALSE,"m2-Zbf3TG","AG","2023-12-27",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2023-12-29",FALSE,"m2-Zu3u7N","AG","2023-12-29",NA,NA,NA,NA,TRUE
+"2023-12-26",FALSE,"m2-aQHwXg","BL","2023-12-25","ambulant","SARS-CoV-2","resp27","4",TRUE
 "2023-12-27",FALSE,"m2-aWAj59","AG","2023-12-27",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-12-29",FALSE,"m2-bGw77U","BE","2023-12-29","ambulant",NA,NA,NA,TRUE
 "2023-12-29",FALSE,"m2-ba6JBM","ZH","2023-12-29",NA,NA,NA,NA,TRUE
 "2023-12-20",FALSE,"m2-dhUYHU","BS","2023-12-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-20",FALSE,"m2-dj4ZZi","ZH","2023-12-20",NA,"RSV - A/B","resp1","4",TRUE
@@ -212,6 +265,7 @@
 "2023-12-29",FALSE,"m2-eWouw6","AG","2023-12-29",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-29",FALSE,"m2-ex4d6T","VS","2023-12-29",NA,"Influenza A","flua4p","20",TRUE
 "2023-12-27",FALSE,"m2-gnDemF","BS","2023-12-27",NA,"RSV - A/B","resp1","4",TRUE
+"2023-12-20",FALSE,"m2-gyQtpZ","GE","2023-12-20",NA,"Rhino- / Enterovirus, Metapneumovirus, SARS-CoV-2","resp16, resp9, wuhan0","4, 4, 4",FALSE
 "2023-12-24",FALSE,"m2-h7NfFR","AG","2023-12-24","stationär","Influenza A","resp6","4",TRUE
 "2023-12-22",FALSE,"m2-hU5TjU","AG","2023-12-22",NA,"SARS-CoV-2, RSV - A/B","resp27, resp1","4, 4",FALSE
 "2023-12-29",FALSE,"m2-itJLqU","TI","2023-12-29",NA,"Influenza A","flua4p","17",TRUE
@@ -221,12 +275,20 @@
 "2023-12-23",FALSE,"m2-kN6t9e","BL","2023-12-23","stationär","Influenza A","resp6","4",TRUE
 "2023-12-28",FALSE,"m2-kWoLFS","ZH","2023-12-28",NA,NA,NA,NA,TRUE
 "2023-12-26",FALSE,"m2-kwbwf8","AG","2023-12-26",NA,"Influenza A","flua4p","15",TRUE
+"2023-12-19",FALSE,"m2-mGefQv","GE","2023-12-19",NA,"SARS-CoV-2","resp27","4",TRUE
 "2023-12-28",FALSE,"m2-mc3GSV","BS","2023-12-28",NA,"Influenza A","resp6","4",TRUE
 "2023-12-21",FALSE,"m2-n2fvC9","BS","2023-12-21","ambulant","RSV - A/B","rspc","4",TRUE
+"2023-12-19",FALSE,"m2-nWo9Cp","BS","2023-12-19",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2023-12-25",FALSE,"m2-npCqtD","AG","2023-12-24","stationär","SARS-CoV-2","resp27","4",TRUE
 "2023-12-21",FALSE,"m2-oUF7tR","AG","2023-12-21",NA,"Adenovirus","resp24","4",TRUE
+"2023-12-28",FALSE,"m2-ozKj7w","BL","2023-12-28","stationär","RSV - A/B","rsv4p","23",TRUE
+"2023-12-22",FALSE,"m2-pVBsuQ","AG","2023-12-22",NA,"coronavirus OC43","resp31","4",TRUE
+"2023-12-25",FALSE,"m2-q4bsMd","AG","2023-12-24",NA,"Influenza A","flua4p","13",TRUE
+"2023-12-25",FALSE,"m2-qSB5RR","AG","2023-12-25","stationär","Influenza A","resp6","4",TRUE
 "2023-12-29",FALSE,"m2-siJxgd","AG","2023-12-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-01-17",FALSE,"m2-tUrV5z","BS","2024-01-16",NA,NA,NA,NA,TRUE
 "2023-12-28",FALSE,"m2-u89dBs","GR","2023-12-28",NA,"coronavirus OC43, Adenovirus, Rhino- / Enterovirus","resp31, resp24, resp16","4, 4, 4",FALSE
+"2023-12-23",FALSE,"m2-uBCY5S","AG","2023-12-23",NA,"Parainfluenza 3","resp5","4",TRUE
 "2023-12-27",FALSE,"m2-v3KDUF","BL","2023-12-27",NA,"Rhino- / Enterovirus, Parainfluenza 1, RSV - A/B","resp16, resp3, resp1","4, 4, 4",FALSE
 "2023-12-29",FALSE,"m2-vMrrMc","BE","2023-12-28",NA,"Rhino- / Enterovirus, RSV - A/B","resp16, resp1","4, 4",FALSE
 "2023-12-28",FALSE,"m2-vNVFUW","VD","2023-12-28",NA,NA,NA,NA,TRUE
@@ -238,6 +300,8 @@
 "2023-12-20",FALSE,"m2-xw36Je","ZH","2023-12-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2023-12-27",FALSE,"m2-xwkVbK","TI","2023-12-27",NA,"Influenza B","flub4p","14",TRUE
 "2023-12-28",FALSE,"m2-y8t9gC","ZH","2023-12-28",NA,NA,NA,NA,TRUE
+"2023-12-19",FALSE,"m2-y9sf9q","BS","2023-12-19",NA,"SARS-CoV-2","resp27","4",TRUE
+"2023-12-29",FALSE,"m2-yQUmMG","AG","2023-12-29",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-01-19",FALSE,"m2-39kc9U","GE","2024-01-19",NA,"Influenza A","flua4p","14",TRUE
 "2024-01-18",FALSE,"m2-3N5qk2","TI","2024-01-18",NA,"coronavirus OC43","resp31","4",TRUE
 "2024-01-19",FALSE,"m2-4rvG7f","AG","2024-01-19",NA,"Influenza A","flua4p","19",TRUE
@@ -253,6 +317,7 @@
 "2024-01-19",FALSE,"m2-DwiwwU","BL","2024-01-19",NA,"Influenza A","flua","4",TRUE
 "2024-01-12",FALSE,"m2-EELaY9","AG","2024-01-12",NA,"RSV - A/B","resp1","4",TRUE
 "2024-01-12",FALSE,"m2-EJ7fEz","VD","2024-01-11",NA,"coronavirus OC43, Influenza A","resp31, resp6","4, 4",FALSE
+"2024-01-11",FALSE,"m2-EeWtsP","AG","2024-01-11",NA,"RSV - A/B","resp1","4",TRUE
 "2024-01-18",FALSE,"m2-EkvKi3","VD","2024-01-18",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-01-19",FALSE,"m2-F2HifQ","AG","2024-01-18",NA,"Influenza A, SARS-CoV-2","flua4p, wuhan0","14, 4",FALSE
 "2024-01-19",FALSE,"m2-FHPnrx","BL","2024-01-17","ambulant","Influenza A","resp6","4",TRUE
@@ -263,12 +328,16 @@
 "2024-01-16",FALSE,"m2-JH3bEd","VD","2024-01-16",NA,"Influenza A","resp6","4",TRUE
 "2024-01-19",FALSE,"m2-JhKmE4","VD","2024-01-19",NA,NA,NA,NA,TRUE
 "2024-01-19",FALSE,"m2-JjZV5o","ZH","2024-01-19",NA,"Influenza A","flua","4",TRUE
+"2024-01-19",FALSE,"m2-KNmm8P","AG","2024-01-19",NA,"Influenza A","resp6","4",TRUE
 "2024-01-17",FALSE,"m2-KV3dTq","BS","2024-01-16",NA,"Influenza A","resp6","4",TRUE
 "2024-01-15",FALSE,"m2-KcaVfz","BS","2024-01-15",NA,"Influenza A","resp6","4",TRUE
 "2024-01-19",FALSE,"m2-KyAGhk","BS","2024-01-19",NA,NA,NA,NA,TRUE
 "2024-01-11",FALSE,"m2-MHWQwo","VD","2024-01-11",NA,"Influenza A","resp6","4",TRUE
+"2024-01-19",FALSE,"m2-MvvBk9","TI","2024-01-19",NA,"SARS-CoV-2","wuhan0","4",TRUE
+"2024-01-19",FALSE,"m2-ND4BfQ","BS","2024-01-19",NA,"Influenza A","resp6","4",TRUE
 "2024-01-19",FALSE,"m2-NMp4NB","VD","2024-01-19","ambulant","Influenza B","flub","4",TRUE
 "2024-01-17",FALSE,"m2-PGaVE8","GE","2024-01-17",NA,"Influenza A","flua4p","23",TRUE
+"2024-01-12",FALSE,"m2-QEotEA","VD","2024-01-12",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-01-19",FALSE,"m2-Qb4JVo","VD","2024-01-19",NA,"Influenza A","resp6","4",TRUE
 "2024-01-17",FALSE,"m2-QtQaKX","AG","2024-01-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-01-19",FALSE,"m2-SKJgwA","AG","2024-01-18",NA,"Influenza A","flua4p","23",TRUE
@@ -278,28 +347,36 @@
 "2024-01-19",FALSE,"m2-URVR7h","BL","2024-01-19",NA,"Influenza A","flua","4",TRUE
 "2024-01-18",FALSE,"m2-V5iihT","VD","2024-01-18",NA,"Influenza A","flua4p","16",TRUE
 "2024-01-10",FALSE,"m2-VA9Yi5","BS","2024-01-10",NA,"SARS-CoV-2, Influenza A","resp27, resp6","4, 4",FALSE
+"2024-01-11",FALSE,"m2-YRBBfu","AG","2024-01-11",NA,"SARS-CoV-2, SARS-CoV-2","resp27, wuhan0","4, 4",FALSE
+"2024-01-12",FALSE,"m2-b3nbjV","AG","2024-01-12",NA,"Adenovirus, Rhino- / Enterovirus","resp24, resp16","4, 4",FALSE
 "2024-01-15",FALSE,"m2-bHXf8M","BL","2024-01-15",NA,"coronavirus OC43","resp31","4",TRUE
+"2024-01-11",FALSE,"m2-cyCNuA","GR","2024-01-11",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-01-19",FALSE,"m2-dSLRbd","BS","2024-01-19",NA,NA,NA,NA,TRUE
 "2024-01-19",FALSE,"m2-e3y7tj","GE","2024-01-19",NA,"coronavirus OC43","resp31","4",TRUE
 "2024-01-16",FALSE,"m2-eAr6Lo","AG","2024-01-15","stationär","Influenza A","flua4p","17",TRUE
+"2024-01-10",FALSE,"m2-eLb3a4","ZH","2024-01-10",NA,"Influenza A","resp6","4",TRUE
 "2024-01-12",FALSE,"m2-eQSEEP","ZH","2024-01-12",NA,"Adenovirus","resp24","4",TRUE
 "2024-01-15",FALSE,"m2-eRto4A","BS","2024-01-15",NA,"Influenza A","resp6","4",TRUE
 "2024-01-19",FALSE,"m2-fvMrKg","BL","2024-01-19",NA,"Influenza A","flua","4",TRUE
 "2024-01-10",FALSE,"m2-g33df2","AG","2024-01-09","ambulant","Influenza A","resp6","4",TRUE
 "2024-01-19",FALSE,"m2-hPD72F","VD","2024-01-19","ambulant","Influenza B","flub","4",TRUE
+"2024-01-18",FALSE,"m2-i5wLSU","TI","2024-01-18",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-01-15",FALSE,"m2-jQNpYD","AG","2024-01-15",NA,"coronavirus HKU1, Adenovirus, Rhino- / Enterovirus","resp29, resp24, resp16","4, 4, 4",FALSE
 "2024-01-16",FALSE,"m2-kBgpZ4","VD","2024-01-16",NA,"Influenza A","flua4p","21",TRUE
 "2024-01-17",FALSE,"m2-kyRwAc","ZH","2024-01-16","stationär","Influenza A","resp6","4",TRUE
 "2024-01-17",FALSE,"m2-m6243p","ZH","2024-01-17",NA,"Influenza A","flua4p","19",TRUE
 "2024-01-10",FALSE,"m2-mzwDVC","AG","2024-01-10",NA,"RSV - A/B","resp1","4",TRUE
 "2024-01-17",FALSE,"m2-oLXZ9a","BL","2024-01-17",NA,"Influenza A","flua4p","21",TRUE
+"2024-01-11",FALSE,"m2-oUT7WT","GE","2024-01-11",NA,"Adenovirus, SARS-CoV-2","resp24, wuhan0","4, 4",FALSE
 "2024-01-11",FALSE,"m2-opfXjQ","AG","2024-01-11","ambulant","Influenza A","resp6","4",TRUE
 "2024-01-19",FALSE,"m2-owyX2N","AG","2024-01-19",NA,"coronavirus HKU1, SARS-CoV-2, Rhino- / Enterovirus","resp29, resp27, resp16","4, 4, 4",FALSE
+"2024-01-19",FALSE,"m2-pgTuJb","VD","2024-01-19",NA,"Influenza A","resp6","4",TRUE
 "2024-01-10",FALSE,"m2-q2oXnd","SG","2024-01-09",NA,"Adenovirus, Influenza A","resp24, resp6","4, 4",FALSE
 "2024-01-17",FALSE,"m2-q73QXG","AG","2024-01-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-01-12",FALSE,"m2-qi3enc","SG","2024-01-11",NA,"Influenza A","resp6","4",TRUE
 "2024-01-15",FALSE,"m2-qtZxkz","BS","2024-01-15",NA,"Influenza A","resp6","4",TRUE
 "2024-01-11",FALSE,"m2-rYVJCR","TI","2024-01-11",NA,"Influenza A","resp6","4",TRUE
+"2024-01-11",FALSE,"m2-rgcjG5","BL","2024-01-10",NA,"coronavirus 229E","resp28","4",TRUE
 "2024-01-15",FALSE,"m2-s5xTDK","AG","2024-01-15","stationär","Influenza A","resp6","4",TRUE
 "2024-01-11",FALSE,"m2-sJs93G","SG","2024-01-11",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-01-19",FALSE,"m2-ss4Fh8","BL","2024-01-19",NA,"Influenza A","flua","4",TRUE
@@ -328,6 +405,7 @@
 "2024-02-02",FALSE,"m2-4uKVJS","AG","2024-02-02",NA,"Adenovirus, RSV - A/B","resp24, resp1","4, 4",FALSE
 "2024-02-02",FALSE,"m2-5awFWJ","BS","2024-02-02",NA,NA,NA,NA,TRUE
 "2024-02-02",FALSE,"m2-7PrJYT","BL","2024-02-02",NA,"Influenza A","flua","4",TRUE
+"2024-01-30",FALSE,"m2-7xxDyW","BS","2024-01-30",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-01-28",FALSE,"m2-8QXJTp","AG","2024-01-28",NA,"Influenza A","flua4p","16",TRUE
 "2024-01-29",FALSE,"m2-94qGN6","BS","2024-01-29",NA,"Adenovirus","resp24","4",TRUE
 "2024-01-24",FALSE,"m2-9sRA2L","BS","2024-01-23",NA,"Influenza A","resp6","4",TRUE
@@ -345,7 +423,10 @@
 "2024-01-29",FALSE,"m2-GfkGmT","ZH","2024-01-29",NA,"RSV - A/B","rspc","4",TRUE
 "2024-01-25",FALSE,"m2-GmB4Bf","VD","2024-01-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-02-02",FALSE,"m2-HTGuxz","VD","2024-02-02",NA,"Influenza A","resp6","4",TRUE
+"2024-01-31",FALSE,"m2-HqTmsU","BL","2024-01-31",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-01-30",FALSE,"m2-JGQbMy","GE","2024-01-30",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-01-30",FALSE,"m2-K2udH5","BL","2024-01-30",NA,"Influenza A","flua4p","15",TRUE
+"2024-02-02",FALSE,"m2-KfhcBX","ZH","2024-02-02",NA,NA,NA,NA,TRUE
 "2024-01-29",FALSE,"m2-KtHTz8","BL","2024-01-29",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-01-31",FALSE,"m2-KyoUzf","AG","2024-01-31",NA,"Influenza A","resp6","4",TRUE
 "2024-01-31",FALSE,"m2-LCBdav","BS","2024-01-31",NA,"Influenza A","flua","4",TRUE
@@ -367,12 +448,17 @@
 "2024-01-30",FALSE,"m2-VAEUJ5","BL","2024-01-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-01-31",FALSE,"m2-VN3exg","ZH","2024-01-31",NA,"coronavirus OC43, Metapneumovirus","resp31, resp9","4, 4",FALSE
 "2024-01-26",FALSE,"m2-VT3bcF","VD","2024-01-26",NA,"Influenza A","flua4p","13",TRUE
+"2024-02-01",FALSE,"m2-Vvw9xP","BS","2024-02-01",NA,NA,NA,NA,TRUE
+"2024-02-01",FALSE,"m2-Wz9Cf9","AG","2024-02-01",NA,"coronavirus HKU1","resp29","4",TRUE
 "2024-01-29",FALSE,"m2-Y3ivPY","SG","2024-01-26",NA,"RSV - A/B","resp1","4",TRUE
 "2024-02-01",FALSE,"m2-ZPUhQP","SG","2024-01-31",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-02-02",FALSE,"m2-ZQQtQq","BS","2024-02-02",NA,"Influenza A","resp6","4",TRUE
+"2024-02-02",FALSE,"m2-a2vgRP","AG","2024-02-01",NA,NA,NA,NA,TRUE
 "2024-01-24",FALSE,"m2-a5BsxJ","BL","2024-01-24",NA,"Influenza A","resp6","4",TRUE
 "2024-01-29",FALSE,"m2-ahT4kF","BS","2024-01-29",NA,"RSV - A/B","rspc","4",TRUE
+"2024-02-02",FALSE,"m2-d8NDtS","BS","2024-02-02",NA,NA,NA,NA,TRUE
 "2024-01-31",FALSE,"m2-dgZP3L","AG","2024-01-31",NA,"coronavirus HKU1, Rhino- / Enterovirus","resp29, resp16","4, 4",FALSE
+"2024-01-30",FALSE,"m2-eFhm3y","BL","2024-01-30",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-01-29",FALSE,"m2-eHR79K","VD","2024-01-29",NA,"Influenza A","resp6","4",TRUE
 "2024-01-25",FALSE,"m2-fRBPPZ","BE","2024-01-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-01-26",FALSE,"m2-fafZrX","ZH","2024-01-26",NA,"Influenza A","resp6","4",TRUE
@@ -386,6 +472,7 @@
 "2024-02-01",FALSE,"m2-juVwzj","AG","2024-02-01",NA,"Influenza A","flua4p","18",TRUE
 "2024-01-31",FALSE,"m2-k9vgiw","BS","2024-01-31",NA,"RSV - A/B","rsv4p","20",TRUE
 "2024-01-24",FALSE,"m2-kZty8t","BL","2024-01-24",NA,"RSV - A/B","resp1","4",TRUE
+"2024-01-30",FALSE,"m2-kebB6D","BS","2024-01-30",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-02-01",FALSE,"m2-mmYEfJ","TI","2024-02-01",NA,"Influenza A","flua4p","20",TRUE
 "2024-01-24",FALSE,"m2-nf9ieP","VD","2024-01-24",NA,"RSV - A/B","resp1","4",TRUE
 "2024-01-24",FALSE,"m2-rhiSHJ","BS","2024-01-24",NA,"Influenza A, RSV - A/B","resp6, resp1","4, 4",FALSE
@@ -400,6 +487,7 @@
 "2024-02-01",FALSE,"m2-wavLu6","BL","2024-02-01",NA,"Influenza A","resp6","4",TRUE
 "2024-01-31",FALSE,"m2-wnuNvT","BE","2024-01-31",NA,"SARS-CoV-2, Influenza B","resp27, resp7","4, 4",FALSE
 "2024-01-24",FALSE,"m2-xWyMkG","SO","2024-01-24",NA,"SARS-CoV-2, Adenovirus, Metapneumovirus","resp27, resp24, resp9","4, 4, 4",FALSE
+"2024-02-02",FALSE,"m2-ytcyWN","BS","2024-02-02",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-01-29",FALSE,"m2-zxhtR4","AG","2024-01-29",NA,"RSV - A/B","rspc","4",TRUE
 "2024-02-16",FALSE,"m2-2b8YpQ","BL","2024-02-16",NA,"Influenza A","resp6","4",TRUE
 "2024-02-19",FALSE,"m2-5pS65p","BS","2024-02-19",NA,"coronavirus OC43","resp31","4",TRUE
@@ -411,6 +499,7 @@
 "2024-02-19",FALSE,"m2-AcEG8S","AG","2024-02-18",NA,"Influenza A","flua4p","21",TRUE
 "2024-02-19",FALSE,"m2-AnXy9n","BL","2024-02-16",NA,"RSV - A/B","resp1","4",TRUE
 "2024-02-19",FALSE,"m2-C983Zw","AG","2024-02-19","ambulant","Influenza A","flua4p","20",TRUE
+"2024-02-21",FALSE,"m2-DBdVqJ","BS","2024-02-21",NA,NA,NA,NA,TRUE
 "2024-02-15",FALSE,"m2-DFjiCN","GR","2024-02-15",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-02-21",FALSE,"m2-DJP3Lz","BE","2024-02-20",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-02-15",FALSE,"m2-DMLKnU","BS","2024-02-15",NA,"Influenza A","flua4p","20",TRUE
@@ -432,6 +521,7 @@
 "2024-02-21",FALSE,"m2-QfJVKo","BS","2024-02-21",NA,NA,NA,NA,TRUE
 "2024-02-23",FALSE,"m2-QqAEGg","VS","2024-02-22",NA,"Influenza A","resp6","4",TRUE
 "2024-02-21",FALSE,"m2-RCdbJH","BL","2024-02-21",NA,"RSV - A/B","rspc","4",TRUE
+"2024-02-22",FALSE,"m2-S3DKuK","BE","2024-02-22",NA,NA,NA,NA,TRUE
 "2024-02-22",FALSE,"m2-SrvHnQ","BL","2024-02-22",NA,"RSV - A/B","resp1","4",TRUE
 "2024-02-16",FALSE,"m2-TLiVHZ","SZ","2024-02-16",NA,"Influenza A","flua","4",TRUE
 "2024-02-15",FALSE,"m2-TdUb5d","GR","2024-02-15",NA,"RSV - A/B","resp1","4",TRUE
@@ -440,6 +530,7 @@
 "2024-02-17",FALSE,"m2-WXLdR6","BS","2024-02-17",NA,"coronavirus OC43","resp31","4",TRUE
 "2024-02-22",FALSE,"m2-WjfCkV","GR","2024-02-22",NA,NA,NA,NA,TRUE
 "2024-02-16",FALSE,"m2-XMdsys","SO","2024-02-16",NA,"Influenza A","flua","4",TRUE
+"2024-02-20",FALSE,"m2-XP6vJf","AG","2024-02-20","stationär","SARS-CoV-2","wuhan0","4",TRUE
 "2024-02-16",FALSE,"m2-Y4wzR3","SZ","2024-02-16",NA,"Influenza A","flua","4",TRUE
 "2024-02-22",FALSE,"m2-YB7Zxj","BS","2024-02-22",NA,"coronavirus OC43","resp31","4",TRUE
 "2024-02-16",FALSE,"m2-YBrMoY","BL","2024-02-16",NA,"Influenza A","flua4p","24",TRUE
@@ -448,6 +539,8 @@
 "2024-02-16",FALSE,"m2-YowhiU","AG","2024-02-16","stationär","Influenza A","flua4p","23",TRUE
 "2024-02-21",FALSE,"m2-ZmMFzV","BE","2024-02-21",NA,NA,NA,NA,TRUE
 "2024-02-15",FALSE,"m2-aXHsPh","BE","2024-02-15","ambulant","Rhino- / Enterovirus","resp16","4",TRUE
+"2024-02-20",FALSE,"m2-b6DTSx","BS","2024-02-20",NA,"RSV - A/B","resp1","4",TRUE
+"2024-02-23",FALSE,"m2-bKx9uz","ZH","2024-02-23",NA,NA,NA,NA,TRUE
 "2024-02-19",FALSE,"m2-c4imMZ","AG","2024-02-19",NA,"coronavirus HKU1, Parainfluenza 3","resp29, resp5","4, 4",FALSE
 "2024-02-19",FALSE,"m2-cVTQNS","AG","2024-02-19",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-02-22",FALSE,"m2-cnXMeW","BE","2024-02-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -468,6 +561,8 @@
 "2024-02-16",FALSE,"m2-kNU7js","AG","2024-02-15","stationär","Influenza A","resp6","4",TRUE
 "2024-02-22",FALSE,"m2-kZFs5N","BE","2024-02-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-02-16",FALSE,"m2-kndAeN","BS","2024-02-17",NA,"coronavirus OC43","resp31","4",TRUE
+"2024-02-16",FALSE,"m2-m9C3Fw","BS","2024-02-16",NA,"RSV - A/B","resp1","4",TRUE
+"2024-02-22",FALSE,"m2-mEKjA3","BE","2024-02-20",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-02-16",FALSE,"m2-mL3AEJ","BS","2024-02-16",NA,"Influenza A","resp6","4",TRUE
 "2024-02-20",FALSE,"m2-oXZ34Q","SO","2024-02-19",NA,"Influenza A","flua","4",TRUE
 "2024-02-22",FALSE,"m2-os283P","BS","2024-02-22",NA,"Influenza A","flua","4",TRUE
@@ -475,6 +570,7 @@
 "2024-02-19",FALSE,"m2-phtHeq","BL","2024-02-19",NA,"Influenza A","flua4p","23",TRUE
 "2024-02-22",FALSE,"m2-qEvaf6","VD","2024-02-22",NA,"Influenza B","flub4p","20",TRUE
 "2024-02-15",FALSE,"m2-qzSccH","BS","2024-02-15",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-02-15",FALSE,"m2-r5h33U","TI","2024-02-15",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-02-15",FALSE,"m2-s29k7d","BS","2024-02-15",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-02-17",FALSE,"m2-sVxWai","AG","2024-02-17",NA,"RSV - A/B","rsv4p","18",TRUE
 "2024-02-15",FALSE,"m2-tADQ7W","BS","2024-02-15",NA,"Metapneumovirus","resp9","4",TRUE
@@ -485,8 +581,12 @@
 "2024-02-16",FALSE,"m2-xw6CDX","SG","2024-02-15",NA,"Influenza B","flub","4",TRUE
 "2024-02-16",FALSE,"m2-yLHwrL","AG","2024-02-16",NA,"coronavirus HKU1, Adenovirus, Rhino- / Enterovirus","resp29, resp24, resp16","4, 4, 4",FALSE
 "2024-02-23",FALSE,"m2-yebiMQ","ZH","2024-02-23",NA,"SARS-CoV-2, Adenovirus, RSV - A/B","resp27, resp24, resp1","4, 4, 4",FALSE
+"2024-02-23",FALSE,"m2-yo2uLX","GE","2024-02-23",NA,NA,NA,NA,TRUE
+"2024-02-20",FALSE,"m2-zRHriZ","ZH","2024-02-20","ambulant","SARS-CoV-2","resp27","4",TRUE
 "2024-02-28",FALSE,"m2-2hKeW2","AG","2024-02-27",NA,"Influenza A","flua4p","19",TRUE
 "2024-03-01",FALSE,"m2-4Q8Stt","VD","2024-02-29",NA,"Influenza A","flua4p","27",TRUE
+"2024-02-29",FALSE,"m2-4jcuSZ","BE","2024-02-29",NA,"Influenza A","resp6","4",TRUE
+"2024-03-03",FALSE,"m2-5YkKkJ","BL","2024-03-02","stationär","SARS-CoV-2","wuhan0","4",TRUE
 "2024-03-07",FALSE,"m2-5fSMj3","SG","2024-03-07",NA,"RSV - A/B","rspc","4",TRUE
 "2024-03-03",FALSE,"m2-5pzgQK","BS","2024-03-03",NA,"Adenovirus","resp24","4",TRUE
 "2024-02-27",FALSE,"m2-5sHh2V","BS","2024-02-27",NA,"Influenza A","resp6","4",TRUE
@@ -509,17 +609,20 @@
 "2024-02-28",FALSE,"m2-FPVUGC","VS","2024-02-28",NA,"Influenza A","flua4p","21",TRUE
 "2024-03-04",FALSE,"m2-FXFt6J","BS","2024-03-04",NA,"Influenza A","resp6","4",TRUE
 "2024-03-05",FALSE,"m2-FcN3wC","AG","2024-03-05","ambulant","RSV - A/B","rspc","4",TRUE
+"2024-03-05",FALSE,"m2-J8gdxX","AG","2024-03-05","stationär",NA,NA,NA,TRUE
 "2024-02-27",FALSE,"m2-JwaVwn","BL","2024-02-27","ambulant","Adenovirus","resp24","4",TRUE
 "2024-03-07",FALSE,"m2-K4veaG","BE","2024-03-07","ambulant","RSV - A/B","rspc","4",TRUE
 "2024-03-02",FALSE,"m2-KRVvQ6","BS","2024-03-02",NA,"Parainfluenza 1","resp3","4",TRUE
 "2024-03-06",FALSE,"m2-LBWudx","SO","2024-03-05",NA,NA,NA,NA,TRUE
 "2024-02-27",FALSE,"m2-LYceeY","AG","2024-02-26",NA,"Influenza A","flua4p","20",TRUE
 "2024-03-04",FALSE,"m2-MM3MdE","AG","2024-03-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-03-27",FALSE,"m2-MduP8g","VD","2024-03-26",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-03-04",FALSE,"m2-ND22rx","BL","2024-03-04",NA,"RSV - A/B","rsv4p","28",TRUE
 "2024-03-06",FALSE,"m2-NESNdH","AG","2024-03-06",NA,"Rhino- / Enterovirus, Influenza A","resp16, resp6","4, 4",FALSE
 "2024-03-04",FALSE,"m2-QPbjvy","BS","2024-03-04",NA,"coronavirus HKU1, SARS-CoV-2","resp29, resp27","4, 4",FALSE
 "2024-03-03",FALSE,"m2-RVmPKr","AG","2024-03-03","stationär","RSV - A/B","rsv4p","18",TRUE
 "2024-03-01",FALSE,"m2-Rfbege","BE","2024-03-01",NA,"Influenza A","flua4p","24",TRUE
+"2024-03-05",FALSE,"m2-RgDboR","GE","2024-03-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-02-28",FALSE,"m2-RnGqmM","BS","2024-02-28",NA,"Influenza B","resp7","4",TRUE
 "2024-03-01",FALSE,"m2-RxAPHZ","BS","2024-03-01",NA,"Influenza A","resp6","4",TRUE
 "2024-03-03",FALSE,"m2-TGyJvL","AG","2024-03-02",NA,"RSV - A/B","resp1","4",TRUE
@@ -546,6 +649,7 @@
 "2024-03-04",FALSE,"m2-f8rfBe","BL","2024-03-04",NA,"Influenza A","flua4p","19",TRUE
 "2024-03-04",FALSE,"m2-gWL8ho","BS","2024-03-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-06",FALSE,"m2-gaQkyT","BS","2024-03-06",NA,"Adenovirus, Influenza A","resp24, resp6","4, 4",FALSE
+"2024-03-06",FALSE,"m2-geuXPA","BS","2024-03-05",NA,NA,NA,NA,TRUE
 "2024-03-22",FALSE,"m2-ivPtpm","SZ","2024-03-22",NA,"Influenza B","flub4p","38",TRUE
 "2024-02-29",FALSE,"m2-j3ZXpL","BL","2024-02-29",NA,"Adenovirus, Influenza A","resp24, flua","4, 4",FALSE
 "2024-02-27",FALSE,"m2-jW9ody","BS","2024-02-27",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -580,6 +684,7 @@
 "2024-03-11",FALSE,"m2-844sRF","BE","2024-03-11",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-03-21",FALSE,"m2-8Lbzid","GE","2024-03-21",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-11",FALSE,"m2-9Txrgy","GR","2024-03-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-03-15",FALSE,"m2-9mR9wF","BE","2024-03-15",NA,NA,NA,NA,TRUE
 "2024-03-26",FALSE,"m2-Az9gZK","GE","2024-03-26",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-14",FALSE,"m2-Bvnu3e","BS","2024-03-13",NA,"Influenza B","flub4p","23",TRUE
 "2024-03-25",FALSE,"m2-CdyN3k","ZH","2024-03-25",NA,"Influenza B","resp7","4",TRUE
@@ -587,6 +692,7 @@
 "2024-03-08",FALSE,"m2-FNTK2L","AG","2024-03-07",NA,"Influenza A","resp6","4",TRUE
 "2024-03-13",FALSE,"m2-FnGQ6o","BS","2024-03-13",NA,"coronavirus OC43, SARS-CoV-2","resp31, resp27","4, 4",FALSE
 "2024-03-11",FALSE,"m2-HENhxe","GR","2024-03-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-03-22",FALSE,"m2-HYjjpE","GR","2024-03-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-14",FALSE,"m2-JT7vXV","BL","2024-03-13","stationär","RSV - A/B","rsv4p","29",TRUE
 "2024-03-14",FALSE,"m2-JiBCDX","ZH","2024-03-14",NA,"Adenovirus","resp24","4",TRUE
 "2024-03-22",FALSE,"m2-KQeqLD","BS","2024-03-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -603,7 +709,10 @@
 "2024-03-11",FALSE,"m2-TPgies","BS","2024-03-11",NA,"Influenza A, SARS-CoV-2","flua4p, wuhan0","17, 4",FALSE
 "2024-03-20",FALSE,"m2-TPyZPY","TI","2024-03-20",NA,"coronavirus 229E","resp28","4",TRUE
 "2024-03-11",FALSE,"m2-U2wv8C","BS","2024-03-11",NA,"Adenovirus","resp24","4",TRUE
+"2024-03-21",FALSE,"m2-UZHXH2","BL","2024-03-21",NA,"Metapneumovirus","resp9","4",TRUE
+"2024-03-26",FALSE,"m2-Uy536D","BE","2024-03-26",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-22",FALSE,"m2-V8dKQC","AG","2024-03-22",NA,"Adenovirus, Metapneumovirus","resp24, resp9","4, 4",FALSE
+"2024-03-10",FALSE,"m2-V9rHyG","VD","2024-03-10",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-03-25",FALSE,"m2-W4ZnHe","BS","2024-03-25",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-03-08",FALSE,"m2-WydUVb","SG","2024-03-08",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-03-08",FALSE,"m2-Xo2ZNk","TI","2024-03-08",NA,"Influenza B","flub4p","14",TRUE
@@ -616,12 +725,14 @@
 "2024-03-20",FALSE,"m2-dLeBHd","AG","2024-03-19",NA,"coronavirus 229E, Rhino- / Enterovirus","resp28, resp16","4, 4",FALSE
 "2024-03-09",FALSE,"m2-eqKwzZ","BS","2024-03-09",NA,"Influenza A","resp6","4",TRUE
 "2024-03-15",FALSE,"m2-fU2W5P","AG","2024-03-15",NA,"coronavirus HKU1, Metapneumovirus","resp29, resp9","4, 4",FALSE
+"2024-03-20",FALSE,"m2-fdcBSQ","AG","2024-03-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-27",FALSE,"m2-gEpiDa","BE","2024-03-27","Gren chars éq","Adenovirus","resp24","4",TRUE
 "2024-03-26",FALSE,"m2-gNigDj","SG","2024-03-26",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-03-27",FALSE,"m2-iJM4xY","AG","2024-03-27",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-12",FALSE,"m2-iZ7TLc","AG","2024-03-12","ambulant","RSV - A/B","rspc","4",TRUE
 "2024-03-12",FALSE,"m2-iwGUsN","AG","2024-03-12",NA,"Influenza B","flub","4",TRUE
 "2024-03-20",FALSE,"m2-kLCkfP","AG","2024-03-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-03-13",FALSE,"m2-kPFHzF","AG","2024-03-12","stationär","SARS-CoV-2","wuhan0","4",TRUE
 "2024-03-13",FALSE,"m2-kcunqh","BL","2024-03-13","stationär","Influenza A","resp6","4",TRUE
 "2024-03-22",FALSE,"m2-m5XiUJ","GE","2024-03-22",NA,"coronavirus NL63, Rhino- / Enterovirus","resp30, resp16","4, 4",FALSE
 "2024-03-25",FALSE,"m2-mzGTDC","GR","2024-03-25",NA,"Adenovirus","resp24","4",TRUE
@@ -646,6 +757,7 @@
 "2024-03-14",FALSE,"m2-u9ky3K","ZH","2024-03-14",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-28",FALSE,"m2-vADJL4","SG","2024-03-27",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-08",FALSE,"m2-wEEh7T","BS","2024-03-08",NA,"coronavirus OC43","resp31","4",TRUE
+"2024-03-11",FALSE,"m2-wTfwr8","GR","2024-03-11",NA,"coronavirus OC43","resp31","4",TRUE
 "2024-03-15",FALSE,"m2-wgdG7L","AG","2024-03-15",NA,NA,NA,NA,TRUE
 "2024-03-29",FALSE,"m2-xvvaff","BL","2024-03-29","stationär","Parainfluenza 3","resp5","4",TRUE
 "2024-03-27",FALSE,"m2-xwByzt","ZH","2024-03-27",NA,"Metapneumovirus","resp9","4",TRUE
@@ -658,11 +770,13 @@
 "2024-04-15",FALSE,"m2-3CuPYs","SG","2024-04-13",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-03-20",FALSE,"m2-3p7s5a","BL","2024-03-20",NA,"Influenza A","flua","4",TRUE
 "2024-04-10",FALSE,"m2-4tGPY7","BS","2024-04-10",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-04-07",FALSE,"m2-5DzhxH","AG","2024-04-06",NA,NA,NA,NA,TRUE
 "2024-04-15",FALSE,"m2-5ejFCt","BS","2024-04-15",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-17",FALSE,"m2-5yo4pw","SO","2024-04-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-28",FALSE,"m2-6RgJcf","BE","2024-03-28","ambulant",NA,NA,NA,TRUE
 "2024-04-04",FALSE,"m2-87SFKH","BE","2024-04-04",NA,"Adenovirus","resp24","4",TRUE
 "2024-03-31",FALSE,"m2-9eyPAv","AG","2024-03-30",NA,"RSV - A/B, Influenza A","rspc, flua","4, 4",FALSE
+"2024-04-15",FALSE,"m2-9qnCXK","AG","2024-04-15","stationär","SARS-CoV-2","wuhan0","4",TRUE
 "2024-04-06",FALSE,"m2-A4kPrC","BS","2024-04-06",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-04-11",FALSE,"m2-A7c6LH","AG","2024-04-11",NA,"Influenza A","flua","4",TRUE
 "2024-04-02",FALSE,"m2-AqTpPL","BS","2024-04-02",NA,"coronavirus 229E","resp28","4",TRUE
@@ -706,20 +820,25 @@
 "2024-04-15",FALSE,"m2-bKw5aQ","SG","2024-04-13",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-09",FALSE,"m2-bRA5R7","SO","2024-04-09",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-03-28",FALSE,"m2-ctWvEg","BS","2024-03-28",NA,NA,NA,NA,TRUE
+"2024-04-07",FALSE,"m2-dJPLxU","BS","2024-04-07",NA,NA,NA,NA,TRUE
 "2024-04-10",FALSE,"m2-eDDeFg","BS","2024-04-09",NA,"RSV - A/B","resp1","4",TRUE
 "2024-04-03",FALSE,"m2-gJTbaX","BE","2024-04-03",NA,"Adenovirus","resp24","4",TRUE
 "2024-04-07",FALSE,"m2-gSCvvQ","BS","2024-04-07",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-04-18",FALSE,"m2-gUJuDm","ZH","2024-04-18",NA,NA,NA,NA,TRUE
 "2024-04-03",FALSE,"m2-gUyqiB","SG","2024-04-02",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-01",FALSE,"m2-gvJsdn","BL","2024-03-30",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-04-03",FALSE,"m2-gxCe5X","TI","2024-04-03",NA,"Rhino- / Enterovirus, Parainfluenza 3","resp16, resp5","4, 4",FALSE
 "2024-04-03",FALSE,"m2-hf53FC","BE","2024-04-03",NA,"Adenovirus","resp24","4",TRUE
 "2024-03-20",FALSE,"m2-iAMjS3","BL","2024-03-19",NA,"Influenza B","flub4p","23",TRUE
+"2024-04-02",FALSE,"m2-kGZ6QJ","AG","2024-04-02",NA,"SARS-CoV-2","wuhan0","4",TRUE
+"2024-04-16",FALSE,"m2-mr63Tu","BS","2024-04-16",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-04-18",FALSE,"m2-oKbCeC","BS","2024-04-18",NA,NA,NA,NA,TRUE
 "2024-04-15",FALSE,"m2-on2kE2","SG","2024-04-13",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-04-18",FALSE,"m2-q8yvBm","BS","2024-04-18",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-04-11",FALSE,"m2-qFQ9kJ","SG","2024-04-10",NA,"RSV - A/B","resp1","4",TRUE
 "2024-04-11",FALSE,"m2-qeHUBn","BL","2024-04-11",NA,"Influenza A","flua4p","21",TRUE
 "2024-04-04",FALSE,"m2-qyxpsA","GR","2024-04-03",NA,"Adenovirus, Parainfluenza 3","resp24, resp5","4, 4",FALSE
+"2024-04-15",FALSE,"m2-rRB3bA","BE","2024-04-14",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-03",FALSE,"m2-sJfkNn","SO","2024-04-02",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-02",FALSE,"m2-uGN5sK","BE","2024-04-02",NA,"Influenza B","resp7","4",TRUE
 "2024-04-04",FALSE,"m2-vtujVi","GR","2024-04-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -742,8 +861,10 @@
 "2024-04-23",FALSE,"m2-B9yAnZ","GR","2024-04-23",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-23",FALSE,"m2-BeNAzi","AG","2024-05-23","stationär",NA,NA,NA,TRUE
 "2024-05-24",FALSE,"m2-BvdErP","AG","2024-05-24",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-05-17",FALSE,"m2-CYLYcf","VD","2024-05-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-29",FALSE,"m2-DDDQX6","SO","2024-04-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-15",FALSE,"m2-DEjW35","AG","2024-05-15",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-02",FALSE,"m2-DhoSq8","BL","2024-06-02","stationär","SARS-CoV-2","wuhan0","4",TRUE
 "2024-05-02",FALSE,"m2-DxxXSa","SO","2024-05-02",NA,"Adenovirus, Rhino- / Enterovirus, Metapneumovirus","resp24, resp16, resp9","4, 4, 4",FALSE
 "2024-05-15",FALSE,"m2-DyxqXR","TI","2024-05-15",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-22",FALSE,"m2-EeAsKt","BE","2024-05-22","ambulant","Adenovirus, Rhino- / Enterovirus, Parainfluenza 3","resp24, resp16, resp5","4, 4, 4",FALSE
@@ -782,14 +903,18 @@
 "2024-05-29",FALSE,"m2-XQifEe","BS","2024-05-29",NA,NA,NA,NA,TRUE
 "2024-05-23",FALSE,"m2-XnyDGN","AG","2024-05-23","stationär","Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-02",FALSE,"m2-Y35UtQ","BS","2024-05-02",NA,NA,NA,NA,TRUE
+"2024-05-02",FALSE,"m2-YVUy3M","BL","2024-05-02","stationär",NA,NA,NA,TRUE
 "2024-05-30",FALSE,"m2-ZgsKzM","GE","2024-05-30",NA,"Influenza A","flua","4",TRUE
 "2024-05-21",FALSE,"m2-aEURHb","AG","2024-05-21",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-04-24",FALSE,"m2-beWyN8","BS","2024-04-24",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-26",FALSE,"m2-bpDXvz","BS","2024-04-26",NA,"Influenza A","resp6","4",TRUE
 "2024-04-24",FALSE,"m2-c5EJ2e","GR","2024-04-24",NA,"Rhino- / Enterovirus, Metapneumovirus","resp16, resp9","4, 4",FALSE
 "2024-05-22",FALSE,"m2-c64chp","BS","2024-05-22",NA,"coronavirus NL63","resp30","4",TRUE
+"2024-05-01",FALSE,"m2-cAUJ8G","BS","2024-05-01",NA,NA,NA,NA,TRUE
+"2024-06-01",FALSE,"m2-eyf48e","AG","2024-06-01",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-05-17",FALSE,"m2-foR5U6","BS","2024-05-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-29",FALSE,"m2-gJxtTw","BS","2024-04-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-05-02",FALSE,"m2-gycK6z","AG","2024-05-02",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-05-23",FALSE,"m2-hN9rKA","BS","2024-05-23",NA,NA,NA,NA,TRUE
 "2024-05-23",FALSE,"m2-i5L4XV","SZ","2024-05-23",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-22",FALSE,"m2-i7rgAJ","BL","2024-05-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -805,6 +930,7 @@
 "2024-04-30",FALSE,"m2-nyEWXT","LU","2024-04-30",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-21",FALSE,"m2-sU5zcm","BS","2024-05-21",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-22",FALSE,"m2-taRC6a","AG","2024-05-22",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-05-19",FALSE,"m2-tyPbyx","BS","2024-05-19",NA,"Adenovirus","resp24","4",TRUE
 "2024-05-22",FALSE,"m2-uBvkpM","BL","2024-05-21","ambulant","Rhino- / Enterovirus","resp16","4",TRUE
 "2024-04-25",FALSE,"m2-ujTsiu","AG","2024-04-25",NA,"Adenovirus, Parainfluenza 3","resp24, resp5","4, 4",FALSE
 "2024-05-30",FALSE,"m2-voKpyk","BS","2024-05-30",NA,NA,NA,NA,TRUE
@@ -814,6 +940,7 @@
 "2024-04-26",FALSE,"m2-y5MaLL","GR","2024-04-26",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-21",FALSE,"m2-z6aniA","BE","2024-05-21",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-05-23",FALSE,"m2-zCZeMY","BS","2024-05-23",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-05-17",FALSE,"m2-zSRdpr","BS","2024-05-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-14",FALSE,"m2-2U2Jee","TI","2024-06-14",NA,"Adenovirus","resp24","4",TRUE
 "2024-06-19",FALSE,"m2-33ZkFq","BS","2024-06-18",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-12",FALSE,"m2-38ZdrU","BS","2024-06-12",NA,"Adenovirus","resp24","4",TRUE
@@ -821,30 +948,46 @@
 "2024-05-28",FALSE,"m2-3i3Uwr","SH","2024-05-28",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-31",FALSE,"m2-53qCwY","TI","2024-05-31",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-06-11",FALSE,"m2-6L5a2E","BL","2024-06-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-11",FALSE,"m2-6Y7wwW","AG","2024-06-10",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-17",FALSE,"m2-72ML7A","ZH","2024-06-15",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-31",FALSE,"m2-7wiDTM","SG","2024-05-31",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-19",FALSE,"m2-8hY6Dm","BS","2024-06-18",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-05-31",FALSE,"m2-9PGa2e","ZH","2024-05-31",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-18",FALSE,"m2-9fkKmb","SG","2024-06-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-05-26",FALSE,"m2-CcozBt","AG","2024-05-26","stationär","SARS-CoV-2","resp27","4",TRUE
+"2024-05-28",FALSE,"m2-CndoXG","SG","2024-05-28",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-11",FALSE,"m2-DrqXiz","AG","2024-06-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-18",FALSE,"m2-E7Zvh2","VD","2024-06-18",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-05-28",FALSE,"m2-ED6Fyo","BS","2024-05-28",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-05-29",FALSE,"m2-EL7R64","ZH","2024-05-29",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-06-12",FALSE,"m2-F2A5hL","ZH","2024-06-12",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-12",FALSE,"m2-FSofCc","GR","2024-06-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-27",FALSE,"m2-FdCi2x","GR","2024-05-27",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-11",FALSE,"m2-HAgzMY","VD","2024-06-10",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-16",FALSE,"m2-HkLtpW","GR","2024-06-16",NA,"Rhino- / Enterovirus, Metapneumovirus","resp16, resp9","4, 4",FALSE
 "2024-05-27",FALSE,"m2-KVNVaN","SG","2024-05-25",NA,"Rhino- / Enterovirus, Metapneumovirus","resp16, resp9","4, 4",FALSE
 "2024-05-31",FALSE,"m2-KVWDvS","BL","2024-05-31",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-05-27",FALSE,"m2-KoYpuA","BL","2024-05-27","ambulant","Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-27",FALSE,"m2-MMBGwz","AG","2024-05-27","stationär","SARS-CoV-2","resp27","4",TRUE
+"2024-06-11",FALSE,"m2-NdSZao","VD","2024-06-11",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-05-27",FALSE,"m2-PQXC8c","AG","2024-05-27",NA,"Adenovirus, Rhino- / Enterovirus","resp24, resp16","4, 4",FALSE
 "2024-06-14",FALSE,"m2-QLZMia","VD","2024-06-14",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-11",FALSE,"m2-QSABoB","ZH","2024-06-11",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-06-19",FALSE,"m2-SLATGK","ZH","2024-06-19",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-27",FALSE,"m2-ToojD7","AG","2024-05-27",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-31",FALSE,"m2-VC5uPG","AG","2024-05-31",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-06-14",FALSE,"m2-VduGeq","ZH","2024-06-14",NA,"SARS-CoV-2, Rhino- / Enterovirus","resp27, resp16","4, 4",FALSE
+"2024-06-12",FALSE,"m2-VxuZZ5","ZH","2024-06-12",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-12",FALSE,"m2-W6ovV8","ZH","2024-06-12",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-14",FALSE,"m2-WzJKmC","ZH","2024-06-14",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-27",FALSE,"m2-X4aXWG","BS","2024-05-27",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-05-28",FALSE,"m2-XKPNE8","SG","2024-05-28",NA,"Metapneumovirus","resp9","4",TRUE
+"2024-06-19",FALSE,"m2-XtEZLy","VD","2024-06-19",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-05-29",FALSE,"m2-YKrzgQ","AG","2024-05-29",NA,NA,NA,NA,TRUE
 "2024-06-17",FALSE,"m2-YU9PZ9","ZH","2024-06-14",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-18",FALSE,"m2-ZmNRZF","AG","2024-06-18",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-05-31",FALSE,"m2-aXTz6G","GR","2024-05-30",NA,NA,NA,NA,TRUE
+"2024-05-28",FALSE,"m2-bsxa4x","BS","2024-05-27",NA,"Adenovirus","resp24","4",TRUE
 "2024-03-27",FALSE,"m2-bzwaUX","ZH","2024-03-27",NA,NA,NA,NA,TRUE
 "2024-05-31",FALSE,"m2-cDbC2u","BL","2024-05-31","ambulant","Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-29",FALSE,"m2-dGrQnZ","BL","2024-05-28","stationär","Rhino- / Enterovirus","resp16","4",TRUE
@@ -852,17 +995,20 @@
 "2024-05-28",FALSE,"m2-e3Nkuo","SG","2024-05-27",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-03-26",FALSE,"m2-ekz6rP","BS","2024-03-26",NA,NA,NA,NA,TRUE
 "2024-06-17",FALSE,"m2-fChozQ","AG","2024-06-17",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-06-17",FALSE,"m2-fngLcf","TI","2024-06-17",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-06-18",FALSE,"m2-h54gk9","BS","2024-06-18",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-06-18",FALSE,"m2-h6xHT3","ZH","2024-06-18",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-13",FALSE,"m2-hHcuT8","ZH","2024-06-13",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-31",FALSE,"m2-hbJFV4","BS","2024-05-31",NA,NA,NA,NA,TRUE
 "2024-05-24",FALSE,"m2-htPaJo","BE","2024-05-24",NA,"Metapneumovirus","resp9","4",TRUE
+"2024-06-18",FALSE,"m2-j2ZAw5","AG","2024-06-18",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-24",FALSE,"m2-kC493R","SG","2024-05-24",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-27",FALSE,"m2-kFR3xd","ZH","2024-05-27",NA,"Rhino- / Enterovirus, Parainfluenza 2","resp16, resp4","4, 4",FALSE
 "2024-05-27",FALSE,"m2-kLPe6f","BS","2024-05-27",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-06-17",FALSE,"m2-n45rMk","ZH","2024-06-17",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-18",FALSE,"m2-n7yYDq","BL","2024-06-18","ambulant","Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-14",FALSE,"m2-n8sRDV","ZH","2024-06-14",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-05-30",FALSE,"m2-o2p5BQ","ZH","2024-05-30",NA,"coronavirus HKU1","resp29","4",TRUE
 "2024-05-27",FALSE,"m2-oAoMiY","BE","2024-05-27",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-05-28",FALSE,"m2-oD3bo4","TI","2024-05-28",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-14",FALSE,"m2-oUUEge","TI","2024-06-14",NA,"Metapneumovirus","resp9","4",TRUE
@@ -870,30 +1016,46 @@
 "2024-05-29",FALSE,"m2-oz8MAe","ZH","2024-05-29",NA,"coronavirus 229E","resp28","4",TRUE
 "2024-05-27",FALSE,"m2-pCrZWV","AG","2024-05-27",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-03-28",FALSE,"m2-pq6GYd","BL","2024-03-27","stationär",NA,NA,NA,TRUE
+"2024-06-12",FALSE,"m2-q8ErCF","ZH","2024-06-12",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-17",FALSE,"m2-qr3z7p","ZH","2024-06-14",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-14",FALSE,"m2-rDUYCt","AG","2024-06-14","stationär","Parainfluenza 3","resp5","4",TRUE
+"2024-05-30",FALSE,"m2-rSEgx7","ZH","2024-05-30",NA,NA,NA,NA,TRUE
+"2024-05-24",FALSE,"m2-s96RDD","AG","2024-05-24",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-06-12",FALSE,"m2-sSV2Bt","SH","2024-06-10",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-05-29",FALSE,"m2-sp287v","BS","2024-05-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-27",FALSE,"m2-tDuWkr","BE","2024-05-27",NA,"Metapneumovirus","resp9","4",TRUE
+"2024-06-18",FALSE,"m2-tscRnb","BL","2024-06-18",NA,"SARS-CoV-2","wuhan0","4",TRUE
+"2024-06-17",FALSE,"m2-utK4Rd","BS","2024-06-17",NA,"Rhino- / Enterovirus, SARS-CoV-2","resp16, wuhan0","4, 4",FALSE
 "2024-06-11",FALSE,"m2-v72khW","AG","2024-06-11",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-05-29",FALSE,"m2-vx8ti2","AG","2024-05-29",NA,NA,NA,NA,TRUE
+"2024-06-13",FALSE,"m2-wM9MFc","BL","2024-06-13",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-06-19",FALSE,"m2-wU4NNF","BS","2024-06-19",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-24",FALSE,"m2-wqq2tm","AG","2024-05-24",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-28",FALSE,"m2-x7F7f2","BS","2024-05-28",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-11",FALSE,"m2-yXtHfa","ZH","2024-06-11",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-18",FALSE,"m2-zGZM2T","ZH","2024-06-17","stationär","Rhino- / Enterovirus","resp16","4",TRUE
 "2024-05-24",FALSE,"m2-zhhg9e","AG","2024-05-24",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-06-10",FALSE,"m2-2Cew4A","BS","2024-06-10",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-07-02",FALSE,"m2-2LbpuC","AG","2024-07-02",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-21",FALSE,"m2-2NXwCk","ZH","2024-06-20",NA,"Rhino- / Enterovirus, Parainfluenza 2","resp16, resp4","4, 4",FALSE
+"2024-07-01",FALSE,"m2-2h2PGY","BS","2024-07-01",NA,NA,NA,NA,TRUE
 "2024-06-23",FALSE,"m2-33tHNX","VD","2024-06-23",NA,"Influenza A","flua","4",TRUE
 "2024-07-04",FALSE,"m2-3W4mxd","VS","2024-07-03",NA,NA,NA,NA,TRUE
+"2024-06-24",FALSE,"m2-5mukhD","ZH","2024-06-24",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-30",FALSE,"m2-6LTC42","AG","2024-06-30",NA,NA,NA,NA,TRUE
+"2024-06-10",FALSE,"m2-6ipXmE","SZ","2024-06-10",NA,NA,NA,NA,TRUE
 "2024-07-03",FALSE,"m2-8NKT5b","BS","2024-07-03",NA,"coronavirus OC43","resp31","4",TRUE
 "2024-06-10",FALSE,"m2-8ochGa","BL","2024-06-10",NA,"Influenza A","flua4p","16",TRUE
 "2024-06-30",FALSE,"m2-9KEquH","AG","2024-06-30",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-06-21",FALSE,"m2-A6n8jm","AG","2024-06-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-21",FALSE,"m2-AXsNSL","BL","2024-06-20","stationär","SARS-CoV-2","wuhan0","4",TRUE
+"2024-06-20",FALSE,"m2-AfEC2M","BE","2024-06-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-07-04",FALSE,"m2-AyyCbo","GR","2024-07-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-07-05",FALSE,"m2-BAZLXu","SO","2024-07-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-21",FALSE,"m2-BSXxBT","ZH","2024-06-21",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-07",FALSE,"m2-EsnUNp","ZH","2024-06-07",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-20",FALSE,"m2-EuRk5i","VD","2024-06-20",NA,"Influenza B","resp7","4",TRUE
+"2024-07-02",FALSE,"m2-G68KXW","AG","2024-07-02",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-06-29",FALSE,"m2-GAxEkf","BS","2024-06-29",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-07-04",FALSE,"m2-GTEQ56","AG","2024-07-04",NA,NA,NA,NA,TRUE
 "2024-07-03",FALSE,"m2-GXTqoN","ZH","2024-07-03",NA,"Rhino- / Enterovirus","resp16","4",TRUE
@@ -902,44 +1064,67 @@
 "2024-06-24",FALSE,"m2-LBmKhN","GE","2024-06-24",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-06-04",FALSE,"m2-Mak5bD","SG","2024-06-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-07-01",FALSE,"m2-NMZQLR","BS","2024-07-01",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-07-04",FALSE,"m2-PEPVFm","AG","2024-07-04",NA,"Adenovirus, Rhino- / Enterovirus","resp24, resp16","4, 4",FALSE
+"2024-06-21",FALSE,"m2-PVnipc","VD","2024-06-21",NA,"SARS-CoV-2","wuhan0","4",TRUE
+"2024-06-25",FALSE,"m2-Q4xrVX","BS","2024-06-25",NA,"Rhino- / Enterovirus, RSV - A/B","resp16, resp1","4, 4",FALSE
+"2024-06-30",FALSE,"m2-QTwV7a","VD","2024-06-30",NA,"SARS-CoV-2","wuhan0","4",TRUE
+"2024-06-03",FALSE,"m2-RqnTiy","TI","2024-06-03",NA,"SARS-CoV-2","resp27","4",TRUE
+"2024-07-05",FALSE,"m2-S2q6xp","AG","2024-07-05",NA,NA,NA,NA,TRUE
 "2024-07-02",FALSE,"m2-SBnr4w","BS","2024-07-02",NA,NA,NA,NA,TRUE
 "2024-07-03",FALSE,"m2-SccDgj","AG","2024-07-03","stationär","Parainfluenza 3","resp5","4",TRUE
 "2024-06-27",FALSE,"m2-UUADkw","BL","2024-06-27",NA,"Adenovirus, Rhino- / Enterovirus","resp24, resp16","4, 4",FALSE
 "2024-06-20",FALSE,"m2-UpVgkH","AG","2024-06-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-27",FALSE,"m2-V87KNw","BL","2024-06-27",NA,"SARS-CoV-2, Adenovirus","resp27, resp24","4, 4",FALSE
 "2024-07-01",FALSE,"m2-V8Lc7M","BS","2024-07-01",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-10",FALSE,"m2-VL8UDf","TI","2024-06-10",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-24",FALSE,"m2-WkvyWH","SG","2024-06-23",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-10",FALSE,"m2-XQBoxW","BS","2024-06-10",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-25",FALSE,"m2-Y979wo","SO","2024-06-24",NA,"Adenovirus, Rhino- / Enterovirus","resp24, resp16","4, 4",FALSE
 "2024-06-10",FALSE,"m2-YXEBjf","BS","2024-06-10",NA,"Metapneumovirus","resp9","4",TRUE
 "2024-06-04",FALSE,"m2-YztDkU","AG","2024-06-04",NA,"Parainfluenza 3","resp5","4",TRUE
 "2024-07-03",FALSE,"m2-ZCVUGi","BS","2024-07-03",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-07-07",FALSE,"m2-ZKzMqH","VD","2024-07-07",NA,NA,NA,NA,TRUE
 "2024-07-02",FALSE,"m2-b4L8F7","BE","2024-07-01",NA,"Adenovirus","resp24","4",TRUE
 "2024-06-22",FALSE,"m2-banRvn","GR","2024-06-22",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-07-01",FALSE,"m2-c2XWUV","BS","2024-07-01",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-07-04",FALSE,"m2-cPT2ip","SG","2024-07-04",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-04",FALSE,"m2-dC5QX8","AG","2024-06-04","ambulant","SARS-CoV-2","wuhan0","4",TRUE
 "2024-06-03",FALSE,"m2-dwGZ8d","AG","2024-06-03",NA,"Parainfluenza 3","resp5","4",TRUE
+"2024-07-02",FALSE,"m2-gxDNRv","VD","2024-07-01",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-06-10",FALSE,"m2-hWBPF3","BS","2024-06-10",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-07-01",FALSE,"m2-i85RbV","BS","2024-07-01",NA,NA,NA,NA,TRUE
 "2024-07-01",FALSE,"m2-iUZXA4","BS","2024-07-01",NA,NA,NA,NA,TRUE
+"2024-06-08",FALSE,"m2-jAXgKR","GR","2024-06-08",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-07-03",FALSE,"m2-jrsbcx","BS","2024-07-03",NA,NA,NA,NA,TRUE
 "2024-07-02",FALSE,"m2-jutF3d","VS","2024-07-02",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-06",FALSE,"m2-kY9vPf","BS","2024-06-06",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-07-01",FALSE,"m2-kkxXFP","BS","2024-07-01",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-07-05",FALSE,"m2-ktnCyr","BS","2024-07-05",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-07-01",FALSE,"m2-kvQRdL","BL","2024-07-01",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-04",FALSE,"m2-mkGmpe","AG","2024-06-03","stationär","SARS-CoV-2","wuhan0","4",TRUE
 "2024-06-03",FALSE,"m2-mzMRtV","TI","2024-06-03",NA,"Rhino- / Enterovirus, Parainfluenza 3","resp16, resp5","4, 4",FALSE
 "2024-06-20",FALSE,"m2-n4CyR5","AG","2024-06-20",NA,"Metapneumovirus","resp9","4",TRUE
+"2024-07-04",FALSE,"m2-nmHdMk","BS","2024-07-04",NA,"SARS-CoV-2","resp27","4",TRUE
 "2024-06-28",FALSE,"m2-ns4KiW","BS","2024-06-28",NA,NA,NA,NA,TRUE
+"2024-07-03",FALSE,"m2-ntgN8e","SO","2024-07-03",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-04",FALSE,"m2-oDzvGR","AG","2024-06-04","stationär","Parainfluenza 3","resp5","4",TRUE
 "2024-06-29",FALSE,"m2-obPUo4","BE","2024-06-28",NA,NA,NA,NA,TRUE
 "2024-07-02",FALSE,"m2-ontBkU","GR","2024-07-02",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-06-10",FALSE,"m2-oxY6PQ","ZH","2024-06-10",NA,"SARS-CoV-2","resp27","4",TRUE
+"2024-06-26",FALSE,"m2-pDAji8","JU","2024-06-26",NA,"SARS-CoV-2","wuhan0","4",TRUE
 "2024-06-03",FALSE,"m2-pRoGfB","BL","2024-06-03",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-03",FALSE,"m2-qFWaM8","AG","2024-06-03",NA,"Adenovirus, Rhino- / Enterovirus","resp24, resp16","4, 4",FALSE
 "2024-06-05",FALSE,"m2-qWgDtq","VD","2024-06-04",NA,"Influenza A","flua4p","24",TRUE
 "2024-06-28",FALSE,"m2-qX8858","BE","2024-06-28",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-20",FALSE,"m2-qivFvG","BE","2024-06-20",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-24",FALSE,"m2-t5wfvH","BE","2024-06-24",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-07-03",FALSE,"m2-tJFfNx","BS","2024-07-03",NA,NA,NA,NA,TRUE
 "2024-07-02",FALSE,"m2-uNhjJU","BL","2024-07-01",NA,"Rhino- / Enterovirus, Metapneumovirus","resp16, resp9","4, 4",FALSE
 "2024-06-24",FALSE,"m2-uQVRKo","SG","2024-06-23",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-25",FALSE,"m2-w7bULG","ZH","2024-06-25",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-07-03",FALSE,"m2-y4nNnt","BL","2024-07-02",NA,"Rhino- / Enterovirus","resp16","4",TRUE
+"2024-07-02",FALSE,"m2-y9uHAT","VD","2024-07-02",NA,NA,NA,NA,TRUE
+"2024-07-02",FALSE,"m2-yhZndV","BS","2024-07-02",NA,NA,NA,NA,TRUE
+"2024-07-03",FALSE,"m2-ykM2w5","BS","2024-07-03",NA,NA,NA,NA,TRUE
 "2024-07-05",FALSE,"m2-yrbjFq","BS","2024-07-05",NA,"Rhino- / Enterovirus","resp16","4",TRUE
 "2024-06-28",FALSE,"m2-yvtpgs","BS","2024-06-28",NA,NA,NA,NA,TRUE

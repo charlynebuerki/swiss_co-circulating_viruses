@@ -1,5 +1,5 @@
 "x","y","type","label"
 2024-06-30,35.3,"n_pcr/n_detected","R2 = 0.94"
 2024-06-30,39.3,"n_seq/n_detected","R2 = 0.93"
-2024-06-30,43.3,"n_detected/percentage","R2 = 0.61"
-2024-06-30,47.3,"n_pcr/percentage","R2 = 0.64"
+2024-06-30,43.3,"n_detected/percentage","R2 = 0.6"
+2024-06-30,47.3,"n_pcr/percentage","R2 = 0.65"

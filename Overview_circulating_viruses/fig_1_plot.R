@@ -25,8 +25,7 @@ get_virus_order<-function(PCR=FALSE)
                     "Influenza A virus (A/Texas/50/2012(H3N2))",
                     "Respiratory syncytial virus (type A)", #RSVs
                     "Human Respiratory syncytial virus 9320 (type B)",
-                    "Human metapneumovirus A",   
-                    "Human metapneumovirus B",  #metapneumo
+                    "Human metapneumovirus",  #metapneumo
                     "Human adenovirus B1" , #adenoviruses
                     "Human adenovirus C2",
                     "Human parechovirus type 1 PicoBank/HPeV1/a", #picornaviridae family

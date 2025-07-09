@@ -109,6 +109,7 @@ format_pcr_to_detect_data<-function(pcr_data, detect_data, pcr_panel_strains)
         fuzzy_match & num_pcr_strains == 1 & num_detected_strains == 1 & !detected_match_detect_in_PCR & !detected_match_PCR_in_detect ~ "Partially", # special case of Inf A to Inf B matching
         num_pcr_strains > num_detected_strains & num_pcr_strains > 1 & detected_match_detect_in_PCR ~ "Partially", # partial detection of the PCR strains
         (num_detected_strains > num_pcr_strains) & (num_pcr_strains > 1) & is.na(has_additional_virus) & (fuzzy_match) ~ "Yes", #fully consistent and we detect additional strains that are included in panel
+        (num_detected_strains > num_pcr_strains) & (num_pcr_strains >1) & detected_match_PCR_in_detect & !fuzzy_match ~ "Yes", # fully consistent and we detect additional strains
         num_detected_strains == num_pcr_strains & num_pcr_strains>1  & has_additional_virus ~ "Partially",  #only partial match but detect additional virus
         TRUE ~ NA_character_
       ),

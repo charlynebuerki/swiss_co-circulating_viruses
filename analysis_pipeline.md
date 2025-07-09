@@ -1,0 +1,698 @@
+manuscript_public_code
+================
+2025-04-14
+
+This is an R-markdown to completely re-generate the figures from the
+ReVSeq Manuscript.
+
+``` r
+#sourcing all packages
+library(dplyr)
+```
+
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+``` r
+library(stringr)
+library(purrr)
+library(ggplot2)
+library(cowplot)
+library(tidyr)
+library(stringdist)
+```
+
+    ## 
+    ## Attaching package: 'stringdist'
+
+    ## The following object is masked from 'package:tidyr':
+    ## 
+    ##     extract
+
+``` r
+library(ggalluvial)
+library(ggpubr)
+```
+
+    ## 
+    ## Attaching package: 'ggpubr'
+
+    ## The following object is masked from 'package:cowplot':
+    ## 
+    ##     get_legend
+
+``` r
+#sourcing all files 
+
+#must upload virus abbreviation CSV
+
+#overview 
+source("Overview_circulating_viruses/fig_1_data_format.R")
+source("Overview_circulating_viruses/fig_1_plot.R")
+
+#PCR to seq comparison
+source("Sequencing_results/fig_2_data_format.R")
+source("Sequencing_results/fig_2_plot.R")
+
+#co-infections
+source("Sequencing_results/fig_3_data_format.R")
+source("Sequencing_results/fig_3_plot.R")
+
+#coverage plots
+source("Sequencing_results/coverage_genome_data_format.R") 
+source("Sequencing_results/coverage_genome_plot.R")
+
+#supplementary wastewater
+source("Supplements/fig_s2_data_format.R")
+source("Supplements/fig_s2_plot.R")
+```
+
+``` r
+hq_data<-read.csv("Data/data/hq_data.csv")
+pcr_data <- read.csv("Data/data/pcr_data.csv")
+detected_data <- read.csv("Data/data/detected_data.csv")
+sentinella_data <- get_sentinella_data()
+```
+
+# Figure 1: seasonal overview
+
+``` r
+substrains_to_highlight = ""
+df_plt <- format_grid_pathogen_plot(hq_data, pcr=FALSE)
+```
+
+    ## `summarise()` has grouped output by 'date', 'substrain_name', 'line_positions',
+    ## 'highlight_max'. You can override using the `.groups` argument.
+
+``` r
+freq_data<-format_frequencies_plot(pcr_data, hq_data, detected_data ,substrain_to_highlight = substrains_to_highlight)
+
+#substrain_to highlight must be a vector
+make_figure_one(df_plt, freq_data, sentinella_data ,highlight = FALSE, save=TRUE, pcr=FALSE )
+```
+
+    ## Warning: Removed 5 rows containing missing values or values outside the scale range
+    ## (`geom_hline()`).
+
+    ## Warning: Removed 51 rows containing missing values or values outside the scale range
+    ## (`geom_hline()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_tile()`).
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-4-1.png)<!-- --> \#
+Figure 2: PCR / sequencing comparison
+
+``` r
+#all strains included in the PCR panel
+pcr_panel_strains <- (pcr_data %>%  separate_rows(strains_PCR, panels_PCR, values_PCR, sep = ",\\s*") )$strains_PCR %>% unique()
+
+formatted_pcr_to_detected<-format_pcr_to_detect_data(pcr_data, detected_data, pcr_panel_strains)
+formatted_detected_to_hq<-format_detect_to_hq_data(detected_data, hq_data, pcr_panel_strains)
+
+make_figure_comparison(formatted_pcr_to_detected, formatted_detected_to_hq, save=TRUE)
+```
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+# Figure 3: Co-infections in high-quality sequences
+
+``` r
+matrix_co <- format_matrix_co_infection_plot(hq_data)
+percent_co <- format_percent_count_co_infection_plot(hq_data)
+
+make_figure_3(matrix_co, percent_co, save=TRUE)
+```
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-6-1.png)<!-- --> \#
+Figure 4: Whole-genome coverage
+
+``` r
+# # RSV-A
+# #get data
+# virus_strain <- "Respiratory syncytial virus (type A)"
+# rsv_a_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+# 
+# df <- format_coverage_plot_data(rsv_a_data, virus_strain)
+# make_figure_coverage_genome(df, virus_strain, save=TRUE)
+# 
+# # Parainfluenza-3
+# virus_strain <- "Human parainfluenza virus 3"
+# hpiv_3_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+# 
+# df <- format_coverage_plot_data(hpiv_3_data, virus_strain)
+# make_figure_coverage_genome(df, virus_strain, save=TRUE)
+```
+
+# Figure 5: Phylogenetic trees
+
+# Table S2 virus counts by each testing type
+
+``` r
+df_pcr <-pcr_data %>% separate_longer_delim(cols = c(strains_PCR, panels_PCR, values_PCR), delim = ",") %>%
+    # Remove leading/trailing whitespace
+    mutate(strains_PCR = str_trim(strains_PCR),
+           panels_PCR = str_trim(panels_PCR),
+           values_PCR= str_trim(values_PCR)) %>% 
+  mutate(
+    panel_type = ifelse(grepl("resp", panels_PCR), "resp", ifelse(panels_PCR == "flua" | panels_PCR == "flub" | panels_PCR == "rspc", "p2", "p1"))
+      ) %>% 
+  filter(!is.na(strains_PCR)) %>% 
+  dplyr::count(panel_type, strains_PCR)
+
+df_detect <- detected_data %>% dplyr::count(strain_name)
+df_hq <-hq_data %>% dplyr::count(strain_name)
+```
+
+# Figure S1, Figure S2: wastewater and sentinella correlations
+
+``` r
+sentinella_df <- get_sentinella_data() 
+wastewater_df <- get_wastewater_data()
+```
+
+    ## `summarise()` has grouped output by 'date'. You can override using the
+    ## `.groups` argument.
+
+``` r
+pathogens <- sentinella_df$pathogen_name %>% unique() %>% unlist()
+
+pcr_dat_supp <- pcr_data %>% 
+  separate_longer_delim(cols = c(strains_PCR, panels_PCR, values_PCR), delim = ",") %>%
+    # Remove leading/trailing whitespace
+  mutate(strains_PCR = str_trim(strains_PCR),
+           panels_PCR = str_trim(panels_PCR),
+           values_PCR= str_trim(values_PCR)) %>% 
+  rename(substrain_name = strains_PCR)
+
+
+pcr_dat<-format_grid_pathogen_plot(pcr_dat_supp, pcr=TRUE) %>% drop_na()
+```
+
+    ## `summarise()` has grouped output by 'date', 'substrain_name', 'line_positions',
+    ## 'highlight_max'. You can override using the `.groups` argument.
+
+``` r
+detected_dat <- format_grid_pathogen_plot(detected_data, pcr=FALSE) %>% drop_na()
+```
+
+    ## `summarise()` has grouped output by 'date', 'substrain_name', 'line_positions',
+    ## 'highlight_max'. You can override using the `.groups` argument.
+
+``` r
+sequencing_data <- format_grid_pathogen_plot(hq_data, pcr=FALSE) %>% drop_na()
+```
+
+    ## `summarise()` has grouped output by 'date', 'substrain_name', 'line_positions',
+    ## 'highlight_max'. You can override using the `.groups` argument.
+
+``` r
+make_supplementary_figure_2(sentinella_df, pcr_dat, sequencing_data, detected_dat, wastewater_df , pathogens=pathogens ,save=TRUE)
+```
+
+    ## [1] "influenza_A"
+
+    ## Adding missing grouping variables: `date`
+
+    ## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+    ## ℹ Please use `linewidth` instead.
+    ## This warning is displayed once every 8 hours.
+    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+    ## generated.
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 42 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 44 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 42 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 44 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## [1] "influenza_B"
+
+    ## Adding missing grouping variables: `date`
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 51 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 5 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 51 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 5 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## [1] "sars-cov-2"
+
+    ## Adding missing grouping variables: `date`
+
+    ## Warning: Removed 9 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+    ## Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 8 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 9 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 8 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## [1] "adenovirus"
+
+    ## Warning: Removed 14 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 55 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 40 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 36 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## [1] "rhinovirus"
+
+    ## Warning: Removed 40 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 62 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 43 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 2 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 30 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## [1] "respiratory_syncytial_virus"
+
+    ## Adding missing grouping variables: `date`
+
+    ## Warning: Removed 15 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 6 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 4 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 46 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 15 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 6 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 4 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 46 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## [1] "other"
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 34 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 32 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 2 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 33 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 42 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 44 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 51 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 5 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 9 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 8 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 14 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 55 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 40 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 36 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 40 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 62 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 43 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 2 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 30 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 15 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 6 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 4 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 46 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 34 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 32 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 2 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 33 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 42 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 7 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 44 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 51 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 12 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 5 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 9 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 48 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 8 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 3 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 39 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 15 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 50 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 6 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 45 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 4 rows containing missing values or values outside the scale range
+    ## (`geom_line()`).
+
+    ## Warning: Removed 46 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## $corr
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+
+    ## 
+    ## $corr_ww
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
+
+# Figure S3 A,B,C
+
+``` r
+# # RSV-B
+# #get data
+# virus_strain <- "Human Respiratory syncytial virus 9320 (type B)"
+# rsv_b_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+# 
+# df <- format_coverage_plot_data(rsv_b_data, virus_strain)
+# make_figure_coverage_genome(df, virus_strain, save=TRUE)
+# 
+# # HMPV
+# #get data
+# virus_strain <- "metapneumovirus" 
+# hmpv_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+# 
+# df <- format_coverage_plot_data(hmpv_data, virus_strain)
+# make_figure_coverage_genome(df, virus_strain, save=TRUE)
+```
+
+``` r
+#A/H1N1
+# #get data
+# virus_strain <- "2015(H1N1)"
+# h1n1_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+# 
+# df <- format_coverage_plot_data(h1n1_data, virus_strain)
+# figs<-make_figure_coverage_genome(df, virus_strain, save=FALSE)
+# 
+# 
+# plots <- list( figs$h1n1_HA, figs$h1n1_NA)
+# 
+# plot_all<-plot_grid(plotlist = plots,
+#           #nrow = length(virus_strains), 
+#           ncol = 2,
+#           rel_heights = c(1,1),
+#           align = "v",
+#           axis="l")
+# 
+# plot_all
+# #ggsave("Figures/coverage_plots/h1n1_HA_NA.pdf",plot_all , dpi="retina", units="mm", width=174, height=123)
+```
+
+# Figure S4: RSV-B Phylogenetic trees
+
+# Figure S5: A/H1N1/HA Phylogenetic trees
