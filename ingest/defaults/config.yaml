@@ -2,8 +2,7 @@
 sources: ['genbank']
 
 #strains used:
-strains: ['HPIV_1', 'HPIV_2', 'HPIV_3']
-
+strains: ['HPIV_1', 'HPIV_2', 'HPIV_3' ]
 # Pathogen NCBI Taxonomy ID
 ncbi_taxon_id: 
   HPIV_1: '12730'

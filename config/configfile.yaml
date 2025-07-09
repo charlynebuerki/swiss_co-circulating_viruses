@@ -13,18 +13,22 @@ files:
     HPIV_1: "ingest/data/HPIV_1/reference.gbk" #to change
     HPIV_2: "ingest/data/HPIV_2/reference.gbk"
     HPIV_3: "ingest/data/HPIV_3/reference.gbk"
+    HPIV_4: "ingest/data/HPIV_4/reference.gbk"
   clades_config:
     HPIV_1: "config/HPIV_1/clades_genome.tsv"
     HPIV_2: "config/HPIV_2/clades_genome.tsv"
     HPIV_3: "config/HPIV_3/clades_genome.tsv"
+    HPIV_4: "config/HPIV_4/clades_genome.tsv"
   pathogen_config:
     HPIV_1: "ingest/data/HPIV_1/pathogen.json"
     HPIV_2: "ingest/data/HPIV_2/pathogen.json"
-    HPIV_3: "ingest/data/HPIV_3/pathogen.json" 
+    HPIV_3: "ingest/data/HPIV_3/pathogen.json"
+    HPIV_4: "ingest/data/HPIV_4/pathogen.json"
   sequence_annotation:
     HPIV_1: "ingest/data/HPIV_1/annotation.gff3"
     HPIV_2: "ingest/data/HPIV_2/annotation.gff3"
-    HPIV_3: "ingest/data/HPIV_3/annotation.gff3"   
+    HPIV_3: "ingest/data/HPIV_3/annotation.gff3"
+    HPIV_4: "ingest/data/HPIV_4/annotation.gff3"
 
 filter:
   group_by: "year country"
@@ -36,6 +40,7 @@ filter:
     HPIV_1: 9360 #length of 15600 60%
     HPIV_2: 9388 #length of 15646
     HPIV_3: 9277 #length of 15462
+    HPIV_4: 10230 #length of 17052
   resolution:
     2y:
       min_date: "2020-01-01"
@@ -54,6 +59,7 @@ refine:
     HPIV_1: "JQ901971"
     HPIV_2: ""
     HPIV_3: "LC817393"
+    HPIV_4: ""
 
 ancestral:
   inference: "joint"

@@ -55,6 +55,25 @@ rule copy_genbank_reference:
 
 rule fetch:
     input:
+        seq="ingest/results/{strain}/sequences.fasta",
+        meta="ingest/results/{strain}/metadata.tsv",
+        seq_loc = "ingest/results/{strain}/local_sequences.fasta",
+        meta_loc = "ingest/data/{strain}/project_strains/1_metadata.csv"
+    output:
+        sequences="data/{strain}/sequences.fasta",
+        metadata= "data/{strain}/metadata.tsv",
+        local_sequences = "data/{strain}/local_sequences.fasta",
+        local_metadata = "data/{strain}/local_metadata.tsv"
+    shell:
+        """
+        cp -u {input.seq} {output.sequences}
+        cp -u {input.meta} {output.metadata}
+        cp -u {input.seq_loc} {output.local_sequences}
+        cp -u {input.meta_loc} {output.local_metadata}
+        """
+
+'''rule fetch:
+    input:
         dir = "ingest"
     output:
         sequences="data/{strain}/sequences.fasta",
@@ -76,3 +95,4 @@ rule fetch:
         cp -u {params.seq_loc} {output.local_sequences}
         cp -u {params.meta_loc} {output.local_metadata}
         """
+        '''

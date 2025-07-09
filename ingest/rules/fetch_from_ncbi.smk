@@ -29,6 +29,8 @@ rule fetch_ncbi_dataset_package:
             --filename {output.dataset_package}
         """
 
+        
+
 
 rule extract_ncbi_dataset_sequences:
     input:
@@ -85,8 +87,7 @@ rule format_ncbi_dataset_report:
         ncbi_dataset_tsv=temp("data/{strain}/ncbi_dataset_report.tsv"),
     params:
         fields_to_include= _get_ncbi_dataset_field_mnemonics,
-    benchmark:
-        "benchmarks/{strain}/format_ncbi_dataset_report.txt"
+    benchmark: "benchmarks/{strain}/format_ncbi_dataset_report.txt"
     shell:
         """
         dataformat tsv virus-genome \
@@ -105,10 +106,8 @@ rule format_ncbi_datasets_ndjson:
         ncbi_dataset_tsv="data/{strain}/ncbi_dataset_report.tsv",
     output:
         ndjson="data/{strain}/ncbi.ndjson",
-    log:
-        "logs/{strain}/format_ncbi_datasets_ndjson.txt",
-    benchmark:
-        "benchmarks/{strain}/format_ncbi_datasets_ndjson.txt"
+    log: "logs/{strain}/format_ncbi_datasets_ndjson.txt",
+    benchmark: "benchmarks/{strain}/format_ncbi_datasets_ndjson.txt"
     shell:
         """
         augur curate passthru \

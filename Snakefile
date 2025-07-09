@@ -9,7 +9,7 @@ configfile: "config/configfile.yaml"
 
 wildcard_constraints:
     build="whole",
-    strain= r"HPIV_1|HPIV_2|HPIV_3"
+    strain= r"HPIV_1|HPIV_2|HPIV_3|HPIV_4"
     #gene="|-ncp|-pp|-D1|-D2|-C|-MP|-FP|-HN|-L"
    
 #     #from: https://bitbucket.org/snakemake/snakemake/issues/910/empty-wildcard-assignment-works-only-if
