@@ -17,6 +17,11 @@ library(tidyr)
 library(stringdist)
 library(ggalluvial)
 library(ggpubr)
+
+library(ggtree)
+library(treeio)
+library(lubridate)
+library(aplot)
 ```
 
 
@@ -41,6 +46,9 @@ source("Sequencing_results/fig_3_plot.R")
 source("Sequencing_results/coverage_genome_data_format.R") 
 source("Sequencing_results/coverage_genome_plot.R")
 
+#tree plots
+source("Phylogenetic_analysis/tree_plot.R")
+
 #supplementary wastewater
 source("Supplements/fig_s2_data_format.R")
 source("Supplements/fig_s2_plot.R")
@@ -58,7 +66,7 @@ sentinella_data <- get_sentinella_data()
 
 # Figure 1: seasonal overview
 
-```{r}
+```{r, warning=FALSE}
 substrains_to_highlight = ""
 df_plt <- format_grid_pathogen_plot(hq_data, pcr=FALSE)
 freq_data<-format_frequencies_plot(pcr_data, hq_data, detected_data ,substrain_to_highlight = substrains_to_highlight)
@@ -113,9 +121,119 @@ make_figure_3(matrix_co, percent_co, save=TRUE)
 
 # Figure 5: Phylogenetic trees
 
-```{r}
+## RSV-A
+
+```{r, warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_rsv_a_genome_2y_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_a_genome_2y_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r, warning=FALSE}
+#normal view
+title ="RSV-A, 2-year"
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_))
+meta <- meta %>% mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+                        strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+                        accession =strain)
+
+
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=FALSE),
+                    vertical_plot_legend_columns = 2, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+
+#zoomed in
+title ="RSV-A, 2-y:A.D.5"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
+                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1,
+                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_5zm4f4", "RSV-A/B_5azzpr"), axis_breaks = 40,
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+
+
+
+#zoomed in
+title ="RSV-A, 3-y:A.D.1"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
+                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1,
+                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_3rqlt3", "RSV-A/B_6qvq3m"), axis_breaks = 40,
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+
+
+#zoomed in
+title ="RSV-A, 3-y:A.D.3"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
+                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1,
+                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_15l1ha", "RSV-A/B_3ia4f7"), axis_breaks = 40,
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+
 
 ```
+```{r,warning=FALSE}
+#phenetic distances between RSV-A and RSV-B
+
+#load genetic distance trees
+tree_file_a <- "Data/data/trees/div_nextstrain_rsv_a_genome_2y_tree.nexus"
+tree_file_b <- "Data/data/trees/div_nextstrain_rsv_b_genome_2y_tree.nexus"
+tr_a <- read.mega(tree_file_a)
+tr_b <- read.mega(tree_file_b)
+pat_mat_a<-cophenetic(tr_a@phylo)
+pat_mat_b<-cophenetic(tr_b@phylo)
+
+
+unique_distances_a <- pat_mat_a[lower.tri(pat_mat_a)]
+unique_distances_b <- pat_mat_b[lower.tri(pat_mat_b)]
+
+distance_df <- tibble(
+  distance = c(unique_distances_a, unique_distances_b),
+  source = c(rep("RSV-A", length(unique_distances_a)), rep("RSV-B", length(unique_distances_b)))
+)
+
+distance_df %>% group_by(source) %>% summarise(median= median(distance), IQR=IQR(distance))
+```
+## HPIV-3
+
+```{r,warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_HPIV_3_whole_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_HPIV_3_whole_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r,warning=FALSE}
+#normal view
+title ="HPIV-3"
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, 
+                    date_format="%Y", tip_color = "database" )
+
+#zoomed in 
+title ="HPIV-3, clade 1"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "region"), 
+                    vertical_legend_on=c("region"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-jCKGBv", "m2-Y4rZ7q"), axis_breaks = 40, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "location" )
+
+title ="HPIV-3, clade 2"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership",color_by_vertical = c("location", "region"), 
+                    vertical_legend_on=c("region"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-9jS4Ro", "m2-SccDgj"), axis_breaks = 40, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "location" )
+
+
+```
+
+
 
 # Table S2 virus counts by each testing type
  
@@ -140,7 +258,7 @@ df_hq <-hq_data %>% dplyr::count(strain_name)
 # Figure S1, Figure S2: wastewater and sentinella correlations
 
 
-```{r}
+```{r,warning=FALSE}
 sentinella_df <- get_sentinella_data() 
 wastewater_df <- get_wastewater_data()
 pathogens <- sentinella_df$pathogen_name %>% unique() %>% unlist()
@@ -211,13 +329,72 @@ make_supplementary_figure_2(sentinella_df, pcr_dat, sequencing_data, detected_da
 
 # Figure S4: RSV-B Phylogenetic trees
 
-```{r}
-
+```{r,warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_rsv_b_genome_2y_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_b_genome_2y_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
 ```
+
+```{r,warning=FALSE}
+#normal view
+title ="RSV-B, 2-year"
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_))
+meta <- meta %>% mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+                        strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+                        accession =strain)
+
+
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=TRUE),
+                    vertical_plot_legend_columns = 2, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+```
+
 
 # Figure S5: A/H1N1/HA Phylogenetic trees
 
-```{r}
+```{r,warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_h1n1_HA_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_h1n1_HA_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
 
+```{r,warning=FALSE}
+#normal view
+title ="H1N1 HA"
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=FALSE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+
+
+
+
+#zoomed in 
+title ="H1N1 HA, clade 5a.2a"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "country"), 
+                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-4SnyCD", "m2-sFFUfJ"), axis_breaks = 30, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+
+
+title ="H1N1 HA, clade 5a.2a.1"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "country"), 
+                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-3qDrEd", "m2-qeHUBn"), axis_breaks = 30, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m",tip_color = "database"  )
+
+title ="variant expanding"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical =c("location", "country"), 
+                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-5cJWyf", "m2-kNU7js"), axis_breaks = 30, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m",tip_color = "database"  )
 ```
 

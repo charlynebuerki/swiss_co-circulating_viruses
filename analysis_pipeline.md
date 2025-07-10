@@ -50,6 +50,63 @@ library(ggpubr)
     ##     get_legend
 
 ``` r
+library(ggtree)
+```
+
+    ## ggtree v3.16.0 Learn more at https://yulab-smu.top/contribution-tree-data/
+    ## 
+    ## Please cite:
+    ## 
+    ## S Xu, Z Dai, P Guo, X Fu, S Liu, L Zhou, W Tang, T Feng, M Chen, L
+    ## Zhan, T Wu, E Hu, Y Jiang, X Bo, G Yu. ggtreeExtra: Compact
+    ## visualization of richly annotated phylogenetic data. Molecular Biology
+    ## and Evolution. 2021, 38(9):4039-4042. doi: 10.1093/molbev/msab166
+
+    ## 
+    ## Attaching package: 'ggtree'
+
+    ## The following object is masked from 'package:ggpubr':
+    ## 
+    ##     rotate
+
+    ## The following object is masked from 'package:tidyr':
+    ## 
+    ##     expand
+
+``` r
+library(treeio)
+```
+
+    ## treeio v1.32.0 Learn more at https://yulab-smu.top/contribution-tree-data/
+    ## 
+    ## Please cite:
+    ## 
+    ## LG Wang, TTY Lam, S Xu, Z Dai, L Zhou, T Feng, P Guo, CW Dunn, BR
+    ## Jones, T Bradley, H Zhu, Y Guan, Y Jiang, G Yu. treeio: an R package
+    ## for phylogenetic tree input and output with richly annotated and
+    ## associated data. Molecular Biology and Evolution. 2020, 37(2):599-603.
+    ## doi: 10.1093/molbev/msz240
+
+``` r
+library(lubridate)
+```
+
+    ## 
+    ## Attaching package: 'lubridate'
+
+    ## The following object is masked from 'package:cowplot':
+    ## 
+    ##     stamp
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     date, intersect, setdiff, union
+
+``` r
+library(aplot)
+```
+
+``` r
 #sourcing all files 
 
 #must upload virus abbreviation CSV
@@ -69,6 +126,9 @@ source("Sequencing_results/fig_3_plot.R")
 #coverage plots
 source("Sequencing_results/coverage_genome_data_format.R") 
 source("Sequencing_results/coverage_genome_plot.R")
+
+#tree plots
+source("Phylogenetic_analysis/tree_plot.R")
 
 #supplementary wastewater
 source("Supplements/fig_s2_data_format.R")
@@ -98,15 +158,6 @@ freq_data<-format_frequencies_plot(pcr_data, hq_data, detected_data ,substrain_t
 #substrain_to highlight must be a vector
 make_figure_one(df_plt, freq_data, sentinella_data ,highlight = FALSE, save=TRUE, pcr=FALSE )
 ```
-
-    ## Warning: Removed 5 rows containing missing values or values outside the scale range
-    ## (`geom_hline()`).
-
-    ## Warning: Removed 51 rows containing missing values or values outside the scale range
-    ## (`geom_hline()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_tile()`).
 
 ![](analysis_pipeline_files/figure-gfm/unnamed-chunk-4-1.png)<!-- --> \#
 Figure 2: PCR / sequencing comparison
@@ -153,6 +204,227 @@ Figure 4: Whole-genome coverage
 ```
 
 # Figure 5: Phylogenetic trees
+
+## RSV-A
+
+``` r
+tree_file <- "Data/data/trees/nextstrain_rsv_a_genome_2y_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_a_genome_2y_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+``` r
+#normal view
+title ="RSV-A, 2-year"
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_))
+meta <- meta %>% mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+                        strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+                        accession =strain)
+
+
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=FALSE),
+                    vertical_plot_legend_columns = 2, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+
+``` r
+#zoomed in
+title ="RSV-A, 2-y:A.D.5"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
+                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1,
+                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_5zm4f4", "RSV-A/B_5azzpr"), axis_breaks = 40,
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
+
+``` r
+#zoomed in
+title ="RSV-A, 3-y:A.D.1"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
+                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1,
+                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_3rqlt3", "RSV-A/B_6qvq3m"), axis_breaks = 40,
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-9-3.png)<!-- -->
+
+``` r
+#zoomed in
+title ="RSV-A, 3-y:A.D.3"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
+                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1,
+                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_15l1ha", "RSV-A/B_3ia4f7"), axis_breaks = 40,
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-9-4.png)<!-- -->
+
+``` r
+#phenetic distances between RSV-A and RSV-B
+
+#load genetic distance trees
+tree_file_a <- "Data/data/trees/div_nextstrain_rsv_a_genome_2y_tree.nexus"
+tree_file_b <- "Data/data/trees/div_nextstrain_rsv_b_genome_2y_tree.nexus"
+tr_a <- read.mega(tree_file_a)
+tr_b <- read.mega(tree_file_b)
+pat_mat_a<-cophenetic(tr_a@phylo)
+pat_mat_b<-cophenetic(tr_b@phylo)
+
+
+unique_distances_a <- pat_mat_a[lower.tri(pat_mat_a)]
+unique_distances_b <- pat_mat_b[lower.tri(pat_mat_b)]
+
+distance_df <- tibble(
+  distance = c(unique_distances_a, unique_distances_b),
+  source = c(rep("RSV-A", length(unique_distances_a)), rep("RSV-B", length(unique_distances_b)))
+)
+
+distance_df %>% group_by(source) %>% summarise(median= median(distance), IQR=IQR(distance))
+```
+
+    ## # A tibble: 2 × 3
+    ##   source  median     IQR
+    ##   <chr>    <dbl>   <dbl>
+    ## 1 RSV-A  0.0191  0.0101 
+    ## 2 RSV-B  0.00660 0.00205
+
+## HPIV-3
+
+``` r
+tree_file <- "Data/data/trees/nextstrain_HPIV_3_whole_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_HPIV_3_whole_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+``` r
+#normal view
+title ="HPIV-3"
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, 
+                    date_format="%Y", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+
+``` r
+#zoomed in 
+title ="HPIV-3, clade 1"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "region"), 
+                    vertical_legend_on=c("region"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-jCKGBv", "m2-Y4rZ7q"), axis_breaks = 40, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "location" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-12-2.png)<!-- -->
+
+``` r
+title ="HPIV-3, clade 2"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership",color_by_vertical = c("location", "region"), 
+                    vertical_legend_on=c("region"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-9jS4Ro", "m2-SccDgj"), axis_breaks = 40, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "location" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-12-3.png)<!-- -->
 
 # Table S2 virus counts by each testing type
 
@@ -222,433 +494,32 @@ make_supplementary_figure_2(sentinella_df, pcr_dat, sequencing_data, detected_da
 
     ## Adding missing grouping variables: `date`
 
-    ## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-    ## ℹ Please use `linewidth` instead.
-    ## This warning is displayed once every 8 hours.
-    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
-    ## generated.
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 42 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 44 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 42 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 44 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
     ## [1] "influenza_B"
 
     ## Adding missing grouping variables: `date`
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 51 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 5 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 51 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 5 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
 
     ## [1] "sars-cov-2"
 
     ## Adding missing grouping variables: `date`
 
-    ## Warning: Removed 9 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-    ## Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 8 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 9 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 8 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
     ## [1] "adenovirus"
 
-    ## Warning: Removed 14 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 55 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 40 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 36 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
     ## [1] "rhinovirus"
-
-    ## Warning: Removed 40 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 62 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 43 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 2 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 30 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
 
     ## [1] "respiratory_syncytial_virus"
 
     ## Adding missing grouping variables: `date`
 
-    ## Warning: Removed 15 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 6 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 4 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 46 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 15 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 6 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 4 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 46 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
     ## [1] "other"
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 34 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 32 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 2 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 33 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 42 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 44 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 51 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 5 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 9 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 8 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 14 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 55 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 40 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 36 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 40 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 62 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 43 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 2 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 30 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 15 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 6 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 4 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 46 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 34 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 32 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 2 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 33 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 42 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 7 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 44 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 51 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 12 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 5 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 9 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 48 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 8 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 3 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 39 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 15 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 50 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 6 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 45 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
-
-    ## Warning: Removed 4 rows containing missing values or values outside the scale range
-    ## (`geom_line()`).
-
-    ## Warning: Removed 46 rows containing missing values or values outside the scale range
-    ## (`geom_point()`).
 
     ## $corr
 
-![](analysis_pipeline_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
 
     ## 
     ## $corr_ww
 
-![](analysis_pipeline_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-14-2.png)<!-- -->
 
 # Figure S3 A,B,C
 
@@ -695,4 +566,143 @@ make_supplementary_figure_2(sentinella_df, pcr_dat, sequencing_data, detected_da
 
 # Figure S4: RSV-B Phylogenetic trees
 
+``` r
+tree_file <- "Data/data/trees/nextstrain_rsv_b_genome_2y_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_b_genome_2y_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+``` r
+#normal view
+title ="RSV-B, 2-year"
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_))
+meta <- meta %>% mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+                        strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+                        accession =strain)
+
+
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=TRUE),
+                    vertical_plot_legend_columns = 2, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+
 # Figure S5: A/H1N1/HA Phylogenetic trees
+
+``` r
+tree_file <- "Data/data/trees/nextstrain_h1n1_HA_timetree.nexus"
+metadata_file <- "Data/data/trees/nextstrain_h1n1_HA_metadata.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+``` r
+#normal view
+title ="H1N1 HA"
+plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
+                    vertical_legend_on=c("clade_membership"=TRUE,"region"=FALSE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+
+``` r
+#zoomed in 
+title ="H1N1 HA, clade 5a.2a"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "country"), 
+                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-4SnyCD", "m2-sFFUfJ"), axis_breaks = 30, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-20-2.png)<!-- -->
+
+``` r
+title ="H1N1 HA, clade 5a.2a.1"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "country"), 
+                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-3qDrEd", "m2-qeHUBn"), axis_breaks = 30, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m",tip_color = "database"  )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-20-3.png)<!-- -->
+
+``` r
+title ="variant expanding"
+plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical =c("location", "country"), 
+                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= TRUE,tips_to_zoom = c("m2-5cJWyf", "m2-kNU7js"), axis_breaks = 30, 
+                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m",tip_color = "database"  )
+```
+
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 266 Columns: 3
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (3): object, key, color
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-20-4.png)<!-- -->

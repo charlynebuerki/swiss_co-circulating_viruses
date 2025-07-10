@@ -1,0 +1,824 @@
+strain	date	clade_membership	country	region	author	accession	location	database
+LC817393	1957-12-30		USA	North America	Shirato et al.	LC817393		
+HM583801	1963-12-30		South Africa	Africa	Kumar et al.	HM583801		
+NC_038270	1963-12-30		South Africa	Africa	Kumar et al.	NC_038270		
+PP101994	2007-09-29		Spain	Europe	Mendoza et al.	PP101994		
+KF530230	2007-04-10		Australia	Oceania	Lorenzi et al.	KF530230		
+KF530227	2009-04-02		France	Europe	Lorenzi et al.	KF530227		
+KF687336	2007-12-31		South Africa	Africa	Lorenzi et al.	KF687336		
+KF530249	2007-09-18		Australia	Oceania	Lorenzi et al.	KF530249		
+KF530225	2007-09-18		Australia	Oceania	Lorenzi et al.	KF530225		
+KF530243	2007-09-06		Australia	Oceania	Lorenzi et al.	KF530243		
+KF530238	2007-03-28		Australia	Oceania	Lorenzi et al.	KF530238		
+KF530239	2006-12-31		USA	North America	Lorenzi et al.	KF530239		
+KF530251	2007-01-01		Australia	Oceania	Lorenzi et al.	KF530251		
+KF530226	2007-01-07		Australia	Oceania	Lorenzi et al.	KF530226		
+KX574711	2016-01-01		USA	North America	Greninger et al.	KX574711		
+MF973181	2011-02-26		USA	North America	Greninger et al.	MF973181		
+OQ848515	2011-02-28		USA	North America	Sereewit et al.	OQ848515		
+OQ848521	2011-05-01		USA	North America	Sereewit et al.	OQ848521		
+OQ848519	2011-05-04		USA	North America	Sereewit et al.	OQ848519		
+OQ848522	2011-05-01		USA	North America	Sereewit et al.	OQ848522		
+OY757743	2022-07-26		Australia	Oceania	Steinig JOACHIM et al.	OY757743		
+OY757775	2022-07-26		Australia	Oceania	Steinig JOACHIM et al.	OY757775		
+OY757707	2022-07-28		Australia	Oceania	Steinig JOACHIM et al.	OY757707		
+OY757671	2015-05-13		Australia	Oceania	Steinig JOACHIM et al.	OY757671		
+PQ117916	2024-01-16		USA	North America	Rothstein et al.	PQ117916		
+OR728657	2023-01-27		Pakistan	Asia	Umair et al.	OR728657		
+PP961319	2024-05-08		Singapore	Asia	Lee et al.	PP961319		
+PQ541043	2023-04-18		France	Europe	Timsit et al.	PQ541043		
+PQ541044	2023-04-30		France	Europe	Timsit et al.	PQ541044		
+KF530247	2006-01-01		USA	North America	Lorenzi et al.	KF530247		
+KY973594	2010-05-17	C	USA	North America	Greninger et al.	KY973594		
+OY757648	2021-04-27	C	Australia	Oceania	Steinig JOACHIM et al.	OY757648		
+KY973599	2010-07-01	C	USA	North America	Greninger et al.	KY973599		
+KY973582	2010-07-18	C	USA	North America	Greninger et al.	KY973582		
+KY973580	2010-07-18	C	USA	North America	Greninger et al.	KY973580		
+OQ848505	2010-07-22	C	USA	North America	Sereewit et al.	OQ848505		
+KF530231	2007-01-01	C	USA	North America	Lorenzi et al.	KF530231		
+KF530237	2007-01-01	C	Australia	Oceania	Lorenzi et al.	KF530237		
+MF973178	2011-01-01	C	USA	North America	Greninger et al.	MF973178		
+KY684754	2009-12-31	C	USA	North America	Greninger et al.	KY684754		
+MF166750	2015-06-19	C	USA	North America	Greninger et al.	MF166750		
+KY369869	2016-03-25	C	USA	North America	Greninger et al.	KY369869		
+KY369871	2016-07-23	C	USA	North America	Greninger et al.	KY369871		
+KY684755	2017-01-01	C	USA	North America	Greninger et al.	KY684755		
+KY369864	2016-10-25	C	USA	North America	Greninger et al.	KY369864		
+KY369868	2016-10-25	C	USA	North America	Greninger et al.	KY369868		
+MW052041	2019-01-01	C	USA	North America	Addetia et al.	MW052041		
+KY973570	2017-04-03	C	USA	North America	Greninger et al.	KY973570		
+MN145876	2017-03-31	C	China	Asia	Li et al.	MN145876		
+MF795097	2015-12-31	C	USA	North America	Greninger et al.	MF795097		
+MF795095	2017-01-01	C	USA	North America	Greninger et al.	MF795095		
+KY973571	2017-01-01	C	USA	North America	Greninger et al.	KY973571		
+MW675782	2016-07-26	C	USA	North America	Greninger et al.	MW675782		
+MW675783	2016-07-26	C	USA	North America	Greninger et al.	MW675783		
+KY674978	2016-07-26	C	USA	North America	Greninger et al.	KY674978		
+KY369865	2016-09-26	C	USA	North America	Greninger et al.	KY369865		
+KY629772	2016-10-13	C	USA	North America	Greninger et al.	KY629772		
+KY369867	2016-10-01	C	USA	North America	Greninger et al.	KY369867		
+KY684756	2017-01-01	C	USA	North America	Greninger et al.	KY684756		
+KF687319	2004-04-26	C	Mexico	North America	Lorenzi et al.	KF687319		
+KF687321	2004-05-31	C	Mexico	North America	Lorenzi et al.	KF687321		
+KF687325	2006-06-06	C	Mexico	North America	Lorenzi et al.	KF687325		
+KF687323	2005-02-11	C	Mexico	North America	Lorenzi et al.	KF687323		
+MH006665	2010-01-28	C	Vietnam	Asia	Linster et al.	MH006665		
+KF687341	2006-06-16	C	Argentina	South America	Lorenzi et al.	KF687341		
+KF530245	2004-11-17	C	Argentina	South America	Lorenzi et al.	KF530245		
+MF987837	2010-03-31	C	Brazil	South America	Di Paola et al.	MF987837		
+KJ672605	2009-09-04	C	Peru	South America	Wentworth et al.	KJ672605	Iquitos	
+KJ672564	2009-10-26	C	Peru	South America	Wentworth et al.	KJ672564		
+KJ672611	2010-04-23	C	Peru	South America	Wentworth et al.	KJ672611		
+KJ672537	2011-06-20	C	Peru	South America	Wentworth et al.	KJ672537		
+KJ672596	2007-07-09	C	Peru	South America	Wentworth et al.	KJ672596		
+KJ672549	2011-05-31	C	Peru	South America	Wentworth et al.	KJ672549		
+KJ672587	2011-03-28	C	Peru	South America	Wentworth et al.	KJ672587		
+KJ672567	2010-03-01	C	Peru	South America	Wentworth et al.	KJ672567		
+KJ672542	2009-09-21	C	Peru	South America	Wentworth et al.	KJ672542	Iquitos	
+KJ672590	2010-01-21	C	Peru	South America	Wentworth et al.	KJ672590	Iquitos	
+KJ672599	2010-03-29	C	Peru	South America	Wentworth et al.	KJ672599	Iquitos	
+KJ672609	2010-02-05	C	Peru	South America	Wentworth et al.	KJ672609		
+KJ672617	2009-08-12	C	Peru	South America	Wentworth et al.	KJ672617	Iquitos	
+KJ672544	2010-03-09	C	Peru	South America	Wentworth et al.	KJ672544		
+KJ672578	2009-11-13	C	Peru	South America	Wentworth et al.	KJ672578	Iquitos	
+KJ672602	2009-11-20	C	Peru	South America	Wentworth et al.	KJ672602		
+KF530235	2007-12-31	C	Australia	Oceania	Lorenzi et al.	KF530235		
+KJ672608	2010-01-26	C	Peru	South America	Wentworth et al.	KJ672608	Iquitos	
+OR416988	2010-07-01	C	USA	North America	Greninger et al.	OR416988		
+OR416989	2010-06-30	C	USA	North America	Greninger et al.	OR416989		
+KF530241	2009-12-18	C	USA	North America	Lorenzi et al.	KF530241		
+MH006659	2009-12-22	C	Vietnam	Asia	Linster et al.	MH006659		
+MH006671	2010-05-27	C	Vietnam	Asia	Linster et al.	MH006671		
+MH006673	2010-12-01	C	Vietnam	Asia	Linster et al.	MH006673		
+MH006670	2010-04-20	C	Vietnam	Asia	Linster et al.	MH006670		
+OR416990	2010-12-31	C	USA	North America	Greninger et al.	OR416990		
+KY674963	2012-12-31	C	USA	North America	Greninger et al.	KY674963		
+MF034888	2016-05-20	C	USA	North America	Kothari et al.	MF034888	Arkansas	
+MF166751	2017-01-01	C	USA	North America	Greninger et al.	MF166751		
+MH678677	2012-11-30	C	United Kingdom	Europe	Smielewska et al.	MH678677		
+MH678689	2012-12-01	C	United Kingdom	Europe	Smielewska et al.	MH678689		
+MH678694	2014-04-01	C	United Kingdom	Europe	Smielewska et al.	MH678694		
+MH678684	2014-05-01	C	United Kingdom	Europe	Smielewska et al.	MH678684		
+MH678679	2013-02-16	C	United Kingdom	Europe	Smielewska et al.	MH678679		
+MH678681	2013-05-31	C	United Kingdom	Europe	Smielewska et al.	MH678681		
+KF687354	2010-06-28	C	France	Europe	Lorenzi et al.	KF687354		
+KF687353	2010-06-24	C	France	Europe	Lorenzi et al.	KF687353		
+MF973168	2010-04-30	C	USA	North America	Greninger et al.	MF973168		
+OQ848520	2011-05-01	C	USA	North America	Sereewit et al.	OQ848520		
+MF973174	2011-02-07	C	USA	North America	Greninger et al.	MF973174		
+OQ848513	2011-02-01	C	USA	North America	Sereewit et al.	OQ848513		
+MF554733	2009-06-13	C	USA	North America	Greninger et al.	MF554733		
+MF554726	2009-05-23	C	USA	North America	Greninger et al.	MF554726		
+KY684751	2009-06-12	C	USA	North America	Greninger et al.	KY684751		
+KY674926	2009-06-12	C	USA	North America	Greninger et al.	KY674926		
+MF554731	2009-06-08	C	USA	North America	Greninger et al.	MF554731		
+MF554727	2009-02-26	C	USA	North America	Greninger et al.	MF554727		
+KF687337	2008-11-27	C	South Africa	Africa	Lorenzi et al.	KF687337		
+KF687346	2009-03-12	C	South Africa	Africa	Lorenzi et al.	KF687346		
+AB736166	2011-11-01	C	Zambia	Africa	Sasaki et al.	AB736166	Livingstone	
+KF687340	2010-10-15	C	South Africa	Africa	Lorenzi et al.	KF687340		
+KF687345	2009-12-31	C	South Africa	Africa	Lorenzi et al.	KF687345		
+KF530228	2010-10-08	C	South Africa	Africa	Lorenzi et al.	KF530228		
+KF687338	2010-09-27	C	South Africa	Africa	Lorenzi et al.	KF687338		
+MH006630	2009-03-16	C	Vietnam	Asia	Linster et al.	MH006630		
+MF554736	2009-08-06	C	USA	North America	Greninger et al.	MF554736		
+OQ848509	2011-01-01	C	USA	North America	Sereewit et al.	OQ848509		
+MK167032	2010-05-24	C	USA	North America	Greninger et al.	MK167032		
+KY973578	2010-08-07	C	USA	North America	Greninger et al.	KY973578		
+OQ848506	2010-08-01	C	USA	North America	Sereewit et al.	OQ848506		
+MF034896	2016-06-17	C	USA	North America	Kothari et al.	MF034896	Arkansas	
+MF166752	2017-01-01	C	USA	North America	Greninger et al.	MF166752		
+KJ672570	2010-06-02	C	Peru	South America	Wentworth et al.	KJ672570		
+KJ672577	2010-07-02	C	Peru	South America	Wentworth et al.	KJ672577	Iquitos	
+KJ672579	2010-09-16	C	Peru	South America	Wentworth et al.	KJ672579		
+KJ672568	2010-08-20	C	Peru	South America	Wentworth et al.	KJ672568		
+KJ672582	2011-03-25	C	Peru	South America	Wentworth et al.	KJ672582		
+KJ672580	2010-05-31	C	Peru	South America	Wentworth et al.	KJ672580		
+KJ672598	2010-06-23	C	Peru	South America	Wentworth et al.	KJ672598		
+KJ672574	2010-12-09	C	Peru	South America	Wentworth et al.	KJ672574		
+KJ672589	2010-07-19	C	Peru	South America	Wentworth et al.	KJ672589		
+MH006654	2009-11-05	C	Vietnam	Asia	Linster et al.	MH006654		
+MH006641	2009-11-24	C	Vietnam	Asia	Linster et al.	MH006641		
+KF687320	2004-05-17	C	Mexico	North America	Lorenzi et al.	KF687320		
+m2-ED6Fyo	2024-05-28	C	Switzerland	Europe		m2-ED6Fyo	BS	ReVSeq
+KY674922	2016-01-01	C	USA	North America	Greninger et al.	KY674922		
+OQ848508	2011-01-31	C	USA	North America	Sereewit et al.	OQ848508		
+KY674982	2016-01-01	C	USA	North America	Greninger et al.	KY674982		
+MF973172	2011-01-29	C	USA	North America	Greninger et al.	MF973172		
+KF687349	2006-06-06	C	France	Europe	Lorenzi et al.	KF687349		
+KF530257	2007-09-14	C	Argentina	South America	Lorenzi et al.	KF530257		
+MH678688	2011-07-01	C	United Kingdom	Europe	Smielewska et al.	MH678688		
+KF530244	2008-03-08	C	South Africa	Africa	Lorenzi et al.	KF530244		
+KF687344	2008-08-25	C	South Africa	Africa	Lorenzi et al.	KF687344		
+KF687335	2007-12-31	C	South Africa	Africa	Lorenzi et al.	KF687335		
+KF687333	2007-11-25	C	South Africa	Africa	Lorenzi et al.	KF687333		
+KY674934	2009-01-01	C	USA	North America	Greninger et al.	KY674934		
+MF554720	2009-01-01	C	USA	North America	Greninger et al.	MF554720		
+KF687352	2009-03-17	C	France	Europe	Lorenzi et al.	KF687352		
+KY973568	2010-01-01	C	USA	North America	Greninger et al.	KY973568		
+KY973600	2010-01-13	C	USA	North America	Greninger et al.	KY973600		
+MF554721	2009-10-12	C	USA	North America	Greninger et al.	MF554721		
+MF554719	2009-08-25	C	USA	North America	Greninger et al.	MF554719		
+KY674923	2009-10-06	C	USA	North America	Greninger et al.	KY674923		
+KY973591	2010-01-01	C	USA	North America	Greninger et al.	KY973591		
+KY674933	2009-09-03	C	USA	North America	Greninger et al.	KY674933		
+MF554728	2009-10-03	C	USA	North America	Greninger et al.	MF554728		
+MF554734	2009-08-24	C	USA	North America	Greninger et al.	MF554734		
+KY674932	2009-08-11	C	USA	North America	Greninger et al.	KY674932		
+KY674938	2009-08-29	C	USA	North America	Greninger et al.	KY674938		
+MF554730	2009-10-25	C	USA	North America	Greninger et al.	MF554730		
+MF554732	2009-10-05	C	USA	North America	Greninger et al.	MF554732		
+KY684753	2009-09-22	C	USA	North America	Greninger et al.	KY684753		
+KY674930	2009-09-22	C	USA	North America	Greninger et al.	KY674930		
+KY674937	2009-09-22	C	USA	North America	Greninger et al.	KY674937		
+KF687318	2007-12-31	C	USA	North America	Lorenzi et al.	KF687318	Wi	
+KY674931	2009-01-01	C	USA	North America	Greninger et al.	KY674931		
+KY684752	2009-02-13	C	USA	North America	Greninger et al.	KY684752		
+MF554724	2009-03-07	C	USA	North America	Greninger et al.	MF554724		
+MF554735	2009-03-07	C	USA	North America	Greninger et al.	MF554735		
+KF530236	2010-07-01	C	France	Europe	Lorenzi et al.	KF530236		
+KY973577	2010-01-01	C	USA	North America	Greninger et al.	KY973577		
+KF530229	2009-12-31	C	USA	North America	Lorenzi et al.	KF530229		
+KF687317	2009-09-07	C	USA	North America	Lorenzi et al.	KF687317	Wi	
+KY674927	2009-01-17	C	USA	North America	Greninger et al.	KY674927		
+KY684749	2009-01-27	C	USA	North America	Greninger et al.	KY684749		
+KF687339	2010-09-28	C	South Africa	Africa	Lorenzi et al.	KF687339		
+KF687358	2011-05-23	C	Switzerland	Europe	Lorenzi et al.	KF687358		
+MF973187	2011-01-01	C	USA	North America	Greninger et al.	MF973187		
+MF973188	2011-01-01	C	USA	North America	Greninger et al.	MF973188		
+KF530242	2008-12-31	C	USA	North America	Lorenzi et al.	KF530242		
+KF687357	2011-01-06	C	USA	North America	Lorenzi et al.	KF687357		
+KY973581	2010-11-08	C	USA	North America	Greninger et al.	KY973581		
+OR416987	2010-12-31	C	USA	North America	Greninger et al.	OR416987		
+KF687356	2011-02-11	C	France	Europe	Lorenzi et al.	KF687356		
+MH678674	2011-06-12	C	United Kingdom	Europe	Smielewska et al.	MH678674		
+MH678687	2011-06-01	C	United Kingdom	Europe	Smielewska et al.	MH678687		
+KY973575	2010-12-31	C	USA	North America	Greninger et al.	KY973575		
+KX574704	2016-01-01	C	USA	North America	Greninger et al.	KX574704		
+MF795096	2017-01-01	C	USA	North America	Greninger et al.	MF795096		
+m2-SccDgj	2024-07-03	C	Switzerland	Europe		m2-SccDgj	AG	ReVSeq
+PV052973	2023-06-01	C	USA	North America	Greenleaf et al.	PV052973		
+m2-KtHTz8	2024-01-29	C	Switzerland	Europe		m2-KtHTz8	BL	ReVSeq
+m2-ujTsiu	2024-04-25	C	Switzerland	Europe		m2-ujTsiu	AG	ReVSeq
+m2-RgZWrD	2024-04-03	C	Switzerland	Europe		m2-RgZWrD	ZH	ReVSeq
+m2-BdNxPR	2023-10-30	C	Switzerland	Europe		m2-BdNxPR	BS	ReVSeq
+m2-4PF58Q	2023-10-30	C	Switzerland	Europe		m2-4PF58Q	BS	ReVSeq
+KY369872	2016-02-17	C	USA	North America	Greninger et al.	KY369872		
+MF034891	2016-06-04	C	USA	North America	Kothari et al.	MF034891	Arkansas	
+MF034892	2016-06-21	C	USA	North America	Kothari et al.	MF034892	Arkansas	
+MF034893	2016-06-24	C	USA	North America	Kothari et al.	MF034893	Arkansas	
+KY369876	2016-02-18	C	USA	North America	Greninger et al.	KY369876		
+KY779613	2015-11-18	C	USA	North America	Greninger et al.	KY779613		
+KY933413	2015-12-31	C	USA	North America	Greninger et al.	KY933413		
+KY779599	2015-12-17	C	USA	North America	Greninger et al.	KY779599		
+KY779600	2015-12-17	C	USA	North America	Greninger et al.	KY779600		
+KY779606	2015-12-06	C	USA	North America	Greninger et al.	KY779606		
+KY933415	2015-12-11	C	USA	North America	Greninger et al.	KY933415		
+KY933411	2015-12-16	C	USA	North America	Greninger et al.	KY933411		
+KY933414	2015-12-22	C	USA	North America	Greninger et al.	KY933414		
+KY973560	2015-12-31	C	USA	North America	Greninger et al.	KY973560		
+KX574707	2016-09-11	C	USA	North America	Greninger et al.	KX574707		
+KY973569	2017-01-01	C	USA	North America	Greninger et al.	KY973569		
+MN306052	2019-01-01	C	USA	North America	Lin et al.	MN306052		
+MF795094	2016-12-31	C	USA	North America	Greninger et al.	MF795094		
+MN306022	2019-01-01	C	USA	North America	Lin et al.	MN306022		
+KY369866	2016-12-31	C	USA	North America	Greninger et al.	KY369866		
+ON729325	2018-01-01	C	USA	North America	Sereewit et al.	ON729325		
+LC720871	2018-01-01	C	Japan	Asia	Shirato et al.	LC720871		
+m2-sJs93G	2024-01-11	C	Switzerland	Europe		m2-sJs93G	SG	ReVSeq
+m2-KaJ5Pe	2024-04-24	C	Switzerland	Europe		m2-KaJ5Pe	AG	ReVSeq
+m2-LMD6ho	2024-04-03	C	Switzerland	Europe		m2-LMD6ho	SG	ReVSeq
+m2-WydUVb	2024-03-08	C	Switzerland	Europe		m2-WydUVb	SG	ReVSeq
+m2-h54gk9	2024-06-18	C	Switzerland	Europe		m2-h54gk9	BS	ReVSeq
+m2-3H2Wig	2023-05-08	C	Switzerland	Europe		m2-3H2Wig	BS	ReVSeq
+m2-9jS4Ro	2023-05-09	C	Switzerland	Europe		m2-9jS4Ro	BS	ReVSeq
+LC817396	2023-05-18	C	Japan	Asia	Shirato et al.	LC817396		
+LC817399	2023-05-04	C	Japan	Asia	Shirato et al.	LC817399		
+LC817395	2023-04-13	C	Japan	Asia	Shirato et al.	LC817395		
+LC817398	2023-05-13	C	Japan	Asia	Shirato et al.	LC817398		
+LC817397	2023-04-28	C	Japan	Asia	Shirato et al.	LC817397		
+FJ455842	2003-12-31	C	China	Asia	Yang et al.	FJ455842	Gansu	
+MK679535	2017-09-12	C	China	Asia	Zhang et al.	MK679535		
+MK679531	2017-12-12	C	China	Asia	Zhang et al.	MK679531		
+MK679542	2017-10-24	C	China	Asia	Zhang et al.	MK679542		
+MK679532	2017-07-11	C	China	Asia	Zhang et al.	MK679532		
+MK679527	2017-06-27	C	China	Asia	Zhang et al.	MK679527		
+MK679536	2017-06-21	C	China	Asia	Zhang et al.	MK679536		
+MK679541	2017-08-15	C	China	Asia	Zhang et al.	MK679541		
+MK679530	2017-11-14	C	China	Asia	Zhang et al.	MK679530		
+MK679533	2017-07-11	C	China	Asia	Zhang et al.	MK679533		
+MK679539	2017-03-28	C	China	Asia	Zhang et al.	MK679539		
+MK679529	2017-08-15	C	China	Asia	Zhang et al.	MK679529		
+MK679538	2017-03-25	C	China	Asia	Zhang et al.	MK679538		
+MK679526	2017-05-03	C	China	Asia	Zhang et al.	MK679526		
+MK679537	2017-05-03	C	China	Asia	Zhang et al.	MK679537		
+MK679540	2017-03-28	C	China	Asia	Zhang et al.	MK679540		
+KF530240	2007-01-01	C	USA	North America	Lorenzi et al.	KF530240		
+KF687347	2006-07-31	C	USA	North America	Lorenzi et al.	KF687347		
+KF687350	2007-01-26	C	France	Europe	Lorenzi et al.	KF687350		
+MF987836	2010-01-14	C	Brazil	South America	Di Paola et al.	MF987836		
+KF530253	2007-07-04	C	France	Europe	Lorenzi et al.	KF530253		
+KY684748	2009-01-01	C	USA	North America	Greninger et al.	KY684748		
+MH006660	2009-12-22	C	Vietnam	Asia	Linster et al.	MH006660		
+KJ672561	2009-08-12	C	Peru	South America	Wentworth et al.	KJ672561	Iquitos	
+KJ672536	2011-05-02	C	Peru	South America	Wentworth et al.	KJ672536		
+KJ672559	2010-10-07	C	Peru	South America	Wentworth et al.	KJ672559	Iquitos	
+KJ672576	2007-09-23	C	Peru	South America	Wentworth et al.	KJ672576		
+KJ672571	2011-05-12	C	Peru	South America	Wentworth et al.	KJ672571		
+KJ672560	2009-01-05	C	Peru	South America	Wentworth et al.	KJ672560		
+KJ672595	2012-03-12	C	Peru	South America	Wentworth et al.	KJ672595		
+KJ672607	2007-09-23	C	Peru	South America	Wentworth et al.	KJ672607		
+KJ672547	2008-10-02	C	Peru	South America	Wentworth et al.	KJ672547		
+KJ672548	2010-11-18	C	Peru	South America	Wentworth et al.	KJ672548		
+KJ672575	2011-05-12	C	Peru	South America	Wentworth et al.	KJ672575		
+KJ672612	2007-10-06	C	Peru	South America	Wentworth et al.	KJ672612		
+KJ672604	2007-10-26	C	Peru	South America	Wentworth et al.	KJ672604		
+KJ672528	2009-03-25	C	Peru	South America	Wentworth et al.	KJ672528	Iquitos	
+KJ672614	2011-10-27	C	Peru	South America	Wentworth et al.	KJ672614	Iquitos	
+KJ672585	2012-02-13	C	Peru	South America	Wentworth et al.	KJ672585		
+KJ672538	2009-05-14	C	Peru	South America	Wentworth et al.	KJ672538		
+KJ672569	2011-06-21	C	Peru	South America	Wentworth et al.	KJ672569	Iquitos	
+KJ672597	2008-09-27	C	Peru	South America	Wentworth et al.	KJ672597		
+KJ672550	2009-01-14	C	Peru	South America	Wentworth et al.	KJ672550		
+KJ672603	2008-12-18	C	Peru	South America	Wentworth et al.	KJ672603		
+KF530234	2005-02-11	C	Mexico	North America	Lorenzi et al.	KF530234		
+KF687322	2005-02-07	C	Mexico	North America	Lorenzi et al.	KF687322		
+KF687334	2007-01-01	C	South Africa	Africa	Lorenzi et al.	KF687334		
+KF687343	2006-07-06	C	Argentina	South America	Lorenzi et al.	KF687343		
+KF687342	2007-05-11	C	Argentina	South America	Lorenzi et al.	KF687342		
+KJ672563	2010-07-19	C	Peru	South America	Wentworth et al.	KJ672563		
+KJ672584	2012-01-11	C	Peru	South America	Wentworth et al.	KJ672584	Iquitos	
+KJ672610	2007-09-27	C	Peru	South America	Wentworth et al.	KJ672610	Iquitos	
+KJ672566	2010-06-01	C	Peru	South America	Wentworth et al.	KJ672566		
+KJ672553	2011-10-28	C	Peru	South America	Wentworth et al.	KJ672553	Iquitos	
+KJ672543	2010-10-11	C	Peru	South America	Wentworth et al.	KJ672543		
+KJ672586	2010-08-27	C	Peru	South America	Wentworth et al.	KJ672586		
+MH006676	2009-12-10	C3b	Vietnam	Asia	Linster et al.	MH006676		
+MH006647	2009-03-26	C3b	Vietnam	Asia	Linster et al.	MH006647		
+MH006639	2009-06-10	C3b	Vietnam	Asia	Linster et al.	MH006639		
+MH006656	2009-12-09	C3b	Vietnam	Asia	Linster et al.	MH006656		
+KY973584	2010-01-01	C3b	USA	North America	Greninger et al.	KY973584		
+MH006634	2009-04-09	C3b	Vietnam	Asia	Linster et al.	MH006634		
+MH006643	2010-01-05	C3b	Vietnam	Asia	Linster et al.	MH006643		
+MH006642	2009-12-01	C3b	Vietnam	Asia	Linster et al.	MH006642		
+MH006655	2009-11-27	C3b	Vietnam	Asia	Linster et al.	MH006655		
+MH006633	2009-04-02	C3b	Vietnam	Asia	Linster et al.	MH006633		
+MH006638	2009-06-01	C3b	Vietnam	Asia	Linster et al.	MH006638		
+MH006679	2010-03-17	C3b	Vietnam	Asia	Linster et al.	MH006679		
+MH006636	2009-05-12	C3b	Vietnam	Asia	Linster et al.	MH006636		
+MH006646	2009-03-17	C3b	Vietnam	Asia	Linster et al.	MH006646		
+MH006640	2009-11-11	C3b	Vietnam	Asia	Linster et al.	MH006640		
+MH006658	2009-12-18	C3b	Vietnam	Asia	Linster et al.	MH006658		
+MH006631	2009-03-30	C3b	Vietnam	Asia	Linster et al.	MH006631		
+MH006635	2009-05-12	C3b	Vietnam	Asia	Linster et al.	MH006635		
+MH828702	2014-12-22	C3b	Vietnam	Asia	Lu et al.	MH828702		
+OQ848524	2011-05-01	C3b	USA	North America	Sereewit et al.	OQ848524		
+KJ672530	2009-02-10	C3b	Peru	South America	Wentworth et al.	KJ672530		
+KJ672552	2009-05-25	C3b	Peru	South America	Wentworth et al.	KJ672552		
+KJ672593	2009-06-01	C3b	Peru	South America	Wentworth et al.	KJ672593		
+KJ672562	2009-03-25	C3b	Peru	South America	Wentworth et al.	KJ672562	Iquitos	
+MH006674	2009-12-28	C3b	Vietnam	Asia	Linster et al.	MH006674		
+KM190938	2012-02-21	C3b	Thailand	Asia	Rutvisuttinunt et al.	KM190938		
+OQ981713	2015-05-12	C3b	China	Asia	Zhu et al.	OQ981713		
+OQ981760	2019-12-25	C3b	China	Asia	Zhu et al.	OQ981760		
+MH411617	2017-04-24	C3b	China	Asia	Zhang et al.	MH411617		
+MK679525	2017-04-04	C3b	China	Asia	Zhang et al.	MK679525		
+MK679528	2017-07-18	C3b	China	Asia	Zhang et al.	MK679528		
+MK679534	2017-06-27	C3b	China	Asia	Zhang et al.	MK679534		
+LC720880	2021-01-27	C3b	Japan	Asia	Shirato et al.	LC720880		
+LC817394	2021-01-01	C3b	Japan	Asia	Shirato et al.	LC817394		
+LC720881	2021-01-28	C3b	Japan	Asia	Shirato et al.	LC720881		
+OY757628	2021-04-27	C3b	Australia	Oceania	Steinig JOACHIM et al.	OY757628		
+OY757640	2022-06-04	C3b	Australia	Oceania	Steinig JOACHIM et al.	OY757640		
+OY757723	2022-06-04	C3b	Australia	Oceania	Steinig JOACHIM et al.	OY757723		
+KY674975	2016-06-15	C3b	USA	North America	Greninger et al.	KY674975		
+OQ981791	2017-12-04	C3b	China	Asia	Zhu et al.	OQ981791		
+OQ981804	2018-04-16	C3b	China	Asia	Zhu et al.	OQ981804		
+OQ981731	2019-03-04	C3b	China	Asia	Zhu et al.	OQ981731		
+OQ981810	2018-11-26	C3b	China	Asia	Zhu et al.	OQ981810		
+OQ981728	2017-12-01	C3b	China	Asia	Zhu et al.	OQ981728		
+OQ981774	2018-05-17	C3b	China	Asia	Zhu et al.	OQ981774		
+OQ981796	2018-07-26	C3b	China	Asia	Zhu et al.	OQ981796		
+OQ981719	2016-04-26	C3b	China	Asia	Zhu et al.	OQ981719		
+OQ981750	2019-11-04	C3b	China	Asia	Zhu et al.	OQ981750		
+OQ981714	2015-07-16	C3b	China	Asia	Zhu et al.	OQ981714		
+OQ981716	2015-10-23	C3b	China	Asia	Zhu et al.	OQ981716		
+OQ981793	2018-06-14	C3b	China	Asia	Zhu et al.	OQ981793		
+OQ981744	2019-09-29	C3b	China	Asia	Zhu et al.	OQ981744		
+OQ981758	2019-12-16	C3b	China	Asia	Zhu et al.	OQ981758		
+OQ981807	2018-05-17	C3b	China	Asia	Zhu et al.	OQ981807		
+OQ981798	2019-07-08	C3b	China	Asia	Zhu et al.	OQ981798		
+OQ981792	2018-06-04	C3b	China	Asia	Zhu et al.	OQ981792		
+MW587049	2017-12-01	C3b	China	Asia	Shi et al.	MW587049		
+OQ981724	2017-06-26	C3b	China	Asia	Zhu et al.	OQ981724		
+OQ981786	2018-05-10	C3b	China	Asia	Zhu et al.	OQ981786		
+OQ981805	2018-04-17	C3b	China	Asia	Zhu et al.	OQ981805		
+OQ981788	2018-07-18	C3b	China	Asia	Zhu et al.	OQ981788		
+OQ981769	2018-03-26	C3b	China	Asia	Zhu et al.	OQ981769		
+OQ981772	2018-04-25	C3b	China	Asia	Zhu et al.	OQ981772		
+OQ981771	2018-04-25	C3b	China	Asia	Zhu et al.	OQ981771		
+OQ981795	2018-07-26	C3b	China	Asia	Zhu et al.	OQ981795		
+KF687351	2008-01-04	C	France	Europe	Lorenzi et al.	KF687351		
+OQ848518	2011-04-30	C	USA	North America	Sereewit et al.	OQ848518		
+MW575655	2014-01-01	C	China	Asia	Shao et al.	MW575655		
+MW575657	2014-01-01	C	China	Asia	Shao et al.	MW575657		
+MW575658	2014-01-01	C	China	Asia	Shao et al.	MW575658		
+MW575661	2012-12-31	C	China	Asia	Shao et al.	MW575661		
+MW575659	2012-12-31	C	China	Asia	Shao et al.	MW575659		
+OQ981720	2016-05-06	C	China	Asia	Zhu et al.	OQ981720		
+OQ981732	2019-03-12	C	China	Asia	Zhu et al.	OQ981732		
+OQ981763	2020-01-20	C	China	Asia	Zhu et al.	OQ981763		
+OQ981730	2019-02-03	C	China	Asia	Zhu et al.	OQ981730		
+OQ981765	2020-03-19	C	China	Asia	Zhu et al.	OQ981765		
+OQ981766	2020-03-20	C	China	Asia	Zhu et al.	OQ981766		
+MT374082	2017-02-01	C	China	Asia	Bai et al.	MT374082	Gansu	
+MW575656	2012-12-31	C	China	Asia	Shao et al.	MW575656		
+MH828700	2015-06-17	C	Vietnam	Asia	Lu et al.	MH828700		
+MH828699	2015-01-15	C	Vietnam	Asia	Lu et al.	MH828699		
+MH828698	2014-01-23	C	Vietnam	Asia	Lu et al.	MH828698		
+OQ981722	2016-11-10	C	China	Asia	Zhu et al.	OQ981722		
+MW575653	2014-12-31	C	China	Asia	Shao et al.	MW575653		
+OQ981718	2016-03-07	C	China	Asia	Zhu et al.	OQ981718		
+OQ981726	2017-08-18	C	China	Asia	Zhu et al.	OQ981726		
+OQ981712	2015-05-08	C	China	Asia	Zhu et al.	OQ981712		
+KY234287	2016-01-10	C	China	Asia	Xu et al.	KY234287		
+MZ326142	2018-01-01	C	China	Asia	Jiang et al.	MZ326142		
+OQ981768	2018-05-30	C	China	Asia	Zhu et al.	OQ981768		
+MH006668	2010-03-28	C	Vietnam	Asia	Linster et al.	MH006668		
+MH006672	2010-05-28	C	Vietnam	Asia	Linster et al.	MH006672		
+MH828701	2015-03-13	C	Vietnam	Asia	Lu et al.	MH828701		
+MW587048	2017-12-01	C	China	Asia	Shi et al.	MW587048		
+OQ981777	2018-10-29	C	China	Asia	Zhu et al.	OQ981777		
+MN145875	2017-03-31	C	China	Asia	Li et al.	MN145875		
+OQ981770	2018-04-06	C	China	Asia	Zhu et al.	OQ981770		
+OQ981715	2015-09-01	C	China	Asia	Zhu et al.	OQ981715		
+OQ981741	2019-08-07	C	China	Asia	Zhu et al.	OQ981741		
+OQ981784	2017-12-24	C	China	Asia	Zhu et al.	OQ981784		
+MW587047	2017-12-31	C	China	Asia	Shi et al.	MW587047		
+OQ981775	2018-05-17	C	China	Asia	Zhu et al.	OQ981775		
+OQ981745	2019-09-30	C	China	Asia	Zhu et al.	OQ981745		
+OQ981749	2019-10-28	C	China	Asia	Zhu et al.	OQ981749		
+OQ981799	2018-03-13	C	China	Asia	Zhu et al.	OQ981799		
+OQ981802	2018-04-11	C	China	Asia	Zhu et al.	OQ981802		
+OQ981787	2019-04-02	C	China	Asia	Zhu et al.	OQ981787		
+OQ981754	2019-12-02	C	China	Asia	Zhu et al.	OQ981754		
+OQ981812	2019-10-11	C	China	Asia	Zhu et al.	OQ981812		
+OQ981808	2018-05-24	C	China	Asia	Zhu et al.	OQ981808		
+OQ981811	2019-03-05	C	China	Asia	Zhu et al.	OQ981811		
+OQ981742	2019-09-27	C	China	Asia	Zhu et al.	OQ981742		
+OQ981753	2019-11-11	C	China	Asia	Zhu et al.	OQ981753		
+OQ981790	2017-10-20	C	China	Asia	Zhu et al.	OQ981790		
+OQ981739	2019-06-21	C	China	Asia	Zhu et al.	OQ981739		
+OQ981776	2018-08-22	C	China	Asia	Zhu et al.	OQ981776		
+OQ981778	2018-07-16	C	China	Asia	Zhu et al.	OQ981778		
+OQ981752	2019-11-11	C	China	Asia	Zhu et al.	OQ981752		
+OQ981759	2019-12-17	C	China	Asia	Zhu et al.	OQ981759		
+MW587046	2017-12-31	C	China	Asia	Shi et al.	MW587046		
+OQ785280	2022-01-01	C	China	Asia	Chen et al.	OQ785280		
+OQ981781	2019-08-21	C	China	Asia	Zhu et al.	OQ981781		
+OQ981734	2019-04-18	C	China	Asia	Zhu et al.	OQ981734		
+OQ981801	2018-03-27	C	China	Asia	Zhu et al.	OQ981801		
+OQ981803	2018-04-11	C	China	Asia	Zhu et al.	OQ981803		
+OQ981806	2018-05-07	C	China	Asia	Zhu et al.	OQ981806		
+KY674964	2012-01-01	C	USA	North America	Greninger et al.	KY674964		
+OR416986	2010-01-01	C	USA	North America	Greninger et al.	OR416986		
+MH892410	2013-11-29	C	Netherlands	Europe	Phan et al.	MH892410		
+m2-844sRF	2024-03-11	C	Switzerland	Europe		m2-844sRF	BE	ReVSeq
+m2-P9mWJr	2024-04-12	C	Switzerland	Europe		m2-P9mWJr	BE	ReVSeq
+KF530233	2009-03-09	C	France	Europe	Lorenzi et al.	KF530233		
+KY674928	2009-01-01	C	USA	North America	Greninger et al.	KY674928		
+KY674936	2009-01-15	C	USA	North America	Greninger et al.	KY674936		
+KY674935	2009-01-03	C	USA	North America	Greninger et al.	KY674935		
+KJ672535	2011-05-30	C	Peru	South America	Wentworth et al.	KJ672535		
+KJ672555	2010-05-18	C	Peru	South America	Wentworth et al.	KJ672555		
+KJ672591	2011-06-21	C	Peru	South America	Wentworth et al.	KJ672591	Iquitos	
+KJ672541	2010-08-31	C	Peru	South America	Wentworth et al.	KJ672541		
+KJ672583	2012-01-27	C	Peru	South America	Wentworth et al.	KJ672583		
+KJ672554	2011-04-06	C	Peru	South America	Wentworth et al.	KJ672554		
+KJ672618	2012-05-14	C	Peru	South America	Wentworth et al.	KJ672618	Iquitos	
+KJ672533	2011-08-29	C	Peru	South America	Wentworth et al.	KJ672533		
+KJ672539	2007-09-17	C	Peru	South America	Wentworth et al.	KJ672539	Iquitos	
+KJ672565	2007-07-09	C	Peru	South America	Wentworth et al.	KJ672565		
+KJ672581	2011-05-17	C	Peru	South America	Wentworth et al.	KJ672581		
+KJ672557	2011-06-17	C	Peru	South America	Wentworth et al.	KJ672557		
+KY973595	2010-01-05	C	USA	North America	Greninger et al.	KY973595		
+KY973572	2010-01-05	C	USA	North America	Greninger et al.	KY973572		
+KY973597	2010-01-05	C	USA	North America	Greninger et al.	KY973597		
+MF554718	2009-01-28	C	USA	North America	Greninger et al.	MF554718		
+MF554723	2009-01-16	C	USA	North America	Greninger et al.	MF554723		
+KY674939	2009-01-21	C	USA	North America	Greninger et al.	KY674939		
+KY684746	2009-01-23	C	USA	North America	Greninger et al.	KY684746		
+MF554729	2009-01-07	C	USA	North America	Greninger et al.	MF554729		
+KF530252	2008-09-11	C	USA	North America	Lorenzi et al.	KF530252		
+KY684745	2009-01-01	C	USA	North America	Greninger et al.	KY684745		
+KF687332	2009-02-11	C	Mexico	North America	Lorenzi et al.	KF687332		
+KF687330	2008-03-11	C	Mexico	North America	Lorenzi et al.	KF687330		
+OQ848507	2011-01-01	C	USA	North America	Sereewit et al.	OQ848507		
+KY973592	2010-01-01	C	USA	North America	Greninger et al.	KY973592		
+MF554716	2009-02-03	C	USA	North America	Greninger et al.	MF554716		
+MF554717	2009-01-18	C	USA	North America	Greninger et al.	MF554717		
+KY674925	2009-01-18	C	USA	North America	Greninger et al.	KY674925		
+KY973588	2010-01-01	C	USA	North America	Greninger et al.	KY973588		
+KY973587	2010-01-01	C	USA	North America	Greninger et al.	KY973587		
+MF554722	2009-12-31	C	USA	North America	Greninger et al.	MF554722		
+MH678676	2012-07-01	C	United Kingdom	Europe	Smielewska et al.	MH678676		
+KY973589	2010-06-22	C	USA	North America	Greninger et al.	KY973589		
+OR416974	2010-06-12	C	USA	North America	Greninger et al.	OR416974		
+OQ848523	2011-06-01	C	USA	North America	Sereewit et al.	OQ848523		
+MF973184	2011-01-19	C	USA	North America	Greninger et al.	MF973184		
+MF973175	2011-01-07	C	USA	North America	Greninger et al.	MF973175		
+MF973176	2011-01-06	C	USA	North America	Greninger et al.	MF973176		
+OQ848510	2011-01-06	C	USA	North America	Sereewit et al.	OQ848510		
+KF530248	2006-11-03	C	Mexico	North America	Lorenzi et al.	KF530248		
+KF687326	2006-06-12	C	Mexico	North America	Lorenzi et al.	KF687326		
+KF530250	2006-02-20	C	Mexico	North America	Lorenzi et al.	KF530250		
+KF687324	2006-05-31	C	Mexico	North America	Lorenzi et al.	KF687324		
+KY973590	2010-05-14	C	USA	North America	Greninger et al.	KY973590		
+KY973596	2010-06-29	C	USA	North America	Greninger et al.	KY973596		
+KY973586	2010-08-28	C	USA	North America	Greninger et al.	KY973586		
+MF973163	2011-03-02	C	USA	North America	Greninger et al.	MF973163		
+OQ848517	2011-04-01	C	USA	North America	Sereewit et al.	OQ848517		
+MK167037	2010-10-01	C	USA	North America	Greninger et al.	MK167037		
+KY973593	2010-06-17	C	USA	North America	Greninger et al.	KY973593		
+MF973183	2011-02-05	C	USA	North America	Greninger et al.	MF973183		
+OQ848514	2011-02-01	C	USA	North America	Sereewit et al.	OQ848514		
+MF973179	2011-01-01	C	USA	North America	Greninger et al.	MF973179		
+KY986641	2010-07-09	C	USA	North America	Greninger et al.	KY986641		
+KY986642	2010-06-28	C	USA	North America	Greninger et al.	KY986642		
+KY973585	2010-10-02	C	USA	North America	Greninger et al.	KY973585		
+OR416977	2010-10-24	C	USA	North America	Greninger et al.	OR416977		
+OR416975	2010-11-07	C	USA	North America	Greninger et al.	OR416975		
+OR416976	2010-11-24	C	USA	North America	Greninger et al.	OR416976		
+OR416978	2010-12-31	C	USA	North America	Greninger et al.	OR416978		
+KY684750	2009-01-01	C	USA	North America	Greninger et al.	KY684750		
+KF530255	2007-05-10	C	USA	North America	Lorenzi et al.	KF530255		
+KF687329	2008-03-04	C	Mexico	North America	Lorenzi et al.	KF687329		
+KF687328	2007-03-04	C	Mexico	North America	Lorenzi et al.	KF687328		
+KF530256	2007-12-31	C	USA	North America	Lorenzi et al.	KF530256		
+MH006661	2009-12-28	C	Vietnam	Asia	Linster et al.	MH006661		
+KF687331	2009-01-27	C	Mexico	North America	Lorenzi et al.	KF687331		
+KJ672613	2010-10-15	C	Peru	South America	Wentworth et al.	KJ672613	Iquitos	
+KY973576	2010-01-01	C	USA	North America	Greninger et al.	KY973576		
+KY986643	2010-01-01	C	USA	North America	Greninger et al.	KY986643		
+KY973579	2010-01-01	C	USA	North America	Greninger et al.	KY973579		
+KY684744	2009-09-11	C	USA	North America	Greninger et al.	KY684744		
+KY684747	2009-09-11	C	USA	North America	Greninger et al.	KY684747		
+KY674924	2009-01-01	C	USA	North America	Greninger et al.	KY674924		
+KY684761	2009-01-08	C	USA	North America	Greninger et al.	KY684761		
+MF554725	2009-01-09	C	USA	North America	Greninger et al.	MF554725		
+KY779614	2015-01-01	C	USA	North America	Greninger et al.	KY779614		
+OR416985	2010-12-31	C	USA	North America	Greninger et al.	OR416985		
+MG773275	2016-07-29	C	Argentina	South America	Goya et al.	MG773275		
+MF973177	2011-05-12	C	USA	North America	Greninger et al.	MF973177		
+MF973180	2011-03-10	C	USA	North America	Greninger et al.	MF973180		
+OQ848516	2011-03-01	C	USA	North America	Sereewit et al.	OQ848516		
+KJ672600	2009-04-22	C	Peru	South America	Wentworth et al.	KJ672600		
+MF973169	2010-12-31	C	USA	North America	Greninger et al.	MF973169		
+MF973191	2011-01-01	C	USA	North America	Greninger et al.	MF973191		
+MF973182	2011-01-01	C	USA	North America	Greninger et al.	MF973182		
+MF973190	2011-01-10	C	USA	North America	Greninger et al.	MF973190		
+MF973186	2011-01-02	C	USA	North America	Greninger et al.	MF973186		
+MF973192	2011-01-02	C	USA	North America	Greninger et al.	MF973192		
+KF687327	2007-02-16	C	Mexico	North America	Lorenzi et al.	KF687327		
+KJ672532	2007-10-31	C	Peru	South America	Wentworth et al.	KJ672532		
+KJ672588	2009-01-18	C	Peru	South America	Wentworth et al.	KJ672588		
+MF973170	2011-02-07	C	USA	North America	Greninger et al.	MF973170		
+OQ848511	2011-02-01	C	USA	North America	Sereewit et al.	OQ848511		
+OQ848555	2011-04-29	C	USA	North America	Sereewit et al.	OQ848555		
+OQ848559	2011-05-01	C	USA	North America	Sereewit et al.	OQ848559		
+KY674929	2009-03-07	C	USA	North America	Greninger et al.	KY674929		
+OQ848512	2011-02-01	C	USA	North America	Sereewit et al.	OQ848512		
+KF530232	2010-07-06	C	USA	North America	Lorenzi et al.	KF530232		
+KF687348	2011-01-05	C	USA	North America	Lorenzi et al.	KF687348		
+OQ848560	2011-05-01	C	USA	North America	Sereewit et al.	OQ848560		
+PP909812	2010-03-27	C	Netherlands	Europe	Lin et al.	PP909812		
+MH428627	2017-01-01	C	Uganda	Africa	Negrey et al.	MH428627	Kanyawara	
+MH685716	2013-01-01	C	Uganda	Africa	Ramesh et al.	MH685716		
+KJ672546	2007-10-15	C	Peru	South America	Wentworth et al.	KJ672546	Iquitos	
+KJ672616	2007-10-17	C	Peru	South America	Wentworth et al.	KJ672616	Iquitos	
+MH828696	2014-01-10	C	Vietnam	Asia	Lu et al.	MH828696		
+MH828697	2014-02-07	C	Vietnam	Asia	Lu et al.	MH828697		
+MH828695	2014-12-17	C	Vietnam	Asia	Lu et al.	MH828695		
+MH678683	2014-11-30	C	United Kingdom	Europe	Smielewska et al.	MH678683		
+OQ981721	2016-08-18	C	China	Asia	Zhu et al.	OQ981721		
+OQ981797	2019-03-28	C	China	Asia	Zhu et al.	OQ981797		
+OQ981767	2017-09-13	C	China	Asia	Zhu et al.	OQ981767		
+OQ981800	2018-03-16	C	China	Asia	Zhu et al.	OQ981800		
+PP411993	2023-02-10	C	Thailand	Asia	Doung-ngern et al.	PP411993		
+KY973558	2015-04-17	C	USA	North America	Greninger et al.	KY973558		
+MH892409	2016-08-01	C	Netherlands	Europe	Phan et al.	MH892409		
+MH678685	2014-06-30	C	United Kingdom	Europe	Smielewska et al.	MH678685		
+MH678686	2014-07-01	C	United Kingdom	Europe	Smielewska et al.	MH678686		
+KY973564	2015-12-31	C	USA	North America	Greninger et al.	KY973564		
+OY757682	2021-07-16	C	Australia	Oceania	Steinig JOACHIM et al.	OY757682		
+OY757617	2021-07-16	C	Australia	Oceania	Steinig JOACHIM et al.	OY757617		
+OY757689	2021-07-26	C	Australia	Oceania	Steinig JOACHIM et al.	OY757689		
+OY757790	2021-07-26	C	Australia	Oceania	Steinig JOACHIM et al.	OY757790		
+PQ117917	2024-01-04	C	USA	North America	Rothstein et al.	PQ117917		
+PP411994	2023-01-20	C	Thailand	Asia	Janon et al.	PP411994		
+OY757612	2021-07-13	C	Australia	Oceania	Steinig JOACHIM et al.	OY757612		
+OY757687	2021-08-09	C	Australia	Oceania	Steinig JOACHIM et al.	OY757687		
+OY757616	2023-01-01	C	Australia	Oceania	Steinig JOACHIM et al.	OY757616		
+OY757820	2023-01-01	C	Australia	Oceania	Steinig JOACHIM et al.	OY757820		
+OY757643	2022-06-04	C	Australia	Oceania	Steinig JOACHIM et al.	OY757643		
+OY757815	2023-01-01	C	Australia	Oceania	Steinig JOACHIM et al.	OY757815		
+OY757764	2023-01-01	C	Australia	Oceania	Steinig JOACHIM et al.	OY757764		
+OY757615	2022-06-04	C	Australia	Oceania	Steinig JOACHIM et al.	OY757615		
+OY757868	2023-01-01	C	Australia	Oceania	Steinig JOACHIM et al.	OY757868		
+OY757758	2023-01-04	C	Australia	Oceania	Steinig JOACHIM et al.	OY757758		
+OY758983	2023-01-11	C	Australia	Oceania	Steinig JOACHIM et al.	OY758983		
+OY757731	2023-01-11	C	Australia	Oceania	Steinig JOACHIM et al.	OY757731		
+KJ672558	2009-06-04	C	Peru	South America	Wentworth et al.	KJ672558		
+KJ672606	2007-10-02	C	Peru	South America	Wentworth et al.	KJ672606		
+KJ672572	2009-01-28	C	Peru	South America	Wentworth et al.	KJ672572	Iquitos	
+KJ672545	2009-05-20	C	Peru	South America	Wentworth et al.	KJ672545		
+KJ672540	2009-05-25	C	Peru	South America	Wentworth et al.	KJ672540		
+KJ672556	2008-09-04	C	Peru	South America	Wentworth et al.	KJ672556		
+KJ672573	2008-12-10	C	Peru	South America	Wentworth et al.	KJ672573		
+KJ672594	2009-04-11	C	Peru	South America	Wentworth et al.	KJ672594		
+KJ672615	2008-08-12	C	Peru	South America	Wentworth et al.	KJ672615		
+KJ672534	2008-10-15	C	Peru	South America	Wentworth et al.	KJ672534		
+KJ672529	2008-10-31	C	Peru	South America	Wentworth et al.	KJ672529	Iquitos	
+KJ672601	2008-11-30	C	Peru	South America	Wentworth et al.	KJ672601		
+MH678692	2014-02-28	C	United Kingdom	Europe	Smielewska et al.	MH678692		
+MH678693	2015-04-01	C	United Kingdom	Europe	Smielewska et al.	MH678693		
+KX574705	2016-01-01	C	USA	North America	Greninger et al.	KX574705		
+KX574708	2016-01-01	C	USA	North America	Greninger et al.	KX574708		
+MT118699	2019-01-01	C	USA	North America	Addetia et al.	MT118699		
+OR416979	2010-12-31	C	USA	North America	Greninger et al.	OR416979		
+OR416981	2010-12-31	C	USA	North America	Greninger et al.	OR416981		
+OR416982	2010-12-31	C	USA	North America	Greninger et al.	OR416982		
+MF034889	2016-05-26	C	USA	North America	Kothari et al.	MF034889	Arkansas	
+MH678678	2013-02-28	C	United Kingdom	Europe	Smielewska et al.	MH678678		
+MF973185	2011-04-15	C	USA	North America	Greninger et al.	MF973185		
+MF973189	2011-05-14	C	USA	North America	Greninger et al.	MF973189		
+OQ848562	2011-05-01	C	USA	North America	Sereewit et al.	OQ848562		
+KY973583	2010-11-10	C	USA	North America	Greninger et al.	KY973583		
+OR416980	2010-12-31	C	USA	North America	Greninger et al.	OR416980		
+KY369870	2016-12-31	C	USA	North America	Greninger et al.	KY369870		
+MG773276	2017-07-19	C	Argentina	South America	Goya et al.	MG773276		
+MT118698	2019-05-23	C	USA	North America	Addetia et al.	MT118698		
+MT118713	2019-12-31	C	USA	North America	Addetia et al.	MT118713		
+MZ439825	2021-01-01	C	USA	North America	Greninger et al.	MZ439825		
+PP411996	2023-01-11	C	Thailand	Asia	Doung-ngern et al.	PP411996		
+MT118701	2019-10-23	C	USA	North America	Addetia et al.	MT118701		
+MN306055	2019-05-28	C	USA	North America	Lin et al.	MN306055		
+MW052044	2019-08-30	C	USA	North America	Addetia et al.	MW052044		
+PQ117919	2024-02-28	C	USA	North America	Rothstein et al.	PQ117919		
+MT118714	2019-12-31	C	USA	North America	Addetia et al.	MT118714		
+OQ981779	2018-09-19	C	China	Asia	Zhu et al.	OQ981779		
+OQ981761	2020-01-09	C	China	Asia	Zhu et al.	OQ981761		
+OQ981794	2018-06-24	C	China	Asia	Zhu et al.	OQ981794		
+OQ981723	2017-02-09	C	China	Asia	Zhu et al.	OQ981723		
+OQ981725	2017-07-03	C	China	Asia	Zhu et al.	OQ981725		
+MW575654	2014-12-31	C	China	Asia	Shao et al.	MW575654		
+MW575660	2014-12-31	C	China	Asia	Shao et al.	MW575660		
+OQ981736	2019-05-13	C	China	Asia	Zhu et al.	OQ981736		
+OQ981738	2019-05-17	C	China	Asia	Zhu et al.	OQ981738		
+OQ981717	2016-01-07	C	China	Asia	Zhu et al.	OQ981717		
+OQ981727	2017-10-18	C	China	Asia	Zhu et al.	OQ981727		
+OQ981764	2020-01-21	C	China	Asia	Zhu et al.	OQ981764		
+OQ981780	2019-04-26	C	China	Asia	Zhu et al.	OQ981780		
+OQ981762	2020-01-13	C	China	Asia	Zhu et al.	OQ981762		
+OQ981737	2019-05-14	C	China	Asia	Zhu et al.	OQ981737		
+OQ981751	2019-11-11	C	China	Asia	Zhu et al.	OQ981751		
+MT118696	2019-01-01	C	USA	North America	Addetia et al.	MT118696		
+MW587050	2017-12-31	C	China	Asia	Shi et al.	MW587050		
+OQ981743	2019-09-29	C	China	Asia	Zhu et al.	OQ981743		
+OQ981747	2019-10-21	C	China	Asia	Zhu et al.	OQ981747		
+MZ326143	2018-12-31	C	China	Asia	Jiang et al.	MZ326143		
+OQ981746	2019-10-08	C	China	Asia	Zhu et al.	OQ981746		
+OQ981757	2019-12-10	C	China	Asia	Zhu et al.	OQ981757		
+OQ981785	2018-04-17	C	China	Asia	Zhu et al.	OQ981785		
+OQ981735	2019-05-09	C	China	Asia	Zhu et al.	OQ981735		
+OQ981740	2019-07-01	C	China	Asia	Zhu et al.	OQ981740		
+LC530051	2019-06-19	C	Japan	Asia	Takeuchi et al.	LC530051		
+LC720872	2019-01-01	C	Japan	Asia	Shirato et al.	LC720872		
+OQ981755	2019-12-03	C	China	Asia	Zhu et al.	OQ981755		
+OQ981756	2019-12-09	C	China	Asia	Zhu et al.	OQ981756		
+KX574706	2016-12-31	C	USA	North America	Greninger et al.	KX574706		
+MN145874	2017-03-31	C	China	Asia	Li et al.	MN145874		
+MT118709	2019-01-01	C	USA	North America	Addetia et al.	MT118709		
+ON756025	2018-02-22	C	USA	North America	Sereewit et al.	ON756025		
+ON756026	2018-02-22	C	USA	North America	Sereewit et al.	ON756026		
+OQ981782	2019-11-29	C	China	Asia	Zhu et al.	OQ981782		
+PQ117918	2024-02-04	C	USA	North America	Rothstein et al.	PQ117918		
+PQ736592	2024-07-29	C	China	Asia	Zhou et al.	PQ736592		
+PQ736593	2024-07-29	C	China	Asia	Zhou et al.	PQ736593		
+PP419962	2023-03-20	C	Thailand	Asia	Doung-ngern et al.	PP419962		
+PQ117914	2024-03-16	C	USA	North America	Rothstein et al.	PQ117914		
+PP411997	2023-04-12	C	Thailand	Asia	Doung-ngern et al.	PP411997		
+LC720874	2018-04-27	C	Japan	Asia	Shirato et al.	LC720874		
+LC720873	2018-04-19	C	Japan	Asia	Shirato et al.	LC720873		
+LC720875	2018-04-13	C	Japan	Asia	Shirato et al.	LC720875		
+OQ981773	2018-04-25	C	China	Asia	Zhu et al.	OQ981773		
+OQ981809	2018-10-19	C	China	Asia	Zhu et al.	OQ981809		
+KJ672527	2007-08-25	C	Peru	South America	Wentworth et al.	KJ672527		
+OR416983	2010-12-25	C	USA	North America	Greninger et al.	OR416983		
+OQ848558	2011-05-01	C	USA	North America	Sereewit et al.	OQ848558		
+OQ848556	2011-04-01	C	USA	North America	Sereewit et al.	OQ848556		
+KY973573	2010-09-22	C	USA	North America	Greninger et al.	KY973573		
+KY973574	2010-09-28	C	USA	North America	Greninger et al.	KY973574		
+OQ848553	2010-09-30	C	USA	North America	Sereewit et al.	OQ848553		
+OQ848561	2011-05-01	C	USA	North America	Sereewit et al.	OQ848561		
+OR416984	2010-12-31	C	USA	North America	Greninger et al.	OR416984		
+OQ848557	2011-05-01	C	USA	North America	Sereewit et al.	OQ848557		
+OQ848554	2011-01-31	C	USA	North America	Sereewit et al.	OQ848554		
+MF973171	2011-12-31	C	USA	North America	Greninger et al.	MF973171		
+MF973173	2011-12-21	C	USA	North America	Greninger et al.	MF973173		
+KY973565	2015-01-01	C	USA	North America	Greninger et al.	KY973565		
+KY973550	2015-01-01	C	USA	North America	Greninger et al.	KY973550		
+KY779612	2015-02-02	C	USA	North America	Greninger et al.	KY779612		
+KY933410	2015-02-25	C	USA	North America	Greninger et al.	KY933410		
+KY973553	2015-02-25	C	USA	North America	Greninger et al.	KY973553		
+MH678675	2012-06-30	C	United Kingdom	Europe	Smielewska et al.	MH678675		
+KY973557	2015-01-09	C	USA	North America	Greninger et al.	KY973557		
+KY933412	2015-01-09	C	USA	North America	Greninger et al.	KY933412		
+KY973561	2015-01-09	C	USA	North America	Greninger et al.	KY973561		
+KY973567	2015-06-04	C	USA	North America	Greninger et al.	KY973567		
+MF034894	2016-06-01	C	USA	North America	Kothari et al.	MF034894	Arkansas	
+KY369863	2016-01-01	C	USA	North America	Greninger et al.	KY369863		
+KY674981	2016-01-15	C	USA	North America	Greninger et al.	KY674981		
+KY973556	2015-01-01	C	USA	North America	Greninger et al.	KY973556		
+KY933409	2015-08-21	C	USA	North America	Greninger et al.	KY933409		
+KY779608	2015-11-11	C	USA	North America	Greninger et al.	KY779608		
+MF034890	2016-06-07	C	USA	North America	Kothari et al.	MF034890	Arkansas	
+MF034895	2016-06-02	C	USA	North America	Kothari et al.	MF034895	Arkansas	
+KY973566	2015-12-31	C	USA	North America	Greninger et al.	KY973566		
+MW052043	2019-02-24	C	USA	North America	Addetia et al.	MW052043		
+OQ981729	2019-01-18	C	China	Asia	Zhu et al.	OQ981729		
+m2-Kyii3a	2024-04-03	C	Switzerland	Europe		m2-Kyii3a	BS	ReVSeq
+m2-PQ5aTg	2024-04-11	C	Switzerland	Europe		m2-PQ5aTg	GR	ReVSeq
+PQ117920	2024-03-06	C	USA	North America	Rothstein et al.	PQ117920		
+MH678680	2013-04-01	C	United Kingdom	Europe	Smielewska et al.	MH678680		
+MH678691	2015-04-01	C	United Kingdom	Europe	Smielewska et al.	MH678691		
+MH678690	2015-03-31	C	United Kingdom	Europe	Smielewska et al.	MH678690		
+KY779615	2015-08-09	C	USA	North America	Greninger et al.	KY779615		
+MN306039	2019-01-01	C	USA	North America	Lin et al.	MN306039		
+KX574710	2016-01-26	C	USA	North America	Greninger et al.	KX574710		
+KY674977	2016-01-05	C	USA	North America	Greninger et al.	KY674977		
+KY674979	2016-01-20	C	USA	North America	Greninger et al.	KY674979		
+KY369862	2016-01-19	C	USA	North America	Greninger et al.	KY369862		
+KX574709	2016-02-01	C	USA	North America	Greninger et al.	KX574709		
+KY779602	2015-11-01	C	USA	North America	Greninger et al.	KY779602		
+KY933406	2015-11-06	C	USA	North America	Greninger et al.	KY933406		
+KY933403	2015-10-28	C	USA	North America	Greninger et al.	KY933403		
+MF118146	2015-10-28	C	USA	North America	Greninger et al.	MF118146		
+MF118147	2015-10-28	C	USA	North America	Greninger et al.	MF118147		
+KY933417	2015-11-13	C	USA	North America	Greninger et al.	KY933417		
+KY933416	2015-11-13	C	USA	North America	Greninger et al.	KY933416		
+KY973559	2015-11-22	C	USA	North America	Greninger et al.	KY973559		
+MF118140	2015-12-23	C	USA	North America	Greninger et al.	MF118140		
+KY933407	2015-11-13	C	USA	North America	Greninger et al.	KY933407		
+KY973549	2015-11-09	C	USA	North America	Greninger et al.	KY973549		
+KY933404	2015-11-17	C	USA	North America	Greninger et al.	KY933404		
+KY973563	2015-12-03	C	USA	North America	Greninger et al.	KY973563		
+MF118141	2015-12-23	C	USA	North America	Greninger et al.	MF118141		
+KY933408	2015-12-05	C	USA	North America	Greninger et al.	KY933408		
+KY973555	2015-11-21	C	USA	North America	Greninger et al.	KY973555		
+KY779594	2015-11-20	C	USA	North America	Greninger et al.	KY779594		
+KY779601	2015-11-13	C	USA	North America	Greninger et al.	KY779601		
+KY779598	2015-11-13	C	USA	North America	Greninger et al.	KY779598		
+KY779597	2015-11-13	C	USA	North America	Greninger et al.	KY779597		
+KY779607	2015-11-21	C	USA	North America	Greninger et al.	KY779607		
+KY779609	2015-12-05	C	USA	North America	Greninger et al.	KY779609		
+KY779596	2015-11-13	C	USA	North America	Greninger et al.	KY779596		
+KY779604	2015-11-13	C	USA	North America	Greninger et al.	KY779604		
+KY779611	2015-11-13	C	USA	North America	Greninger et al.	KY779611		
+KY779595	2015-11-21	C	USA	North America	Greninger et al.	KY779595		
+KY779610	2015-11-13	C	USA	North America	Greninger et al.	KY779610		
+KY779603	2015-11-13	C	USA	North America	Greninger et al.	KY779603		
+KY973547	2015-11-13	C	USA	North America	Greninger et al.	KY973547		
+KY973548	2015-11-24	C	USA	North America	Greninger et al.	KY973548		
+KY973552	2015-12-05	C	USA	North America	Greninger et al.	KY973552		
+KY779605	2015-11-24	C	USA	North America	Greninger et al.	KY779605		
+KY933405	2015-11-19	C	USA	North America	Greninger et al.	KY933405		
+KY973554	2015-12-31	C	USA	North America	Greninger et al.	KY973554		
+KY973551	2015-12-07	C	USA	North America	Greninger et al.	KY973551		
+KY973562	2015-12-07	C	USA	North America	Greninger et al.	KY973562		
+MF118145	2015-12-07	C	USA	North America	Greninger et al.	MF118145		
+KY779616	2015-01-01	C	USA	North America	Greninger et al.	KY779616		
+KY973598	2010-12-31	C	USA	North America	Greninger et al.	KY973598		
+KY629774	2016-01-01	C	USA	North America	Greninger et al.	KY629774		
+PQ117912	2024-04-30	C	USA	North America	Rothstein et al.	PQ117912		
+PQ236515	2023-04-28	C	USA	North America	Jules et al.	PQ236515		
+MW052045	2019-01-01	C	USA	North America	Addetia et al.	MW052045		
+OQ981783	2017-12-18	C	China	Asia	Zhu et al.	OQ981783		
+LC654459	2018-06-18	C	USA	North America	Shirato et al.	LC654459		
+MK343445	2018-06-04	C	India	Asia	Yadav et al.	MK343445	Karnataka State	
+MT118702	2019-01-01	C	USA	North America	Addetia et al.	MT118702		
+OQ981733	2019-03-19	C	China	Asia	Zhu et al.	OQ981733		
+OQ981789	2017-10-12	C	China	Asia	Zhu et al.	OQ981789		
+PP801323	2021-03-01	C	Bulgaria	Europe	Trifonova et al.	PP801323		
+ON778022	2019-10-21	C	USA	North America	Chow et al.	ON778022		
+ON778021	2019-10-15	C	USA	North America	Chow et al.	ON778021		
+MT118697	2019-01-01	C	USA	North America	Addetia et al.	MT118697		
+MT210644	2020-03-06	C	USA	North America	Peddu et al.	MT210644		
+MT118712	2019-04-11	C	USA	North America	Addetia et al.	MT118712		
+MT118710	2019-02-04	C	USA	North America	Addetia et al.	MT118710		
+OQ981748	2019-10-23	C	China	Asia	Zhu et al.	OQ981748		
+MH330335	2017-01-30	C	India	Asia	Yadav et al.	MH330335	Maharashtra State	
+LC720878	2019-01-01	C	Japan	Asia	Sugimoto et al.	LC720878		
+m2-Y4rZ7q	2024-02-27	C	Switzerland	Europe		m2-Y4rZ7q	AG	ReVSeq
+ON778023	2021-05-13	C	USA	North America	Chow et al.	ON778023		
+ON778024	2021-05-25	C	USA	North America	Chow et al.	ON778024		
+PP593216	2023-05-24	C	USA	North America	Holland et al.	PP593216	Arizona	
+m2-Mp25Fk	2024-03-20	C	Switzerland	Europe		m2-Mp25Fk	BS	ReVSeq
+m2-LTGmFn	2024-03-20	C	Switzerland	Europe		m2-LTGmFn	GR	ReVSeq
+m2-3UqUSN	2024-06-14	C	Switzerland	Europe		m2-3UqUSN	BS	ReVSeq
+m2-mVqwfv	2023-04-04	C	Switzerland	Europe		m2-mVqwfv	VS	ReVSeq
+m2-UZk6rp	2023-04-24	C	Switzerland	Europe		m2-UZk6rp	BS	ReVSeq
+PP411995	2023-05-25	C	Thailand	Asia	Janon et al.	PP411995		
+PQ117915	2024-02-23	C	USA	North America	Rothstein et al.	PQ117915		
+PQ541032	2022-12-01	C	France	Europe	Timsit et al.	PQ541032		
+PQ541038	2022-11-01	C	France	Europe	Timsit et al.	PQ541038		
+PQ541037	2022-12-26	C	France	Europe	Timsit et al.	PQ541037		
+PQ541045	2023-01-15	C	France	Europe	Timsit et al.	PQ541045		
+PQ541039	2022-12-20	C	France	Europe	Timsit et al.	PQ541039		
+PQ541041	2022-12-15	C	France	Europe	Timsit et al.	PQ541041		
+PQ541046	2023-01-15	C	France	Europe	Timsit et al.	PQ541046		
+PQ541035	2022-12-09	C	France	Europe	Timsit et al.	PQ541035		
+PQ541030	2022-11-28	C	France	Europe	Timsit et al.	PQ541030		
+PQ541034	2022-12-05	C	France	Europe	Timsit et al.	PQ541034		
+PQ541033	2022-12-30	C	France	Europe	Timsit et al.	PQ541033		
+PQ541031	2022-12-19	C	France	Europe	Timsit et al.	PQ541031		
+PQ541040	2023-12-03	C	France	Europe	Timsit et al.	PQ541040		
+PQ541036	2023-12-17	C	France	Europe	Timsit et al.	PQ541036		
+m2-TUofv5	2024-04-11	C	Switzerland	Europe		m2-TUofv5	BE	ReVSeq
+PQ541029	2022-06-21	C	France	Europe	Timsit et al.	PQ541029		
+PQ541028	2022-06-21	C	France	Europe	Timsit et al.	PQ541028		
+PQ541042	2023-03-30	C	France	Europe	Timsit et al.	PQ541042		
+PQ117913	2024-03-31	C	USA	North America	Rothstein et al.	PQ117913		
+PQ117921	2024-02-05	C	USA	North America	Rothstein et al.	PQ117921		
+m2-c4imMZ	2024-02-19	C	Switzerland	Europe		m2-c4imMZ	AG	ReVSeq
+m2-BvdErP	2024-05-24	C	Switzerland	Europe		m2-BvdErP	AG	ReVSeq
+m2-zhhg9e	2024-05-24	C	Switzerland	Europe		m2-zhhg9e	AG	ReVSeq
+m2-pCrZWV	2024-05-27	C	Switzerland	Europe		m2-pCrZWV	AG	ReVSeq
+m2-fChozQ	2024-06-17	C	Switzerland	Europe		m2-fChozQ	AG	ReVSeq
+m2-hU5TjU	2023-12-22	C	Switzerland	Europe		m2-hU5TjU	AG	ReVSeq
+m2-9KEquH	2024-06-30	C	Switzerland	Europe		m2-9KEquH	AG	ReVSeq
+m2-mzMRtV	2024-06-03	C	Switzerland	Europe		m2-mzMRtV	TI	ReVSeq
+m2-e3Nkuo	2024-05-27	C	Switzerland	Europe		m2-e3Nkuo	SG	ReVSeq
+m2-q8yvBm	2024-04-18	C	Switzerland	Europe		m2-q8yvBm	BS	ReVSeq
+m2-y58Q75	2024-05-21	C	Switzerland	Europe		m2-y58Q75	AG	ReVSeq
+LC817400	2023-08-17	C	Japan	Asia	Shirato et al.	LC817400		
+m2-LX4eJE	2024-03-21	C	Switzerland	Europe		m2-LX4eJE	SG	ReVSeq
+m2-MjqpEV	2024-04-05	C	Switzerland	Europe		m2-MjqpEV	SG	ReVSeq
+m2-gYFizT	2023-04-14	C	Switzerland	Europe		m2-gYFizT	AG	ReVSeq
+m2-sSV2Bt	2024-06-10	C	Switzerland	Europe		m2-sSV2Bt	SH	ReVSeq
+m2-3CuPYs	2024-04-13	C	Switzerland	Europe		m2-3CuPYs	SG	ReVSeq
+m2-wfEdma	2024-04-18	C	Switzerland	Europe		m2-wfEdma	ZH	ReVSeq
+m2-TcfHz7	2024-05-22	C	Switzerland	Europe		m2-TcfHz7	AG	ReVSeq
+m2-WpJqxj	2024-04-18	C	Switzerland	Europe		m2-WpJqxj	TI	ReVSeq
+m2-53qCwY	2024-05-31	C	Switzerland	Europe		m2-53qCwY	TI	ReVSeq
+m2-gxCe5X	2024-04-03	C	Switzerland	Europe		m2-gxCe5X	TI	ReVSeq
+m2-sZ4qK3	2024-02-01	C	Switzerland	Europe		m2-sZ4qK3	VD	ReVSeq
+m2-aEURHb	2024-05-21	C	Switzerland	Europe		m2-aEURHb	AG	ReVSeq
+m2-ABxNA9	2024-05-21	C	Switzerland	Europe		m2-ABxNA9	AG	ReVSeq
+m2-NaDTTs	2024-05-21	C	Switzerland	Europe		m2-NaDTTs	AG	ReVSeq
+m2-v72khW	2024-06-11	C	Switzerland	Europe		m2-v72khW	AG	ReVSeq
+m2-oDzvGR	2024-06-04	C	Switzerland	Europe		m2-oDzvGR	AG	ReVSeq
+m2-F34WtX	2024-05-21	C	Switzerland	Europe		m2-F34WtX	AG	ReVSeq
+m2-YztDkU	2024-06-04	C	Switzerland	Europe		m2-YztDkU	AG	ReVSeq
+m2-34KSAo	2024-05-22	C	Switzerland	Europe		m2-34KSAo	AG	ReVSeq
+m2-jCKGBv	2024-05-16	C	Switzerland	Europe		m2-jCKGBv	AG	ReVSeq
