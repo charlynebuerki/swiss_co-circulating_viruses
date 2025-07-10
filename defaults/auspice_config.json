@@ -68,6 +68,7 @@
     "region",
     "clade_membership",
     "database",
-    "location"
+    "location",
+    "insertion"
   ]
 }

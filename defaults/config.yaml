@@ -6,8 +6,8 @@
 # total length of gene F = 1620 (reference A)
 # total length of gene G = 711 (reference A)
 
-build: ["genome", "G", "F"]
-#build: ["genome"]
+#build: ["genome", "G", "F"]
+build: ["genome"]
 
 strain_id_field: "accession"
 display_strain_field: "strain"
@@ -18,7 +18,7 @@ subtypes: ['all']
 
 #for local rules
 local:
-  accession_reference: "NC_004148"
+  accession_reference: "NC_039199"
 
 
 filter:
@@ -58,7 +58,7 @@ ancestral:
   inference: "joint"
 
 traits:
-  columns: "region country insertion"
+  columns: ["region", "country", "insertion", "database", "location"]
   sampling_bias_correction: 3
 
 # deploy
