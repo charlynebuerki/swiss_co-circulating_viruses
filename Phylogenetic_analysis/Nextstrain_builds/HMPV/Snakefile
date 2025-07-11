@@ -1,0 +1,60 @@
+"""
+This is the main phylogenetic Snakefile that orchestrates the full phylogenetic
+workflow and defines its default output(s).
+"""
+
+workdir: workflow.current_basedir
+
+#wildcard_constraints: subtype = r"A|B"
+
+# Use default configuration values. Override with Snakemake's --configfile/--config options.
+configfile: "defaults/config.yaml"
+
+rule all:
+    input:
+        # Fill in path(s) to the final exported Auspice JSON(s)
+        auspice_json = expand("auspice/hmpv_{subtype}_{build}.json",
+            subtype = config.get("subtypes"),
+            build = config.get("build", ['genome'])),
+
+include: "rules/download.smk"
+
+include: "rules/import_local_sequences.smk" #to comment out if no local sequences
+
+include: "rules/prepare_sequences.smk"
+
+include: "rules/construct_phylogeny.smk"
+
+include: "rules/annotate_phylogeny.smk"
+
+include: "rules/export.smk"
+
+if "deploy_url" in config:
+    include: "rules/nextstrain_automation.smk"
+
+# Allow users to import custom rules provided via the config.
+# This allows users to run custom rules that can extend or override the workflow.
+# A concrete example of using custom rules is the extension of the workflow with
+# rules to support the Nextstrain automation that upload files and send internal
+# Slack notifications.
+# For extensions, the user will have to specify the custom rule targets when
+# running the workflow.
+# For overrides, the custom Snakefile will have to use the `ruleorder` directive
+# to allow Snakemake to handle ambiguous rules
+# https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#handling-ambiguous-rules
+if "custom_rules" in config:
+    for rule_file in config["custom_rules"]:
+
+        include: rule_file
+
+rule clean:
+    """Removing directories: {params}"""
+    params:
+        "data/all_metadata.tsv* ",
+        "data/all_sequences.fasta* ",
+        #"data/metadata_all.tsv ",
+        #"data/sequences_all.fasta ",
+        "results ",
+        "auspice"
+    shell:
+        "rm -rfv {params}"
