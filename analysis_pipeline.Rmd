@@ -195,6 +195,12 @@ distance_df <- tibble(
   source = c(rep("RSV-A", length(unique_distances_a)), rep("RSV-B", length(unique_distances_b)))
 )
 
+ks_result <- ks.test(unique_distances_a, unique_distances_b)
+
+# --- 4. Print the results ---
+print("Kolmogorov-Smirnov Test Results:")
+print(ks_result)
+
 distance_df %>% group_by(source) %>% summarise(median= median(distance), IQR=IQR(distance))
 ```
 ## HPIV-3
