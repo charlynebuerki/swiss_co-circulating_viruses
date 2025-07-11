@@ -1,0 +1,47 @@
+#strains and types of builds to run
+strains: ['SARS-CoV-2']
+builds_to_run: ["whole"]
+
+
+exclude: "config/dropped_strains.txt"
+
+files:
+  color_schemes: "config/colors.tsv"
+  latitude_longitude_schemes: "config/lat_longs.tsv"
+  auspice_config:
+    SARS-CoV-2: "config/SARS-CoV-2/auspice_config.json"
+  reference_config:
+    SARS-CoV-2: "ingest/data/SARS-CoV-2/reference.gbk" #to change
+  clades_config:
+    SARS-CoV-2: "config/SARS-CoV-2/clades_genome.tsv"
+  pathogen_config:
+    SARS-CoV-2: "ingest/data/SARS-CoV-2/pathogen.json"
+  sequence_annotation:
+    SARS-CoV-2: "ingest/data/SARS-CoV-2/annotation.gff3"
+  clade_name_mapping: "config/clade_display_names.yml"
+
+filter:
+  group_by: "year country"
+  subsample_max_sequences: 200 # set lower if you want to have a max sequences per group
+  min_length: 
+    SARS-CoV-2: 27000 #nearly whole genome length 
+  min_date: "2019-12-01"
+
+align:
+  allowed_mismatches: 10
+
+refine:
+
+  clock_filter_iqd: 8
+  root: "Wuhan/IPBCAMS-WH-02/2019" #"RUS/SPb-117/2021"
+  clock_rate: 0.0008
+  clock_std_dev: 0.0004
+  coalescent: "opt"
+  date_inference: "marginal"
+  #divergence_unit: "mutations"
+
+ancestral:
+  inference: "joint"
+
+traits:
+  columns: ["country", "database", "location", "region"]
