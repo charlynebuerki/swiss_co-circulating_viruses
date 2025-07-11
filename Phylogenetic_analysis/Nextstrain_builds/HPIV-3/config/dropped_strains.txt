@@ -1,0 +1,12 @@
+
+NC_001796.2 # Reference strain
+U51116 # probelmatic for clock rate estimation
+OP821798
+Z11575
+KJ672531
+
+#parainfluenza 1
+OR571883 #no mutations at root but maybe wrong date
+
+#HPIV 2
+PP886717 #problematic with clock estimate

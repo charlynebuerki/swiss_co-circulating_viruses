@@ -1,0 +1,68 @@
+#strains and types of builds to run
+strains: ['HPIV_1','HPIV_2', 'HPIV_3']
+builds_to_run: ["whole"]
+
+
+exclude: "config/dropped_strains.txt"
+
+files:
+  color_schemes: "config/colors.tsv"
+  latitude_longitude_schemes: "config/lat_longs.tsv"
+  auspice_config: "config/auspice_config.json"
+  reference_config:
+    HPIV_1: "ingest/data/HPIV_1/reference.gbk" #to change
+    HPIV_2: "ingest/data/HPIV_2/reference.gbk"
+    HPIV_3: "ingest/data/HPIV_3/reference.gbk"
+    HPIV_4: "ingest/data/HPIV_4/reference.gbk"
+  clades_config:
+    HPIV_1: "config/HPIV_1/clades_genome.tsv"
+    HPIV_2: "config/HPIV_2/clades_genome.tsv"
+    HPIV_3: "config/HPIV_3/clades_genome.tsv"
+    HPIV_4: "config/HPIV_4/clades_genome.tsv"
+  pathogen_config:
+    HPIV_1: "ingest/data/HPIV_1/pathogen.json"
+    HPIV_2: "ingest/data/HPIV_2/pathogen.json"
+    HPIV_3: "ingest/data/HPIV_3/pathogen.json"
+    HPIV_4: "ingest/data/HPIV_4/pathogen.json"
+  sequence_annotation:
+    HPIV_1: "ingest/data/HPIV_1/annotation.gff3"
+    HPIV_2: "ingest/data/HPIV_2/annotation.gff3"
+    HPIV_3: "ingest/data/HPIV_3/annotation.gff3"
+    HPIV_4: "ingest/data/HPIV_4/annotation.gff3"
+
+filter:
+  group_by: "year country"
+  min_coverage: 0.3
+  subsample_max_sequences: 
+    background: 300 # set lower if you want to have a max sequences per group
+    recent: 3000
+  min_length: 
+    HPIV_1: 9360 #length of 15600 60%
+    HPIV_2: 9388 #length of 15646
+    HPIV_3: 9277 #length of 15462
+    HPIV_4: 10230 #length of 17052
+  resolution:
+    2y:
+      min_date: "2020-01-01"
+      max_date: "2024-08-01"
+      background_min_date: 100Y
+    
+
+align:
+  allowed_mismatches: 10
+
+refine:
+  coalescent: "opt"
+  date_inference: "marginal" 
+  clock_filter_iqd: 10 
+  root:
+    HPIV_1: "JQ901971"
+    HPIV_2: ""
+    HPIV_3: "LC817393"
+    HPIV_4: ""
+
+ancestral:
+  inference: "joint"
+
+traits:
+  columns: ["country", "region"]
