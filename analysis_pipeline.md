@@ -187,21 +187,45 @@ make_figure_3(matrix_co, percent_co, save=TRUE)
 Figure 4: Whole-genome coverage
 
 ``` r
-# # RSV-A
-# #get data
-# virus_strain <- "Respiratory syncytial virus (type A)"
-# rsv_a_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
-# 
-# df <- format_coverage_plot_data(rsv_a_data, virus_strain)
-# make_figure_coverage_genome(df, virus_strain, save=TRUE)
-# 
-# # Parainfluenza-3
-# virus_strain <- "Human parainfluenza virus 3"
-# hpiv_3_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
-# 
-# df <- format_coverage_plot_data(hpiv_3_data, virus_strain)
-# make_figure_coverage_genome(df, virus_strain, save=TRUE)
+# RSV-A
+#get data
+virus_strain <- "Respiratory syncytial virus (type A)"
+rsv_a_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+
+df <- format_coverage_plot_data(rsv_a_data, virus_strain)
+make_figure_coverage_genome(df, virus_strain, save=TRUE)
 ```
+
+    ## Rows: 14 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (7): X1, X2, X3, X6, X7, X8, X9
+    ## dbl (2): X4, X5
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
+``` r
+# Parainfluenza-3
+virus_strain <- "Human parainfluenza virus 3"
+hpiv_3_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+
+df <- format_coverage_plot_data(hpiv_3_data, virus_strain)
+make_figure_coverage_genome(df, virus_strain, save=TRUE)
+```
+
+    ## Rows: 7 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (7): X1, X2, X3, X6, X7, X8, X9
+    ## dbl (2): X4, X5
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
 
 # Figure 5: Phylogenetic trees
 
@@ -321,14 +345,34 @@ distance_df <- tibble(
   source = c(rep("RSV-A", length(unique_distances_a)), rep("RSV-B", length(unique_distances_b)))
 )
 
-distance_df %>% group_by(source) %>% summarise(median= median(distance), IQR=IQR(distance))
+ks_result <- ks.test(unique_distances_a, unique_distances_b)
+
+# --- 4. Print the results ---
+print("Kolmogorov-Smirnov Test Results:")
 ```
 
-    ## # A tibble: 2 × 3
-    ##   source  median     IQR
-    ##   <chr>    <dbl>   <dbl>
-    ## 1 RSV-A  0.0191  0.0101 
-    ## 2 RSV-B  0.00660 0.00205
+    ## [1] "Kolmogorov-Smirnov Test Results:"
+
+``` r
+print(ks_result)
+```
+
+    ## 
+    ##  Asymptotic two-sample Kolmogorov-Smirnov test
+    ## 
+    ## data:  unique_distances_a and unique_distances_b
+    ## D = 0.88377, p-value < 2.2e-16
+    ## alternative hypothesis: two-sided
+
+``` r
+distance_df %>% group_by(source) %>% summarise(median= median(distance), IQR=IQR(distance), q1= quantile(distance, 0.25), q3=quantile(distance, 0.75))
+```
+
+    ## # A tibble: 2 × 5
+    ##   source  median     IQR      q1      q3
+    ##   <chr>    <dbl>   <dbl>   <dbl>   <dbl>
+    ## 1 RSV-A  0.0191  0.0101  0.0104  0.0205 
+    ## 2 RSV-B  0.00660 0.00205 0.00515 0.00720
 
 ## HPIV-3
 
@@ -524,44 +568,139 @@ make_supplementary_figure_2(sentinella_df, pcr_dat, sequencing_data, detected_da
 # Figure S3 A,B,C
 
 ``` r
-# # RSV-B
-# #get data
-# virus_strain <- "Human Respiratory syncytial virus 9320 (type B)"
-# rsv_b_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
-# 
-# df <- format_coverage_plot_data(rsv_b_data, virus_strain)
-# make_figure_coverage_genome(df, virus_strain, save=TRUE)
-# 
-# # HMPV
-# #get data
-# virus_strain <- "metapneumovirus" 
-# hmpv_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
-# 
-# df <- format_coverage_plot_data(hmpv_data, virus_strain)
-# make_figure_coverage_genome(df, virus_strain, save=TRUE)
+# RSV-B
+#get data
+virus_strain <- "Human Respiratory syncytial virus 9320 (type B)"
+rsv_b_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+
+df <- format_coverage_plot_data(rsv_b_data, virus_strain)
+make_figure_coverage_genome(df, virus_strain, save=TRUE)
 ```
+
+    ## Rows: 12 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (7): X1, X2, X3, X6, X7, X8, X9
+    ## dbl (2): X4, X5
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+
+``` r
+# HMPV
+#get data
+virus_strain <- "metapneumovirus"
+hmpv_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+
+df <- format_coverage_plot_data(hmpv_data, virus_strain)
+make_figure_coverage_genome(df, virus_strain, save=TRUE)
+```
+
+    ## Rows: 10 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (7): X1, X2, X3, X6, X7, X8, X9
+    ## dbl (2): X4, X5
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-15-2.png)<!-- -->
 
 ``` r
 #A/H1N1
-# #get data
-# virus_strain <- "2015(H1N1)"
-# h1n1_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
-# 
-# df <- format_coverage_plot_data(h1n1_data, virus_strain)
-# figs<-make_figure_coverage_genome(df, virus_strain, save=FALSE)
-# 
-# 
-# plots <- list( figs$h1n1_HA, figs$h1n1_NA)
-# 
-# plot_all<-plot_grid(plotlist = plots,
-#           #nrow = length(virus_strains), 
-#           ncol = 2,
-#           rel_heights = c(1,1),
-#           align = "v",
-#           axis="l")
-# 
-# plot_all
-# #ggsave("Figures/coverage_plots/h1n1_HA_NA.pdf",plot_all , dpi="retina", units="mm", width=174, height=123)
+#get data
+virus_strain <- "2015(H1N1)"
+h1n1_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
+
+df <- format_coverage_plot_data(h1n1_data, virus_strain)
+figs<-make_figure_coverage_genome(df, virus_strain, save=FALSE)
+```
+
+    ## Rows: 2 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (7): X1, X2, X3, X6, X7, X8, X9
+    ## dbl (2): X4, X5
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 3 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (6): X1, X2, X3, X6, X7, X9
+    ## dbl (3): X4, X5, X8
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 1 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (6): X1, X2, X3, X6, X7, X9
+    ## dbl (3): X4, X5, X8
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 1 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (6): X1, X2, X3, X6, X7, X9
+    ## dbl (3): X4, X5, X8
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 1 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (6): X1, X2, X3, X6, X7, X9
+    ## dbl (3): X4, X5, X8
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 1 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (6): X1, X2, X3, X6, X7, X9
+    ## dbl (3): X4, X5, X8
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 3 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (7): X1, X2, X3, X6, X7, X8, X9
+    ## dbl (2): X4, X5
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## Rows: 1 Columns: 9
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: "\t"
+    ## chr (6): X1, X2, X3, X6, X7, X9
+    ## dbl (3): X4, X5, X8
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+plots <- list( figs$h1n1_HA, figs$h1n1_NA)
+
+plot_all<-plot_grid(plotlist = plots,
+          #nrow = length(virus_strains),
+          ncol = 2,
+          rel_heights = c(1,1),
+          align = "v",
+          axis="l")
+
+plot_all
+```
+
+![](analysis_pipeline_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+
+``` r
+#ggsave("Figures/coverage_plots/h1n1_HA_NA.pdf",plot_all , dpi="retina", units="mm", width=174, height=123)
 ```
 
 # Figure S4: RSV-B Phylogenetic trees

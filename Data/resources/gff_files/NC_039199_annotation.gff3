@@ -1,0 +1,15 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_039199.1 1 13350
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=162145
+NC_039199.1	RefSeq	region	1	13350	.	+	.	ID=NC_039199.1:1..13350;Dbxref=taxon:162145;gb-acronym=HMPV;gbkey=Src;genome=genomic;isolate=00-1;mol_type=genomic RNA
+NC_039199.1	RefSeq	CDS	40	1224	.	+	0	Name=N;gene=N;gbkey=CDS;locus_tag=D1Y22_gp1;product=nucleoprotein;protein_id=YP_009513265.1;ID=cds-YP_009513265.1;Dbxref=GenBank:YP_009513265.1,GeneID:37626968
+NC_039199.1	RefSeq	CDS	1248	2132	.	+	0	Name=P;gene=P;gbkey=CDS;locus_tag=D1Y22_gp2;product=phosphoprotein;protein_id=YP_009513266.1;ID=cds-YP_009513266.1;Dbxref=GenBank:YP_009513266.1,GeneID:37626964
+NC_039199.1	RefSeq	CDS	2165	2929	.	+	0	Name=M;gene=M;gbkey=CDS;locus_tag=D1Y22_gp3;product=matrix protein;protein_id=YP_009513267.1;ID=cds-YP_009513267.1;Dbxref=GenBank:YP_009513267.1,GeneID:37626965
+NC_039199.1	RefSeq	CDS	3052	4671	.	+	0	Name=F;gene=F;gbkey=CDS;locus_tag=D1Y22_gp4;product=fusion protein;protein_id=YP_009513268.1;ID=cds-YP_009513268.1;Dbxref=GenBank:YP_009513268.1,GeneID:37626966
+NC_039199.1	RefSeq	CDS	4737	5300	.	+	0	Name=M2;gene=M2;gbkey=CDS;locus_tag=D1Y22_gp5;protein_id=YP_009513269.1;ID=cds-YP_009513269.1;product=matrix protein 2-1;Dbxref=GenBank:YP_009513269.1,GeneID:37626967
+NC_039199.1	RefSeq	CDS	5248	5463	.	+	0	Name=M2-1;gene=M2;gbkey=CDS;locus_tag=D1Y22_gp5;protein_id=YP_009513270.1;ID=cds-YP_009513270.1;product=matrix protein 2-2;Dbxref=GenBank:YP_009513270.1,GeneID:37626967
+NC_039199.1	RefSeq	CDS	5494	6045	.	+	0	Name=SH;gene=SH;gbkey=CDS;locus_tag=D1Y22_gp6;protein_id=YP_009513271.1;ID=cds-YP_009513271.1;product=small hydrophobic protein;Dbxref=GenBank:YP_009513271.1,GeneID:37626961
+NC_039199.1	RefSeq	CDS	6247	6957	.	+	0	Name=G;gene=G;gbkey=CDS;locus_tag=D1Y22_gp7;protein_id=YP_009513272.1;ID=cds-YP_009513272.1;product=attachment glycoprotein;Dbxref=GenBank:YP_009513272.1,GeneID:37626962
+NC_039199.1	RefSeq	CDS	7167	13184	.	+	0	Name=L;gene=L;gbkey=CDS;locus_tag=D1Y22_gp8;protein_id=YP_009513273.1;ID=cds-YP_009513273.1;product=RNA-dependent RNA polymerase;Dbxref=GenBank:YP_009513273.1,GeneID:37626963

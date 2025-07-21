@@ -159,7 +159,7 @@ plot_coverage_genome_heatmap<-function(data)
 #main function to launch figure-generating process depending on pathogen segmentation
 make_figure_coverage_genome<-function(data, pathogen_name,save)
 {
-  if(pathogen_name=="2015(H1N1)" | pathogen_name == "2012(H3N2)" | pathogen_name == "B/Brisbane/60/2008")
+  if(pathogen_name=="2015(H1N1)" | pathogen_name == "2012(H3N2)" | pathogen_name == "B/Brisbane")
   {
     make_figure_coverage_genome_influenza(data, pathogen_name, save)
   }

@@ -1,25 +1,32 @@
 ---
 title: "Coverage plots for all single-stranded viruses"
-output: html_document
+output: github_document
 date: "2025-07-02"
 ---
 
 ```{r}
 #sourcing all packages
+library(dplyr)
+library(stringr)
+library(purrr)
+library(ggplot2)
+library(cowplot)
+library(tidyr)
+library(ggpubr)
 ```
 
 ```{r}
 #sourcing functions for plotting
 
 #coverage plots
-source("coverage_genome_data_format.R") #requires external docs > to add (bedfile and gff files)
-source("coverage_genome_plot.R")
+source("Sequencing_results/coverage_genome_data_format.R") #requires external docs > to add (bedfile and gff files)
+source("Sequencing_results/coverage_genome_plot.R")
 
 ```
 
 ```{r}
 #data set needed
-hq_data<-read.csv("data/final_analysis/1_19_05_25_pull/manuscript_public/sample_data.csv")
+hq_data<-read.csv("Data/data/hq_data.csv")
 ```
 
 # RSV-A 
@@ -37,7 +44,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # RSV-B
 
-```{r}
+```{r, warning=FALSE}
 # RSV-B
 #get data
 virus_strain <- "Human Respiratory syncytial virus 9320 (type B)"
@@ -49,7 +56,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # HPIV-3
 
-```{r}
+```{r, warning=FALSE}
 # Parainfluenza-3
 virus_strain <- "Human parainfluenza virus 3"
 hpiv_3_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
@@ -61,7 +68,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # HPIV-2
 
-```{r}
+```{r, warning=FALSE}
 # Parainfluenza-2
 virus_strain <- "Human parainfluenza virus 2"
 hpiv_2_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
@@ -73,7 +80,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # HPIV-1
 
-```{r}
+```{r, warning=FALSE}
 # Parainfluenza-1
 virus_strain <- "Human parainfluenza virus 1"
 hpiv_1_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
@@ -83,21 +90,9 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 ```
 
-# HPIV-4
-
-```{r}
-# Parainfluenza-4
-virus_strain <- "Human parainfluenza virus 4"
-hpiv_4_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
-
-df <- format_coverage_plot_data(hpiv_4_data, virus_strain)
-make_figure_coverage_genome(df, virus_strain, save=FALSE)
-
-```
-
 #SARS-CoV-2
 
-```{r}
+```{r, warning=FALSE}
 virus_strain <- "SARS-CoV-2"
 sars_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
 
@@ -107,7 +102,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # HMPV
 
-```{r}
+```{r, warning=FALSE}
 # HMPV
 #get data
 virus_strain <- "metapneumovirus" 
@@ -120,7 +115,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # A/H1N1 HA/NA segments
 
-```{r}
+```{r, warning=FALSE}
 #H1N1
 #get data
 virus_strain <- "2015(H1N1)"
@@ -144,7 +139,7 @@ plot_all
 
 # A/H3N2 HA/NA segments
 
-```{r}
+```{r, warning=FALSE}
 #H3N2
 #get data
 virus_strain <- "2012(H3N2)"
@@ -168,7 +163,7 @@ plot_all
 
 # B/Victoria
 
-```{r}
+```{r, warning=FALSE}
 #B/Victoria
 #get data
 virus_strain <- "B/Brisbane"
@@ -192,7 +187,7 @@ plot_all
 
 # HKU1
 
-```{r}
+```{r, warning=FALSE}
 # seasonal coronavirus HKU1
 virus_strain <- "HKU1"
 hku1_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
@@ -204,7 +199,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # OC43
 
-```{r}
+```{r, warning=FALSE}
 # seasonal coronavirus OC43
 virus_strain <- "OC43"
 oc43_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
@@ -216,7 +211,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # NL63
 
-```{r}
+```{r, warning=FALSE}
 # seasonal coronavirus NL63
 virus_strain <- "NL63"
 nl63_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
@@ -228,7 +223,7 @@ make_figure_coverage_genome(df, virus_strain, save=FALSE)
 
 # 229E
 
-```{r}
+```{r, warning=FALSE}
 # seasonal coronavirus 229E
 virus_strain <- "229E"
 e229_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))

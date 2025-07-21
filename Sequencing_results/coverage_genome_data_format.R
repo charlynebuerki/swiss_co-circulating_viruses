@@ -43,7 +43,7 @@ convert_virus_reference_to_virus_name<-function(virus_reference, conversion_tabl
 
 
 #fetches gff3 files and reads them in correct format
-format_gff3_data<-function(virus_reference, filepath= "../Nextstrain/z_gff_files/")
+format_gff3_data<-function(virus_reference, filepath= "Data/resources/gff_files/")
 {
   full_address <- paste0(filepath, virus_reference, "_annotation.gff3")
   
@@ -73,7 +73,8 @@ format_coverage_plot_data<- function(data, virus_strain)
     select(pseudonymized_id, barcode) %>% 
     mutate(
       pseudonymized_id_bis = substr(pseudonymized_id, start=4, stop=nchar(pseudonymized_id)),
-      full_coverage_address= get_full_folder_path(substr(barcode, start=1, stop=nchar(barcode)-3), pseudonymized_id_bis)
+      barcode_bis = substr(barcode, start = 1, stop = nchar(barcode)-3),
+      full_coverage_address= get_full_folder_path(barcode_bis, pseudonymized_id_bis)
            ) 
   
   result <-df %>% pull(full_coverage_address) %>% 
