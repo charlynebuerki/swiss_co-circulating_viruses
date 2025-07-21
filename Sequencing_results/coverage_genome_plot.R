@@ -195,7 +195,7 @@ make_figure_coverage_genome_single<-function(data, pathogen_name, save)
   
   if(save)
   {
-    ggsave(paste0("Figures/coverage_plots/", str_replace_all(pathogen_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="retina", units="mm", width=174, height=123)
+    ggsave(paste0("Figures/coverage_plots/", str_replace_all(pathogen_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="screen", units="mm", width=174, height=123)
     
   }
   
