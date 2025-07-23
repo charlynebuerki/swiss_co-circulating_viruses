@@ -52,6 +52,6 @@ markdown documents include: `analysis_pipeline.md` and `coverage_plots_all.md`. 
 
 You can reproduce the results from this study by running `analysis_pipeline.Rmd`, with required packages installed and detailed in the file. However, you must populate the depth file folder (Data/depth_files/) to run the sequencing depth analysis. This data is available upon request.
 
-To run Nextstrain builds, head to `Phylogenetic_analysis/Nextstrain_builds/` and into individual virus subdirectories to run every pipleine. A detailed ReadMe file is incldued in each subdirectory. 
+To run Nextstrain builds, head to `Phylogenetic_analysis/Nextstrain_builds/` and into individual virus subdirectories to run every pipeline. A detailed ReadMe file is included in each subdirectory. 
 
-Interactive Nextstrain visualizations are available [here](https://nextstrain.org/community/cevo-public/ReVSeq-project)
+Interactive Nextstrain visualizations are available [here](https://nextstrain.org/community/cevo-public/ReVSeq-project),
