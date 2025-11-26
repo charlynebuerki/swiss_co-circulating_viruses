@@ -22,6 +22,7 @@ library(ggtree)
 library(treeio)
 library(lubridate)
 library(aplot)
+library(scales)
 ```
 
 
@@ -52,6 +53,13 @@ source("Phylogenetic_analysis/tree_plot.R")
 #supplementary wastewater
 source("Supplements/fig_s2_data_format.R")
 source("Supplements/fig_s2_plot.R")
+
+#supplementary correlation CT-sequencing
+source("Supplements/fig_s3_CT_data_format.R")
+source("Supplements/fig_s3_CT_plot.R")
+
+#supplementary quantifications mapped reads and depth of sequencing
+source("Supplements/table_s3_quantification.R")
 
 
 ```
@@ -261,6 +269,16 @@ df_hq <-hq_data %>% dplyr::count(strain_name)
 
 ```
 
+# Table S3 quantification of mapped reads and depth of sequencing per strain and per PCR panel
+
+```{r}
+table_sx <-make_supplementary_table_quantification_sequencing(hq_data)
+table_sx
+
+```
+
+
+
 # Figure S1, Figure S2: wastewater and sentinella correlations
 
 
@@ -286,7 +304,17 @@ sequencing_data <- format_grid_pathogen_plot(hq_data, pcr=FALSE) %>% drop_na()
 make_supplementary_figure_2(sentinella_df, pcr_dat, sequencing_data, detected_dat, wastewater_df , pathogens=pathogens ,save=TRUE)
 ```
 
-# Figure S3 A,B,C
+# Figure S3: CT value / comparison to mapped reads and genome covered
+
+```{r}
+
+df <- format_ct_value_data(hq_data)
+plot_ct_value_supplements(df, save=TRUE)
+
+```
+
+
+# Figure S4 A,B,C
 
 ```{r, warning=FALSE}
 # RSV-B
@@ -333,7 +361,7 @@ plot_all
 ```
 
 
-# Figure S4: RSV-B Phylogenetic trees
+# Figure S5: RSV-B Phylogenetic trees
 
 ```{r,warning=FALSE}
 tree_file <- "Data/data/trees/nextstrain_rsv_b_genome_2y_timetree.nexus"
@@ -403,4 +431,7 @@ plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vert
                     zoomed= TRUE,tips_to_zoom = c("m2-5cJWyf", "m2-kNU7js"), axis_breaks = 30, 
                     save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m",tip_color = "database"  )
 ```
+
+
+
 

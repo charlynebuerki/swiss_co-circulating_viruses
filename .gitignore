@@ -26,3 +26,5 @@ Icon?
 *.apdisk
 
 Figures/Manuscript_revised/
+Data/data/depth_files/*
+Data/data/depth_files/.DS_Store
