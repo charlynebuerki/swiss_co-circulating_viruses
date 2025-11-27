@@ -8,12 +8,12 @@ plot_ct_value_supplements<-function(df, save=TRUE)
   aligned_reads_plot <-ggplot(data=df, aes(x=values_PCR, y=aligned)) + 
     geom_smooth(method = "lm", color = "black", size = 0.5, se = TRUE) +
     
-    geom_point(aes(color=strain_to_plot)) + 
+    geom_point(aes(color=substrain_name)) + 
     
     stat_cor(method = "pearson", 
              label.x.npc = 0.01, 
-             label.y.npc = 0.0001, # Adjust position (top/bottom) as needed
-             label.sep = "\n",
+             label.y.npc = 0.06, # Adjust position (top/bottom) as needed
+             label.sep = ",",
              digits = 2) +
     
     facet_grid(~strain_to_plot) +
@@ -34,8 +34,8 @@ plot_ct_value_supplements<-function(df, save=TRUE)
   
   
   #plot coverage
-  coverage_plot <-ggplot(data=df, aes(x=values_PCR, y=DP10)) + 
-    geom_point(aes(color=strain_to_plot)) + 
+  coverage_plot <-ggplot(data=df %>% rename(Strain=substrain_name), aes(x=values_PCR, y=DP10)) + 
+    geom_point(aes(color=Strain)) + 
     
     facet_grid(~strain_to_plot) +
     
@@ -45,14 +45,14 @@ plot_ct_value_supplements<-function(df, save=TRUE)
       y= "DP10"
     ) +
     theme(
-      legend.position = "none",
+      legend.position = "bottom",
       panel.grid.minor.x = element_blank(), 
       panel.grid.minor.y=element_blank(),
     ) +
     ylim(c(0,1.0))
   
   
-  plt<-plot_grid(aligned_reads_plot, coverage_plot, nrow = 2)
+  plt<-plot_grid(aligned_reads_plot, coverage_plot, nrow = 2, align="v", axis="lr", labels="AUTO")
   
   if(save)
   {

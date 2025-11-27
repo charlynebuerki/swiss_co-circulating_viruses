@@ -6,11 +6,19 @@ plot_genome_annotation<-function(data)
   x_min=min(data$start, na.rm=TRUE)
   x_max=max(data$end, na.rm=TRUE)
   
+  data <- data %>%
+    arrange(start) %>% # Ensure they are ordered by position first
+    mutate(text_y = ifelse(row_number() %% 2 == 0, 0.75, 0.25))
+  
   annotation<-ggplot(data=data) +
     geom_rect(aes(xmin = start, xmax = end, ymin = 0, ymax = 1, fill = Name), color = "black", size=0.2) +
-    geom_text(aes(x = (start + end) / 2, y = 0.5, label = Name), size = 2, color = "white") +
+    geom_text(aes(x = (start + end) / 2, y = text_y, label = Name), 
+              size = 2, color = "white") +
     scale_y_continuous(expand = c(0, 0)) +  # Remove extra space on y-axis
     #scale_x_continuous(breaks = seq(x_min,x_max, by=1200))+
+    scale_x_continuous(
+      expand = c(0, 0.1) # This removes the white space left and right
+    ) +
     theme_minimal() +
     theme(
       axis.text.y = element_blank(), 
@@ -23,7 +31,7 @@ plot_genome_annotation<-function(data)
       legend.position = "",
       axis.text.x = element_blank(),
       axis.title.x = element_blank(),
-      plot.margin = unit(c(0.0,0.0,0.0,0.0), "cm")
+      plot.margin = unit(c(0, 0.2, 0, 0.2), "cm")
     ) +
     labs(x = NULL, y = NULL, fill = "Label")
   
@@ -52,7 +60,7 @@ plot_mean_coverage_genome<-function(data)
     theme(
       axis.title.x = element_blank(),
       axis.text.x = element_blank(),
-      plot.margin = unit(c(0.2,0.0,0.0,0.0), "cm"),
+      plot.margin = unit(c(0.2,0.0,0.0,0.0.2), "cm"),
       axis.title.y = element_text(size=4),
       axis.text.y = element_text(size=4),
       panel.grid.minor.x = element_blank(), 
@@ -92,13 +100,16 @@ plot_median_coverage_genome<-function(data)
     geom_ribbon(aes(x=idx,ymin = p10, ymax = p90), fill="black", alpha = 0.2) +
     geom_line(aes(x=idx, y=med_depth), color="black", size=0.2) +
     scale_y_log10(limits=c(1, NA))+
+    scale_x_continuous(
+      expand = c(0, 0.1) # This removes the white space left and right
+    ) +
     theme_minimal() +
     theme(
       axis.title.x = element_blank(),
       axis.text.x = element_blank(),
-      plot.margin = unit(c(0.2,0.0,0.0,0.0), "cm"),
-      axis.title.y = element_text(size=4),
-      axis.text.y = element_text(size=4),
+      plot.margin = unit(c(0.2, 0.2, 0, 0.2), "cm"),
+      axis.title.y = element_text(size=7),
+      axis.text.y = element_text(size=7),
       panel.grid.minor.x = element_blank(), 
       panel.grid.minor.y=element_blank(),
       panel.grid.major.x = element_blank(),
@@ -124,31 +135,44 @@ plot_coverage_genome_heatmap<-function(data)
     mutate(pseudonymized_id= factor(pseudonymized_id, levels=rev(unique(pseudonymized_id))))
   
   fig <-ggplot(data=data) +
-    geom_tile(aes(x=idx, y=pseudonymized_id, fill=depth))+ 
+    #geom_tile(aes(x=idx, y=pseudonymized_id, fill=depth))+ 
+    geom_tile_rast(aes(x=idx, y=pseudonymized_id, fill=depth), 
+                   raster.dpi = 300,
+                   dev="ragg") +
     #scale_fill_gradient(low="#EBA091", high="#403e9a", trans="log", labels=scaleFUN) +
-    scale_x_continuous(breaks = seq(min_x,max_x, by=1200))+
+    scale_x_continuous(
+      breaks = seq(min_x,max_x, by=1200),
+      expand = c(0, 0.1) # This removes the white space left and right
+      )+
+    scale_y_discrete(expand = c(0, 0)) +
     scale_fill_viridis_c(option = "magma", trans="log10", direction=-1) +
     theme_bw() +
+    
+    coord_cartesian(clip = "off") + #for legend
     theme(
-      axis.text.x = element_text(size=5), 
-      axis.title.x = element_text(size=5),
-      axis.text.y = element_text(size=4),
-      legend.title = element_text(size=6),
+      axis.text.x = element_text(size=7), 
+      axis.title.x = element_text(size=7, hjust = 0), # hjust=0 moves "Position" to the LEFT
+      axis.text.y = element_blank(),
+      
+  
+      # c(1, -0.1) means: Far right (1) and slightly below the axis line (-0.1)
+      legend.position = c(1, -0.01), 
+      legend.justification = c(1, 1), # Anchors the legend by its top-right corner
+      legend.direction = "horizontal",
+      
+      legend.title = element_text(size=7),
       legend.title.position = "top",
-      legend.background = element_rect(fill = alpha("white", 0.8)),
+      legend.background = element_rect(fill = "transparent"), # Remove white box so it blends
       legend.text = element_text(size=4),
       legend.key.size = unit(0.3, "lines"),
+      
       axis.ticks.x = element_blank(),
-      panel.grid.minor.x = element_blank(), 
-      panel.grid.major.y=element_blank(),
-      panel.grid.major.x=element_blank(),
-      legend.position = "inside",
-      legend.position.inside = c(0.02,0.5),
-      legend.direction="vertical",
-      plot.margin = unit(c(0.0,0.0,0.0,0.0), "cm"),
+      axis.ticks.y = element_blank(),
+      panel.grid = element_blank(),
       axis.title.y = element_blank(),
-      legend.spacing.x = unit(0.1, "cm"),  # Reduce spacing between legend items
-      legend.spacing.y = unit(0.1, "cm")   # Reduce vertical space
+      
+  
+      plot.margin = margin(t=0, r=0.2, b=0.6, l=0.2, unit="cm")
     ) +
     xlab("Position")
   
@@ -188,14 +212,22 @@ make_figure_coverage_genome_single<-function(data, pathogen_name, save)
   coverage_plot <- plot_coverage_genome_heatmap(data)
   
   #put it all together
-  title <- ggdraw() + draw_label(pathogen_name, size = 4, x=0)
+  #title <- ggdraw() + draw_label(pathogen_name, size = 4, x=0)
   
-  fig<-plot_grid(title, mean_coverage_plot, annotation_plot, coverage_plot, 
-                 nrow=4, rel_heights = c(0.03,0.1,0.04,1), align="v", axis="l")
-  
+  fig<-plot_grid(mean_coverage_plot, annotation_plot, coverage_plot, 
+                 nrow=3, rel_heights = c(0.25,0.05,0.7), align="v", axis="lr")
+  #rel_heights = c(0.1,0.04,1)
   if(save)
   {
-    ggsave(paste0("Figures/coverage_plots/", str_replace_all(pathogen_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="screen", units="mm", width=174, height=123)
+    ggsave(paste0("Figures/coverage_plots/", 
+                  str_replace_all(pathogen_name, " ", "_"), "_coverage_plot.pdf"),
+           fig , 
+           dpi = 300, #dpi="screen", 
+           units="mm", 
+           width=180, #174, 
+           height= 120,#123
+           #scale= 1.2
+           )
     
   }
   
@@ -294,12 +326,21 @@ make_figure_coverage_genome_influenza<-function(data, pathogen_name, save)
     #put it all together
     title <- ggdraw() + draw_label(segment_name, size = 4, x=0)
     
-    fig<-plot_grid(title, mean_coverage_plot, annotation_plot, coverage_plot, 
-                   nrow=4, rel_heights = c(0.03,0.1,0.04,1), align="v", axis="l")
+    fig<-plot_grid(mean_coverage_plot, annotation_plot, coverage_plot, 
+                   nrow=3, rel_heights = c(0.25,0.05,0.7), align="v", axis="lr")
     
     if(save)
     {
-      ggsave(paste0("Figures/coverage_plots/influenza/", str_replace_all(segment_name, " ", "_"), "_coverage_plot.pdf"),fig , dpi="retina", units="mm", width=174, height=123)
+      ggsave(paste0("Figures/coverage_plots/influenza/", 
+                    str_replace_all(segment_name, " ", "_"), "_coverage_plot.pdf"),
+             fig , 
+             dpi = 300, #dpi="screen", 
+             units="mm", 
+             width=180, #174, 
+             height= 120,#123
+             #scale= 1.2
+      
+      )
     }
     
     #add semgent to list of plots

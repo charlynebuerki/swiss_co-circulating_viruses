@@ -23,6 +23,8 @@ library(treeio)
 library(lubridate)
 library(aplot)
 library(scales)
+
+library(ggrastr)
 ```
 
 
@@ -116,16 +118,45 @@ virus_strain <- "Respiratory syncytial virus (type A)"
 rsv_a_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
 
 df <- format_coverage_plot_data(rsv_a_data, virus_strain)
-make_figure_coverage_genome(df, virus_strain, save=TRUE)
+fig4a<-make_figure_coverage_genome(df, virus_strain, save=TRUE)
+fig4a
 
 # Parainfluenza-3
 virus_strain <- "Human parainfluenza virus 3"
 hpiv_3_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
 
 df <- format_coverage_plot_data(hpiv_3_data, virus_strain)
-make_figure_coverage_genome(df, virus_strain, save=TRUE)
-
+fig4b<-make_figure_coverage_genome(df, virus_strain, save=TRUE)
+fig4b
 ```
+```{r}
+#plotting figures together
+
+plots <- list( fig4a, fig4b)
+
+plot_all<-plot_grid(plotlist = plots,
+          #nrow = length(virus_strains),
+          nrow = 2,
+          rel_heights = c(1,1),
+          labels= "AUTO",
+          label_size= 12,
+          label_y=1.02,
+          label_x=0.01,
+          align="v", 
+          axis="lr"
+          )
+
+plot_all
+ggsave("Figures/coverage_plots/F4.pdf",
+       plot_all, 
+       device = "pdf",
+       dpi = 300, 
+       units = "mm",
+       width = 180,   # Max standard journal width
+       height = 230   # Max standard height (leaving ~6cm for caption)
+       )
+```
+
 
 # Figure 5: Phylogenetic trees
 
@@ -323,7 +354,8 @@ virus_strain <- "Human Respiratory syncytial virus 9320 (type B)"
 rsv_b_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
 
 df <- format_coverage_plot_data(rsv_b_data, virus_strain)
-make_figure_coverage_genome(df, virus_strain, save=TRUE)
+s3a<-make_figure_coverage_genome(df, virus_strain, save=TRUE)
+s3a
 
 # HMPV
 #get data
@@ -331,8 +363,8 @@ virus_strain <- "metapneumovirus"
 hmpv_data <- hq_data %>% filter(grepl(virus_strain, substrain_name, fixed=TRUE))
 
 df <- format_coverage_plot_data(hmpv_data, virus_strain)
-make_figure_coverage_genome(df, virus_strain, save=TRUE)
-
+s3b<-make_figure_coverage_genome(df, virus_strain, save=TRUE)
+s3b
 
 ```
 
@@ -357,8 +389,50 @@ plot_all<-plot_grid(plotlist = plots,
           axis="l")
 
 plot_all
-#ggsave("Figures/coverage_plots/h1n1_HA_NA.pdf",plot_all , dpi="retina", units="mm", width=174, height=123)
+#ggsave("Figures/coverage_plots/h1n1_HA_NA.pdf",
+#       plot_all , 
+#       dpi = 300, #dpi="screen", 
+#       units="mm", 
+#       width=180, #174, 
+#       height= 120,#123
+       #scale= 1.2
+#       )
 ```
+
+```{r}
+plots <- list(s3a, s3b, plot_all)
+
+top_row <- plot_grid(
+  plots[[1]], plots[[2]], # s3a and s3b
+  labels = c("A", "B"),
+  label_size = 12,
+  nrow = 1,
+  align = "h",  # Align horizontally
+  axis = "tb"   # Align Top and Bottom axes
+)
+
+# 2. Combine Top Row with the Bottom Plot (Figure C)
+# We use ncol = 1 to stack them vertically
+final_figure <- plot_grid(
+  top_row,        # The combined A+B
+  plots[[3]],     # The full-width C (your previous 'plot_all')
+  labels = c("", "C"), # Top row is already labeled; we add C to the bottom
+  label_size = 12,
+  ncol = 1,       # Stack vertically
+  rel_heights = c(1, 1) # Optional: Give the bottom plot a bit more space if it's complex
+)
+
+final_figure
+ggsave("Figures/coverage_plots/s3.pdf",
+       final_figure, 
+       device = "pdf",
+       dpi = 300, 
+       units = "mm",
+       width = 180,   # Max standard journal width
+       height = 230   # Max standard height (leaving ~6cm for caption)
+       )
+```
+
 
 
 # Figure S5: RSV-B Phylogenetic trees
