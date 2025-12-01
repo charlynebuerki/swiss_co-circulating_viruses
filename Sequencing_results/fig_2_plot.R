@@ -15,9 +15,9 @@ plot_alluvial<-function(data, stratum_labels, fill_labels, legend_title, plot_ti
     scale_x_discrete(labels = stratum_labels) +
     scale_fill_manual(
       values = c(
-        "Partially" = "orange",
-        "Yes" = "#609078",
-        "No" = "red"
+        "Partially" = "#A06D97",
+        "Yes" = "#403e9a",
+        "No" = "#EBA091"
       ),
       labels = fill_labels, # Use the formatted labels for the legend
       na.value = "lightgrey",

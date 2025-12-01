@@ -1,0 +1,1005 @@
+strain	date	country	region	clade_membership	author	accession	location	database
+93484	2024-01-24	Mexico	North America	A.D.1.5	Garza-Cabello,J.C.,Ruiz-Higareda,A.F.,Galan-Huerta,K.A.,Bocanegra-Ibarias,P.,Camacho-Ortiz,A.,Rivas-Estilla,A.M.	PQ599899		
+93557	2024-01-30	Mexico	North America	A.D.1	Garza-Cabello,J.C.,Ruiz-Higareda,A.F.,Galan-Huerta,K.A.,Bocanegra-Ibarias,P.,Camacho-Ortiz,A.,Rivas-Estilla,A.M.	PQ599900		
+330102010	2019-01-07	France	Europe	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376821		
+330103039	2020-01-20	France	Europe	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376683		
+358102021	2019-04-15	Finland	Europe	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376627		
+358103048	2020-03-11	Finland	Europe	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376290		
+390103014	2020-01-14	Italy	Europe	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376611		
+550101047	2018-07-23	Brazil	South America	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376716		
+550102160	2019-07-03	Brazil	South America	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376487		
+610102029	2019-06-23	Australia	Oceania	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376715		
+610103034	2021-01-03	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376774		
+610103035	2021-01-04	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376498		
+610103036	2021-01-05	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376516		
+610103037	2021-01-05	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376803		
+610103038	2021-01-05	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376515		
+610103039	2021-01-06	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376812		
+610103040	2021-01-06	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376529		
+610103041	2021-01-08	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376544		
+610103043	2021-01-09	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376833		
+610103044	2021-01-11	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376575		
+610103045	2021-01-19	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376365		
+610103047	2021-01-21	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376396		
+610103048	2021-01-25	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376429		
+610103050	2021-01-28	Australia	Oceania	A.D.1.2	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376759		
+810101001	2017-12-11	Japan	Asia	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376281		
+OQ941767	2018-12-31	Australia	Oceania	A.D.1	Pangesti,K.N.A.,Ansari,H.R.,Bayoumi,A.,Kesson,A.M.,Hill-Cawthorne,G.A.,Abd El Ghany,M.	OQ941767		
+PP352305	2018-12-31	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352305		
+SE02-0103-D02	2019-12-20	Spain	Europe	A.D.1	Lin,G.-L.,Drysdale,S.B.,Snape,M.D.,O'Connor,D.,Brown,A.,MacIntyre-Cockett,G.,Mellado-Gomez,E.,de Cesare,M.,Bonsall,D.,Ansari,M.A.,Oner,D.,Aerssens,J.,Butler,C.,Bont,L.,Openshaw,P.,Martinon-Torres,F.,Nair,H.,Bowden,R.,Golubchik,T.,Pollard,A.J.	MZ515777		
+hRSV/A/Austria/MUW1228283/2020	2020-02-28	Austria	Europe	A.D.1	Redlberger-Fritz,M.,Springer,D.N.,Aberle,S.W.,Camp,J.V.,Aberle,J.H.	OQ261747		
+H82	2017-12-31	USA	North America	A.D.1	Musa,A.O.,Faber,S.R.,Lopez,C.B.	PP525306	Pa	
+hRSV/A/Germany/19-02698/2019	2019-02-17	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795381		
+HRSV/A/USA/TX-HOU-R06687/2021	2021-06-21	USA	North America	A.D.1	Avadhanula,V.,Piedra,P.	PQ308736		
+hRSV-A-D13J37Z3	2022-10-31	USA	North America	A.D.1	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872589		
+PP352326	2022-10-31	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352326		
+PP352350	2022-10-01	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352350		
+RSVA/human/USA/MT-USAFSAM-R00040/2022	2022-12-13	USA	North America	A.D.1	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681267		
+PP352356	2022-10-01	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352356		
+PP352375	2022-11-30	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352375		
+RSV-A/human/USA/OR-S23788/2022	2022-12-18	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522501	Clackamas County	
+RSV-A/human/USA/OR-S23790/2022	2022-12-18	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522503	Washington County OR	
+RSV-A/human/USA/OR-S24492/2022	2022-12-10	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP084056	Multnomah County OR	
+RSV-A/human/USA/OR-S23791/2022	2022-12-26	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522504	Washington County OR	
+hRSV-A-G43Q68M3	2023-05-25	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR883002		
+RSV-A/human/USA/OR-S23786/2022	2022-12-18	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522499	Multnomah County OR	
+RSV-A/human/USA/OR-S24026/2022	2022-12-17	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601476	Multnomah County OR	
+RSV-A/human/USA/OR-S24027/2022	2022-12-19	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601477	Multnomah County OR	
+RSV-A/human/USA/OR-S23805/2022	2022-12-04	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522518	Multnomah County OR	
+RSV-A/human/USA/OR-S23808/2022	2022-12-11	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522521	Multnomah County OR	
+hRSV/A/Panama/ICGES-69/2022	2022-12-19	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618020		
+hRSV/A/Panama/ICGES-45/2022	2022-10-24	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618030		
+hRSV/A/Panama/ICGES-37/2022	2022-10-10	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618029		
+hRSV/A/Panama/ICGES-40/2022	2022-10-10	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618028		
+hRSV/A/Panama/ICGES-44/2022	2022-10-20	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618024		
+RSV-A/human/USA/MA-Broad_MGH-16571/2023	2023-12-10	USA	North America	A.D.1	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178300		
+RSV-A/human/USA/MA-Broad_MGH-16119/2023	2023-11-28	USA	North America	A.D.1	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178510		
+hRSV/A/Panama/ICGES-59/2022	2022-11-08	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618022		
+hRSV/A/Panama/ICGES-28/2022	2022-09-22	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618026		
+hRSV/A/Panama/ICGES-47/2022	2022-10-27	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618023		
+hRSV/A/Panama/ICGES-01/2023	2023-01-01	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618031		
+hRSV/A/Panama/ICGES-60/2022	2022-11-08	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618021		
+hRSV/A/Panama/ICGES-32/2022	2022-10-03	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618025		
+hRSV/A/Panama/ICGES-43/2022	2022-10-20	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618032		
+hRSV/A/Panama/ICGES-22/2022	2022-08-11	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618027		
+RSV/Human/USA/MA-Broad_MGB-13780/2022	2022-10-18	USA	North America	A.D.1.8	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171901		
+ASU101590	2022-12-12	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143142		
+RSV/Human/USA/MA-Broad_MGB-13599/2022	2022-11-08	USA	North America	A.D.1.8	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024109		
+PP352327	2022-10-29	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352327		
+PP352333	2022-10-29	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352333		
+PP352324	2021-12-01	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352324		
+RSV-A/human/USA/WA-S25742/2022	2022-11-11	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638693	King County WA	
+hRSV-A-D13J38V2	2022-11-09	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872640		
+RSV-A/human/USA/OR-S23778/2022	2022-12-06	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522491	Clackamas County	
+020-0004	2023-11-09	France	Europe	A.D.1.8	Fourati,S.,Rameix Welti,M.-A.	PQ762819		
+032-0017	2023-12-27	France	Europe	A.D.1.8	Fourati,S.,Rameix Welti,M.-A.	PQ763132		
+RSVA/human/USA/MO-USAFSAM-R00056/2023	2023-01-05	USA	North America	A.D.1.8	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681275		
+RSV/Human/USA/MA-Broad_MGB-13663/2022	2022-11-05	USA	North America	A.D.1.8	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024121		
+hRSV-A-HS16204	2022-11-27	USA	North America	A.D.1.8	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR883007		
+hRSV-A-W13K06D2	2022-08-18	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872632		
+hRSV-A-W13K36P1	2022-10-26	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872602		
+hRSV-A-W13K31X8	2022-10-15	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872625		
+WA-UW-55411	2024-01-04	USA	North America	A.D.1.8	Roychoudhury,P.,Xie,X.,Sereewit,J.,Ellis,S.,Greninger,A.	PP959043		
+RSV/Human/USA/MA-Broad_MGB-13660/2022	2022-11-06	USA	North America	A.D.1.8	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024136		
+ASU102786	2022-11-30	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143222		
+PP352325	2022-10-01	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352325		
+PP352357	2022-10-28	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352357		
+RSV-A/human/USA/WA-S25755/2022	2022-11-16	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638706		
+RSV-A/human/USA/WA-S23794/2023	2023-01-23	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522507	King County WA	
+RSV-A/human/USA/WA-S23807/2023	2023-01-30	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522520	King County WA	
+RSV-A/human/USA/WA-S23749/2022	2022-10-30	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522462	King County WA	
+RSV-A/human/USA/WA-S25744/2022	2022-11-08	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638695	Snohomish County	
+RSV-A/human/USA/WA-S24227/2022	2022-12-22	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR975305	King County WA	
+RSV-A/human/USA/WA-S25741/2023	2023-01-11	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638692		
+RSV-A/human/USA/WA-S24023/2022	2022-10-16	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601473	King County WA	
+RSV-A/human/USA/WA-S24024/2022	2022-10-23	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601474	King County WA	
+RSV-A/human/USA/WA-S25779/2022	2022-10-15	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638730		
+RSV-A/human/USA/WA-S25717/2022	2022-11-25	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638668		
+RSV-A/human/USA/WA-S25723/2022	2022-11-23	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638674	Snohomish County	
+RSV-A/human/USA/WA-S25753/2022	2022-11-16	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638704		
+RSV-A/human/USA/WA-S24022/2022	2022-10-16	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601472	King County WA	
+RSV-A/human/USA/WA-S23766/2022	2022-10-23	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522479	King County WA	
+RSV-A/human/USA/WA-S25724/2022	2022-11-30	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638675	King County WA	
+RSV-A/human/USA/WA-S25737/2022	2022-11-11	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638688	King County WA	
+hRSV-A-W13J48E5	2022-04-27	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872622		
+hRSV-A-W13K23C5	2022-09-21	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872628		
+RSV-A/human/USA/WA-S23374/2021	2021-11-11	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Wolf,C.R.,Duchin,J.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Chu,H.Y.,Bedford,T.,Shendure,J.	OR287988	King County WA	
+hRSV-A-G43R82X4	2024-01-27	USA	North America	A.D.1.8	Lauring,A.S.,Papalambros,L.K.	PP781407		
+MN-MDH-RSVA-01069	2024-01-14	USA	North America	A.D.1.8	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Strain,A.	PQ788250		
+RSV-A/human/USA/WA-S24694/2023	2023-12-17	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342434	King County WA	
+MN-MDH-RSVA-00888	2024-02-16	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978499		
+MN-MDH-RSVA-00843	2024-02-16	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973778		
+RSV-A/human/USA/WA-S24910/2024	2024-01-09	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP495848	King County WA	
+RSV-A/human/USA/WA-S24913/2024	2024-01-15	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP495851	King County WA	
+ASU102728	2023-01-29	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143189		
+ASU102720	2023-02-20	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143184		
+PP352351	2022-10-24	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352351		
+PP352352	2022-10-01	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352352		
+PP352368	2022-11-30	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352368		
+ASU101604	2022-12-09	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143154		
+ASU102699	2022-12-02	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143168		
+RSV-A/human/USA/OR-S23804/2022	2022-12-05	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522517	Multnomah County OR	
+PP352354	2022-10-31	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352354		
+hRSV-A-D13J36M6	2022-10-24	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872644		
+PP352341	2022-11-01	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352341		
+RSVA/human/USA/NY-USAFSAM-R00011/2022	2022-12-06	USA	North America	A.D.1.8	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681243		
+RSV-A/human/USA/WA-S23785/2022	2022-10-18	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522498	King County WA	
+RSV-A/human/USA/WA-S23784/2022	2022-10-18	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522497	King County WA	
+RSV-A/human/USA/WA-S25018/2021	2021-09-21	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boekch,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PP495957	King County WA	
+RSV-A/human/USA/OR-S23799/2023	2023-01-10	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522512	Multnomah County OR	
+PP352369	2022-11-30	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352369		
+RSV-A/human/USA/WA-S25722/2022	2022-11-25	USA	North America	A.D.1.8	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638673	King County WA	
+ASU102701	2022-12-19	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143170		
+ASU102713	2023-01-02	USA	North America	A.D.1.8	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143179		
+PP352347	2022-10-29	USA	North America	A.D.1.8	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352347		
+hRSV-A-W13K34X1	2022-10-17	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872585		
+hRSV-A-W13J87H2	2022-07-22	USA	North America	A.D.1.8	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872587		
+hRSV-A-HCV36304	2023-12-21	USA	North America	A.D.1.8	Bendall,E.E.,Lauring,A.S.	PQ066219		
+MN-MDH-RSVA-00264	2023-11-24	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP594806		
+MN-MDH-RSVA-00315	2024-01-02	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP709397		
+MN-MDH-RSVA-00597	2024-01-16	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910757		
+MN-MDH-RSVA-00599	2024-01-15	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910759		
+MN-MDH-RSVA-00834	2024-02-05	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973769		
+MN-MDH-RSVA-00317	2023-12-27	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP709386		
+MN-MDH-RSVA-00318	2023-12-18	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP709374		
+MN-MDH-RSVA-00813	2024-01-10	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973748		
+MN-MDH-RSVA-00319	2023-12-19	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP709375		
+MN-MDH-RSVA-00600	2024-01-14	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910760		
+MN-MDH-RSVA-00815	2024-01-08	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973750		
+MN-MDH-RSVA-00819	2024-01-22	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973754		
+MN-MDH-RSVA-00814	2024-01-09	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973749		
+MN-MDH-RSVA-00817	2024-01-21	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973752		
+MN-MDH-RSVA-00823	2024-01-29	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973758		
+MN-MDH-RSVA-00678	2024-03-07	USA	North America	A.D.1.8	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934460		
+MN-MDH-RSVA-00822	2024-01-29	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973757		
+MN-MDH-RSVA-00818	2024-01-22	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973753		
+MN-MDH-RSVA-00825	2024-01-29	USA	North America	A.D.1.8	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973760		
+hRSV/A/Panama/ICGES-63/2022	2022-12-01	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618042		
+RSV-A/human/USA/OR-S24908/2024	2024-01-03	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP495846	Multnomah County OR	
+MN-MDH-RSVA-00743	2024-02-07	USA	North America	A.D.1	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957756		
+hRSV-A-G43R40Y0	2023-12-04	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP270275		
+hRSV-A-G43R40T2	2023-11-30	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP270276		
+hRSV-A-HS16115	2022-11-17	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR882975		
+hRSV-A-W13K36O5	2022-10-26	USA	North America	A.D.1	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872626		
+hRSV-A-W13K36O8	2022-10-25	USA	North America	A.D.1	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872645		
+ASU102740	2022-11-30	USA	North America	A.D.1	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143197		
+ASU102780	2022-12-16	USA	North America	A.D.1	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143220		
+ASU101584	2022-12-19	USA	North America	A.D.1	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143138		
+hRSV-A-HS16195	2022-11-26	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR882974		
+hRSV-A-HS16197	2022-11-29	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR882978		
+hRSV-A-HCV10748	2022-10-24	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	OR915756		
+hRSV-A-HCV11149	2022-11-03	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	OR915734		
+hRSV-A-HS15907	2022-10-22	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP903812		
+hRSV-A-HS16004	2022-11-07	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR882985		
+hRSV-A-HS16001	2022-11-04	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR882981		
+hRSV/A/Germany/21-07063/2021	2021-09-10	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795418		
+WA-UW-26146	2023-12-08	USA	North America	A.D.1	Roychoudhury,P.,Xie,X.,Sereewit,J.,Ellis,S.,Greninger,A.	PP530274		
+011-0047	2023-12-15	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762761		
+031-0008	2023-12-03	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762882		
+031-0028	2023-11-02	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762897		
+RSV/Human/USA/MA-Broad_MGB-13815/2022	2022-07-27	USA	North America	A.D.1.5	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171906		
+RSV-A/human/USA/MA-Broad_MGH-21387/2023	2023-11-10	USA	North America	A.D.1.5	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178365		
+RSV-A/human/USA/MA-Broad_MGH-16051/2023	2023-11-01	USA	North America	A.D.1.5	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178627		
+hRSV-A-G43R52K0	2023-12-18	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781420		
+hRSV-A-G43R52G7	2023-12-14	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781417		
+hRSV-A-G43Q62U5	2023-05-16	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR882986		
+hRSV-A-G43R03M8	2023-10-02	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270253		
+ASU102724	2022-12-26	USA	North America	A.D.1.5	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143187		
+RSV-A/human/USA/OR-S23816/2023	2023-01-01	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522529	Multnomah County OR	
+HRSV/A/Argentina/PAIS-ALM/5/2023_05_15	2023-05-15	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610209		
+HRSV/A/Argentina/PAIS-ALM/8/2023_05_22	2023-05-22	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610206		
+WA-UW-49684	2024-01-04	USA	North America	A.D.1.5	Roychoudhury,P.,Xie,X.,Sereewit,J.,Ellis,S.,Greninger,A.	PQ390732		
+2401V210003	2024-01-20	France	Europe	A.D.1.5	Caillault,A.,Fourati,S.	PQ899853		
+2401V260241	2024-01-26	France	Europe	A.D.1.5	Caillault,A.,Fourati,S.	PQ899856		
+2401V210035	2024-01-21	France	Europe	A.D.1.5	Caillault,A.,Fourati,S.	PQ899854		
+hRSV-A-G43R87Z4	2024-02-05	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781418		
+hRSV-A-G43R40P0	2023-11-28	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270271		
+HRSV/A/Argentina/PAIS-ALM/35/2023_06_11	2023-06-11	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610207		
+WA-UW-29247	2023-11-29	USA	North America	A.D.1.5	Roychoudhury,P.,Xie,X.,Sereewit,J.,Ellis,S.,Greninger,A.	PP530267		
+HRSV/A/USA/TX-HOU-215558/2023	2023-11-02	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Javornik Cregeen,S.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP882664		
+hRSV-A-G43R21J4	2023-10-23	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270251		
+ASU102693	2023-02-01	USA	North America	A.D.1.5	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143166		
+ASU102704	2023-02-01	USA	North America	A.D.1.5	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143171		
+035-0024	2023-12-02	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762938		
+HRSV/A/Argentina/PAIS-ALM/29/2023_06_23	2023-06-23	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610208		
+HRSV/A/Argentina/PAIS-ALM/36/2023_06_15	2023-06-15	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610205		
+HRSV/A/Argentina/PAIS-ALM/16/2023_05_23	2023-05-23	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610203		
+HRSV/A/Argentina/PAIS-ALM/30/2023_06_04	2023-06-04	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610204		
+RSV-A/MX/UANL-92777/2023	2023-12-04	Mexico	North America	A.D.1.5	Ruiz-Higareda,A.F.,Garza-Cabello,J.C.,Galan-Huerta,K.A.,Rivas-Estilla,A.M.,Nuzzolo-Shihadeh,L.M.,Hernandez-Balboa,C.L.,Bocanegra-Ibarias,P.,Camacho-Ortiz,A.	PP790963		
+hRSV-A-G43R51P6	2023-12-05	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781388		
+RSV-A/human/USA/WA-S24915/2024	2024-01-31	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP495853	King County WA	
+WA-SCH-9709316	2024-01-11	USA	North America	A.D.1.5	Roychoudhury,P.,Klein,E.J.,Strelitz,B.,Grioni,H.,Moline,H.L.,Tannis,A.,Ellis,S.E.,Xie,H.,Kong,K.,Sereewit,J.,Greninger,A.,Englund,J.A.	PP770471		
+011-0045	2023-12-14	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762759		
+039-0008	2023-11-24	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ763158		
+hRSV-A-G43R83P6	2024-02-02	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781403		
+RSV - A/B	2023-11-23	Switzerland	Europe	A.D.1.5		m2-zwqknf	GE	ReVSeq
+RSV - A/B_70op73	2023-11-24	Switzerland	Europe	A.D.1.5		m2-3fLBSP	SO	ReVSeq
+HRSV/A/Argentina/PAIS-ALM/15/2023_05_22	2023-05-22	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610198		
+HRSV/A/Argentina/PAIS-ALM/2/2023_05_12	2023-05-12	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610197		
+HRSV/A/Argentina/PAIS-ALM/11/2023_05_29	2023-05-29	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610200		
+HRSV/A/Argentina/PAIS-ALM/32/2023_05_11	2023-05-11	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610202		
+MN-MDH-RSVA-00681	2024-03-17	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934463		
+HRSV/A/Argentina/PAIS-ALM/3/2023_05_17	2023-05-17	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610201		
+HRSV/A/Argentina/PAIS-ALM/33/2023_05_27	2023-05-27	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610199		
+HRSV/A/Argentina/PAIS-ALM/17/2023_05_25	2023-05-25	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610196		
+hRSV-A-G43R62V3	2023-12-28	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781402		
+hRSV-A-G43R14S8	2023-10-24	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270232		
+hRSV-A-G43R43W5	2023-12-06	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270274		
+MN-MDH-RSVA-00689	2024-04-02	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934471		
+MN-MDH-RSVA-01005	2024-03-19	USA	North America	A.D.1.5	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762509		
+MN-MDH-RSVA-00737	2024-02-03	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957750		
+MN-MDH-RSVA-01019	2024-05-04	USA	North America	A.D.1.5	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762523		
+MN-MDH-RSVA-00157	2023-11-05	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP386365		
+hRSV-A-G43R32V3	2023-11-21	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270231		
+HRSV/A/USA/TX-HOU-215186/2023	2023-10-05	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795133		
+HRSV/A/USA/TX-HOU-215638/2023	2023-11-08	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Javornik Cregeen,S.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP882665		
+HRSV/A/USA/TX-HOU-217085/2024	2024-01-03	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795159		
+HRSV/A/USA/TX-HOU-215752/2023	2023-11-14	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Javornik Cregeen,S.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP882666		
+hRSV-A-G43R49A0	2023-12-12	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270272		
+hRSV-A-G43R72H2	2024-01-15	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781383		
+hRSV-A-G43R40V0	2023-12-02	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270270		
+RSV - A/B_2ztl8e	2024-03-12	Switzerland	Europe	A.D.1.5		m2-Ki8Aa3	AG	ReVSeq
+HRSV/A/Argentina/PAISGONNET/8/2024-07-03	2024-07-03	Argentina	South America	A.D.1.5	Acuna,D.,Irazoqui,M.,Cannigia,L.F.,Ibanez,E.,Costa,M.,Nadalich,V.,Toro,R.,Ayala,G.,Cobas,M.E.,Delarubia,E.,Ghiglione,C.,Cordero,A.,Viegas,M.	PQ610195	La Plata	
+2311V240025	2023-11-23	France	Europe	A.D.1.5	Caillault,A.,Fourati,S.	PQ899872		
+2312V210204	2023-12-21	France	Europe	A.D.1.5	Caillault,A.,Fourati,S.	PQ899906		
+H20-355-5990	2024-01-02	USA	North America	A.D.1.5	Rothstein,A.P.,Qiu,X.,Collins,S.,Muir,G.,Simas,A.,Sum,A.,Lu,B.,Cosca,B.,Girinathan,B.,Leeson,P.,Phillipson,C.W.,Plocik,A.,Simen,B.	PQ117649		
+RSV-A/human/USA/MA-Broad_MGH-16427/2023	2023-12-08	USA	North America	A.D.1.5	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178285		
+MN-MDH-RSVA-00286	2023-12-05	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP668172		
+MN-MDH-RSVA-00392	2023-12-29	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP709446		
+030-0003	2023-11-28	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762876		
+030-0001	2023-11-28	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762875		
+A19160808	2023-11-29	Ireland	Europe	A.D.1.5	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969992		
+MN-MDH-RSVA-00890	2024-02-21	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978501		
+hRSV/A/Panama/ICGES-355/2023	2023-10-13	Panama	North America	A.D.1.5	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618038		
+HRSV/A/USA/TX-HOU-215695/2023	2023-11-10	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795148		
+hRSV-A-G43S14T0	2024-03-16	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP903809		
+MN-MDH-RSVA-00923	2024-03-10	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978534		
+MN-MDH-RSVA-00925	2024-03-11	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978536		
+hRSV-A-G43S00U8	2024-02-29	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781390		
+hRSV-A-W13K21W8	2022-09-25	USA	North America	A.D.1.5	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872607		
+hRSV-A-W13K35X7	2022-10-23	USA	North America	A.D.1.5	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872588		
+hRSV-A-W13K31Y4	2022-10-16	USA	North America	A.D.1.5	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872637		
+RSV-A/human/USA/WA-S24228/2023	2023-09-29	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR975306	King County WA	
+RSV-A/human/USA/WA-S25731/2022	2022-12-23	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638682	King County WA	
+HRSV/A/USA/TX-HOU-216870/2023	2023-12-14	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795156		
+HRSV/A/USA/TX-HOU-216989/2023	2023-12-22	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795157		
+HRSV/A/USA/TX-HOU-217541/2024	2024-01-19	USA	North America	A.D.1.5	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795162		
+hRSV-A-W13K24U0	2022-10-01	USA	North America	A.D.1.5	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872583		
+hRSV-A-HCV11629	2022-11-15	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	OR915770		
+hRSV-A-HS15990	2022-11-01	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR882991		
+hRSV-A-HS16074	2022-11-07	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR883018		
+hRSV-A-W13K17M0	2022-09-13	USA	North America	A.D.1.5	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872618		
+hRSV-A-G43R99P3	2024-02-23	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781426		
+hRSV-A-G43R44N6	2023-12-06	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270265		
+hRSV-A-G43R60M2	2024-01-02	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781425		
+hRSV-A-G43R54D6	2023-12-22	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781406		
+hRSV-A-G43R62R9	2024-01-03	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781378		
+hRSV-A-G43R82R6	2024-01-30	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP781385		
+RSV-A/human/USA/WA-S25745/2022	2022-11-11	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638696	Snohomish County	
+RSV-A/human/USA/MA-Broad_MGH-16480/2023	2023-12-11	USA	North America	A.D.1.5	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178448		
+RSV-A/human/USA/MA-Broad_MGH-16563/2023	2023-12-10	USA	North America	A.D.1.5	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178372		
+RSV-A/human/USA/WA-S25733/2022	2022-12-31	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638684	King County WA	
+RSV-A/human/USA/WA-S25719/2022	2022-11-22	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638670	King County WA	
+RSV-A/human/USA/WA-S25725/2022	2022-11-12	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638676	King County WA	
+PP352349	2022-10-16	USA	North America	A.D.1.5	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352349		
+PP352384	2022-12-01	USA	North America	A.D.1.5	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352384		
+RSV-A/human/USA/WA-S25771/2023	2023-01-29	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638722	King County WA	
+hRSV/A/USA/NY-Wadsworth-24015532-01/2024	2024-04-24	USA	North America	A.D.1.5	Bonificio,B.,Schnurr,V.,Russel,A.,Griesemer,S.,Lamson,D.M.,St. George,K.	PP978496		
+A19160803	2023-11-27	Ireland	Europe	A.D.1.5	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969987		
+A19160782	2023-11-20	Ireland	Europe	A.D.1.5	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970040		
+A19160758	2023-10-13	Ireland	Europe	A.D.1.5	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970024		
+MN-MDH-RSVA-00549	2024-01-17	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847391		
+MN-MDH-RSVA-00436	2024-02-13	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP852062		
+MN-MDH-RSVA-01022	2024-06-19	USA	North America	A.D.1.5	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762526		
+MN-MDH-RSVA-00608	2024-01-26	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910768		
+MN-MDH-RSVA-00926	2024-03-12	USA	North America	A.D.1.5	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978537		
+040-0033	2023-10-04	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ763004		
+040-0013	2023-11-28	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762987		
+040-0042	2023-12-26	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ763013		
+031-0014	2023-12-12	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762887		
+031-0044	2023-12-01	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762908		
+031-0035	2023-12-04	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762901		
+031-0024	2023-12-05	France	Europe	A.D.1.5	Fourati,S.,Rameix Welti,M.-A.	PQ762896		
+hRSV-A-G43R22F6	2023-11-01	USA	North America	A.D.1.5	Lauring,A.S.,Papalambros,L.K.	PP270243		
+RSV-A/human/USA/MA-Broad_MGH-16602/2023	2023-12-15	USA	North America	A.D.1.5	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178325		
+RSV-A/human/USA/OR-S24493/2023	2023-10-25	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP084057	Multnomah County OR	
+RSV-A/human/USA/OR-S24686/2023	2023-12-05	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342426	Multnomah County OR	
+RSV-A/human/USA/OR-S25511/2023	2023-12-11	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Stone,J.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PQ008881	Multnomah County OR	
+RSV-A/human/USA/OR-S24676/2023	2023-11-19	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342416	Multnomah County OR	
+RSV-A/human/USA/WA-S24691/2023	2023-12-13	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342431	Clark County WA	
+RSV-A/human/USA/OR-S24699/2023	2023-12-20	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342439	Washington County OR	
+RSV-A/human/USA/OR-S24229/2023	2023-10-22	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR975307	Multnomah County OR	
+RSV-A/human/USA/OR-S24682/2023	2023-12-04	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342422	Clackamas County	
+RSV-A/human/USA/OR-S24698/2023	2023-12-20	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342438	Clackamas County	
+RSV-A/human/USA/WA-S24695/2023	2023-12-17	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342435	King County WA	
+RSV-A/human/USA/WA-S25507/2024	2024-01-01	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Stone,J.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PQ008877	King County WA	
+RSV-A/human/USA/OR-S24230/2023	2023-10-24	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR975308	Clackamas County	
+RSV-A/human/USA/OR-S24494/2023	2023-11-02	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP084058	Multnomah County OR	
+RSV-A/human/USA/OR-S24701/2024	2024-01-04	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342441	Multnomah County OR	
+RSV-A/human/USA/OR-S24679/2023	2023-11-30	USA	North America	A.D.1.5	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Opsahl,J.,Reich,S.,Rodriguez-Salas,L.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	PP342419	Clackamas County	
+070103008	2020-01-27	Russia	Europe	A.D.1	Langedijk,A.C.,Lebbink,R.J.,Bont,L.J.,Evers,A.	PP376446		
+hRSV/A/Germany/21-07326/2021	2021-09-28	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795421		
+hRSV/A/Germany/22-01286/2021	2021-10-19	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795446		
+hRSV/A/Panama/ICGES-139/2020	2020-01-15	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618033		
+hRSV/A/Panama/ICGES-82/2019	2019-07-03	Panama	North America	A.D.1	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618035		
+RSVLO441	2021-09-15	United Kingdom	Europe	A.D.1.4	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348809		
+hRSV-A-HS16619	2023-01-19	USA	North America	A.D.1.4	Lauring,A.S.,Papalambros,L.K.	OR915735		
+RSVLO476	2021-09-23	United Kingdom	Europe	A.D.1.4	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348815		
+WA-SCH-9357150	2024-02-19	USA	North America	A.D.1.4	Roychoudhury,P.,Klein,E.J.,Strelitz,B.,Grioni,H.,Moline,H.L.,Tannis,A.,Ellis,S.E.,Xie,H.,Kong,K.,Sereewit,J.,Greninger,A.,Englund,J.A.	PP770472		
+ASU102757	2022-12-19	USA	North America	A.D.1.4	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143209		
+RSV/Human/USA/MA-Broad_MGB-13685/2022	2022-11-04	USA	North America	A.D.1.4	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024155		
+RSV-A/human/USA/WA-S23783/2022	2022-10-17	USA	North America	A.D.1.4	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522496	King County WA	
+PP760419	2022-10-04	USA	North America	A.D.1.4	Sereewit,J.,Nunley,B.E.,Roychoudhury,P.,Greninger,A.L.	PP760419		
+hRSV/A/USA/2022R3AE2/2022	2022-10-04	USA	North America	A.D.1.4	Goya,S.,Sereewit,J.,Pfalmer,D.,Nguyen,T.,Bakhash,S.A.K.M.,Sobolik,E.B.,Greninger,A.L.,Sobolik,E.	OP890314		
+ASU102727	2022-12-25	USA	North America	A.D.1.4	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143188		
+RSVA/human/USA/ND-USAFSAM-R00009/2022	2022-12-05	USA	North America	A.D.1.4	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681283		
+RSVA/human/USA/AZ-USAFSAM-R00010/2022	2022-12-06	USA	North America	A.D.1.4	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681242		
+ASU101583	2022-12-13	USA	North America	A.D.1.4	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143137		
+PP352344	2022-11-18	USA	North America	A.D.1.4	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352344		
+DW-RAT-036	2022-07-22	Australia	Oceania	A.D.1.4	Steinig JOACHIM,E.	OY757684		
+DW-RAT-088	2022-07-22	Australia	Oceania	A.D.1.4	Steinig JOACHIM,E.	OY757638		
+DW-RAT-081	2022-07-15	Australia	Oceania	A.D.1.4	Steinig JOACHIM,E.	OY757595		
+DW-RAT-028	2022-07-15	Australia	Oceania	A.D.1.4	Steinig JOACHIM,E.	OY757641		
+A19160768	2023-10-31	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970032		
+A19160763	2023-10-28	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970028		
+A19160769	2023-10-26	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970033		
+A19160805	2023-11-26	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969989		
+A19160794	2023-11-17	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970000		
+A19160772	2023-11-02	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970018		
+A19160801	2023-11-16	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969985		
+A19160812	2023-11-24	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969957		
+A19160813	2023-11-23	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969958		
+A19160802	2023-11-27	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969986		
+A19160814	2023-11-15	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969959		
+A19160799	2023-11-17	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970005		
+A19160778	2023-11-06	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970037		
+A19160760	2023-10-19	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970061		
+A19160807	2023-11-29	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969991		
+A19160788	2023-11-19	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970046		
+A19160786	2023-11-15	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970044		
+A19160783	2023-11-19	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970041		
+A19160817	2023-12-04	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969962		
+A19160818	2023-12-04	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969963		
+A19160761	2023-10-20	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970026		
+A19160756	2023-10-11	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970022		
+A19160773	2023-11-01	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970019		
+A19160811	2023-11-22	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969956		
+A19160800	2023-11-16	Ireland	Europe	A.D.1.4	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969984		
+RSVLO760	2022-09-01	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348960		
+RSVLO766	2022-09-27	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348963		
+RSVLO765	2022-09-27	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348962		
+RSVLO862	2022-09-27	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349019		
+RSV-A/human/USA/MA-Broad_BWH-19942/2023	2023-10-02	USA	North America	A.D.1	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178270		
+2312V040309	2023-12-04	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899877		
+012-0004	2023-12-19	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762769		
+2401V120102	2024-01-11	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899850		
+2401V030035	2024-02-02	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899926		
+018-0002	2023-11-20	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762801		
+011-0049	2023-12-20	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763064		
+2310V290002	2023-10-28	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899862		
+2312V080145	2023-12-08	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899888		
+006-0027	2023-12-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ737349		
+006-0010	2023-12-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762626		
+HRSV/A/Japan/23RS032iso/2024	2024-04-02	Japan	Asia	A.D.1	Ichikawa,Y.,Saito,R.	LC862016		
+011-0009	2023-11-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762726		
+025-0016	2023-12-22	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763112		
+011-0002	2023-10-31	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762721		
+011-0034	2023-10-30	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762749		
+013-0026	2024-01-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763071		
+NIN-445	2021-10-16	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348850		
+2021-R1859	2021-12-20	China	Asia	A.D.1	Wei,X.,Wang,L.,Li,M.,Qi,J.,Kang,L.,Hu,G.,Gong,C.,Wang,C.,Wang,Y.,Huang,F.,Gao,G.F.	PP974152		
+2021-09R0322	2021-12-12	China	Asia	A.D.1	Wei,X.,Wang,L.,Li,M.,Qi,J.,Kang,L.,Hu,G.,Gong,C.,Wang,C.,Wang,Y.,Huang,F.,Gao,G.F.	PP974153		
+RSVA/human/USA/TX-USAFSAM-R00047/2022	2022-12-20	USA	North America	A.D.1.7	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681270		
+RSV-A/human/USA/WA-S23813/2023	2023-01-30	USA	North America	A.D.1.7	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522526	King County WA	
+RSV-A/human/USA/WA-S23814/2023	2023-02-01	USA	North America	A.D.1.7	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522527	King County WA	
+RSV/Human/USA/MA-Broad_MGB-13705/2022	2022-11-03	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024152		
+hRSV-A-W13K20X6	2022-09-28	USA	North America	A.D.1.7	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872616		
+RSV-A/human/USA/OR-S23760/2022	2022-11-06	USA	North America	A.D.1.7	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR522473	Washington County OR	
+PP352338	2022-10-18	USA	North America	A.D.1.7	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352338		
+MN-MDH-RSVA-00598	2024-01-16	USA	North America	A.D.1.7	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910758		
+007-0081	2024-01-15	France	Europe	A.D.1.7	Fourati,S.,Rameix Welti,M.-A.	PQ762661		
+007-0011	2023-11-13	France	Europe	A.D.1.7	Fourati,S.,Rameix Welti,M.-A.	PQ737357		
+007-0002	2023-11-13	France	Europe	A.D.1.7	Fourati,S.,Rameix Welti,M.-A.	PQ762634		
+RSVA/human/USA/OK-USAFSAM-R00060/2023	2023-01-10	USA	North America	A.D.1.7	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681280		
+RSVA/human/USA/OK-USAFSAM-R00030/2022	2022-12-13	USA	North America	A.D.1.7	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681260		
+PP203260	2022-09-04	USA	North America	A.D.1.7	Goya,S.,Wendm,S.,Sereewit,J.,Shankar,R.,Kim,D.Y.,Greninger,A.L.	PP203260		
+RSV-A/human/USA/WA-S25721/2022	2022-11-24	USA	North America	A.D.1.7	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638672	King County WA	
+RSV/Human/USA/MA-Broad_MGB-13770/2022	2022-10-23	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171897		
+RSV/Human/USA/MA-Broad_MGB-13794/2022	2022-07-01	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171931		
+ASU102717	2022-12-01	USA	North America	A.D.1.7	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143183		
+ASU102741	2022-12-06	USA	North America	A.D.1.7	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143198		
+RSV/Human/USA/MA-Broad_MGB-13802/2022	2022-07-13	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171911		
+RSV/Human/USA/MA-Broad_MGB-13728/2022	2022-11-14	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024154		
+RSV/Human/USA/MA-Broad_MGB-13758/2022	2022-10-26	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171926		
+hRSV/A/Panama/ICGES-24/2022	2022-09-20	Panama	North America	A.D.1.7	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618041		
+hRSV/A/Panama/ICGES-57/2022	2022-10-31	Panama	North America	A.D.1.7	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618040		
+hRSV-A-W13J75Q6	2022-06-21	USA	North America	A.D.1.7	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872619		
+RSV/Human/USA/MA-Broad_MGB-13704/2022	2022-11-03	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024148		
+RSV/Human/USA/MA-Broad_MGB-13732/2022	2022-11-14	USA	North America	A.D.1.7	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024124		
+RSV-A/human/USA/WA-S24020/2022	2022-10-02	USA	North America	A.D.1.7	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601470	King County WA	
+hRSV/A/Panama/ICGES-359/2023	2023-12-23	Panama	North America	A.D.1.7	Franco,D.,Goya,S.,Martinez,A.,Moreno,B.,Valdespino,E.,Gaitan,M.,Gonzalez,C.,Moreno,A.,Capitan-Barrios,Z.,Carrera,J.P.,Lopez-Verges,S.,Pascale,J.M.,Das,S.R.,Arbiza,J.,Delfraro,A.,Abrego,L.	PQ618039		
+hRSV/A/Germany/21-06625/2021	2021-09-06	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795415		
+hRSV/A/Germany/22-01741/2021	2021-11-19	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795455		
+hRSV/A/Germany/22-00946/2021	2021-10-26	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795441		
+DW-RAT-118	2022-01-14	Australia	Oceania	A.D.1	Steinig JOACHIM,E.	OY757618		
+DW-RAT-005	2022-01-14	Australia	Oceania	A.D.1	Steinig JOACHIM,E.	OY757740		
+NIN-534	2022-10-12	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348879		
+A18321052	2022-11-03	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970056		
+A18321035	2022-10-11	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970048		
+A18321036	2022-10-11	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970049		
+RSVLO793	2022-04-28	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348967		
+RSVLO817	2022-08-01	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349012		
+RSVLO808	2022-07-16	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349007		
+RSVLO848	2022-09-18	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349018		
+RSVLO562	2022-03-18	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348999		
+RSVLO574	2022-05-17	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349001		
+A18321015	2022-09-10	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969950		
+RSVLO805	2022-07-13	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349005		
+RSVLO783	2022-06-01	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348965		
+RSVLO813	2022-07-26	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349010		
+RSVLO761	2022-08-12	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348961		
+RSVLO803	2022-07-11	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349004		
+RSVLO812	2022-07-22	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349009		
+RSVLO838	2022-09-05	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349017		
+RSVLO806	2022-07-13	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349006		
+RSVLO826	2022-08-09	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349015		
+RSVLO822	2022-08-04	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349013		
+RSVLO825	2022-08-08	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349014		
+RSVLO417	2021-09-04	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348990		
+RSVLO461	2021-09-20	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348993		
+RSVLO407	2021-08-30	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348800		
+RSVLO411	2021-09-03	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348801		
+RSVLO416	2021-09-06	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348804		
+RSVLO399	2021-08-08	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348797		
+A18321086	2022-12-08	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970058		
+NIN-447	2021-10-16	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348851		
+NIN-450	2021-09-09	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348852		
+RSVLO422	2021-09-08	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348806		
+RSVLO482	2021-09-22	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348995		
+RSVLO419	2021-09-07	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348805		
+hRSV-A-HS15883	2022-10-21	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP903821		
+hRSV-A-HS15892	2022-10-21	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP903827		
+NIN-433	2021-10-21	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348848		
+RSVLO543	2021-10-21	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348998		
+RSVLO510	2021-09-29	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348817		
+NIN-458	2021-10-30	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348856		
+RSVLO414	2021-09-06	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348776		
+RSVLO412	2021-09-05	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348802		
+RSVLO810	2022-07-19	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349008		
+A18321041	2022-10-17	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970051		
+A18321043	2022-10-19	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970052		
+A18321088	2022-11-17	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970008		
+A18321047	2022-10-30	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970054		
+RSVLO541	2021-10-18	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348823		
+NIN-460	2021-11-03	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348857		
+NIN-461	2021-11-07	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348858		
+RSVLO540	2021-10-18	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348822		
+RSVLO537	2021-10-13	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348997		
+RSVLO389	2021-08-02	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348795		
+RSVLO401	2021-08-08	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348799		
+NIN-431	2021-10-19	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348847		
+RSVLO406	2021-08-29	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348989		
+RSVLO420	2021-09-08	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348991		
+RSVLO504	2021-09-27	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348996		
+NIN-452	2021-10-19	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348853		
+NIN-455	2021-10-22	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348855		
+NIN-435	2021-10-25	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348849		
+NIN-490	2022-09-09	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348869		
+NIN-473	2022-08-27	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348862		
+RSVLO1005	2022-11-21	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349022		
+NIN-537	2022-10-16	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348882		
+NIN-472	2022-08-28	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348861		
+NIN-478	2022-08-14	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348864		
+NIN-466	2022-07-26	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348859		
+NIN-523	2022-10-03	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348875		
+NIN-539	2022-10-17	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348883		
+NIN-489	2022-09-09	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348868		
+NIN-524	2022-10-04	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348876		
+NIN-536	2022-10-16	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348881		
+NIN-484	2022-08-28	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348865		
+NIN-535	2022-10-13	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348880		
+NIN-528	2022-10-08	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348877		
+NIN-541	2022-10-19	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348884		
+RSVLO88	2019-12-12	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348844		
+RSV/Human/USA/MA-Broad_MGB-13818/2022	2022-08-06	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171919		
+RSVA/human/USA/NY-USAFSAM-R00054/2023	2023-01-03	USA	North America	A.D.1	Fries,A.,Padraic,F.,Jennifer,M.,Kelsey,L.,William,G.,Deanna,M.,Sarah,P.,Elizabeth,M.	PP681273		
+RSV-A/human/USA/WA-S24029/2023	2023-02-12	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601479	Snohomish County	
+RSV-A/human/USA/WA-S24222/2023	2023-02-05	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR975300	Snohomish County	
+RSV/Human/USA/MA-Broad_MGB-13661/2022	2022-11-06	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024137		
+RSV/Human/USA/MA-Broad_MGB-13679/2022	2022-11-04	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024114		
+RSV/Human/USA/MA-Broad_MGB-13698/2022	2022-11-03	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024116		
+RSV/Human/USA/MA-Broad_MGB-13784/2022	2022-10-17	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171920		
+RSV/Human/USA/MA-Broad_MGB-13667/2022	2022-11-05	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024149		
+RSV/Human/USA/MA-Broad_MGB-13767/2022	2022-10-23	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171922		
+hRSV-A-HCV11189	2022-11-03	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	OR915732		
+RSV/Human/USA/MA-Broad_MGB-13808/2022	2022-07-20	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171894		
+A18321048	2022-10-31	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970055		
+RSV/Human/USA/MA-Broad_MGB-13823/2022	2022-08-11	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171909		
+PP352342	2022-11-30	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352342		
+PP352377	2022-11-30	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352377		
+RSV-A/human/USA/OR-S24225/2022	2022-11-30	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR975303	Multnomah County OR	
+PP352376	2022-12-31	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352376		
+RSV/Human/USA/MA-Broad_MGB-13768/2022	2022-10-23	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171916		
+RSV-A/human/USA/WA-S24025/2022	2022-10-23	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,McDermot,E.,Kolar,T.,Han,P.D.,Sibley,T.R.,Reinhart,D.,Grindstaff,S.,Truong,M.,Babu,T.M.,Feldstein,L.R.,Saydah,S.,Briggs-Hagen,M.,Casto,A.,Ehmen,B.,Englund,J.A.,Fortmann,S.P.,Kuntz,J.L.,Lockwood,T.,Midgley,C.M.,Mularski,R.A.,Ogilvie,T.,Reich,S.,Schmidt,M.A.,Smith,N.,Starita,L.,Stone,J.,Vandermeer,M.,Weil,A.A.,Wolf,C.R.,Chu,H.Y.,Naleway,A.L.	OR601475	King County WA	
+RSV/Human/USA/MA-Broad_MGB-13716/2022	2022-11-03	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024120		
+RSV/Human/USA/MA-Broad_MGB-13822/2022	2022-08-11	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171896		
+RSV/Human/USA/MA-Broad_MGB-13689/2022	2022-11-04	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ024139		
+RSV/Human/USA/MA-Broad_MGB-13769/2022	2022-10-23	USA	North America	A.D.1	Adams,G.,Uddin,R.,Messer,K.,Dobbins,S.,Kotzen,B.,Siddle,K.J.,Petros,B.,Paull,J.,Brock-Fisher,T.,Levine,Z.,Krasilnikova,L.,Negrete-Arenas,F.,Tomkins-Tinch,C.,Chaluvadi,S.,Marmol,C.,DeRuff,K.,Loreth,C.,Birren,B.W.,Park,D.J.,MacInnis,B.L.,Sabeti,P.C.,Rosenberg,E.,Turbett,S.,Lemieux,J.E.	OQ171899		
+OM857353	2021-02-20	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857353		
+OM857351	2021-01-13	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857351		
+OM857352	2021-01-16	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857352		
+OM857354	2021-02-27	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857354		
+OM857263	2021-02-06	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857263		
+OM857356	2021-02-07	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857356		
+OM857227	2020-11-22	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857227		
+OM857363	2021-01-03	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857363		
+OM857264	2021-02-28	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857264		
+OM857255	2021-01-02	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857255		
+OM857257	2021-01-31	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857257		
+OM857267	2021-01-02	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857267		
+OM857360	2021-01-18	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857360		
+OM857346	2021-02-11	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857346		
+OM857347	2021-03-04	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857347		
+OM857345	2021-02-15	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857345		
+OM857340	2021-01-12	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857340		
+OM857337	2021-02-22	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857337		
+OM857342	2021-03-08	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857342		
+OM857338	2021-02-12	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857338		
+OM857341	2021-03-07	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857341		
+OM857336	2021-02-06	Australia	Oceania	A.D.1.3	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857336		
+PP352345	2022-11-01	USA	North America	A.D.1.6	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352345		
+A19160759	2023-10-18	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970025		
+A19160757	2023-10-13	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970023		
+A19160764	2023-10-29	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970029		
+A19160816	2023-10-30	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969961		
+A19160797	2023-11-24	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970003		
+A19160777	2023-11-04	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970036		
+A19160779	2023-11-06	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970063		
+A19160766	2023-10-27	Ireland	Europe	A.D.1.6	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970062		
+hRSV-A-HS16309	2022-12-14	USA	North America	A.D.1.6	Lauring,A.S.,Papalambros,L.K.,Fitzsimmons,W.J.,Gilbert,J.	OR883014		
+RSV-A/human/USA/WA-S25752/2023	2023-03-22	USA	North America	A.D.1.6	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,McDermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PQ638703	Pierce County WA	
+ASU102787	2022-12-31	USA	North America	A.D.1.6	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143223		
+ASU102788	2022-12-04	USA	North America	A.D.1.6	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143224		
+032-0001	2023-11-24	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763126		
+RSV - A/B_1oo6td	2023-11-20	Switzerland	Europe	A.D.1.6		m2-zGrf4n	GE	ReVSeq
+040-0034	2023-12-29	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763005		
+010-0028	2023-12-21	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763060		
+040-0032	2024-01-05	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763003		
+040-0035	2023-12-20	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763006		
+040-0012	2023-12-29	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762986		
+040-0023	2023-12-14	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762997		
+040-0027	2023-12-22	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763000		
+040-0040	2023-11-27	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763011		
+040-0046	2023-12-17	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763017		
+010-0020	2023-12-17	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762706		
+026-0001	2024-01-08	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762843		
+040-0022	2024-02-11	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762996		
+040-0039	2023-12-26	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763010		
+040-0007	2023-12-24	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762981		
+007-0046	2023-12-19	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762653		
+040-0029	2023-11-25	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763001		
+010-0027	2023-12-20	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763059		
+040-0041	2023-11-28	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763012		
+RSV - A/B_7e7ldf	2024-01-24	Switzerland	Europe	A.D.1.6		m2-nf9ieP	VD	ReVSeq
+040-0008	2023-12-13	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762982		
+035-0003	2023-11-03	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762920		
+025-0003	2023-12-05	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763108		
+032-0022	2024-01-17	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763136		
+041-0006	2024-03-12	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763164		
+019-0014	2023-12-06	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763093		
+019-0015	2023-12-12	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763094		
+019-0011	2023-12-02	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763091		
+019-0005	2023-11-27	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763087		
+019-0003	2023-11-25	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763085		
+019-0010	2023-12-01	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763090		
+019-0009	2023-12-01	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763089		
+019-0004	2023-11-26	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763086		
+019-0026	2023-12-30	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762815		
+019-0001	2023-11-21	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763083		
+019-0002	2023-11-23	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763084		
+019-0019	2023-12-18	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763097		
+019-0025	2023-12-29	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763101		
+019-0007	2023-11-27	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763088		
+019-0017	2023-12-15	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763096		
+019-0020	2023-12-21	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763098		
+019-0023	2023-12-27	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762814		
+041-0001	2024-02-06	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763163		
+019-0013	2023-12-05	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ763092		
+019-0006	2023-11-27	France	Europe	A.D.1.6	Fourati,S.,Rameix Welti,M.-A.	PQ762810		
+hRSV-A-G43R72T1	2024-01-17	USA	North America	A.D.1.6	Lauring,A.S.,Papalambros,L.K.	PP781387		
+MN-MDH-RSVA-00473	2023-12-21	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP830408		
+MN-MDH-RSVA-00686	2024-03-30	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934468		
+MN-MDH-RSVA-00765	2024-04-03	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957778		
+MN-MDH-RSVA-00916	2024-03-03	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978527		
+MN-MDH-RSVA-00688	2024-04-01	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934470		
+MN-MDH-RSVA-00758	2024-03-28	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957771		
+MN-MDH-RSVA-00519	2024-01-09	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847361		
+UF-EPI-1/2023	2023-10-23	USA	North America	A.D.1.6	Moquin,T.L.,Subramaniam,K.,Morris,J.G. Jr.,Lednicky,J.A.	PP278015		
+hRSV-A-G43R80T8	2024-01-29	USA	North America	A.D.1.6	Lauring,A.S.,Papalambros,L.K.	PP781397		
+hRSV-A-G43R82Z4	2024-01-23	USA	North America	A.D.1.6	Lauring,A.S.,Papalambros,L.K.	PP781409		
+HRSV/A/USA/TX-HOU-215345/2023	2023-10-19	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795137		
+hRSV-A-HS19135	2024-01-01	USA	North America	A.D.1.6	Bendall,E.E.,Lauring,A.S.	PQ066216		
+hRSV-A-HS19092	2023-12-19	USA	North America	A.D.1.6	Bendall,E.E.,Lauring,A.S.	PQ066222		
+MN-MDH-RSVA-00021	2023-09-07	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP135017		
+WA-SCH-1607413	2024-02-20	USA	North America	A.D.1.6	Roychoudhury,P.,Klein,E.J.,Strelitz,B.,Grioni,H.,Moline,H.L.,Tannis,A.,Ellis,S.E.,Xie,H.,Kong,K.,Sereewit,J.,Greninger,A.,Englund,J.A.	PP770476		
+MN-MDH-RSVA-00126	2023-10-27	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP386340		
+MN-MDH-RSVA-00119	2023-10-26	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP386335		
+MN-MDH-RSVA-00454	2023-12-16	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP830389		
+MN-MDH-RSVA-00460	2023-12-14	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP830395		
+MN-MDH-RSVA-00279	2023-12-03	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP668165		
+MN-MDH-RSVA-00212	2023-11-13	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP504644		
+MN-MDH-RSVA-00391	2023-12-28	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP709445		
+MN-MDH-RSVA-00528	2024-01-04	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847370		
+MN-MDH-RSVA-00537	2024-01-11	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847379		
+MN-MDH-RSVA-00544	2024-01-21	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847386		
+HRSV/A/USA/TX-HOU-216280/2023	2023-11-21	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Javornik Cregeen,S.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP882667		
+HRSV/A/USA/TX-HOU-215323/2023	2023-10-17	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Javornik Cregeen,S.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP882659		
+HRSV/A/USA/TX-HOU-217472/2024	2024-01-06	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795161		
+hRSV-A-G43R28U6	2023-11-13	USA	North America	A.D.1.6	Lauring,A.S.,Papalambros,L.K.	PP270250		
+MN-MDH-RSVA-00912	2024-02-26	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978523		
+MN-MDH-RSVA-01004	2024-03-19	USA	North America	A.D.1.6	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762508		
+hRSV-A-G43R42L0	2023-12-04	USA	North America	A.D.1.6	Lauring,A.S.,Papalambros,L.K.	PP270262		
+HRSV/A/USA/TX-HOU-215165/2023	2023-10-03	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP871355		
+RSV - A/B_2jm3zv	2023-12-20	Switzerland	Europe	A.D.1.6		m2-MT4r8p	BE	ReVSeq
+HRSV/A/USA/TX-HOU-215766/2023	2023-11-15	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795149		
+HRSV/A/USA/TX-HOU-217428/2024	2024-01-02	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795160		
+MN-MDH-RSVA-01018	2024-05-02	USA	North America	A.D.1.6	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762522		
+HRSV/A/USA/TX-HOU-215448/2023	2023-10-26	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795140		
+MN-MDH-RSVA-00763	2024-04-06	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957776		
+MN-MDH-RSVA-00812	2024-01-12	USA	North America	A.D.1.6	Kunerth,H.D.,Namugenyi,S.,Plumb,M.,Bohnker,L.,Evans,D.,Wang,X.	PP973747		
+MN-MDH-RSVA-00611	2024-01-27	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910771		
+MN-MDH-RSVA-01001	2024-03-18	USA	North America	A.D.1.6	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762505		
+MN-MDH-RSVA-00616	2024-01-29	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910776		
+MN-MDH-RSVA-00691	2024-04-13	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934473		
+MN-MDH-RSVA-00692	2024-04-13	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934474		
+MN-MDH-RSVA-00690	2024-04-02	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934472		
+MN-MDH-RSVA-00759	2024-03-30	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957772		
+MN-MDH-RSVA-00674	2024-03-05	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934456		
+MN-MDH-RSVA-00545	2024-01-18	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847387		
+MN-MDH-RSVA-00918	2024-03-05	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978529		
+HRSV/A/USA/TX-HOU-215520/2023	2023-11-01	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795145		
+HRSV/A/USA/TX-HOU-215295/2023	2023-10-16	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795136		
+HRSV/A/USA/TX-HOU-215477/2023	2023-10-28	USA	North America	A.D.1.6	Avadhanula,V.,Sahni,L.,Surathu,A.,Cregeen,S.J.,Doddapaneni,H.,Metcalf,G.A.,Tannis,A.,Moline,H.,Boom,J.,Piedra,P.	PP795142		
+MN-MDH-RSVA-00551	2024-01-18	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847393		
+MN-MDH-RSVA-00670	2024-03-02	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934452		
+MN-MDH-RSVA-00752	2024-03-21	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957765		
+MN-MDH-RSVA-00924	2024-03-11	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978535		
+MN-MDH-RSVA-00271	2023-11-17	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP594796		
+MN-MDH-RSVA-00747	2024-02-07	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957760		
+MN-MDH-RSVA-00475	2023-12-23	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP830410		
+MN-MDH-RSVA-00623	2024-02-12	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP910783		
+MN-MDH-RSVA-00527	2024-01-09	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP847369		
+MN-MDH-RSVA-00914	2024-03-02	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978525		
+MN-MDH-RSVA-00915	2024-03-02	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978526		
+MN-MDH-RSVA-00463	2023-12-17	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP830398		
+MN-MDH-RSVA-00887	2024-02-16	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978498		
+MN-MDH-RSVA-01003	2024-03-19	USA	North America	A.D.1.6	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762507		
+MN-MDH-RSVA-00754	2024-03-25	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP957767		
+MN-MDH-RSVA-00687	2024-04-01	USA	North America	A.D.1.6	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP934469		
+MN-MDH-RSVA-01013	2024-04-28	USA	North America	A.D.1.6	Kunerth,H.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnkers-Voels,L.,Wang,X.	PQ762517		
+OM857197	2021-01-19	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857197		
+OM857212	2021-01-06	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857212		
+OM857195	2021-01-11	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857195		
+OM857196	2021-01-04	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857196		
+OM857194	2021-01-01	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857194		
+OM857193	2021-01-01	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857193		
+OM857191	2021-01-09	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857191		
+OM857149	2021-01-05	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857149		
+OM857205	2021-01-05	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857205		
+OM857178	2021-01-29	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857178		
+OM857140	2021-01-18	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857140		
+OM857183	2021-01-18	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857183		
+OM857201	2021-01-25	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857201		
+OM857177	2021-01-10	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857177		
+OM857181	2021-01-17	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857181		
+OM857186	2021-01-10	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857186		
+OM857190	2021-02-03	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857190		
+OM857189	2021-02-01	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857189		
+OM857175	2021-01-01	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857175		
+OM857188	2021-01-22	Australia	Oceania	A.D.1.2	Eden,J.-S.,Sikazwe,C.,Levy,A.,Deng,Y.-M.,Dhanasekaran,V.,Smith,D.W.,Kok,J.,Barr,I.G.	OM857188		
+hRSV-A-G43R90F4	2024-02-14	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP781389		
+RSV-A/human/USA/WA-S25182/2019	2019-11-01	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,Mcdermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PP748701	Snohomish County	
+Kilifi/RSVA/HF20172_2022-02-22	2022-02-22	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162227		
+Kilifi/RSVA/HF20211_2022-05-22	2022-05-22	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162266		
+Kilifi/RSVA/HF20200_2022-03-25	2022-03-25	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162255		
+Kilifi/RSVA/HF20203_2022-04-10	2022-04-10	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162258		
+Kilifi/RSVA/HF20027_25/01/2022	2022-01-25	Kenya	Africa	A.D.1	Lambisia,A.W.,Makori,T.O.,Mutunga,M.,Lewa,C.,Githinji,G.,Agoti,C.N.,Nokes,J.D.	OP744456		
+Kilifi/RSVA/HF20205_2022-04-13	2022-04-13	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162260		
+Kilifi/RSVA/HF20213_2022-05-26	2022-05-26	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162268		
+Kilifi/RSVA/HF20194_2022-03-11	2022-03-11	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162249		
+Kilifi/RSVA/HF20195_2022-03-12	2022-03-12	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162250		
+Kilifi/RSVA/HF20202_2022-03-30	2022-03-30	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162257		
+Kilifi/RSVA/HF20216_2022-06-22	2022-06-22	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162271		
+Kilifi/RSVA/HF20180_2022-03-02	2022-03-02	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162235		
+Kilifi/RSVA/HF20173_2022-02-22	2022-02-22	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162228		
+Kilifi/RSVA/HF20206_2022-04-19	2022-04-19	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162261		
+Kilifi/RSVA/HF20201_2022-03-28	2022-03-28	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162256		
+RSV - A/B_t9p6xl	2023-12-28	Switzerland	Europe	A.D.1		m2-HXGr8V	SZ	ReVSeq
+GKISBBBB37986	2024-06-04	USA	North America	A.D.1	Rothstein,A.P.,Qiu,X.,Collins,S.,Muir,G.,Simas,A.,Sum,A.,Lu,B.,Cosca,B.,Girinathan,B.,Leeson,P.,Phillipson,C.W.,Plocik,A.,Simen,B.	PQ117646		
+014-0002	2024-01-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763074		
+018-0005	2023-12-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762803		
+032-0007	2023-12-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763129		
+MN-MDH-RSVA-00443	2023-12-04	USA	North America	A.D.1	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Wang,X.	PP830378		
+ASU102753	2022-12-07	USA	North America	A.D.1	Holland,S.C.,Holland,L.A.,Smith,M.F.,Leonard,V.R.,Murugan,V.,Nordstrom,L.,Mulrow,M.,Salgado,R.,White,M.,Lim,E.S.	OR143206		
+A19160755	2023-10-02	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970021		
+RSV - A/B_3yv2ot	2024-03-13	Switzerland	Europe	A.D.1		m2-2MHu4K	BL	ReVSeq
+RSV - A/B_24s4ta	2024-01-29	Switzerland	Europe	A.D.1		m2-ahT4kF	BS	ReVSeq
+RSVLO1201	2023-04-13	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349026		
+2312V310017	2023-12-31	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899922		
+2312V270203	2023-12-27	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899919		
+007-0055	2023-12-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762656		
+A19160798	2023-11-24	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970004		
+011-0008	2023-11-21	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762725		
+007-0079	2024-01-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762659		
+011-0051	2024-01-03	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762764		
+2312V270152	2023-12-27	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899917		
+2401V020068	2024-01-01	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899924		
+2312V050208	2023-12-05	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899967		
+2312V230032	2023-12-23	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899910		
+026-0017	2023-12-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762851		
+025-0001	2023-12-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763106		
+039-0018	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763161		
+032-0019	2024-01-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763133		
+RSV-A/human/USA/WA-S25202/2020	2020-02-14	USA	North America	A.D.1	Frazar,C.D.,Lee,J.,Ryke,E.,Gamboa,L.,Opsahl,J.,Rodriguez-Salas,L.,Mcdermot,E.,Stone,J.,Kolar,T.,Han,P.D.,Sibley,T.R.,Truong,M.,Reinhart,D.,Grindstaff,S.,Wolf,C.R.,Boeckh,M.,Englund,J.A.,Lutz,B.R.,Waghmare,A.,Viboud,C.,Starita,L.M.,Shendure,J.,Bedford,T.,Chu,H.Y.	PP748721	King County WA	
+hRSV/A/Germany/22-01361/2021	2021-11-07	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795452		
+hRSV/A/Germany/22-01687/2021	2021-11-17	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795454		
+hRSV/A/Austria/MUW1515402/2022	2022-05-06	Austria	Europe	A.D.1	Redlberger-Fritz,M.,Springer,D.N.,Aberle,S.W.,Camp,J.V.,Aberle,J.H.	OQ261751		
+hRSV/A/Germany/22-02451/2021	2021-12-13	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795468		
+hRSV/A/Germany/21-06292/2021	2021-08-17	Germany	Europe	A.D.1	Kondgen,S.,Reiche,J.	OR795414		
+hRSV-A-W13K24O9	2022-10-07	USA	North America	A.D.1	Gilbert,J.,Lauring,A.S.,Papalambros,L.K.	OR872610		
+009-0015	2023-12-16	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763049		
+014-0003	2023-12-28	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763075		
+036-0004	2024-01-19	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763141		
+RSV - A/B_323sd6	2023-12-27	Switzerland	Europe	A.D.1		m2-v3KDUF	BL	ReVSeq
+014-0005	2023-12-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763077		
+009-0026	2023-11-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763052		
+036-0021	2023-12-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763144		
+040-0021	2024-01-20	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762995		
+010-0012	2023-12-07	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762701		
+040-0019	2023-11-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762993		
+011-0014	2023-12-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762731		
+008-0010	2023-11-28	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762671		
+011-0003	2023-10-30	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762722		
+009-0024	2023-11-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763051		
+RSV - A/B_4d40sn	2024-02-17	Switzerland	Europe	A.D.1		m2-NDEjHn	AG	ReVSeq
+RSV - A/B_44jz5o	2024-03-12	Switzerland	Europe	A.D.1		m2-iZ7TLc	AG	ReVSeq
+RSV - A/B_67h2wl	2023-11-24	Switzerland	Europe	A.D.1		m2-3oZJ5x	AG	ReVSeq
+011-0029	2023-10-18	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762745		
+010-0046	2023-12-13	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762719		
+041-0002	2024-02-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763032		
+2312V010165	2023-12-01	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899874		
+HRSV/A/BEL/RVRA012/2023	2023-09-04	Belgium	Europe	A.D.1	Delputte,P.,Stobbelaar,K.	PQ376587		
+RSV - A/B_6rt3lm	2024-01-30	Switzerland	Europe	A.D.1		m2-M5iqYC	GR	ReVSeq
+031-0036	2024-01-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762902		
+007-0026	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763042		
+007-0025	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763165		
+025-0018	2023-12-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763113		
+025-0008	2023-12-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763110		
+025-0022	2023-12-14	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763115		
+038-0005	2023-12-10	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763151		
+025-0025	2023-12-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763118		
+2312V120295	2023-12-12	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899893		
+031-0030	2024-01-09	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762899		
+040-0037	2023-12-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763008		
+019-0022	2023-12-25	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763099		
+040-0044	2024-03-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763015		
+010-0025	2023-12-20	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763058		
+040-0014	2023-12-25	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762988		
+010-0008	2023-12-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762697		
+010-0024	2023-12-19	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762709		
+039-0026	2024-01-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763162		
+025-0010	2023-12-19	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763111		
+015-0014	2023-12-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763080		
+015-0016	2023-11-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762795		
+035-0022	2023-11-29	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762937		
+015-0002	2023-11-13	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763078		
+018-0011	2023-12-09	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762809		
+015-0013	2023-11-28	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762794		
+015-0009	2023-12-21	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763079		
+010-0006	2023-12-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762696		
+010-0031	2023-12-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762712		
+035-0011	2023-11-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762927		
+035-0032	2023-12-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762944		
+012-0006	2023-12-31	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762771		
+035-0007	2023-11-19	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762923		
+035-0021	2023-11-28	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762936		
+035-0033	2023-12-10	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762945		
+035-0018	2023-12-09	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762933		
+035-0008	2023-11-21	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762924		
+035-0036	2023-12-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762948		
+035-0020	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762935		
+035-0031	2023-12-07	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762943		
+035-0019	2023-12-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762934		
+035-0035	2023-12-10	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762947		
+010-0002	2023-11-21	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762693		
+035-0017	2023-12-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762932		
+035-0012	2023-11-28	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762928		
+035-0009	2023-11-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762925		
+035-0014	2023-12-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762930		
+035-0038	2023-12-03	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762950		
+025-0021	2023-12-13	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763114		
+035-0002	2023-11-01	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762919		
+035-0015	2023-12-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762931		
+035-0028	2023-12-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762941		
+035-0025	2023-12-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763138		
+039-0011	2023-11-30	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763160		
+035-0004	2023-11-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762921		
+035-0026	2023-12-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762939		
+035-0006	2023-11-18	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762922		
+Kilifi/RSVA/HF20007_16/03/2021	2021-03-16	Kenya	Africa	A.D.1	Lambisia,A.W.,Makori,T.O.,Mutunga,M.,Lewa,C.,Githinji,G.,Agoti,C.N.,Nokes,J.D.	OP744438		
+Kilifi/RSVA/HF20008_19/03/2021	2021-03-19	Kenya	Africa	A.D.1	Lambisia,A.W.,Makori,T.O.,Mutunga,M.,Lewa,C.,Githinji,G.,Agoti,C.N.,Nokes,J.D.	OP744439		
+A18321101	2022-12-28	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969942		
+Kilifi/RSVA/HF20204_2022-04-13	2022-04-13	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162259		
+Kilifi/RSVA/HF20210_2022-05-19	2022-05-19	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162265		
+Kilifi/RSVA/HF20165_2022-02-16	2022-02-16	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162220		
+Kilifi/RSVA/HF20174_2022-02-22	2022-02-22	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162229		
+Kilifi/RSVA/HF20179_2022-03-01	2022-03-01	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162234		
+Kilifi/RSVA/HF20183_2022-03-02	2022-03-02	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162238		
+Kilifi/RSVA/HF20198_2022-03-19	2022-03-19	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162253		
+Kilifi/RSVA/HF20212_2022-05-24	2022-05-24	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162267		
+Kilifi/RSVA/HF20192_2022-03-10	2022-03-10	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162247		
+Kilifi/RSVA/HF20003_10/03/2021	2021-03-10	Kenya	Africa	A.D.1	Lambisia,A.W.,Makori,T.O.,Mutunga,M.,Lewa,C.,Githinji,G.,Agoti,C.N.,Nokes,J.D.	OP744434		
+Kilifi/RSVA/HF20191_2022-03-10	2022-03-10	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162246		
+Kilifi/RSVA/HF20163_2022-02-15	2022-02-15	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162218		
+Kilifi/RSVA/HF20197_2022-03-16	2022-03-16	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162252		
+Kilifi/RSVA/HF20190_2022-03-09	2022-03-09	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162245		
+Kilifi/RSVA/HF20159_2022-02-09	2022-02-09	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162214		
+Kilifi/RSVA/HF20164_2022-02-16	2022-02-16	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162219		
+Kilifi/RSVA/HF20214_2022-06-04	2022-06-04	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162269		
+Kilifi/RSVA/HF20223_2022-09-07	2022-09-07	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162278		
+Kilifi/RSVA/HF20177_2022-02-27	2022-02-27	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162232		
+Kilifi/RSVA/HF20182_2022-03-01	2022-03-01	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162237		
+Kilifi/RSVA/HF20157_2022-01-27	2022-01-27	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162212		
+Kilifi/RSVA/HF20217_2022-06-23	2022-06-23	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162272		
+Kilifi/RSVA/HF20196_2022-03-14	2022-03-14	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162251		
+Kilifi/RSVA/HF20178_2022-02-28	2022-02-28	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162233		
+Kilifi/RSVA/HF20175_2022-02-23	2022-02-23	Kenya	Africa	A.D.1	Lambisia,A.W.,Lewa,C.,Mutunga,M.,Okanda,D.,Githinji,G.,Nokes,J.D.,Agoti,C.N.	OR162230		
+A18321083	2022-12-08	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969982		
+A18321097	2022-11-30	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970013		
+A18321100	2022-12-03	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969941		
+A18321095	2022-12-13	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969995		
+A18321098	2022-12-19	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970014		
+A18321014	2022-07-18	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969949		
+A19160804	2023-11-25	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969988		
+A19160775	2023-11-04	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970034		
+A19160791	2023-11-14	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP969997		
+A19160771	2023-11-01	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970017		
+A19160784	2023-11-19	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970042		
+2312V080142	2023-12-08	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899887		
+018-0009	2023-12-03	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762807		
+006-0022	2023-11-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ737347		
+006-0003	2023-11-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762624		
+011-0038	2023-11-15	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762752		
+HRSV/A/Japan/23U042iso/2024	2024-06-19	Japan	Asia	A.D.1	Ichikawa,Y.,Saito,R.	LC862027		
+HRSV/A/Japan/23U020iso/2024	2024-05-10	Japan	Asia	A.D.1	Ichikawa,Y.,Saito,R.	LC862024		
+HRSV/A/Japan/23U009iso/2024	2024-04-30	Japan	Asia	A.D.1	Ichikawa,Y.,Saito,R.	LC862021		
+NIN-556	2022-11-05	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348886		
+032-0021	2024-01-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763135		
+025-0028	2024-01-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763120		
+025-0002	2023-12-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763107		
+025-0024	2023-12-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763117		
+NIN-467	2022-07-29	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ348860		
+RSVLO1178	2023-02-06	United Kingdom	Europe	A.D.1	Maloney,D.M.,Fernandes,G.,Jasim,S.,Dewar,R.,Templeton,K.E.	PQ349023		
+WA-SCH-6108712	2024-02-27	USA	North America	A.D.1	Roychoudhury,P.,Klein,E.J.,Strelitz,B.,Grioni,H.,Moline,H.L.,Tannis,A.,Ellis,S.E.,Xie,H.,Kong,K.,Sereewit,J.,Greninger,A.,Englund,J.A.	PP770469		
+hRSV-A-HCV35852	2023-12-21	USA	North America	A.D.1	Bendall,E.E.,Lauring,A.S.	PQ066220		
+hRSV-A-G43R53A2	2023-12-14	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP781416		
+MN-MDH-RSVA-00911	2024-02-26	USA	North America	A.D.1	Kunerth,H.D.,Plumb,M.,Namugenyi,S.,Evans,D.,Bohnker,L.,Wang,X.	PP978522		
+A19160774	2023-11-04	Ireland	Europe	A.D.1	Carr,M.,Dean,J.,Hare,D.,OByrne,E.,De Gascun,C.F.,Rice,A.,Gonzalez,G.	PP970020		
+HRSV/A/Japan/23U039iso/2024	2024-06-10	Japan	Asia	A.D.1	Ichikawa,Y.,Saito,R.	LC862026		
+RSV - A/B_1lr8kj	2024-02-17	Switzerland	Europe	A.D.1		m2-sVxWai	AG	ReVSeq
+RSV - A/B_5oiwng	2024-03-20	Switzerland	Europe	A.D.1		m2-CgiSAY	AG	ReVSeq
+RSV - A/B_5wol6x	2024-03-30	Switzerland	Europe	A.D.1		m2-9eyPAv	AG	ReVSeq
+RSV - A/B_5txqln	2024-02-27	Switzerland	Europe	A.D.1		m2-Di2qm7	ZH	ReVSeq
+RSV - A/B_257u3t	2024-03-05	Switzerland	Europe	A.D.1		m2-FcN3wC	AG	ReVSeq
+PP352330	2022-10-31	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352330		
+PP352361	2022-11-30	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352361		
+PP352340	2022-11-30	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352340		
+PP352362	2022-11-01	USA	North America	A.D.1	Rios Guzman,E.,Simons,L.M.,Dean,T.J.,Agnes,F.,Pawlowski,A.,Alisoltanidehkordi,A.,Nam,H.H.,Ison,M.G.,Ozer,E.A.,Lorenzo-Redondo,R.,Hultquist,J.F.	PP352362		
+040-0043	2023-12-22	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763014		
+040-0020	2023-11-28	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762994		
+040-0005	2023-11-22	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762980		
+040-0036	2024-03-31	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763007		
+020-0005	2023-11-09	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762820		
+038-0007	2023-12-10	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763152		
+038-0009	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763153		
+038-0001	2023-12-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763149		
+038-0002	2023-12-15	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763150		
+020-0001	2023-11-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762816		
+032-0003	2023-12-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763127		
+032-0014	2023-12-18	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762910		
+032-0010	2023-12-18	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763130		
+RSV - A/B_44hz8r	2023-10-23	Switzerland	Europe	A.D.1		m2-36z874	ZH	ReVSeq
+RSV - A/B_e5bhw6	2023-12-22	Switzerland	Europe	A.D.1		m2-xPAa2d	VD	ReVSeq
+2311V140093	2023-11-14	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899870		
+hRSV-A-G43R90N8	2024-02-17	USA	North America	A.D.1	Lauring,A.S.,Papalambros,L.K.	PP781415		
+026-0044	2023-12-23	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763123		
+RSV - A/B_5kp833	2024-03-04	Switzerland	Europe	A.D.1		m2-afGSAT	BE	ReVSeq
+040-0004	2023-12-21	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762979		
+RSV - A/B_1wzabx	2023-12-06	Switzerland	Europe	A.D.1		m2-33eCP4	AG	ReVSeq
+035-0034	2023-12-10	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762946		
+RSV - A/B_4zdxsj	2023-12-27	Switzerland	Europe	A.D.1		m2-XisgNp	AG	ReVSeq
+008-0003	2023-11-28	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762664		
+011-0026	2023-12-11	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762742		
+007-0008	2023-12-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ737367		
+007-0020	2023-12-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762644		
+009-0005	2023-10-31	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762677		
+011-0044	2023-12-13	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762758		
+033-0003	2023-11-23	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762914		
+039-0002	2023-11-13	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763156		
+2312V050287	2023-12-05	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899880		
+2312V050316	2023-12-05	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899881		
+036-0003	2024-01-18	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763140		
+014-0001	2023-12-18	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762787		
+028-0001	2023-11-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762866		
+028-0005	2023-12-23	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762870		
+023-0016	2023-11-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762834		
+014-0004	2024-01-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763076		
+RSV - A/B_2ikx64	2024-02-21	Switzerland	Europe	A.D.1		m2-RCdbJH	BL	ReVSeq
+007-0054	2023-12-24	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762655		
+007-0016	2023-12-03	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763041		
+2312V060243	2023-12-06	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899884		
+010-0045	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762718		
+2311V210003	2023-11-21	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899871		
+2312V180045	2023-12-17	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899901		
+2312V260260	2023-12-26	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899915		
+2312V150224	2023-12-15	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899899		
+2312V260092	2023-12-24	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899912		
+2312V180111	2023-12-18	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899902		
+2312V260094	2023-12-24	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899913		
+2312V260263	2023-12-26	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899916		
+2401V020232	2024-01-02	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899925		
+026-0035	2023-12-16	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762859		
+2312V180368	2023-12-18	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899905		
+029-0003	2023-12-19	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762873		
+029-0009	2023-12-31	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763124		
+HRSV/A/BEL/RVRA011/2023	2023-10-17	Belgium	Europe	A.D.1	Delputte,P.,Stobbelaar,K.	PQ376586		
+RSV-A/human/USA/MA-Broad_MGH-16329/2023	2023-12-02	USA	North America	A.D.1	Paull,J.,Messer,K.,Adams,G.,Nabatanzi,D.,Dobbins,S.,Tomkins-Tinch,C.,Mboowa,G.,Luebbert,L.,Worby,C.,Wewior,N.,Samani,P.,DeRuff,K.,Blumenstiel,B.,Moreno,G.,Earl,A.,Gnirke,A.,MacInnis,B.,Sabeti,P.,Lemieux,J.,Park,D.	PV178604		
+040-0045	2023-12-27	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763016		
+031-0019	2023-10-25	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762892		
+019-0021	2023-12-25	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762813		
+036-0023	2023-12-25	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763145		
+007-0065	2024-01-03	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762658		
+035-0030	2023-12-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762942		
+006-0032	2023-10-30	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ737353		
+006-0028	2023-10-30	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762630		
+031-0009	2024-01-08	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762883		
+013-0020	2024-01-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763069		
+013-0023	2023-12-13	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763070		
+007-0092	2023-12-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762663		
+004-0007	2023-12-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ737366		
+007-0019	2023-12-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762643		
+011-0017	2023-11-27	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762733		
+029-0001	2023-11-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762872		
+WA-UW-61178	2024-01-04	USA	North America	A.D.1	Roychoudhury,P.,Xie,X.,Sereewit,J.,Ellis,S.,Greninger,A.	PP959045		
+040-0031	2023-12-27	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763002		
+010-0040	2024-01-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763061		
+019-0027	2024-01-04	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763102		
+009-0029	2023-12-23	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763054		
+009-0023	2023-11-17	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763050		
+009-0036	2023-12-17	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763056		
+025-0023	2023-12-18	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763116		
+023-0004	2023-10-23	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763104		
+025-0007	2023-12-14	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763109		
+023-0007	2023-11-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762825		
+023-0010	2023-12-17	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762828		
+2312V140007	2023-12-14	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899896		
+008-0007	2023-12-17	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762668		
+033-0008	2023-11-23	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762918		
+023-0015	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762833		
+023-0019	2023-12-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763105		
+2312V150053	2023-12-15	France	Europe	A.D.1	Caillault,A.,Fourati,S.	PQ899898		
+026-0034	2023-12-16	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762858		
+010-0007	2023-12-05	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763057		
+039-0006	2023-11-21	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763157		
+004-0001	2023-12-03	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763037		
+033-0002	2023-11-17	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762913		
+019-0016	2023-12-12	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763095		
+006-0010_2pkvuj	2023-10-29	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ737345		
+004-0006	2023-10-29	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762622		
+004-0002	2023-11-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762620		
+006-0003_4eh36i	2023-11-02	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ737343		
+040-0038	2023-12-27	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ763009		
+032-0016	2023-12-27	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762911		
+011-0024	2023-11-30	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762740		
+011-0013	2023-11-26	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762730		
+011-0019	2023-12-06	France	Europe	A.D.1	Fourati,S.,Rameix Welti,M.-A.	PQ762735		

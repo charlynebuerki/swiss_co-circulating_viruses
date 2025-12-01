@@ -179,13 +179,15 @@ make_figure_one<-function(data, frequencies_data ,sentinella_data, highlight, su
                             log_transform=FALSE,legend_position=c(0.32,0.08))
   
   
-  f1<-plot_grid(f1a, f1b, f1c, nrow=3, rel_heights = c(2.5,1,1), align="v", axis="l")
+  #f1<-plot_grid(f1a, f1b, f1c, nrow=3, rel_heights = c(2.5,1,1), align="v", axis="l")
+  
+  f1<-plot_grid(f1a, f1b, nrow=2, rel_heights = c(2.5,1), align="v", axis="l")
   
   if(save)
   {
     if(!pcr){
       substrain_to_highlight <- substrain_to_highlight[1]
-      ggsave(paste0("Figures/f1_DP10", ifelse(highlight, paste0("_highlight_", getElement(virus_abbreviations, substrain_to_highlight)), ""), ".pdf"),
+      ggsave(paste0("Figures/f1_DP10", ifelse(highlight, paste0("_highlight_", getElement(virus_abbreviations, substrain_to_highlight)), ""), "_modif.pdf"),
              f1 , dpi="retina", units="mm", width=174, height=123)
       
     } else

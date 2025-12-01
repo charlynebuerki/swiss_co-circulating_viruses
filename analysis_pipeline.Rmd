@@ -25,6 +25,8 @@ library(aplot)
 library(scales)
 
 library(ggrastr)
+library(ape)
+library(ggplotify)
 ```
 
 
@@ -51,6 +53,7 @@ source("Sequencing_results/coverage_genome_plot.R")
 
 #tree plots
 source("Phylogenetic_analysis/tree_plot.R")
+source("Phylogenetic_analysis/make_map.R")
 
 #supplementary wastewater
 source("Supplements/fig_s2_data_format.R")
@@ -162,6 +165,8 @@ ggsave("Figures/coverage_plots/F4.pdf",
 
 ## RSV-A
 
+## RSV-A full tree (Supplements)
+
 ```{r, warning=FALSE}
 tree_file <- "Data/data/trees/nextstrain_rsv_a_genome_2y_timetree.nexus"
 metadata_file <- "Data/data/trees/nextstrain_rsv_a_genome_2y_metadata.tsv"
@@ -169,51 +174,298 @@ tr <- read.mega(tree_file)
 meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
 ```
 
-```{r, warning=FALSE}
-#normal view
+```{r}
+#normal view (supplementary, full tree)
 title ="RSV-A, 2-year"
 
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("A.D.1", "A.D.1.5", "A.D.1.6", "A.D.2.1", "A.D.3", "A.D.3.1", "A.D.5.1", "A.D.5.2")
+
 tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
-                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_))
-meta <- meta %>% mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
-                        strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
-                        accession =strain)
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         location_to_plot = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ location
+        )
+         
+         )
+
+results<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c( "Clade"), 
+                    vertical_legend_on=c("Clade"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=TRUE, tree_legend_on=F, date_format="%Y", tip_color = "database", full_page = TRUE )
+results$plot
+```
+ 
+## RSV-A A.D clade, collapsed
+ 
+```{r, warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_rsv_a_AD_clade.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_a_AD_clade.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r}
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("A.D.1", "A.D.1.5", "A.D.1.6", "A.D.2.1", "A.D.3", "A.D.3.1", "A.D.5.1", "A.D.5.2", "A.D.5")
 
 
-plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
-                    vertical_legend_on=c("clade_membership"=TRUE,"region"=FALSE),
-                    vertical_plot_legend_columns = 2, 
-                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         location_to_plot = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ location
+        )
+         
+         )
+```
 
-#zoomed in
-title ="RSV-A, 2-y:A.D.5"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
-                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1,
-                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_5zm4f4", "RSV-A/B_5azzpr"), axis_breaks = 40,
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+```{r}
 
+clades_to_collapse <- c("A.D.4", "A.D.5", "A.D.3", "A.D.1", "A.D.2.1", "A.D.2.2")
+noisy_nodes <- c(2981,3995, 4076, 3991, 4002)
+collapsed_tree_results <-tree_plot_collapsed(tr, meta, "Clade", "A.D", list_of_clades= clades_to_collapse, additional_node=noisy_nodes,
+                    legend_position = c(0.05,0.8),
+                    save=TRUE)
+collapsed_tree_results
+```
+## RSV-A subclades:
 
+### A.D.5
+```{r, warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_rsv_a_AD5_clade.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_a_AD5_clade.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
 
-#zoomed in
-title ="RSV-A, 3-y:A.D.1"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
-                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1,
-                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_3rqlt3", "RSV-A/B_6qvq3m"), axis_breaks = 40,
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+```{r, warning=FALSE}
+#normal view
+title ="A.D.5"
 
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("A.D.1", "A.D.1.5", "A.D.1.6", "A.D.2.1", "A.D.3", "A.D.3.1", "A.D.5.1", "A.D.5.2")
 
-#zoomed in
-title ="RSV-A, 3-y:A.D.3"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "clade_membership"),
-                    vertical_legend_on=c("clade_membership"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1,
-                    zoomed= TRUE,tips_to_zoom = c("RSV-A/B_15l1ha", "RSV-A/B_3ia4f7"), axis_breaks = 40,
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         region = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern CH.",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ "Non-CH."
+        )
+         
+         )
 
+plot.a.d.5<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c("region"), 
+                    vertical_legend_on=c("region"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=FALSE, tree_legend_on=T, 
+                    tree_legend_position = c(0.15,0.8),
+                    date_format="%Y", tip_color = "database", full_page = FALSE,
+                    small_mode = T)
+plot.a.d.5$plot
 
 ```
+
+### A.D.3
+
+```{r, warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_rsv_a_AD3.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_a_AD3.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r, warning=FALSE}
+#normal view
+title ="A.D.3"
+
+
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("A.D.1", "A.D.1.5", "A.D.1.6", "A.D.2.1", "A.D.3", "A.D.3.1", "A.D.5.1", "A.D.5.2")
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         region = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern CH.",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ "Non-CH."
+        )
+         
+         )
+
+plot.a.d.3<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c("region"), 
+                    vertical_legend_on=c("region"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=FALSE, tree_legend_on=T, 
+                    tree_legend_position = c(0.15,0.8),
+                    date_format="%Y", tip_color = "database", full_page = FALSE,
+                    small_mode = T)
+plot.a.d.3$plot
+
+```
+### A.D.1
+
+```{r, warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_rsv_a_AD1.nexus"
+metadata_file <- "Data/data/trees/nextstrain_rsv_a_AD1.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r, warning=FALSE}
+#normal view
+title ="A.D.1"
+
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("A.D.1", "A.D.1.5", "A.D.1.6", "A.D.2.1", "A.D.3", "A.D.3.1", "A.D.5.1", "A.D.5.2")
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         region = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern CH.",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ "Non-CH."
+        )
+         
+         )
+
+plot.a.d.1<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c("region"), 
+                    vertical_legend_on=c("region"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=FALSE, tree_legend_on=T, 
+                    tree_legend_position = c(0.15,0.8),
+                    date_format="%Y", tip_color = "database", full_page = FALSE,
+                                                          small_mode=T )
+plot.a.d.1$plot
+
+```
+### RSV-A Fig 5A
+
+```{r}
+
+map <- make_map(small_mode=TRUE)
+
+fig5a1 <- plot_grid(
+  map,
+  collapsed_tree_results,
+  ncol=1,
+  rel_heights = c(0.2,1)
+)
+
+
+top_row <- plot_grid(
+  fig5a1, plot.a.d.1$plot,
+  nrow = 1,
+  label_size = 12,
+  rel_widths = c(1, 1.2)
+
+)
+
+# 2. Create Bottom Row (Equal Widths)
+bottom_row <- plot_grid(
+  plot.a.d.3$plot, plot.a.d.5$plot,
+  nrow = 1,
+  label_size = 12,
+  rel_widths = c(1, 1) # Equal size
+)
+
+# 3. Stack
+fig5a <- plot_grid(
+  top_row,
+  bottom_row,
+  nrow = 2,
+  align = "none",
+  rel_heights = c(1, 1)
+)
+
+fig5a
+
+ggsave("Figures/tree_plots/F5_a.pdf",
+       fig5a,
+       device = "pdf",
+       dpi = 300,
+       units = "mm",
+       width = 180,   # Max standard journal width
+       height = 130   # Max standard height (leaving ~6cm for caption)
+       )
+```
+
+## RSV phenetic distances
+
 ```{r,warning=FALSE}
 #phenetic distances between RSV-A and RSV-B
 
@@ -242,6 +494,7 @@ print(ks_result)
 
 distance_df %>% group_by(source) %>% summarise(median= median(distance), IQR=IQR(distance), q1= quantile(distance, 0.25), q3=quantile(distance, 0.75))
 ```
+
 ## HPIV-3
 
 ```{r,warning=FALSE}
@@ -251,32 +504,269 @@ tr <- read.mega(tree_file)
 meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
 ```
 
-```{r,warning=FALSE}
-#normal view
+### HPIV-3 full tree (supplements)
+```{r}
+#normal view (supplementary, full tree)
 title ="HPIV-3"
-plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
-                    vertical_legend_on=c("clade_membership"=TRUE,"region"=TRUE),
-                    vertical_plot_legend_columns = 1, 
-                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, 
-                    date_format="%Y", tip_color = "database" )
 
-#zoomed in 
-title ="HPIV-3, clade 1"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "region"), 
-                    vertical_legend_on=c("region"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1, 
-                    zoomed= TRUE,tips_to_zoom = c("m2-jCKGBv", "m2-Y4rZ7q"), axis_breaks = 40, 
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "location" )
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("C", "C3b")
 
-title ="HPIV-3, clade 2"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership",color_by_vertical = c("location", "region"), 
-                    vertical_legend_on=c("region"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1, 
-                    zoomed= TRUE,tips_to_zoom = c("m2-9jS4Ro", "m2-SccDgj"), axis_breaks = 40, 
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "location" )
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         location_to_plot = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ location
+        )
+         
+         )
 
+results<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c( "Clade", "region"), 
+                    vertical_legend_on=c("Clade"=TRUE, "region"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=T, tree_legend_on=T, date_format="%Y", tip_color = "database", full_page = TRUE )
+results$plot
+```
+
+
+### HPIV-3 collapsed tree
+
+```{r}
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("C", "C3b")
+
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         location_to_plot = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ location
+        )
+         
+         )
+```
+
+```{r}
+
+#clades_to_collapse <- c("A.D.4", "A.D.5", "A.D.3", "A.D.1", "A.D.2.1", "A.D.2.2")
+#noisy_nodes <- c(2981,3995, 4076, 3991, 4002)
+#collapsed_tree <-tree_plot_collapsed(tr, meta, "Clade", "A.D", list_of_clades= clades_to_collapse, additional_node=noisy_nodes,
+#                    legend_position = c(0.05,0.8),
+#                    save=TRUE)
+
+groups_to_collapse <- c("C3b")
+swiss_nodes <- c(1522, 992, 827, 845, 1165, 1044, 1345, 
+                 1247, 1278, 862, 1386, 1063, 1094, 1487)
+collapsed_tree <-tree_plot_collapsed(tr, meta, "Clade", "HPIV-3", list_of_clades= groups_to_collapse, additional_node=swiss_nodes,
+                    legend_position = c(0.1,0.8),
+                    save=T,
+                    collapse_by_clade = T
+                    )
+collapsed_tree
 
 ```
+```{r}
+#find noisy nodes
+tree_phylo<-as.phylo(tr)
+node <- c("m2-jCKGBv","m2-Y4rZ7q") # top clade 1522
+node <- c("m2-9jS4Ro","KF687358" )  #bottom, ancestral swiss 2nd node, 992
+
+#pure noise:
+node <- c("HM583801","OQ848522") #827
+node <- c("PQ541044","OY757743") #845
+node <- c("OQ981806","OQ848518") #1165 #second asian clade
+node <- c("FJ455842", "MK679540") #1044
+node <- c("PP411993","OY757731") #1345
+
+#small branches from stem
+node <- c("OQ848510","KY973595") #1247
+node <- c("OR416978", "KY973590") #1278
+node <- c("MW052041","KJ672574") #862
+node <- c("MF034889","OQ848562")  #1386
+node <- c("KJ672603","KF687350") #1063
+node <- c("KJ672586","KJ672563") #1094
+node <- c("MN306039", "MF118145") #1487
+
+getMRCA(tree_phylo, node)
+```
+
+### HPIV-3 clade 1
+
+```{r,warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_hpiv3_clade_1.nexus"
+metadata_file <- "Data/data/trees/nextstrain_hpiv3_clade_1.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r, warning=FALSE}
+#normal view
+title ="clade 1"
+
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("C", "C3b")
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         region = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern CH.",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ "Non-CH."
+        )
+         
+         )
+
+plot.hpiv3.clade.1 <-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c("region"), 
+                                         vertical_legend_on=c("region"=TRUE),
+                                          vertical_plot_legend_columns = 1, 
+                                          zoomed= FALSE, save=FALSE, tree_legend_on=T, 
+                                          tree_legend_position = c(0.15,0.8),
+                                          date_format="%Y", tip_color = "database", full_page = FALSE,
+                                                                                small_mode=T )
+plot.hpiv3.clade.1$plot
+
+```
+### HPIV-3 clade 2
+
+
+```{r,warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_hpiv3_clade_2.nexus"
+metadata_file <- "Data/data/trees/nextstrain_hpiv3_clade_2.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r, warning=FALSE}
+#normal view
+title ="clade 2"
+
+
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("C", "C3b")
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         region = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern CH.",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ "Non-CH."
+        )
+         
+         )
+
+plot.hpiv3.clade.2 <-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c("region"), 
+                                         vertical_legend_on=c("region"=TRUE),
+                                          vertical_plot_legend_columns = 1, 
+                                          zoomed= FALSE, save=FALSE, tree_legend_on=T, 
+                                          tree_legend_position = c(0.15,0.8),
+                                          date_format="%Y", tip_color = "database", full_page = FALSE,
+                                                                                small_mode=T )
+plot.hpiv3.clade.2$plot
+
+```
+### HPIV-3 Fig 5B
+
+```{r}
+
+map <- make_map(small_mode=TRUE, legend_right = F)
+
+
+
+top_row <- plot_grid(
+  collapsed_tree, map,
+  nrow = 1,
+  label_size = 12,
+  rel_widths = c(1, 0.3)
+
+)
+
+# 2. Create Bottom Row (Equal Widths)
+bottom_row <- plot_grid(
+  plot.hpiv3.clade.1$plot, plot.hpiv3.clade.2$plot,
+  nrow = 1,
+  label_size = 12,
+  rel_widths = c(1, 1) # Equal size
+)
+
+# 3. Stack
+fig5b <- plot_grid(
+  top_row,
+  bottom_row,
+  nrow = 2,
+  align = "none",
+  rel_heights = c(0.7, 1)
+)
+
+fig5b
+
+ggsave("Figures/tree_plots/F5_b.pdf",
+       fig5b,
+       device = "pdf",
+       dpi = 300,
+       units = "mm",
+       width = 180,   # Max standard journal width
+       height = 100   # Max standard height (leaving ~6cm for caption)
+       )
+```
+
 
 
 
