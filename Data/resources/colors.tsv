@@ -266,8 +266,8 @@ location	GE	#EE8043
 location	JU	#A8A400		
 				
 database	ReVSeq	#6C0D79		#6C0D79
-Clade	5a.2a			#C77CFF
-Clade	5a.2a.1			#F564E3
+				
+				
 				
 Clade	A.D.5.1	#ff823b		#F0689F
 Clade	A.D.5.2	#ff6b36		#F16D89
@@ -282,9 +282,9 @@ Clade	A.D.1.7			#00C19A
 Clade	A.D.1.8			#00C0B0
 Clade	A.D.3.1	#f5eb58		
 Clade	A.D.3	#E6AB02		
-region	Ticino	#003f5c		
+region	Ticino	#7a5195		
 region	Lake Geneva	#ef5675		
-region	Espace Mittelland	#7a5195		
+region	Espace Mittelland	#003f5c		
 region	Northwestern CH.	#bc5090		
 region	Zurich	#ff764a		
 region	Eastern CH.	#374c80		
@@ -295,3 +295,22 @@ region	Non-CH.	#d3d3d3
 				
 Clade	C	#60b6f2		
 Clade	C3b	#ffe753		
+				
+Clade	B.D.4.1.1	#afec86		
+Clade	B.D.E.1	#fbec5d		
+Clade	B.D.E.1.2	#ffdd4e		
+Clade	B.D.E.1.4	#ffbc45		
+				
+Clade	1	#5f30df		
+Clade	5	#4f5dff		
+Clade	5a	#5390ff		
+Clade	5a.1	#61b8f1		
+Clade	5a.2	#75d4ce		
+Clade	5a.2a	#92e4a5		
+Clade	5a.2a.1	#b3ed81		
+Clade	5b	#d9ee66		
+Clade	6	#fce956		
+Clade	6B	#ffd54c		
+Clade	6B.1	#ffaf43		
+Clade	6B.1A	#ff7939		
+Clade	6C	#ff3b2d		

@@ -98,7 +98,8 @@ pcr_panel_strains <- (pcr_data %>%  separate_rows(strains_PCR, panels_PCR, value
 formatted_pcr_to_detected<-format_pcr_to_detect_data(pcr_data, detected_data, pcr_panel_strains)
 formatted_detected_to_hq<-format_detect_to_hq_data(detected_data, hq_data, pcr_panel_strains)
 
-make_figure_comparison(formatted_pcr_to_detected, formatted_detected_to_hq, save=TRUE)
+make_figure_comparison(formatted_pcr_to_detected, formatted_detected_to_hq, save=FALSE)
+
 
 ```
 
@@ -107,11 +108,17 @@ make_figure_comparison(formatted_pcr_to_detected, formatted_detected_to_hq, save
 # Figure 3: Co-infections in high-quality sequences
 
 ```{r}
-matrix_co <- format_matrix_co_infection_plot(hq_data)
-percent_co <- format_percent_count_co_infection_plot(hq_data)
+matrix_co <- format_matrix_co_infection_plot(hq_data) %>% filter(n>0)
+percent_co <- format_percent_count_co_infection_plot(hq_data) %>% filter(n_co>0)
 
-make_figure_3(matrix_co, percent_co, save=TRUE)
+make_figure_3(matrix_co, percent_co, save=T)
 ```
+```{r}
+plot_matrix(matrix_co)
+```
+
+
+
 # Figure 4: Whole-genome coverage
 
 ```{r, warning=FALSE}
@@ -255,9 +262,10 @@ meta <- meta %>%
 
 clades_to_collapse <- c("A.D.4", "A.D.5", "A.D.3", "A.D.1", "A.D.2.1", "A.D.2.2")
 noisy_nodes <- c(2981,3995, 4076, 3991, 4002)
-collapsed_tree_results <-tree_plot_collapsed(tr, meta, "Clade", "A.D", list_of_clades= clades_to_collapse, additional_node=noisy_nodes,
+collapsed_tree_results <-tree_plot_collapsed(tr, meta, "Clade", "A.D", list_of_clades= clades_to_collapse, 
+                                             additional_node=noisy_nodes,
                     legend_position = c(0.05,0.8),
-                    save=TRUE)
+                    save=T)
 collapsed_tree_results
 ```
 ## RSV-A subclades:
@@ -306,8 +314,10 @@ plot.a.d.5<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_ver
                     vertical_plot_legend_columns = 1, 
                     zoomed= FALSE, save=FALSE, tree_legend_on=T, 
                     tree_legend_position = c(0.15,0.8),
-                    date_format="%Y", tip_color = "database", full_page = FALSE,
-                    small_mode = T)
+                    date_format="%Y-%m", tip_color = "database", full_page = FALSE,
+                    small_mode = T,
+                    rotate = T
+                    )
 plot.a.d.5$plot
 
 ```
@@ -358,8 +368,10 @@ plot.a.d.3<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_ver
                     vertical_plot_legend_columns = 1, 
                     zoomed= FALSE, save=FALSE, tree_legend_on=T, 
                     tree_legend_position = c(0.15,0.8),
-                    date_format="%Y", tip_color = "database", full_page = FALSE,
-                    small_mode = T)
+                    date_format="%Y-%m", tip_color = "database", full_page = FALSE,
+                    small_mode = T,
+                    rotate = T
+                    )
 plot.a.d.3$plot
 
 ```
@@ -408,8 +420,9 @@ plot.a.d.1<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_ver
                     vertical_plot_legend_columns = 1, 
                     zoomed= FALSE, save=FALSE, tree_legend_on=T, 
                     tree_legend_position = c(0.15,0.8),
-                    date_format="%Y", tip_color = "database", full_page = FALSE,
-                                                          small_mode=T )
+                    date_format="%Y-%m", tip_color = "database", full_page = FALSE,
+                                                          small_mode=T,
+                    rotate = T )
 plot.a.d.1$plot
 
 ```
@@ -457,7 +470,7 @@ fig5a
 ggsave("Figures/tree_plots/F5_a.pdf",
        fig5a,
        device = "pdf",
-       dpi = 300,
+       dpi = 1500,
        units = "mm",
        width = 180,   # Max standard journal width
        height = 130   # Max standard height (leaving ~6cm for caption)
@@ -556,7 +569,7 @@ tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA
                              Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
                              
                              )
-meta <- meta %>% 
+meta <- meta %>%  
   mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
          strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
          accession =strain,
@@ -587,10 +600,13 @@ meta <- meta %>%
 groups_to_collapse <- c("C3b")
 swiss_nodes <- c(1522, 992, 827, 845, 1165, 1044, 1345, 
                  1247, 1278, 862, 1386, 1063, 1094, 1487)
+
+swiss_nodes <- c(1522, 992)
 collapsed_tree <-tree_plot_collapsed(tr, meta, "Clade", "HPIV-3", list_of_clades= groups_to_collapse, additional_node=swiss_nodes,
                     legend_position = c(0.1,0.8),
                     save=T,
-                    collapse_by_clade = T
+                    collapse_by_clade = T,
+                    collapse_proportion = 0.2
                     )
 collapsed_tree
 
@@ -600,7 +616,7 @@ collapsed_tree
 tree_phylo<-as.phylo(tr)
 node <- c("m2-jCKGBv","m2-Y4rZ7q") # top clade 1522
 node <- c("m2-9jS4Ro","KF687358" )  #bottom, ancestral swiss 2nd node, 992
-
+ 
 #pure noise:
 node <- c("HM583801","OQ848522") #827
 node <- c("PQ541044","OY757743") #845
@@ -665,8 +681,8 @@ plot.hpiv3.clade.1 <-plot_tree_with_data(tr, meta, title  ,color_by="Clade", col
                                           vertical_plot_legend_columns = 1, 
                                           zoomed= FALSE, save=FALSE, tree_legend_on=T, 
                                           tree_legend_position = c(0.15,0.8),
-                                          date_format="%Y", tip_color = "database", full_page = FALSE,
-                                                                                small_mode=T )
+                                          date_format="%Y-%m", tip_color = "database", full_page = FALSE,
+                                                                                small_mode=T, rotate=T )
 plot.hpiv3.clade.1$plot
 
 ```
@@ -717,8 +733,8 @@ plot.hpiv3.clade.2 <-plot_tree_with_data(tr, meta, title  ,color_by="Clade", col
                                           vertical_plot_legend_columns = 1, 
                                           zoomed= FALSE, save=FALSE, tree_legend_on=T, 
                                           tree_legend_position = c(0.15,0.8),
-                                          date_format="%Y", tip_color = "database", full_page = FALSE,
-                                                                                small_mode=T )
+                                          date_format="%Y-%m", tip_color = "database", full_page = FALSE,
+                                                                                small_mode=T, rotate = T )
 plot.hpiv3.clade.2$plot
 
 ```
@@ -934,22 +950,45 @@ tr <- read.mega(tree_file)
 meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
 ```
 
-```{r,warning=FALSE}
-#normal view
+```{r}
+#normal view (supplementary, full tree)
 title ="RSV-B, 2-year"
 
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("B.D.E.1", "B.D.E.1.2", "B.D.E.1.4",  "B.D.4.1.1" )
+  
+  
 tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
-                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_))
-meta <- meta %>% mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
-                        strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
-                        accession =strain)
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         location_to_plot = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ location
+        )
+         
+         )
 
-
-plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
-                    vertical_legend_on=c("clade_membership"=TRUE,"region"=TRUE),
-                    vertical_plot_legend_columns = 2, 
-                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+results<-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c( "Clade", "region"), 
+                    vertical_legend_on=c("Clade"=TRUE, "region"=TRUE),
+                    vertical_plot_legend_columns = 1, 
+                    zoomed= FALSE, save=T, tree_legend_on=F, date_format="%Y", tip_color = "database", full_page = TRUE )
+results$plot
 ```
+
 
 
 # Figure S5: A/H1N1/HA Phylogenetic trees
@@ -961,41 +1000,194 @@ tr <- read.mega(tree_file)
 meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
 ```
 
-```{r,warning=FALSE}
-#normal view
-title ="H1N1 HA"
-plot_tree_with_data(tr, meta, title  ,color_by="clade_membership", color_by_vertical = c("clade_membership", "region"), 
-                    vertical_legend_on=c("clade_membership"=TRUE,"region"=FALSE),
-                    vertical_plot_legend_columns = 1, 
-                    zoomed= FALSE, save=TRUE, tree_legend_on=FALSE, date_format="%Y", tip_color = "database" )
+```{r}
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("1","5","5a","5a.1","5a.2","5a.2a","5a.2a.1","5b","6","6B","6B.1","6B.1A","6C")
 
 
-
-
-#zoomed in 
-title ="H1N1 HA, clade 5a.2a"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "country"), 
-                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1, 
-                    zoomed= TRUE,tips_to_zoom = c("m2-4SnyCD", "m2-sFFUfJ"), axis_breaks = 30, 
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m", tip_color = "database" )
-
-
-title ="H1N1 HA, clade 5a.2a.1"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical = c("location", "country"), 
-                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1, 
-                    zoomed= TRUE,tips_to_zoom = c("m2-3qDrEd", "m2-qeHUBn"), axis_breaks = 30, 
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m",tip_color = "database"  )
-
-title ="variant expanding"
-plot_tree_with_data(tr, meta, title,  color_by="clade_membership", color_by_vertical =c("location", "country"), 
-                    vertical_legend_on=c("country"=FALSE,"location"=TRUE),
-                    vertical_plot_legend_columns = 1, 
-                    zoomed= TRUE,tips_to_zoom = c("m2-5cJWyf", "m2-kNU7js"), axis_breaks = 30, 
-                    save=TRUE, tree_legend_on=FALSE, date_format="%Y-%m",tip_color = "database"  )
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         location_to_plot = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ location
+        )
+         
+         )
 ```
 
+```{r}
+
+clades_to_collapse <- c("5a.2a","5a.2a.1")
+#noisy_nodes <- c(2981,3995, 4076, 3991, 4002)
+collapsed_tree_HA <-tree_plot_collapsed(tr, meta, "Clade", "H1N1_HA", list_of_clades= clades_to_collapse, additional_node=NULL,
+                    legend_position = c(0.05,0.8),
+                    save=TRUE,
+                    collapse_proportion = 0.05
+                      
+                    )
+collapsed_tree_HA
+```
+### Flu A/H1N1 5a2a
+
+```{r,warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_h1n1_HA_5a2a.nexus"
+metadata_file <- "Data/data/trees/nextstrain_h1n1_HA_5a2a.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r, warning=FALSE}
+#normal view
+title ="5a.2a"
+
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("5a.2a")
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         region = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern CH.",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ "Non-CH."
+        )
+         
+         )
+
+plot.h1n1.5a.2a <-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c("region"), 
+                                         vertical_legend_on=c("region"=TRUE),
+                                          vertical_plot_legend_columns = 1, 
+                                          zoomed= FALSE, save=FALSE, tree_legend_on=T, 
+                                          tree_legend_position = c(0.15,0.8),
+                                          date_format="%Y-%m", tip_color = "database", full_page = FALSE,
+                                                                                small_mode=T,
+                                      rotate = T)
+plot.h1n1.5a.2a$plot
+
+```
+### Flu A/H1N1 clade 5a.2a.1
+
+### Flu A/H1N1 5a2a
+
+```{r,warning=FALSE}
+tree_file <- "Data/data/trees/nextstrain_h1n1_HA_5a2a1.nexus"
+metadata_file <- "Data/data/trees/nextstrain_h1n1_HA_5a2a1.tsv"
+tr <- read.mega(tree_file)
+meta <- readr::read_tsv(metadata_file, show_col_types=FALSE)
+```
+
+```{r, warning=FALSE}
+#normal view
+title ="5a.2a.1"
+
+# identifiy only clades that we are mentioning in the paper:
+clades_to_color <- c("5a.2a.1")
+
+tr@data <-tr@data %>% mutate( #database= ifelse(database=="ReVSeq", database, NA_character_),
+                             location = ifelse(str_length(location)==2 & country=="Switzerland", location, NA_character_),
+                             Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+                             
+                             )
+meta <- meta %>% 
+  mutate(location = ifelse(str_length(location)==2& country=="Switzerland", location, NA_character_),
+         strain = ifelse(is.na(database),strain, str_replace_all(strain, " ", "")),
+         accession =strain,
+         Clade = ifelse(clade_membership %in% clades_to_color, clade_membership, "other"), #simplifying clade encoding
+         
+         region = case_when(
+          location == "TI"                          ~ "Ticino",
+          location %in% c("GE", "VD", "VS")         ~ "Lake Geneva",
+          location %in% c("BE", "FR", "SO", "NE", "JU") ~ "Espace Mittelland",
+          location %in% c("BS", "BL", "AG")         ~ "Northwestern CH.",
+          location == "ZH"                          ~ "Zurich",
+          location %in% c("GL", "SH", "AI", "AR", "SG", "GR", "TG") ~ "Eastern CH.",
+          location %in% c("LU", "UR", "SZ", "OW", "NW", "ZG")       ~ "Central CH.",
+          TRUE                                      ~ "Non-CH."
+        )
+         
+         )
+
+plot.h1n1.5a.2a.1 <-plot_tree_with_data(tr, meta, title  ,color_by="Clade", color_by_vertical = c("region"), 
+                                         vertical_legend_on=c("region"=TRUE),
+                                          vertical_plot_legend_columns = 1, 
+                                          zoomed= FALSE, save=FALSE, tree_legend_on=T, 
+                                          tree_legend_position = c(0.15,0.8),
+                                          date_format="%Y-%m", tip_color = "database", full_page = FALSE,
+                                                                                small_mode=T,
+                                        rotate = T
+                                        )
+plot.h1n1.5a.2a.1$plot
+
+```
+### Flu A/H1N1 full figure
+
+```{r}
+map <- make_map(small_mode=TRUE, legend_right = F)
 
 
+
+top_row <- plot_grid(
+  collapsed_tree_HA, map,
+  nrow = 1,
+  label_size = 12,
+  rel_widths = c(1, 0.3)
+
+)
+
+# 2. Create Bottom Row (Equal Widths)
+bottom_row <- plot_grid(
+  plot.h1n1.5a.2a$plot, plot.h1n1.5a.2a.1$plot,
+  nrow = 1,
+  label_size = 12,
+  rel_widths = c(1, 1) # Equal size
+)
+
+# 3. Stack
+supp_ha <- plot_grid(
+  top_row,
+  bottom_row,
+  nrow = 2,
+  align = "none",
+  rel_heights = c(0.5, 1)
+)
+
+supp_ha
+
+ggsave("Figures/tree_plots/S5_flu.pdf",
+       supp_ha,
+       device = "pdf",
+       dpi = 300,
+       units = "mm",
+       width = 180,   # Max standard journal width
+       height = 230   # Max standard height (leaving ~6cm for caption)
+       )
+```
 

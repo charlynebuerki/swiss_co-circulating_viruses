@@ -70,6 +70,7 @@ make_map <- function(small_mode = FALSE, legend_right=TRUE)
       # Reduce white space around the legend box
       legend.margin = margin(t=0, r=0, b=0, l=0),
       legend.box.margin = margin(0,0,0,0),
+      plot.margin = unit(c(0.0,0.0,0.0,0.0), "cm")
       
     ) +
     guides(

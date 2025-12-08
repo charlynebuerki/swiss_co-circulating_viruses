@@ -31,7 +31,6 @@ make_date_tree_scale<- function(tree, breaks=8) {
                       to=max(dates, na.rm=TRUE), 
                       length.out=breaks)
   
-  
   return(list("labels"=dates_labels, "breaks"=breaks_mapping))
 }
 
@@ -48,7 +47,7 @@ get_location_colors <- function()
 }
 
 #nice theme/constant theme for all tree plots with various options to customize
-plot_nice_tree<-function(gg_tree, axis_breaks, legend_on, date_format="%Y", title="no title", legend_position=c(0.3,0.8), small_mode = FALSE)
+plot_nice_tree<-function(gg_tree, axis_breaks, legend_on, date_format="%Y", title="no title", legend_position=c(0.3,0.8), small_mode = FALSE, rotate=F)
 {
   dates <- make_date_tree_scale(gg_tree, breaks=axis_breaks)
   
@@ -75,11 +74,13 @@ plot_nice_tree<-function(gg_tree, axis_breaks, legend_on, date_format="%Y", titl
           panel.grid.minor.y = element_blank(),
           axis.text.y=element_blank(),
           axis.ticks.y=element_blank(),
+          axis.title = element_text(size=plot_title_size),
          
-          plot.margin = unit(c(0.5,0.0,0.5,0.0), "cm"),
+          plot.margin = unit(c(0.1,0.0,0.1,0.0), "cm"),
           
           plot.title = element_text(size = 8),
-          axis.title.x = element_text(size= 8),
+          
+          axis.text.x = if(rotate) element_text(angle = 20, hjust = 1, size=7) else element_text(size= 8) ,
           
           #legend
           legend.position = if(legend_on) "inside" else "none",
@@ -119,7 +120,7 @@ plot_nice_tree<-function(gg_tree, axis_breaks, legend_on, date_format="%Y", titl
 #tip_color is one of "database" or "location"
 plot_tree <- function(tree, color_by, plot_title ,legend_position=c(0.3,0.8), 
                       zoomed=FALSE, tips_to_zoom = NULL, axis_breaks=8, legend_on=TRUE, 
-                      date_format="%Y", save=TRUE, tip_color="database", small_mode=FALSE)
+                      date_format="%Y", save=TRUE, tip_color="database", small_mode=FALSE, rotate=FALSE)
 {
   options(ignore.negative.edge = TRUE)
   
@@ -146,12 +147,13 @@ plot_tree <- function(tree, color_by, plot_title ,legend_position=c(0.3,0.8),
     }
 
     basic_tree <- basic_tree + 
-      geom_tippoint(aes(size=.data[[tip_color]]), shape=16, color="black") #default visualization of revseq samples
+      geom_tippoint(aes(size=.data[[tip_color]]), shape=16, color="black") +  #default visualization of revseq samples
+      scale_size_discrete(range = c(1, 1))
     
   } else {
     basic_tree <- basic_tree + 
       #scale_color_manual(values = scales::hue_pal()(length(unique(tree@data[[color_by]]))), guide = "none") +  # Hide tree legend
-      geom_tippoint(aes(color=.data[[tip_color]]), size=1.5) + #based on location
+      geom_tippoint(aes(color=.data[[tip_color]]), size=0.5) + #based on location
       scale_color_manual(values = get_location_colors(), na.translate=FALSE, expand=expansion(mult=0.1))
   }
     
@@ -159,7 +161,7 @@ plot_tree <- function(tree, color_by, plot_title ,legend_position=c(0.3,0.8),
   #nice plotting format
   basic_tree <- if (zoomed) viewClade(basic_tree, MRCA(tree, tips_to_zoom[1], tips_to_zoom[2])) else basic_tree #(leave the same) 
   
-  whole_tree<-plot_nice_tree(basic_tree, axis_breaks, legend_on, date_format, plot_title, legend_position, small_mode= small_mode)
+  whole_tree<-plot_nice_tree(basic_tree, axis_breaks, legend_on, date_format, plot_title, legend_position, small_mode= small_mode, rotate=rotate)
   
   if(save) ggsave("Figures/tree_plots/test.pdf", whole_tree,  dpi="retina", units="mm", width=174, height=123)
   
@@ -184,7 +186,7 @@ plot_vertical_data <- function(tree_metadata, taxa_order, color_by = "country", 
   default_colors <- if(color_by == "country" | color_by== "region" | color_by=="Clade") get_location_colors() else setNames(scales::hue_pal()(length(unique_categories)), unique_categories) 
   
   # 2. Manually assign "other" to lightgrey
-  default_colors <- c(default_colors, "other" = "lightgrey")  
+  default_colors <- c(default_colors, "other" = "#ebebeb")  
   
   # --- DEFINE SIZES ---
   if(small_mode) {
@@ -202,7 +204,7 @@ plot_vertical_data <- function(tree_metadata, taxa_order, color_by = "country", 
   plt <- ggplot(data = df) +
     geom_tile_rast(
       aes(fill = .data[[color_by]], x = " ", y = accession),
-      dpi = 300,
+      dpi = 3500,
       dev = "ragg" 
     ) +
     theme_minimal() +
@@ -222,7 +224,7 @@ plot_vertical_data <- function(tree_metadata, taxa_order, color_by = "country", 
       legend.spacing.y = unit(0.1, "cm"), # Tighten rows
       plot.margin = unit(c(0.0,0.0,0.0,0.0), "cm")
     ) +
-    scale_fill_manual(values = default_colors, na.value = "lightgrey") +  # Dynamically set colors
+    scale_fill_manual(values = default_colors, na.value = "#ebebeb") +  # Dynamically set colors
     guides(fill=guide_legend(ncol=legend_columns))
   return(plt)
 }
@@ -256,7 +258,8 @@ plot_tree_with_data <- function(tree, tree_meta, title, color_by, zoomed=FALSE, 
                                 color_by_vertical=c("clade_membership","region"), 
                                 vertical_plot_legend_columns=2, full_page=TRUE,
                                 place_tree_legend_inside = TRUE,
-                                small_mode=FALSE
+                                small_mode=FALSE,
+                                rotate=F
                                 ) {
   
   # --- STEP 1: EXTRACT LEGENDS (Side Column) ---
@@ -267,7 +270,7 @@ plot_tree_with_data <- function(tree, tree_meta, title, color_by, zoomed=FALSE, 
   # 1. GENERATE DUMMY TREE 
   # We always need this to calculate taxa order, regardless of where the legend goes
   dummy_tree <- plot_tree(tree, color_by, title, tree_legend_position, zoomed, tips_to_zoom, axis_breaks, 
-                          legend_on=TRUE, date_format, save=FALSE, tip_color, small_mode=small_mode)
+                          legend_on=TRUE, date_format, save=FALSE, tip_color, small_mode=small_mode, rotate=rotate)
   
   # 2. Extract Tree Legend (CONDITIONAL)
   # Only extract if requested AND if we are NOT placing it inside
@@ -324,7 +327,8 @@ plot_tree_with_data <- function(tree, tree_meta, title, color_by, zoomed=FALSE, 
   real_tree <- plot_tree(tree, color_by, title, tree_legend_position, zoomed, tips_to_zoom, axis_breaks, 
                          legend_on=show_tree_legend_in_plot, 
                          date_format, save=FALSE, tip_color,
-                         small_mode=small_mode)
+                         small_mode=small_mode,
+                         rotate=rotate)
   
   taxa_order <- if(!zoomed) get_taxa_name(real_tree) else get_visible_tips_zoomed_plot(real_tree)
   
@@ -371,7 +375,7 @@ plot_tree_with_data <- function(tree, tree_meta, title, color_by, zoomed=FALSE, 
     
     ggsave(paste0("Figures/tree_plots/", title, ifelse(full_page, "_supp", "_modif"), "_tree.pdf"), 
            final_save_plot,  
-           dpi=300, 
+           dpi=3000, 
            units="mm", 
            width= 180, 
            height= ifelse(full_page, 230, 120)
@@ -419,7 +423,9 @@ tree_plot_collapsed<-function(tree, tree_metadata, color_by, plot_title, list_of
                               legend_position=c(0.3,0.5), 
                               zoomed=FALSE, tips_to_zoom = NULL, axis_breaks=8, legend_on=TRUE, 
                               date_format="%Y", save=TRUE, tip_color="database", 
-                              collapse_by_clade=TRUE)
+                              collapse_by_clade=TRUE,
+                              collapse_proportion=0.003
+                              )
 {
   
   basic_tree <-plot_tree(tree, color_by, plot_title ,legend_position=legend_position, 
@@ -431,19 +437,6 @@ tree_plot_collapsed<-function(tree, tree_metadata, color_by, plot_title, list_of
                          save=save, 
                          tip_color=tip_color
   )
-  
-  nodes_to_collapse <- get_nodes_to_collapse_by_clade(tree,list_of_clades,clade=collapse_by_clade)
-  #here we take care of noisy nodes removal
-  if(!is.null(additional_nodes)){
-    nodes_to_collapse <- c(nodes_to_collapse, additional_nodes )
-  }
-  
-  collapsed_tree <- basic_tree
-  
-  #Collapse iteratively
-  for(n in nodes_to_collapse){
-    collapsed_tree <- collapse(collapsed_tree, node = n)
-  }
   
   #color scheme
   unique_categories <- na.omit(unique(tr@data[[color_by]]))
@@ -458,18 +451,42 @@ tree_plot_collapsed<-function(tree, tree_metadata, color_by, plot_title, list_of
   # 2. Manually assign "other" to lightgrey
   default_colors <- c(default_colors, "other" = "lightgrey")  
   
+  nodes_to_collapse <- get_nodes_to_collapse_by_clade(tree,list_of_clades,clade=collapse_by_clade)
+  
+  if(!is.null(additional_nodes))
+  {
+    nodes_to_collapse <- c(nodes_to_collapse, additional_nodes)
+  }
+  
+  p <- basic_tree
+  
+  # --- STEP 1: SCALE CLADES (Has to be first) ---
+  # We must apply the scaling to the Y-axis coordinates before we start 
+  for(n in nodes_to_collapse) {
+    # Check if node exists to prevent crash
+    if(n %in% p$data$node) {
+      p <- scaleClade(p, node = n, scale = collapse_proportion) 
+    }
+  }
+  
+  # --- STEP 2: COLLAPSE MAIN CLADES (Color Triangles) ---
+  for(n in nodes_to_collapse) {
+    if(n %in% p$data$node) {
+      # Color Lookup
+      node_val <- p$data %>% filter(node == n) %>% pull(!!sym(color_by))
+      fill_col <- default_colors[as.character(node_val)]
+      if(length(fill_col) == 0 || is.na(fill_col)) fill_col <- "lightgrey"
+      
+      # Collapse
+      p <- collapse(p, node = n, mode = "max", fill = fill_col, color = "black")
+    }
+  }
+  
   #add colored diamonds
-  final_tree <- collapsed_tree +
+  final_tree <- p +
     geom_rootedge(rootedge = 0.25, color="lightgrey") +
     theme(
       panel.grid.minor.y=element_blank()
-    ) +
-    geom_point2(
-      aes(subset = (node %in% nodes_to_collapse), 
-          fill = .data[[color_by]]), # Map fill to the variable
-      shape = 23, 
-      size = 3,
-      color = "black" # Keep the border black for contrast
     ) +
     scale_fill_manual(values = default_colors, 
                       na.value = "lightgrey",
