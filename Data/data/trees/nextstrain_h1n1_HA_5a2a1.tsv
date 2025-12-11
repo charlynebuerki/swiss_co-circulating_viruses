@@ -1,0 +1,876 @@
+strain	date	location	subclade_membership	clade_membership	country	database	region	accession	author
+m2-Qb4JVo	2024-01-19	VD	C.1.1	5a.2a.1	Switzerland	ReVSeq	Europe	m2-Qb4JVo	
+GS_0096H0W.1	2022-12-10		C.1.1	5a.2a.1	USA			GS_0096H0W.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0092HWB.1	2022-12-27		C.1.1	5a.2a.1	USA			GS_0092HWB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096ARL.1	2022-11-28		C.1.1	5a.2a.1	USA			GS_0096ARL.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096ESE.1	2022-12-07		C.1.1	5a.2a.1	USA			GS_0096ESE.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_00A2KH0.1	2024-02-06		C.1.1	5a.2a.1	USA			GS_00A2KH0.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4YBW.1	2024-01-01		C.1.1	5a.2a.1	USA			GS_00A4YBW.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A33P2.1	2024-02-08		C.1.1	5a.2a.1	USA			GS_00A33P2.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AJ4M8.1	2024-07-01		C.1.1	5a.2a.1	Japan			GS_00AJ4M8.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009AAU6.1	2023-02-07		C.1.1	5a.2a.1	USA			GS_009AAU6.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0094MT9.1	2022-12-14		C.1.1	5a.2a.1	United Kingdom			GS_0094MT9.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_008PZ8Y.1	2022-08-17		C.1.1	5a.2a.1	United Kingdom			GS_008PZ8Y.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008W1LR.1	2022-10-24		C.1.1	5a.2a.1	Germany			GS_008W1LR.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0096L5H.1	2022-12-20		C.1.1	5a.2a.1	USA			GS_0096L5H.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0094KU9.1	2022-12-29		C.1.1	5a.2a.1	United Kingdom			GS_0094KU9.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094MPH.1	2022-12-19		C.1.1	5a.2a.1	United Kingdom			GS_0094MPH.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094MX1.1	2022-12-02		C.1.1	5a.2a.1	United Kingdom			GS_0094MX1.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094L9D.1	2022-12-21		C.1.1	5a.2a.1	United Kingdom			GS_0094L9D.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094MYZ.1	2022-12-18		C.1.1	5a.2a.1	United Kingdom			GS_0094MYZ.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094NFZ.1	2022-12-22		C.1.1	5a.2a.1	United Kingdom			GS_0094NFZ.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094LLQ.1	2022-12-12		C.1.1	5a.2a.1	United Kingdom			GS_0094LLQ.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+m2-XMdsys	2024-02-16	SO	C.1.1	5a.2a.1	Switzerland	ReVSeq	Europe	m2-XMdsys	
+GS_0096CH0.1	2022-12-03		C.1.1	5a.2a.1	USA			GS_0096CH0.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0094NU6.1	2022-12-27		C.1.1	5a.2a.1	United Kingdom			GS_0094NU6.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_009V7KN.1	2023-01-03		C.1.1	5a.2a.1	United Kingdom			GS_009V7KN.1	Sanderson DAVID, N.
+GS_009VMXJ.1	2023-03-01		C.1.1	5a.2a.1	United Kingdom			GS_009VMXJ.1	Sanderson DAVID, N.
+GS_008UN8Z.1	2022-11-01		C.1.1	5a.2a.1	USA			GS_008UN8Z.1	Sereewit, J.; Goya, S.; Kong, K.; Nguyen, T. V.; Xie, H.; Greninger, A. L.
+GS_0099ZXD.1	2023-03-21		C.1.1	5a.2a.1	United Kingdom			GS_0099ZXD.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_008YKZB.1	2022-11-21		C.1.1	5a.2a.1	Germany			GS_008YKZB.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_009J490.1	2023-07-01		C.1.1	5a.2a.1	USA			GS_009J490.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008W5S9.1	2022-12-01		C.1.1	5a.2a.1	USA			GS_008W5S9.1	Sereewit, J.; Goya, S.; Kong, K.; Nguyen, T. V.; Xie, H.; Greninger, A. L.
+GS_00AM5TP.1	2022-12-21		C.1.1	5a.2a.1	USA			GS_00AM5TP.1	Frazar, C. D.; Lee, J.; Ryke, E.; Gamboa, L.; Opsahl, J.; Rodriguez-Salas, L.; McDermot, E.; Stone, J.; Kolar, T.; Han, P. D.; Sibley, T. R.; Truong, M.; Reinhart, D.; Grindstaff, S.; Wolf, C. R.; Boeckh, M.; Englund, J. A.; Lutz, B. R.; Waghmare, A.; Viboud, C.; Starita, L. M.; Shendure, J.; Bedford, T.; Chu, H. Y.
+GS_00AM5UM.1	2022-12-28		C.1.1	5a.2a.1	USA			GS_00AM5UM.1	Frazar, C. D.; Lee, J.; Ryke, E.; Gamboa, L.; Opsahl, J.; Rodriguez-Salas, L.; McDermot, E.; Stone, J.; Kolar, T.; Han, P. D.; Sibley, T. R.; Truong, M.; Reinhart, D.; Grindstaff, S.; Wolf, C. R.; Boeckh, M.; Englund, J. A.; Lutz, B. R.; Waghmare, A.; Viboud, C.; Starita, L. M.; Shendure, J.; Bedford, T.; Chu, H. Y.
+GS_008Q2FD.1	2022-09-13		C.1.1	5a.2a.1	Germany			GS_008Q2FD.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0094NNJ.1	2022-12-28		C.1.1	5a.2a.1	United Kingdom			GS_0094NNJ.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0091GK2.1	2023-01-19		C.1.1	5a.2a.1	United Kingdom			GS_0091GK2.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_0090GNY.1	2023-01-03		C.1.1	5a.2a.1	Germany			GS_0090GNY.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_0094K8G.1	2022-12-06		C.1.1	5a.2a.1	United Kingdom			GS_0094K8G.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094LKS.1	2022-12-13		C.1.1	5a.2a.1	United Kingdom			GS_0094LKS.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094M3Q.1	2022-12-20		C.1.1	5a.2a.1	United Kingdom			GS_0094M3Q.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094KLR.1	2022-12-26		C.1.1	5a.2a.1	United Kingdom			GS_0094KLR.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094M4N.1	2022-12-20		C.1.1	5a.2a.1	United Kingdom			GS_0094M4N.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_008V39E.1	2022-10-11		C.1.1	5a.2a.1	USA			GS_008V39E.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V3AC.1	2022-10-12		C.1.1	5a.2a.1	USA			GS_008V3AC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V3G0.1	2022-10-24		C.1.1	5a.2a.1	USA			GS_008V3G0.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V3C8.1	2022-10-16		C.1.1	5a.2a.1	USA			GS_008V3C8.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V3BA.1	2022-10-16		C.1.1	5a.2a.1	USA			GS_008V3BA.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0094MD4.1	2022-12-25		C.1.1	5a.2a.1	United Kingdom			GS_0094MD4.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094L8F.1	2022-12-20		C.1.1	5a.2a.1	United Kingdom			GS_0094L8F.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_008ZCYJ.1	2022-12-20		C.1.1	5a.2a.1	Germany			GS_008ZCYJ.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008ZD54.1	2022-12-22		C.1.1	5a.2a.1	Germany			GS_008ZD54.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_0096H9C.1	2022-12-10		C.1.1	5a.2a.1	USA			GS_0096H9C.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0094KSD.1	2023-01-01		C.1.1	5a.2a.1	United Kingdom			GS_0094KSD.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094MRD.1	2022-12-17		C.1.1	5a.2a.1	United Kingdom			GS_0094MRD.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_008VMQZ.1	2022-10-13		C.1.1	5a.2a.1	Germany			GS_008VMQZ.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_008VMSV.1	2022-10-16		C.1.1	5a.2a.1	Germany			GS_008VMSV.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_008VN7Z.1	2022-10-16		C.1.1	5a.2a.1	Germany			GS_008VN7Z.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0096KT7.1	2022-12-20		C.1.1	5a.2a.1	USA			GS_0096KT7.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_00AM5PX.1	2022-11-25		C.1.1	5a.2a.1	USA			GS_00AM5PX.1	Frazar, C. D.; Lee, J.; Ryke, E.; Gamboa, L.; Opsahl, J.; Rodriguez-Salas, L.; McDermot, E.; Stone, J.; Kolar, T.; Han, P. D.; Sibley, T. R.; Truong, M.; Reinhart, D.; Grindstaff, S.; Wolf, C. R.; Boeckh, M.; Englund, J. A.; Lutz, B. R.; Waghmare, A.; Viboud, C.; Starita, L. M.; Shendure, J.; Bedford, T.; Chu, H. Y.
+GS_008V1RH.1	2022-10-04		C.1.1	5a.2a.1	USA			GS_008V1RH.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V1UB.1	2022-10-04		C.1.1	5a.2a.1	USA			GS_008V1UB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008YPMX.1	2022-12-07		C.1.1	5a.2a.1	United Kingdom			GS_008YPMX.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0094LC7.1	2022-12-14		C.1.1	5a.2a.1	United Kingdom			GS_0094LC7.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_008ZFFG.1	2022-12-20		C.1.1	5a.2a.1	Germany			GS_008ZFFG.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008ZF36.1	2022-12-14		C.1.1	5a.2a.1	Germany			GS_008ZF36.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008Q217.1	2022-09-29		C.1.1	5a.2a.1	Germany			GS_008Q217.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0094N0V.1	2022-12-05		C.1.1	5a.2a.1	United Kingdom			GS_0094N0V.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_008VN53.1	2022-10-13		C.1.1	5a.2a.1	Germany			GS_008VN53.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0096BBE.1	2022-11-30		C.1.1	5a.2a.1	USA			GS_0096BBE.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096GQG.1	2022-12-09		C.1.1	5a.2a.1	USA			GS_0096GQG.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0092A9T.1	2022-11-28		C.1.1	5a.2a.1	USA			GS_0092A9T.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096FW5.1	2022-12-08		C.1.1	5a.2a.1	USA			GS_0096FW5.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_008W0W6.1	2022-11-08		C.1.1	5a.2a.1	USA			GS_008W0W6.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0091MSH.1	2022-12-20		C.1.1	5a.2a.1	USA			GS_0091MSH.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A2BF.1	2022-12-31		C.1.1	5a.2a.1	USA			GS_009A2BF.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A2AH.1	2022-12-31		C.1.1	5a.2a.1	USA			GS_009A2AH.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096B7N.1	2022-11-29		D	5a.2a.1	USA			GS_0096B7N.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_00930S0.1	2022-10-02		D	5a.2a.1	Australia			GS_00930S0.1	Aziz, A.; Deng, Y.; Barr, I.
+GS_0091FWF.1	2022-11-28		D	5a.2a.1	USA			GS_0091FWF.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008YLAP.1	2022-11-29		D	5a.2a.1	USA			GS_008YLAP.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_008V2BB.1	2022-10-26		D	5a.2a.1	USA			GS_008V2BB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092A35.1	2022-12-26		D	5a.2a.1	USA			GS_0092A35.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092N5P.1	2022-12-08		D	5a.2a.1	USA			GS_0092N5P.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V1JX.1	2022-10-25		D	5a.2a.1	USA			GS_008V1JX.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092A19.1	2022-11-29		D	5a.2a.1	USA			GS_0092A19.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00929DL.1	2022-12-03		D	5a.2a.1	USA			GS_00929DL.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092KZ3.1	2022-12-17		D	5a.2a.1	USA			GS_0092KZ3.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VRZB.1	2022-11-13		D	5a.2a.1	USA			GS_008VRZB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V9FW.1	2022-11-02		D	5a.2a.1	USA			GS_008V9FW.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092754.1	2022-12-04		D	5a.2a.1	USA			GS_0092754.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00926YJ.1	2022-12-07		D	5a.2a.1	USA			GS_00926YJ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096GAB.1	2022-12-09		D	5a.2a.1	USA			GS_0096GAB.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096JE1.1	2022-12-12		D	5a.2a.1	USA			GS_0096JE1.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_008V2Y2.1	2022-10-12		D	5a.2a.1	USA			GS_008V2Y2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092Q1V.1	2022-12-28		D	5a.2a.1	USA			GS_0092Q1V.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A1DC.1	2023-01-25		D	5a.2a.1	USA			GS_009A1DC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009CU9P.1	2023-03-03		D	5a.2a.1	USA			GS_009CU9P.1	Nunley, E.; Xie, H.; Furlong, J.; Kim, D. Y.; Varela, C.; Goya, S.; Greninger, A.
+GS_008YLM0.1	2022-11-28		D	5a.2a.1	USA			GS_008YLM0.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0092BL3.1	2022-12-06		D	5a.2a.1	USA			GS_0092BL3.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091L5T.1	2022-12-25		D	5a.2a.1	USA			GS_0091L5T.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096GGZ.1	2022-12-09		D	5a.2a.1	USA			GS_0096GGZ.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0092A43.1	2022-12-28		D	5a.2a.1	USA			GS_0092A43.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092MPM.1	2022-12-28		D	5a.2a.1	USA			GS_0092MPM.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V001.1	2022-10-11		D	5a.2a.1	USA			GS_008V001.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008UZZ5.1	2022-10-11		D	5a.2a.1	USA			GS_008UZZ5.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092CAP.1	2022-11-28		D	5a.2a.1	USA			GS_0092CAP.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096C9H.1	2022-12-01		D	5a.2a.1	USA			GS_0096C9H.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0092PF2.1	2022-11-28		D	5a.2a.1	USA			GS_0092PF2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009NP89.1	2023-08-08		D	5a.2a.1	USA			GS_009NP89.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091L6R.1	2022-12-27		D	5a.2a.1	USA			GS_0091L6R.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092JDB.1	2022-11-25		D	5a.2a.1	USA			GS_0092JDB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V9B4.1	2022-10-31		D	5a.2a.1	USA			GS_008V9B4.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V9C2.1	2022-10-31		D	5a.2a.1	USA			GS_008V9C2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V17L.1	2022-10-26		D	5a.2a.1	USA			GS_008V17L.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A104.1	2023-01-10		D	5a.2a.1	USA			GS_009A104.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VS5Z.1	2022-11-15		D	5a.2a.1	USA			GS_008VS5Z.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VS33.1	2022-11-21		D	5a.2a.1	USA			GS_008VS33.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VAU2.1	2022-11-14		D	5a.2a.1	USA			GS_008VAU2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092NF3.1	2022-12-06		D	5a.2a.1	USA			GS_0092NF3.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00903CY.1	2022-12-06		D	5a.2a.1	USA			GS_00903CY.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092KX7.1	2022-12-06		D	5a.2a.1	USA			GS_0092KX7.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VTFC.1	2022-11-22		D	5a.2a.1	USA			GS_008VTFC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V2W6.1	2022-11-01		D	5a.2a.1	USA			GS_008V2W6.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092NMQ.1	2022-11-20		D	5a.2a.1	USA			GS_0092NMQ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VAFV.1	2022-10-22		D	5a.2a.1	USA			GS_008VAFV.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091MH1.1	2022-12-24		D	5a.2a.1	USA			GS_0091MH1.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091MJZ.1	2022-12-24		D	5a.2a.1	USA			GS_0091MJZ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091NH0.1	2023-01-04		D	5a.2a.1	USA			GS_0091NH0.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091NCB.1	2022-12-19		D	5a.2a.1	USA			GS_0091NCB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092NV8.1	2022-12-19		D	5a.2a.1	USA			GS_0092NV8.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A0G7.1	2023-01-06		D	5a.2a.1	USA			GS_009A0G7.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091LNS.1	2022-12-11		D	5a.2a.1	USA			GS_0091LNS.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092JPQ.1	2022-12-11		D	5a.2a.1	USA			GS_0092JPQ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092P7J.1	2022-12-15		D	5a.2a.1	USA			GS_0092P7J.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092HTH.1	2022-12-15		D	5a.2a.1	USA			GS_0092HTH.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092P8G.1	2022-12-15		D	5a.2a.1	USA			GS_0092P8G.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092HSK.1	2022-12-15		D	5a.2a.1	USA			GS_0092HSK.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A28M.1	2023-01-07		D	5a.2a.1	USA			GS_009A28M.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+m2-3qDrEd	2023-04-19	AG	D	5a.2a.1	Switzerland	ReVSeq	Europe	m2-3qDrEd	
+GS_0096T68.1	2023-01-29		D	5a.2a.1	Germany			GS_0096T68.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Chelsea, J. D.
+GS_0096T76.1	2023-02-02		D	5a.2a.1	Germany			GS_0096T76.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Chelsea, J. D.
+GS_00927SV.1	2022-11-26		D	5a.2a.1	USA			GS_00927SV.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092PKT.1	2022-11-30		D	5a.2a.1	USA			GS_0092PKT.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0090493.1	2022-11-12		D	5a.2a.1	USA			GS_0090493.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092HF8.1	2022-12-21		D	5a.2a.1	USA			GS_0092HF8.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092MMR.1	2022-11-17		D	5a.2a.1	USA			GS_0092MMR.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A68H.1	2023-02-01		D	5a.2a.1	USA			GS_009A68H.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096LC3.1	2022-12-21		D	5a.2a.1	USA			GS_0096LC3.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0091M02.1	2022-12-24		D	5a.2a.1	USA			GS_0091M02.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092K7N.1	2022-12-24		D	5a.2a.1	USA			GS_0092K7N.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092L1Z.1	2022-12-20		D	5a.2a.1	USA			GS_0092L1Z.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0099ZDG.1	2023-03-29		D	5a.2a.1	USA			GS_0099ZDG.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_009AANJ.1	2023-02-16		D	5a.2a.1	USA			GS_009AANJ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092NJW.1	2022-12-27		D	5a.2a.1	USA			GS_0092NJW.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A2Y6.1	2023-01-11		D	5a.2a.1	USA			GS_009A2Y6.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092PLR.1	2022-12-26		D	5a.2a.1	USA			GS_0092PLR.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QNGQ.1	2023-01-23		D	5a.2a.1	USA			GS_009QNGQ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092NE5.1	2022-12-03		D	5a.2a.1	USA			GS_0092NE5.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A6X4.1	2023-02-01		D	5a.2a.1	USA			GS_009A6X4.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096F4Q.1	2022-12-07		D	5a.2a.1	USA			GS_0096F4Q.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096FX3.1	2022-12-08		D	5a.2a.1	USA			GS_0096FX3.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096B6Q.1	2022-11-29		D	5a.2a.1	USA			GS_0096B6Q.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_008ZDXK.1	2022-12-19		D	5a.2a.1	USA			GS_008ZDXK.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_0092J5T.1	2022-12-30		D	5a.2a.1	USA			GS_0092J5T.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091LDB.1	2022-12-19		D	5a.2a.1	USA			GS_0091LDB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092J9K.1	2022-12-19		D	5a.2a.1	USA			GS_0092J9K.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009LAYB.1	2022-11-28		D	5a.2a.1	USA			GS_009LAYB.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009LBAM.1	2022-11-28		D	5a.2a.1	USA			GS_009LBAM.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QLGS.1	2023-01-17		D	5a.2a.1	USA			GS_009QLGS.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096DNP.1	2022-12-05		D	5a.2a.1	USA			GS_0096DNP.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096BMT.1	2022-11-30		D	5a.2a.1	USA			GS_0096BMT.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096BF6.1	2022-11-30		D	5a.2a.1	USA			GS_0096BF6.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096BZ3.1	2022-12-01		D	5a.2a.1	USA			GS_0096BZ3.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096D5Q.1	2022-12-04		D	5a.2a.1	USA			GS_0096D5Q.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096ED7.1	2022-12-06		D	5a.2a.1	USA			GS_0096ED7.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096K3N.1	2022-12-12		D	5a.2a.1	USA			GS_0096K3N.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096MLK.1	2022-12-28		D	5a.2a.1	USA			GS_0096MLK.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_009A120.1	2023-01-17		D	5a.2a.1	USA			GS_009A120.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00928DM.1	2022-12-02		D	5a.2a.1	USA			GS_00928DM.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00928EK.1	2022-12-02		D	5a.2a.1	USA			GS_00928EK.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092JQN.1	2022-12-18		D	5a.2a.1	USA			GS_0092JQN.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009AA4M.1	2023-03-09		D	5a.2a.1	USA			GS_009AA4M.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009AA5K.1	2023-03-09		D	5a.2a.1	USA			GS_009AA5K.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009290C.1	2022-12-04		D	5a.2a.1	USA			GS_009290C.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VSAP.1	2022-11-05		D	5a.2a.1	USA			GS_008VSAP.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A489Q.1	2023-01-11		D	5a.2a.1	USA			GS_00A489Q.1	Heibeck, N.; Garrigues, J. M.; Green, N. M.
+GS_00902S4.1	2022-11-29		D	5a.2a.1	USA			GS_00902S4.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VQSS.1	2022-08-30		D	5a.2a.1	USA			GS_008VQSS.1	Wentworth, D.; Barnes, J.; Garten, R.
+GS_00903T1.1	2022-11-20		D	5a.2a.1	USA			GS_00903T1.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092LUC.1	2022-12-19		D	5a.2a.1	USA			GS_0092LUC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009LARR.1	2022-12-12		D	5a.2a.1	USA			GS_009LARR.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00929RV.1	2022-11-25		D	5a.2a.1	USA			GS_00929RV.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091NRJ.1	2022-12-29		D	5a.2a.1	USA			GS_0091NRJ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092PRF.1	2022-12-29		D	5a.2a.1	USA			GS_0092PRF.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A5G2.1	2023-02-03		D	5a.2a.1	USA			GS_009A5G2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Q4G8.1	2023-02-06		D	5a.2a.1	USA			GS_009Q4G8.1	s, W. W. F.; l, E. B.; t, J. G.; g, A. L.
+GS_00905DU.1	2022-12-07		D	5a.2a.1	USA			GS_00905DU.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QKMG.1	2022-12-26		D	5a.2a.1	USA			GS_009QKMG.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QLXV.1	2022-12-16		D	5a.2a.1	USA			GS_009QLXV.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00903Q7.1	2022-11-02		D	5a.2a.1	USA			GS_00903Q7.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V8GV.1	2022-11-02		D	5a.2a.1	USA			GS_008V8GV.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00903GQ.1	2022-12-05		D	5a.2a.1	USA			GS_00903GQ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092KY5.1	2022-12-14		D	5a.2a.1	USA			GS_0092KY5.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008W1HX.1	2022-11-14		D	5a.2a.1	USA			GS_008W1HX.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0091LUE.1	2022-12-26		D	5a.2a.1	USA			GS_0091LUE.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096TDU.1	2023-01-03		D	5a.2a.1	Germany			GS_0096TDU.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Chelsea, J. D.
+GS_008W11W.1	2022-11-09		D	5a.2a.1	USA			GS_008W11W.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_00903VX.1	2022-12-02		D	5a.2a.1	USA			GS_00903VX.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092K02.1	2022-12-02		D	5a.2a.1	USA			GS_0092K02.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A2TG.1	2023-01-05		D	5a.2a.1	USA			GS_009A2TG.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009LBMY.1	2023-01-26		D	5a.2a.1	USA			GS_009LBMY.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092CXE.1	2022-12-04		D	5a.2a.1	USA			GS_0092CXE.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092K4U.1	2022-12-12		D	5a.2a.1	USA			GS_0092K4U.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009AAX0.1	2023-03-15		D	5a.2a.1	USA			GS_009AAX0.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091MG4.1	2022-12-23		D	5a.2a.1	USA			GS_0091MG4.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091MF6.1	2022-12-23		D	5a.2a.1	USA			GS_0091MF6.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V29F.1	2022-10-12		D	5a.2a.1	USA			GS_008V29F.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V7W1.1	2022-11-03		D	5a.2a.1	USA			GS_008V7W1.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V7ZV.1	2022-11-04		D	5a.2a.1	USA			GS_008V7ZV.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V8U4.1	2022-11-07		D	5a.2a.1	USA			GS_008V8U4.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009LB7T.1	2022-11-17		D	5a.2a.1	USA			GS_009LB7T.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0090584.1	2022-11-21		D	5a.2a.1	USA			GS_0090584.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00904T0.1	2022-11-28		D	5a.2a.1	USA			GS_00904T0.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092CVJ.1	2022-12-03		D	5a.2a.1	USA			GS_0092CVJ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092HKZ.1	2022-12-02		D	5a.2a.1	USA			GS_0092HKZ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VADZ.1	2022-11-09		D	5a.2a.1	USA			GS_008VADZ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00929QX.1	2022-12-16		D	5a.2a.1	USA			GS_00929QX.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QNR5.1	2023-01-12		D	5a.2a.1	USA			GS_009QNR5.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V0JY.1	2022-11-02		D	5a.2a.1	USA			GS_008V0JY.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V0KW.1	2022-11-02		D	5a.2a.1	USA			GS_008V0KW.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091L8M.1	2022-12-22		D	5a.2a.1	USA			GS_0091L8M.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A9E2.1	2023-03-06		D	5a.2a.1	USA			GS_009A9E2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092M9G.1	2022-11-04		D	5a.2a.1	USA			GS_0092M9G.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091ME8.1	2022-12-19		D	5a.2a.1	USA			GS_0091ME8.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009B24T.1	2022-12-26		D	5a.2a.1	USA			GS_009B24T.1	Direct Submission,
+GS_009QLVZ.1	2023-01-20		D	5a.2a.1	USA			GS_009QLVZ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009VEES.1	2023-06-27		D	5a.2a.1	Australia			GS_009VEES.1	Steinig JOACHIM, E.
+GS_009ZN9L.1	2023-12-18		D	5a.2a.1	USA			GS_009ZN9L.1	Lauring, A. S.; Papalambros, L. K.
+GS_009SPP4.1	2023-09-25		D	5a.2a.1	Japan			GS_009SPP4.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009SPQ2.1	2023-10-01		D	5a.2a.1	Japan			GS_009SPQ2.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009ZBEM.1	2023-10-19		D	5a.2a.1	USA			GS_009ZBEM.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A0U3Q.1	2024-01-29		D	5a.2a.1	USA			GS_00A0U3Q.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XS12.1	2024-01-05		D	5a.2a.1	USA			GS_009XS12.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AVXDA.1	2023-04-11		D.3	5a.2a.1	USA			GS_00AVXDA.1	Scotch, M.; Faleye, T. O. C.; Halden, R. U.; Varsani, A.; Temitope, F. O. C.; Wright, J. M.; Kaiser, N. A.; Atherton, A.; Islas, M.
+m2-xwkVbK	2023-12-27	TI	D.3	5a.2a.1	Switzerland	ReVSeq	Europe	m2-xwkVbK	
+m2-kwbwf8	2023-12-26	AG	D.3	5a.2a.1	Switzerland	ReVSeq	Europe	m2-kwbwf8	
+GS_00A103G.1	2024-01-30		D.3	5a.2a.1	United Kingdom			GS_00A103G.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A65VG.1	2024-02-08		D.3	5a.2a.1	USA			GS_00A65VG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4WS1.1	2023-12-14		D.3	5a.2a.1	USA			GS_00A4WS1.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH12J.1	2023-12-14		D.3	5a.2a.1	USA			GS_00AH12J.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009J3JG.1	2023-07-07		D.3	5a.2a.1	USA			GS_009J3JG.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009NNGU.1	2023-08-05		D.3	5a.2a.1	USA			GS_009NNGU.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009J2YP.1	2023-06-28		D.3	5a.2a.1	USA			GS_009J2YP.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009N1YG.1	2023-08-12		D.3	5a.2a.1	USA			GS_009N1YG.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009DK62.1	2023-06-06		D.3	5a.2a.1	USA			GS_009DK62.1	Nunley, E.; Xie, H.; Varela, C.; Kim, D. Y.; Goya, S.; Greninger, A.
+GS_009J6M7.1	2023-06-25		D.3	5a.2a.1	USA			GS_009J6M7.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009J6EN.1	2023-07-03		D.3	5a.2a.1	USA			GS_009J6EN.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009J4BW.1	2023-07-09		D.3	5a.2a.1	USA			GS_009J4BW.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009EHTT.1	2023-07-23		D.3	5a.2a.1	USA			GS_009EHTT.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_009SQQ1.1	2023-08-17		D.3	5a.2a.1	USA			GS_009SQQ1.1	Lauring, A. S.; Papalambros, L.
+GS_00A034D.1	2023-12-19		D.3	5a.2a.1	USA			GS_00A034D.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4RC1.1	2023-12-11		D.3	5a.2a.1	USA			GS_00A4RC1.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009SRHE.1	2023-10-09		D.3	5a.2a.1	USA			GS_009SRHE.1	Lauring, A. S.; Papalambros, L.
+GS_009WTJ2.1	2023-10-24		D.3	5a.2a.1	USA			GS_009WTJ2.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009XTJ0.1	2023-12-19		D.3	5a.2a.1	USA			GS_009XTJ0.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WUWB.1	2023-11-26		D.3	5a.2a.1	USA			GS_009WUWB.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009Y777.1	2023-12-13		D.3	5a.2a.1	USA			GS_009Y777.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009Y6CY.1	2023-12-18		D.3	5a.2a.1	USA			GS_009Y6CY.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009X9R4.1	2023-12-24		D.3	5a.2a.1	USA			GS_009X9R4.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4TA3.1	2023-10-25		D	5a.2a.1	USA			GS_00A4TA3.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008ZG6Z.1	2022-12-23		D	5a.2a.1	Germany			GS_008ZG6Z.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008V96E.1	2022-11-01		D	5a.2a.1	USA			GS_008V96E.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092J03.1	2022-11-01		D	5a.2a.1	USA			GS_0092J03.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0090HJ5.1	2023-01-04		D	5a.2a.1	Italy			GS_0090HJ5.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_0090GSQ.1	2023-01-09		D	5a.2a.1	Germany			GS_0090GSQ.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_009W27G.1	2023-01-09		D	5a.2a.1	Switzerland			GS_009W27G.1	
+GS_00903B0.1	2022-12-07		D	5a.2a.1	USA			GS_00903B0.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0090576.1	2022-11-16		D	5a.2a.1	USA			GS_0090576.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00927FJ.1	2022-11-13		D	5a.2a.1	USA			GS_00927FJ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VSCK.1	2022-11-13		D	5a.2a.1	USA			GS_008VSCK.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009DK9W.1	2022-12-01		D	5a.2a.1	USA			GS_009DK9W.1	Nunley, E.; Xie, H.; Sereewit, J.; Varela, C.; Kim, D. Y.; Goya, S.; Greninger, A.
+GS_0094MC6.1	2022-12-25		D	5a.2a.1	United Kingdom			GS_0094MC6.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094KMP.1	2022-12-23		D	5a.2a.1	United Kingdom			GS_0094KMP.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_009J5ZJ.1	2023-06-15		D	5a.2a.1	USA			GS_009J5ZJ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0094LJU.1	2022-12-07		D	5a.2a.1	United Kingdom			GS_0094LJU.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_009C4KS.1	2023-03-21		D.1	5a.2a.1	USA			GS_009C4KS.1	Direct Submission,
+GS_00A64YB.1	2023-12-28		D.1	5a.2a.1	USA			GS_00A64YB.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZJPV.1	2023-10-31		D.1	5a.2a.1	USA			GS_009ZJPV.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WMZC.1	2023-12-04		D.1	5a.2a.1	USA			GS_009WMZC.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5E7L.1	2023-12-06		D.1	5a.2a.1	USA			GS_00A5E7L.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XQLZ.1	2023-12-15		D.1	5a.2a.1	USA			GS_009XQLZ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0S2U.1	2024-01-16		D.1	5a.2a.1	USA			GS_00A0S2U.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZQAG.1	2024-01-02		D.1	5a.2a.1	USA			GS_009ZQAG.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AGUPK.1	2024-04-02		D.1	5a.2a.1	USA			GS_00AGUPK.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A50UR.1	2023-12-27		D.1	5a.2a.1	USA			GS_00A50UR.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9QEN.1	2024-01-11		D.1	5a.2a.1	USA			GS_00A9QEN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WMEH.1	2023-12-02		D.1	5a.2a.1	USA			GS_009WMEH.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0UAA.1	2024-01-29		D.1	5a.2a.1	USA			GS_00A0UAA.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZQNR.1	2024-01-04		D.1	5a.2a.1	USA			GS_009ZQNR.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2MJW.1	2024-02-26		D.1	5a.2a.1	USA			GS_00A2MJW.1	Lauring, A. S.; Papalambros, L. K.
+m2-wVBQbT	2024-05-29	VD	D.1	5a.2a.1	Switzerland	ReVSeq	Europe	m2-wVBQbT	
+GS_009W4QD.1	2024-01-30		D.1	5a.2a.1	Switzerland			GS_009W4QD.1	
+GS_00AGUW5.1	2024-04-24		D.1	5a.2a.1	USA			GS_00AGUW5.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4UEU.1	2023-11-21		D.1	5a.2a.1	USA			GS_00A4UEU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A0CJ9.1	2024-01-12		D.1	5a.2a.1	USA			GS_00A0CJ9.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AHB7Y.1	2024-01-29		D.1	5a.2a.1	USA			GS_00AHB7Y.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A0674.1	2024-01-02		D.1	5a.2a.1	USA			GS_00A0674.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH6EP.1	2024-02-10		D.1	5a.2a.1	USA			GS_00AH6EP.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A1U8C.1	2024-01-01		D.1	5a.2a.1	USA			GS_00A1U8C.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YNJ3.1	2023-12-19		D.1	5a.2a.1	United Kingdom			GS_009YNJ3.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A3BUJ.1	2023-11-15		D.1	5a.2a.1	USA			GS_00A3BUJ.1	Garrigues, J. M.; Green, N. M.
+GS_009WMRU.1	2023-12-08		D.1	5a.2a.1	USA			GS_009WMRU.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XSJ1.1	2024-01-09		D.1	5a.2a.1	USA			GS_009XSJ1.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A52PZ.1	2023-11-28		D.1	5a.2a.1	USA			GS_00A52PZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A03WU.1	2023-11-28		D.1	5a.2a.1	USA			GS_00A03WU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9Q56.1	2023-12-15		D.1	5a.2a.1	USA			GS_00A9Q56.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XB59.1	2023-12-20		D.1	5a.2a.1	USA			GS_009XB59.1	Lauring, A. S.; Papalambros, L. K.
+GS_009Z2U1.1	2023-11-08		D.1	5a.2a.1	USA			GS_009Z2U1.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4ZXN.1	2023-12-11		D.1	5a.2a.1	USA			GS_00A4ZXN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A56WF.1	2023-12-22		D.1	5a.2a.1	USA			GS_00A56WF.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A25XL.1	2024-02-12		D.1	5a.2a.1	United Kingdom			GS_00A25XL.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A4RU2.1	2023-12-17		D.1	5a.2a.1	USA			GS_00A4RU2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Y6DW.1	2023-10-11		D.1	5a.2a.1	Puerto Rico			GS_009Y6DW.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009Y6EU.1	2023-10-10		D.1	5a.2a.1	Puerto Rico			GS_009Y6EU.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009WHDP.1	2023-11-20		D.1	5a.2a.1	USA			GS_009WHDP.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YR4V.1	2023-12-26		D.1	5a.2a.1	USA			GS_009YR4V.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WJYH.1	2023-10-31		D.1	5a.2a.1	USA			GS_009WJYH.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WPNY.1	2023-12-09		D.1	5a.2a.1	USA			GS_009WPNY.1	Lauring, A. S.; Papalambros, L. K.
+GS_009X9ET.1	2023-12-22		D.1	5a.2a.1	USA			GS_009X9ET.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZEUP.1	2023-11-09		D.1	5a.2a.1	USA			GS_009ZEUP.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WH0F.1	2023-11-14		D.1	5a.2a.1	USA			GS_009WH0F.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WEKD.1	2023-11-14		D.1	5a.2a.1	USA			GS_009WEKD.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WEYM.1	2023-11-18		D.1	5a.2a.1	USA			GS_009WEYM.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WJ0E.1	2023-11-30		D.1	5a.2a.1	USA			GS_009WJ0E.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AEPUJ.1	2024-02-06		D.1	5a.2a.1	USA			GS_00AEPUJ.1	Simas, A.; Rothstein, A.; Sum, A.; Muir, G.; Qiu, X.
+GS_009X7U0.1	2023-12-27		D.1	5a.2a.1	USA			GS_009X7U0.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WULX.1	2023-10-25		D.1	5a.2a.1	Japan			GS_009WULX.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AAEC0.1	2024-01-08		D.1	5a.2a.1	USA			GS_00AAEC0.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S. E.; Greninger, A.
+GS_00A4Y3C.1	2023-11-10		D.1	5a.2a.1	USA			GS_00A4Y3C.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XB4B.1	2023-12-20		D.1	5a.2a.1	USA			GS_009XB4B.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZQW9.1	2024-01-04		D.1	5a.2a.1	USA			GS_009ZQW9.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A3BQS.1	2024-02-07		D.1	5a.2a.1	USA			GS_00A3BQS.1	Garrigues, J. M.; Green, N. M.
+GS_00A9R0F.1	2024-02-15		D.1	5a.2a.1	USA			GS_00A9R0F.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKQ1T.1	2024-02-02		D.1	5a.2a.1	USA			GS_00AKQ1T.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKX0N.1	2024-02-17		D.1	5a.2a.1	USA			GS_00AKX0N.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009YBDR.1	2023-11-20		D.1	5a.2a.1	USA			GS_009YBDR.1	Lauring, A. S.; Papalambros, L. K.
+GS_009Y6NB.1	2023-11-21		D.1	5a.2a.1	USA			GS_009Y6NB.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A5CUD.1	2023-11-29		D.1	5a.2a.1	USA			GS_00A5CUD.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WMK6.1	2023-12-05		D.1	5a.2a.1	USA			GS_009WMK6.1	Lauring, A. S.; Papalambros, L. K.
+GS_009P78P.1	2023-08-30		D.1	5a.2a.1	USA			GS_009P78P.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5EV9.1	2023-12-11		D.1	5a.2a.1	USA			GS_00A5EV9.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A47GB.1	2023-12-28		D.1	5a.2a.1	USA			GS_00A47GB.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_009X886.1	2023-12-29		D.1	5a.2a.1	USA			GS_009X886.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4TXU.1	2024-01-02		D.1	5a.2a.1	USA			GS_00A4TXU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9TQY.1	2024-02-07		D.1	5a.2a.1	USA			GS_00A9TQY.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z70K.1	2023-09-21		D.1	5a.2a.1	USA			GS_009Z70K.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKXFS.1	2023-10-04		D.1	5a.2a.1	USA			GS_00AKXFS.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZFWJ.1	2023-10-14		D.1	5a.2a.1	USA			GS_009ZFWJ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZM05.1	2023-10-21		D.1	5a.2a.1	USA			GS_009ZM05.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZKRQ.1	2023-11-02		D.1	5a.2a.1	USA			GS_009ZKRQ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WKM4.1	2023-11-07		D.1	5a.2a.1	USA			GS_009WKM4.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZL7S.1	2023-11-10		D.1	5a.2a.1	USA			GS_009ZL7S.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WGN5.1	2023-11-13		D.1	5a.2a.1	USA			GS_009WGN5.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5624.1	2023-11-20		D.1	5a.2a.1	USA			GS_00A5624.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9Q48.1	2023-12-15		D.1	5a.2a.1	USA			GS_00A9Q48.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A06SZ.1	2024-01-02		D.1	5a.2a.1	USA			GS_00A06SZ.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YAN7.1	2023-11-05		D.1	5a.2a.1	USA			GS_009YAN7.1	Lauring, A. S.; Papalambros, L. K.
+GS_009SR8Z.1	2023-09-02		D.1	5a.2a.1	USA			GS_009SR8Z.1	Lauring, A. S.; Papalambros, L.
+GS_009WUBG.1	2023-11-05		D.1	5a.2a.1	Japan			GS_009WUBG.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A59K0.1	2023-10-31		D.1	5a.2a.1	USA			GS_00A59K0.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZDAT.1	2023-12-03		D.1	5a.2a.1	USA			GS_009ZDAT.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A38WH.1	2024-02-29		D.1	5a.2a.1	USA			GS_00A38WH.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A57K2.1	2023-12-27		D.1	5a.2a.1	USA			GS_00A57K2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZJGA.1	2023-10-09		D.1	5a.2a.1	USA			GS_009ZJGA.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZECN.1	2023-10-19		D.1	5a.2a.1	USA			GS_009ZECN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A57VG.1	2023-12-06		D.1	5a.2a.1	USA			GS_00A57VG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009YA82.1	2023-11-02		D.1	5a.2a.1	USA			GS_009YA82.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4UCY.1	2023-11-03		D.1	5a.2a.1	USA			GS_00A4UCY.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009W58B.1	2023-11-28		D.1	5a.2a.1	United Kingdom			GS_009W58B.1	Kwok, K.; Vink, E.; Smollett, K.; Evans, J.; Lowe, D.; Thomson, E.; da Silva Filipe, A.; Ho, A.
+GS_00A3G8L.1	2024-01-14		D.1	5a.2a.1	USA			GS_00A3G8L.1	Garrigues, J. M.; Green, N. M.
+GS_00A3GDA.1	2023-12-07		D.1	5a.2a.1	USA			GS_00A3GDA.1	Garrigues, J. M.; Green, N. M.
+GS_00A4UZP.1	2023-12-04		D.1	5a.2a.1	USA			GS_00A4UZP.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z9GK.1	2023-11-08		D.1	5a.2a.1	USA			GS_009Z9GK.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZD1B.1	2023-11-03		D.1	5a.2a.1	USA			GS_009ZD1B.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A656V.1	2023-12-11		D.1	5a.2a.1	USA			GS_00A656V.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AFWD6.1	2023-12-28		D.1	5a.2a.1	USA			GS_00AFWD6.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00A4TCZ.1	2023-11-11		D.1	5a.2a.1	USA			GS_00A4TCZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZKWE.1	2023-11-27		D.1	5a.2a.1	USA			GS_009ZKWE.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5E5Q.1	2023-12-06		D.1	5a.2a.1	USA			GS_00A5E5Q.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A66LZ.1	2024-02-13		D.1	5a.2a.1	USA			GS_00A66LZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009YNSM.1	2023-12-11		D.1	5a.2a.1	USA			GS_009YNSM.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009SPUU.1	2023-09-26		D.1	5a.2a.1	USA			GS_009SPUU.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A4UNB.1	2023-12-05		D.1	5a.2a.1	USA			GS_00A4UNB.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A57YA.1	2023-12-16		D.1	5a.2a.1	USA			GS_00A57YA.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z8FN.1	2023-10-23		D.1	5a.2a.1	USA			GS_009Z8FN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZP4V.1	2024-01-14		D.1	5a.2a.1	USA			GS_009ZP4V.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AFWQH.1	2024-01-08		D.1	5a.2a.1	USA			GS_00AFWQH.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_009Z3T2.1	2023-12-06		D.1	5a.2a.1	USA			GS_009Z3T2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A664Y.1	2024-01-04		D.1	5a.2a.1	USA			GS_00A664Y.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4VS2.1	2023-12-29		D.1	5a.2a.1	USA			GS_00A4VS2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WU3Y.1	2023-11-14		D.1	5a.2a.1	USA			GS_009WU3Y.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A9NKD.1	2024-03-11		D.1	5a.2a.1	USA			GS_00A9NKD.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00A5137.1	2023-12-18		D.1	5a.2a.1	USA			GS_00A5137.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AFWKT.1	2024-02-21		D.1	5a.2a.1	USA			GS_00AFWKT.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00AH44B.1	2024-03-11		D.1	5a.2a.1	USA			GS_00AH44B.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH43D.1	2024-03-11		D.1	5a.2a.1	USA			GS_00AH43D.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5DVA.1	2024-01-11		D.1	5a.2a.1	USA			GS_00A5DVA.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z91F.1	2023-09-19		D.1	5a.2a.1	USA			GS_009Z91F.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZFBP.1	2023-10-29		D.1	5a.2a.1	USA			GS_009ZFBP.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z4R5.1	2023-09-12		D.1	5a.2a.1	USA			GS_009Z4R5.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A310H.1	2023-11-17		D.1	5a.2a.1	Hong Kong			GS_00A310H.1	Cowling, B. J.; Leung, N. H. L.; Cheng, S. M. S.; Peiris, M.
+GS_00A51RW.1	2023-12-26		D.1	5a.2a.1	USA			GS_00A51RW.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z5CX.1	2023-11-12		D.1	5a.2a.1	USA			GS_009Z5CX.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZEAS.1	2023-10-17		D.1	5a.2a.1	USA			GS_009ZEAS.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z9VS.1	2023-09-23		D.1	5a.2a.1	USA			GS_009Z9VS.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A50K9.1	2023-11-13		D.1	5a.2a.1	USA			GS_00A50K9.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKWR6.1	2024-02-23		D.1	5a.2a.1	USA			GS_00AKWR6.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A7VEM.1	2024-02-07		D.1	5a.2a.1	USA			GS_00A7VEM.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WF2D.1	2023-11-21		D.1	5a.2a.1	USA			GS_009WF2D.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XN5Y.1	2023-12-04		D.1	5a.2a.1	USA			GS_009XN5Y.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9UL5.1	2023-12-03		D.1	5a.2a.1	USA			GS_00A9UL5.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZBSW.1	2023-10-09		D.1	5a.2a.1	USA			GS_009ZBSW.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XBTY.1	2023-12-15		D.1	5a.2a.1	USA			GS_009XBTY.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A508Y.1	2023-12-19		D.1	5a.2a.1	USA			GS_00A508Y.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Y8LD.1	2023-12-08		D.1	5a.2a.1	USA			GS_009Y8LD.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9UK7.1	2023-12-05		D.1	5a.2a.1	USA			GS_00A9UK7.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z874.1	2023-11-19		D.1	5a.2a.1	USA			GS_009Z874.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z8AY.1	2023-11-26		D.1	5a.2a.1	USA			GS_009Z8AY.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4ZUU.1	2023-12-01		D.1	5a.2a.1	USA			GS_00A4ZUU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A500E.1	2023-12-15		D.1	5a.2a.1	USA			GS_00A500E.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5533.1	2024-01-07		D.1	5a.2a.1	USA			GS_00A5533.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZE52.1	2023-10-25		D.1	5a.2a.1	USA			GS_009ZE52.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZC9W.1	2023-12-04		D.1	5a.2a.1	USA			GS_009ZC9W.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4Y1G.1	2023-11-07		D.1	5a.2a.1	USA			GS_00A4Y1G.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5TFR.1	2024-02-26		D.1	5a.2a.1	USA			GS_00A5TFR.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YAM9.1	2023-11-11		D.1	5a.2a.1	USA			GS_009YAM9.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZBZG.1	2023-11-29		D.1	5a.2a.1	USA			GS_009ZBZG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A031K.1	2023-12-07		D.1	5a.2a.1	USA			GS_00A031K.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5EX5.1	2023-12-17		D.1	5a.2a.1	USA			GS_00A5EX5.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKXKH.1	2023-10-11		D.1	5a.2a.1	USA			GS_00AKXKH.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z3FT.1	2023-10-11		D.1	5a.2a.1	USA			GS_009Z3FT.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZBJC.1	2023-10-25		D.1	5a.2a.1	USA			GS_009ZBJC.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZBP2.1	2023-12-02		D.1	5a.2a.1	USA			GS_009ZBP2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A59BH.1	2023-12-22		D.1	5a.2a.1	USA			GS_00A59BH.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5BSJ.1	2024-01-16		D.1	5a.2a.1	USA			GS_00A5BSJ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4V3F.1	2023-12-12		D.1	5a.2a.1	USA			GS_00A4V3F.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5AF8.1	2024-01-03		D.1	5a.2a.1	USA			GS_00A5AF8.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4QWZ.1	2023-11-29		D.1	5a.2a.1	USA			GS_00A4QWZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WNZB.1	2023-12-02		D.1	5a.2a.1	USA			GS_009WNZB.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4ULF.1	2023-12-04		D.1	5a.2a.1	USA			GS_00A4ULF.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9PXN.1	2023-12-05		D.1	5a.2a.1	USA			GS_00A9PXN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKXB0.1	2023-09-23		D.1	5a.2a.1	USA			GS_00AKXB0.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z7R2.1	2023-09-24		D.1	5a.2a.1	USA			GS_009Z7R2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5CAG.1	2024-01-01		D.1	5a.2a.1	USA			GS_00A5CAG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZNUF.1	2024-01-10		D.1	5a.2a.1	USA			GS_009ZNUF.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AHBWK.1	2024-01-14		D.1	5a.2a.1	USA			GS_00AHBWK.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9RRY.1	2024-01-19		D.1	5a.2a.1	USA			GS_00A9RRY.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z7CV.1	2023-11-06		D.1	5a.2a.1	USA			GS_009Z7CV.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WNJ7.1	2023-11-28		D.1	5a.2a.1	USA			GS_009WNJ7.1	Lauring, A. S.; Papalambros, L. K.
+GS_009Y9BX.1	2023-12-06		D.1	5a.2a.1	USA			GS_009Y9BX.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0369.1	2023-12-10		D.1	5a.2a.1	USA			GS_00A0369.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5ADC.1	2023-12-15		D.1	5a.2a.1	USA			GS_00A5ADC.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A56XD.1	2024-01-24		D.1	5a.2a.1	USA			GS_00A56XD.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKPAA.1	2024-01-24		D.1	5a.2a.1	USA			GS_00AKPAA.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092LG3.1	2023-01-04		D	5a.2a.1	USA			GS_0092LG3.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091P3U.1	2022-12-17		D	5a.2a.1	USA			GS_0091P3U.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092QF1.1	2022-12-15		D	5a.2a.1	USA			GS_0092QF1.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009272A.1	2022-12-15		D	5a.2a.1	USA			GS_009272A.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092MBC.1	2022-11-11		D	5a.2a.1	USA			GS_0092MBC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092C8T.1	2022-11-12		D	5a.2a.1	USA			GS_0092C8T.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A6Y2.1	2023-02-02		D	5a.2a.1	USA			GS_009A6Y2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092AJ8.1	2022-11-20		D	5a.2a.1	USA			GS_0092AJ8.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QM0P.1	2022-12-27		D	5a.2a.1	USA			GS_009QM0P.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QM1M.1	2022-12-29		D	5a.2a.1	USA			GS_009QM1M.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096HV5.1	2022-12-11		D	5a.2a.1	USA			GS_0096HV5.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096HSB.1	2022-12-11		D	5a.2a.1	USA			GS_0096HSB.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_008ZDCQ.1	2022-12-15		D	5a.2a.1	Germany			GS_008ZDCQ.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008ZCWN.1	2022-12-18		D	5a.2a.1	Germany			GS_008ZCWN.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008ZHCL.1	2022-12-19		D	5a.2a.1	Germany			GS_008ZHCL.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_008ZFHB.1	2022-12-20		D	5a.2a.1	Germany			GS_008ZFHB.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_0092CQU.1	2022-12-22		D	5a.2a.1	USA			GS_0092CQU.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00927QZ.1	2022-11-24		D	5a.2a.1	USA			GS_00927QZ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00903XT.1	2022-11-25		D	5a.2a.1	USA			GS_00903XT.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008YLH8.1	2022-11-29		D	5a.2a.1	USA			GS_008YLH8.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_008VS09.1	2022-11-27		D	5a.2a.1	USA			GS_008VS09.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092LLU.1	2022-11-28		D	5a.2a.1	USA			GS_0092LLU.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091L7P.1	2022-12-21		D	5a.2a.1	USA			GS_0091L7P.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091L11.1	2022-12-21		D	5a.2a.1	USA			GS_0091L11.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00927AU.1	2022-11-29		D	5a.2a.1	USA			GS_00927AU.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009045B.1	2022-11-28		D	5a.2a.1	USA			GS_009045B.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092KPP.1	2022-11-29		D	5a.2a.1	USA			GS_0092KPP.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ABNH.1	2023-03-11		D	5a.2a.1	USA			GS_009ABNH.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096E3T.1	2022-12-06		D	5a.2a.1	USA			GS_0096E3T.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0092BK5.1	2022-12-04		D	5a.2a.1	USA			GS_0092BK5.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096F8G.1	2022-12-07		D	5a.2a.1	USA			GS_0096F8G.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0092CYC.1	2022-12-05		D	5a.2a.1	USA			GS_0092CYC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A5X5.1	2023-01-14		D	5a.2a.1	USA			GS_009A5X5.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QNFS.1	2023-01-27		D	5a.2a.1	USA			GS_009QNFS.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008YLDH.1	2022-12-06		D	5a.2a.1	USA			GS_008YLDH.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0094M9C.1	2023-01-01		D	5a.2a.1	United Kingdom			GS_0094M9C.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_0094M8E.1	2022-12-31		D	5a.2a.1	United Kingdom			GS_0094M8E.1	Williams, T. G. S.; Nebbia, G.; Alder, C.; Snell, L. B.
+GS_009299U.1	2022-12-07		D	5a.2a.1	USA			GS_009299U.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096JGX.1	2022-12-12		D	5a.2a.1	USA			GS_0096JGX.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0096HZX.1	2022-12-11		D	5a.2a.1	USA			GS_0096HZX.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_009280D.1	2022-12-10		D	5a.2a.1	USA			GS_009280D.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092ME6.1	2022-12-11		D	5a.2a.1	USA			GS_0092ME6.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092928.1	2022-12-11		D	5a.2a.1	USA			GS_0092928.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00928P0.1	2022-12-12		D	5a.2a.1	USA			GS_00928P0.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QKNE.1	2022-12-22		D	5a.2a.1	USA			GS_009QKNE.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QKT4.1	2022-12-13		D	5a.2a.1	USA			GS_009QKT4.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008ZCXL.1	2022-12-18		D	5a.2a.1	Germany			GS_008ZCXL.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_009A9D4.1	2023-03-05		D	5a.2a.1	USA			GS_009A9D4.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009KDJ4.1	2023-02-18		D	5a.2a.1	USA			GS_009KDJ4.1	s, W. W. F.; l, E. B.; t, J. G.; g, A. L.
+GS_0092HNT.1	2022-12-19		D	5a.2a.1	USA			GS_0092HNT.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092HX9.1	2022-12-19		D	5a.2a.1	USA			GS_0092HX9.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091GJ4.1	2022-12-27		D	5a.2a.1	USA			GS_0091GJ4.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_00A0C44.1	2022-12-29		D	5a.2a.1	Mexico			GS_00A0C44.1	Hernandez-Altamirano, J. D.; Ruiz-Higareda, A. F.; Rivas-Estilla, A. M.; Camacho-Ortiz, A.; Bocanegra-Ibarias, P.; Galan-Huerta, K. A.
+GS_0091NUC.1	2022-12-27		D	5a.2a.1	USA			GS_0091NUC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091M10.1	2023-01-01		D	5a.2a.1	USA			GS_0091M10.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VQVL.1	2022-09-12		D	5a.2a.1	USA			GS_008VQVL.1	Wentworth, D.; Barnes, J.; Garten, R.
+GS_008VQJ8.1	2022-09-19		D	5a.2a.1	USA			GS_008VQJ8.1	Wentworth, D.; Barnes, J.; Garten, R.
+GS_008VQL4.1	2022-09-20		D	5a.2a.1	USA			GS_008VQL4.1	Wentworth, D.; Barnes, J.; Garten, R.
+GS_009A6UA.1	2023-01-22		D	5a.2a.1	USA			GS_009A6UA.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A9YZ.1	2023-03-10		D	5a.2a.1	USA			GS_009A9YZ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009QPCX.1	2023-02-02		D	5a.2a.1	USA			GS_009QPCX.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A9AA.1	2023-02-18		D	5a.2a.1	USA			GS_009A9AA.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A64R.1	2023-02-20		D	5a.2a.1	USA			GS_009A64R.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V2NN.1	2022-10-04		D	5a.2a.1	USA			GS_008V2NN.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V16N.1	2022-10-06		D	5a.2a.1	USA			GS_008V16N.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008UZCE.1	2022-10-07		D	5a.2a.1	USA			GS_008UZCE.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008UZSK.1	2022-10-11		D	5a.2a.1	USA			GS_008UZSK.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008UZF8.1	2022-10-11		D	5a.2a.1	USA			GS_008UZF8.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V24R.1	2022-10-13		D	5a.2a.1	USA			GS_008V24R.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V88B.1	2022-10-14		D	5a.2a.1	USA			GS_008V88B.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00927CQ.1	2022-10-14		D	5a.2a.1	USA			GS_00927CQ.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V30Y.1	2022-10-15		D	5a.2a.1	USA			GS_008V30Y.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V26M.1	2022-10-22		D	5a.2a.1	USA			GS_008V26M.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V25P.1	2022-10-22		D	5a.2a.1	USA			GS_008V25P.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092J2Z.1	2022-10-23		D	5a.2a.1	USA			GS_0092J2Z.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VANE.1	2022-10-30		D	5a.2a.1	USA			GS_008VANE.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092J3X.1	2022-10-30		D	5a.2a.1	USA			GS_0092J3X.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092AGD.1	2022-11-01		D	5a.2a.1	USA			GS_0092AGD.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V9EY.1	2022-11-02		D	5a.2a.1	USA			GS_008V9EY.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V8T6.1	2022-11-02		D	5a.2a.1	USA			GS_008V8T6.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VT8S.1	2022-11-03		D	5a.2a.1	USA			GS_008VT8S.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V90S.1	2022-11-03		D	5a.2a.1	USA			GS_008V90S.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VSBM.1	2022-11-08		D	5a.2a.1	USA			GS_008VSBM.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V9PD.1	2022-11-08		D	5a.2a.1	USA			GS_008V9PD.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00902ME.1	2022-11-14		D	5a.2a.1	USA			GS_00902ME.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V84K.1	2022-11-14		D	5a.2a.1	USA			GS_008V84K.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008V85H.1	2022-11-15		D	5a.2a.1	USA			GS_008V85H.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008YKWH.1	2022-11-17		D	5a.2a.1	Germany			GS_008YKWH.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Garrett, C. M.; Kramer, D. L.; Hanson, J. F.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_0092BFE.1	2022-11-18		D	5a.2a.1	USA			GS_0092BFE.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092BGC.1	2022-11-18		D	5a.2a.1	USA			GS_0092BGC.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_008VT08.1	2022-11-22		D	5a.2a.1	USA			GS_008VT08.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00902YS.1	2022-11-25		D	5a.2a.1	USA			GS_00902YS.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00927XK.1	2022-11-25		D	5a.2a.1	USA			GS_00927XK.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096BH1.1	2022-11-30		D	5a.2a.1	USA			GS_0096BH1.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_0092CL2.1	2022-11-30		D	5a.2a.1	USA			GS_0092CL2.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092ARU.1	2022-12-05		D	5a.2a.1	USA			GS_0092ARU.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092D08.1	2022-12-06		D	5a.2a.1	USA			GS_0092D08.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091G5X.1	2022-12-13		D	5a.2a.1	USA			GS_0091G5X.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Selent, M. U.
+GS_0091N01.1	2022-12-12		D	5a.2a.1	USA			GS_0091N01.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092B34.1	2022-12-12		D	5a.2a.1	USA			GS_0092B34.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091NSG.1	2022-12-12		D	5a.2a.1	USA			GS_0091NSG.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092AFF.1	2022-12-12		D	5a.2a.1	USA			GS_0092AFF.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092BBN.1	2022-12-14		D	5a.2a.1	USA			GS_0092BBN.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0092BCL.1	2022-12-14		D	5a.2a.1	USA			GS_0092BCL.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009AZ06.1	2022-12-21		D	5a.2a.1	USA			GS_009AZ06.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A37N.1	2022-12-21		D	5a.2a.1	USA			GS_009A37N.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0096MKM.1	2022-12-28		D	5a.2a.1	USA			GS_0096MKM.1	Fitzsimmons, W.; Bendall, E.; Gilbert, J.; Lauring, A.
+GS_00928VN.1	2022-12-27		D	5a.2a.1	USA			GS_00928VN.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009A0NU.1	2022-12-30		D	5a.2a.1	USA			GS_009A0NU.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_0091MQM.1	2023-01-05		D	5a.2a.1	USA			GS_0091MQM.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009EGQ0.1	2023-06-02		D.2	5a.2a.1	Japan			GS_009EGQ0.1	Gruner, W. E.; Muehleman, D. M.; Garrett, C. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Sjoberg, P. A.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.
+GS_00A38FE.1	2024-02-16		D.2	5a.2a.1	USA			GS_00A38FE.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5U5A.1	2024-02-09		D.2	5a.2a.1	USA			GS_00A5U5A.1	Lauring, A. S.; Papalambros, L. K.
+GS_009SPR0.1	2023-10-12		D.2	5a.2a.1	USA			GS_009SPR0.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009YAQ3.1	2023-11-13		D.2	5a.2a.1	USA			GS_009YAQ3.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A1U5J.1	2023-12-10		D.2	5a.2a.1	USA			GS_00A1U5J.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YPG7.1	2024-01-03		D.2	5a.2a.1	Japan			GS_009YPG7.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A0CUP.1	2023-12-05		D.2	5a.2a.1	USA			GS_00A0CUP.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009WF9Z.1	2023-11-21		D.2	5a.2a.1	USA			GS_009WF9Z.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XPUJ.1	2023-12-12		D.2	5a.2a.1	USA			GS_009XPUJ.1	Lauring, A. S.; Papalambros, L. K.
+m2-g33df2	2024-01-09	AG	D.2	5a.2a.1	Switzerland	ReVSeq	Europe	m2-g33df2	
+GS_00A0XV2.1	2023-12-28		D.2	5a.2a.1	Germany			GS_00A0XV2.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009YQ9L.1	2023-12-15		D.2	5a.2a.1	United Kingdom			GS_009YQ9L.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AES7Q.1	2023-12-06		D.2	5a.2a.1	USA			GS_00AES7Q.1	Simas, A.; Rothstein, A.; Sum, A.; Muir, G.; Qiu, X.
+GS_009W4FY.1	2024-01-25		D.2	5a.2a.1	Switzerland			GS_009W4FY.1	
+GS_00A45QW.1	2023-12-17		D.2	5a.2a.1	USA			GS_00A45QW.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00AFW5N.1	2023-12-28		D.2	5a.2a.1	USA			GS_00AFW5N.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_009Y75B.1	2023-11-21		D.2	5a.2a.1	USA			GS_009Y75B.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A916T.1	2024-03-19		D.2	5a.2a.1	South Korea			GS_00A916T.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A1S6J.1	2024-01-24		D.2	5a.2a.1	USA			GS_00A1S6J.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A3CK1.1	2023-11-20		D.2	5a.2a.1	USA			GS_00A3CK1.1	Garrigues, J. M.; Green, N. M.
+GS_00ABEDW.1	2024-01-01		D.2	5a.2a.1	USA			GS_00ABEDW.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A1UU5.1	2024-01-02		D.2	5a.2a.1	USA			GS_00A1UU5.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YA66.1	2023-10-22		D.2	5a.2a.1	USA			GS_009YA66.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A3A40.1	2023-11-19		D.2	5a.2a.1	USA			GS_00A3A40.1	Garrigues, J. M.; Green, N. M.
+GS_00A2R6H.1	2024-02-13		D.2	5a.2a.1	USA			GS_00A2R6H.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WP7V.1	2023-12-08		D.2	5a.2a.1	USA			GS_009WP7V.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A7TLA.1	2024-03-26		D.2	5a.2a.1	USA			GS_00A7TLA.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4RLJ.1	2023-12-28		D.2	5a.2a.1	USA			GS_00A4RLJ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A3AZ9.1	2023-12-05		D.2	5a.2a.1	USA			GS_00A3AZ9.1	Garrigues, J. M.; Green, N. M.
+GS_00A39UL.1	2023-11-16		D.2	5a.2a.1	USA			GS_00A39UL.1	Garrigues, J. M.; Green, N. M.
+GS_00A1SKR.1	2024-01-26		D.2	5a.2a.1	USA			GS_00A1SKR.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2159.1	2023-12-02		D.2	5a.2a.1	USA			GS_00A2159.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00A0XRA.1	2024-01-29		D.2	5a.2a.1	Germany			GS_00A0XRA.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A0XU4.1	2024-01-31		D.2	5a.2a.1	Germany			GS_00A0XU4.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A2XT2.1	2024-01-01		D.2	5a.2a.1	Peru			GS_00A2XT2.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Avendano, C.; Sobolik, E.; Greninger, A.; Tsukayama, P.
+GS_00A2XU0.1	2024-01-01		D.2	5a.2a.1	Peru			GS_00A2XU0.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Avendano, C.; Sobolik, E.; Greninger, A.; Tsukayama, P.
+GS_00A27P0.1	2023-12-28		D.2	5a.2a.1	Peru			GS_00A27P0.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Tsukayama, P.
+GS_00A27TS.1	2023-12-29		D.2	5a.2a.1	Peru			GS_00A27TS.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Tsukayama, P.
+GS_00A27XJ.1	2024-01-12		D.2	5a.2a.1	Peru			GS_00A27XJ.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Tsukayama, P.
+GS_009Y74D.1	2023-12-15		D.2	5a.2a.1	USA			GS_009Y74D.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A0SAC.1	2024-01-19		D.2	5a.2a.1	USA			GS_00A0SAC.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A3909.1	2024-02-01		D.2	5a.2a.1	USA			GS_00A3909.1	Lauring, A. S.; Papalambros, L. K.
+GS_009X75D.1	2023-12-13		D.2	5a.2a.1	USA			GS_009X75D.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2183.1	2023-12-29		D.2	5a.2a.1	USA			GS_00A2183.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00A35YG.1	2024-02-02		D.2	5a.2a.1	USA			GS_00A35YG.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2G9L.1	2024-02-15		D.2	5a.2a.1	USA			GS_00A2G9L.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XTBF.1	2023-12-18		D.2	5a.2a.1	USA			GS_009XTBF.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ACVF9.1	2024-05-13		D.2	5a.2a.1	Germany			GS_00ACVF9.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00ABP9V.1	2024-05-06		D.2	5a.2a.1	Germany			GS_00ABP9V.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00ABPRW.1	2024-05-06		D.2	5a.2a.1	Germany			GS_00ABPRW.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00ABPSU.1	2024-05-06		D.2	5a.2a.1	Germany			GS_00ABPSU.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00ABJ74.1	2024-03-27		D.2	5a.2a.1	USA			GS_00ABJ74.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AGVSC.1	2024-04-02		D.2	5a.2a.1	USA			GS_00AGVSC.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9SRX.1	2024-01-14		D.2	5a.2a.1	USA			GS_00A9SRX.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH54A.1	2024-02-15		D.2	5a.2a.1	USA			GS_00AH54A.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A2DL0.1	2024-02-23		D.2	5a.2a.1	USA			GS_00A2DL0.1	Lauring, A. S.; Papalambros, L. K.
+GS_0091MW9.1	2022-12-22		D	5a.2a.1	USA			GS_0091MW9.1	Wentworth, D.; Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Z8HH.1	2023-10-30		D	5a.2a.1	USA			GS_009Z8HH.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AEGQZ.1	2023-11-26		D	5a.2a.1	USA			GS_00AEGQZ.1	Direct Submission,
+GS_00A2R2R.1	2024-02-12		D	5a.2a.1	USA			GS_00A2R2R.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZDDM.1	2023-12-12		D	5a.2a.1	USA			GS_009ZDDM.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AETF7.1	2024-05-30		D	5a.2a.1	USA			GS_00AETF7.1	Simas, A.; Rothstein, A.; Sum, A.; Muir, G.; Qiu, X.
+GS_009Z5JJ.1	2023-10-22		D	5a.2a.1	USA			GS_009Z5JJ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A62M1.1	2024-01-24		D	5a.2a.1	USA			GS_00A62M1.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A7YCN.1	2024-03-13		D	5a.2a.1	USA			GS_00A7YCN.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH1R5.1	2024-03-07		D	5a.2a.1	USA			GS_00AH1R5.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9UWK.1	2023-12-07		D	5a.2a.1	USA			GS_00A9UWK.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A610B.1	2023-12-25		D	5a.2a.1	USA			GS_00A610B.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9T37.1	2024-02-10		D	5a.2a.1	USA			GS_00A9T37.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ALZLB.1	2024-02-27		D	5a.2a.1	USA			GS_00ALZLB.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH1YR.1	2024-03-04		D	5a.2a.1	USA			GS_00AH1YR.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH3GN.1	2024-02-29		D	5a.2a.1	USA			GS_00AH3GN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZPMU.1	2023-12-29		D	5a.2a.1	USA			GS_009ZPMU.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XNJ5.1	2023-12-08		D	5a.2a.1	USA			GS_009XNJ5.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YRCD.1	2023-12-26		D	5a.2a.1	USA			GS_009YRCD.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XNSP.1	2023-12-11		D	5a.2a.1	USA			GS_009XNSP.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9P49.1	2024-04-08		D.5	5a.2a.1	USA			GS_00A9P49.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00A65SN.1	2024-02-06		D.5	5a.2a.1	USA			GS_00A65SN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AGWD4.1	2024-04-23		D.5	5a.2a.1	USA			GS_00AGWD4.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AEZMN.1	2024-05-01		D.5	5a.2a.1	USA			GS_00AEZMN.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ALYR2.1	2024-02-19		D.5	5a.2a.1	USA			GS_00ALYR2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9S62.1	2024-02-22		D.5	5a.2a.1	USA			GS_00A9S62.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A24P3.1	2024-02-05		D.5	5a.2a.1	Germany			GS_00A24P3.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AGXE1.1	2024-03-07		D.5	5a.2a.1	USA			GS_00AGXE1.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH8JC.1	2024-04-04		D.5	5a.2a.1	USA			GS_00AH8JC.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A3CLZ.1	2024-01-27		D.5	5a.2a.1	USA			GS_00A3CLZ.1	Garrigues, J. M.; Green, N. M.
+GS_00A9P2D.1	2024-02-07		D.5	5a.2a.1	USA			GS_00A9P2D.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00A2547.1	2024-02-13		D.5	5a.2a.1	Italy			GS_00A2547.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A26N3.1	2024-02-13		D.5	5a.2a.1	Italy			GS_00A26N3.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AEZ1V.1	2024-05-13		D.5	5a.2a.1	USA			GS_00AEZ1V.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AGZJQ.1	2024-03-08		D.5	5a.2a.1	USA			GS_00AGZJQ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A7YK7.1	2024-03-14		D.5	5a.2a.1	USA			GS_00A7YK7.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ABL80.1	2024-04-09		D.5	5a.2a.1	USA			GS_00ABL80.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9NSZ.1	2024-03-23		D.5	5a.2a.1	USA			GS_00A9NSZ.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00AGJK3.1	2024-07-29		D.5	5a.2a.1	USA			GS_00AGJK3.1	Heibeck, N.; Garrigues, J. M.; Green, N. M.
+GS_00AGVF1.1	2024-04-21		D.5	5a.2a.1	USA			GS_00AGVF1.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH871.1	2024-03-05		D.5	5a.2a.1	USA			GS_00AH871.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AF08C.1	2024-05-09		D.5	5a.2a.1	USA			GS_00AF08C.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ALUGR.1	2024-02-28		D.5	5a.2a.1	USA			GS_00ALUGR.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XPVG.1	2023-12-13		D.5	5a.2a.1	USA			GS_009XPVG.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ABN62.1	2024-04-21		D.5	5a.2a.1	USA			GS_00ABN62.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ABN46.1	2024-04-18		D.5	5a.2a.1	USA			GS_00ABN46.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AF0D2.1	2024-04-24		D.5	5a.2a.1	USA			GS_00AF0D2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKSD1.1	2024-06-28		D.5	5a.2a.1	USA			GS_00AKSD1.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AFXF1.1	2024-06-12		D.5	5a.2a.1	USA			GS_00AFXF1.1	Heibeck, N.; Garrigues, J. M.; Green, N. M.
+GS_00AC57F.1	2024-06-20		D.5	5a.2a.1	USA			GS_00AC57F.1	Garrigues, J. M.; Green, N. M.
+GS_00AKP4N.1	2024-07-05		D.5	5a.2a.1	USA			GS_00AKP4N.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ABVL0.1	2024-05-30		D.5	5a.2a.1	USA			GS_00ABVL0.1	Heibeck, N.; Garrigues, J. M.; Green, N. M.
+GS_00AWYD7.1	2024-06-24		D.5	5a.2a.1	USA			GS_00AWYD7.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AKUMG.1	2024-06-25		D.5	5a.2a.1	USA			GS_00AKUMG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ALXLD.1	2024-06-12		D.5	5a.2a.1	USA			GS_00ALXLD.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKRXZ.1	2024-07-05		D.5	5a.2a.1	USA			GS_00AKRXZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AF0ZV.1	2024-05-19		D.5	5a.2a.1	USA			GS_00AF0ZV.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKUR8.1	2024-07-25		D.5	5a.2a.1	USA			GS_00AKUR8.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5X0H.1	2024-03-04		D.5	5a.2a.1	USA			GS_00A5X0H.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH582.1	2024-03-11		D.5	5a.2a.1	USA			GS_00AH582.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ABL0G.1	2024-04-03		D.5	5a.2a.1	USA			GS_00ABL0G.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AM0Q0.1	2024-05-24		D.5	5a.2a.1	USA			GS_00AM0Q0.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKTFW.1	2024-03-21		D.5	5a.2a.1	USA			GS_00AKTFW.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH5KD.1	2024-03-21		D.5	5a.2a.1	USA			GS_00AH5KD.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ABJAY.1	2024-03-28		D.5	5a.2a.1	USA			GS_00ABJAY.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AGU8G.1	2024-04-03		D.5	5a.2a.1	USA			GS_00AGU8G.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKQ9B.1	2024-06-26		D.5	5a.2a.1	USA			GS_00AKQ9B.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AWYBB.1	2024-06-16		D.5	5a.2a.1	USA			GS_00AWYBB.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2RKQ.1	2024-02-21		D.5	5a.2a.1	USA			GS_00A2RKQ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5SFS.1	2024-02-24		D.5	5a.2a.1	USA			GS_00A5SFS.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5X1F.1	2024-03-05		D.5	5a.2a.1	USA			GS_00A5X1F.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A7Y44.1	2024-03-11		D.5	5a.2a.1	USA			GS_00A7Y44.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AGSW7.1	2024-03-20		D.5	5a.2a.1	USA			GS_00AGSW7.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKSV2.1	2024-07-03		D.5	5a.2a.1	USA			GS_00AKSV2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AGUG0.1	2024-05-05		D.5	5a.2a.1	USA			GS_00AGUG0.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AEZGZ.1	2024-05-05		D.5	5a.2a.1	USA			GS_00AEZGZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A2XKJ.1	2024-01-01		D	5a.2a.1	Peru			GS_00A2XKJ.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Avendano, C.; Sobolik, E.; Greninger, A.; Tsukayama, P.
+GS_00A0UJT.1	2024-02-02		D	5a.2a.1	USA			GS_00A0UJT.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0VQE.1	2024-01-02		D	5a.2a.1	USA			GS_00A0VQE.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ABL9Y.1	2024-04-09		D	5a.2a.1	USA			GS_00ABL9Y.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A596T.1	2024-02-07		D	5a.2a.1	USA			GS_00A596T.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A05ZL.1	2023-12-26		D	5a.2a.1	USA			GS_00A05ZL.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2UR9.1	2024-01-30		D	5a.2a.1	USA			GS_00A2UR9.1	Lauring, A. S.; Papalambros, L. K.
+GS_009WPSQ.1	2023-12-11		D	5a.2a.1	USA			GS_009WPSQ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2UA6.1	2024-01-31		D	5a.2a.1	USA			GS_00A2UA6.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XNNX.1	2023-12-10		D	5a.2a.1	USA			GS_009XNNX.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XTSJ.1	2023-12-19		D	5a.2a.1	USA			GS_009XTSJ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AER21.1	2024-03-02		D	5a.2a.1	USA			GS_00AER21.1	Simas, A.; Rothstein, A.; Sum, A.; Muir, G.; Qiu, X.
+GS_00ABMXL.1	2024-04-24		D	5a.2a.1	USA			GS_00ABMXL.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A21AZ.1	2024-01-04		D	5a.2a.1	USA			GS_00A21AZ.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00A64XD.1	2023-12-27		D	5a.2a.1	USA			GS_00A64XD.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A64WF.1	2023-12-27		D	5a.2a.1	USA			GS_00A64WF.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009Y7KG.1	2023-12-13		D	5a.2a.1	USA			GS_009Y7KG.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AH13G.1	2024-02-23		D	5a.2a.1	USA			GS_00AH13G.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9UBQ.1	2024-02-27		D	5a.2a.1	USA			GS_00A9UBQ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9VGD.1	2023-12-08		D	5a.2a.1	USA			GS_00A9VGD.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WESZ.1	2023-11-16		D	5a.2a.1	USA			GS_009WESZ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A33CR.1	2024-02-07		D	5a.2a.1	USA			GS_00A33CR.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4UXT.1	2023-12-04		D	5a.2a.1	USA			GS_00A4UXT.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4UUZ.1	2023-12-03		D	5a.2a.1	USA			GS_00A4UUZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9WCL.1	2024-02-06		D	5a.2a.1	USA			GS_00A9WCL.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WMYE.1	2023-12-04		D	5a.2a.1	USA			GS_009WMYE.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZNKZ.1	2023-12-16		D	5a.2a.1	USA			GS_009ZNKZ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A66CG.1	2024-01-10		D	5a.2a.1	USA			GS_00A66CG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XRY8.1	2024-01-05		D	5a.2a.1	USA			GS_009XRY8.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0GK3.1	2024-01-17		D	5a.2a.1	USA			GS_00A0GK3.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9RM6.1	2024-01-22		D	5a.2a.1	USA			GS_00A9RM6.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AHAWL.1	2024-05-18		D	5a.2a.1	USA			GS_00AHAWL.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZQRK.1	2024-01-04		D	5a.2a.1	USA			GS_009ZQRK.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2HY6.1	2024-02-02		D	5a.2a.1	USA			GS_00A2HY6.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH0CZ.1	2024-03-07		D	5a.2a.1	USA			GS_00AH0CZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A0HNW.1	2024-01-09		D	5a.2a.1	USA			GS_00A0HNW.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XAA0.1	2023-12-27		D	5a.2a.1	USA			GS_009XAA0.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A3F6R.1	2023-12-16		D	5a.2a.1	USA			GS_00A3F6R.1	Garrigues, J. M.; Green, N. M.
+GS_00A2KPN.1	2024-02-06		D	5a.2a.1	USA			GS_00A2KPN.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AM0P2.1	2024-02-15		D	5a.2a.1	USA			GS_00AM0P2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZM5V.1	2023-11-09		D	5a.2a.1	USA			GS_009ZM5V.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XULV.1	2023-12-18		D	5a.2a.1	USA			GS_009XULV.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0VT8.1	2024-01-17		D	5a.2a.1	USA			GS_00A0VT8.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5Z2B.1	2024-02-12		D.4	5a.2a.1	USA			GS_00A5Z2B.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009SQVR.1	2023-09-09		D.4	5a.2a.1	USA			GS_009SQVR.1	Lauring, A. S.; Papalambros, L.
+GS_009Z4HM.1	2023-12-07		D.4	5a.2a.1	USA			GS_009Z4HM.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009WLPZ.1	2023-11-26		D.4	5a.2a.1	USA			GS_009WLPZ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A1W5G.1	2024-01-24		D.4	5a.2a.1	USA			GS_00A1W5G.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ABNCQ.1	2024-03-29		D.4	5a.2a.1	USA			GS_00ABNCQ.1	Lauring, A. S.; Papalambros, L. K.
+GS_009ZA56.1	2023-11-20		D.4	5a.2a.1	USA			GS_009ZA56.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A587S.1	2024-01-23		D.4	5a.2a.1	USA			GS_00A587S.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A647U.1	2024-02-11		D.4	5a.2a.1	USA			GS_00A647U.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9NEQ.1	2024-02-25		D.4	5a.2a.1	USA			GS_00A9NEQ.1	Roychoudhury, P.; Xie, H.; Sereewit, J.; Ellis, S.; Greninger, A.
+GS_00A47PW.1	2023-12-29		D.4	5a.2a.1	USA			GS_00A47PW.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00AHBDL.1	2024-05-30		D.4	5a.2a.1	USA			GS_00AHBDL.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A06XP.1	2024-01-02		D.4	5a.2a.1	USA			GS_00A06XP.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A61XG.1	2024-02-15		D.4	5a.2a.1	USA			GS_00A61XG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A9ZWE.1	2024-03-17		D.4	5a.2a.1	USA			GS_00A9ZWE.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009YMQS.1	2023-12-21		D.4	5a.2a.1	USA			GS_009YMQS.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A5434.1	2023-12-11		D.4	5a.2a.1	USA			GS_00A5434.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009X993.1	2023-12-21		D.4	5a.2a.1	USA			GS_009X993.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AM1RX.1	2024-02-25		D.4	5a.2a.1	USA			GS_00AM1RX.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZMY8.1	2023-12-18		D.4	5a.2a.1	USA			GS_009ZMY8.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH368.1	2024-03-06		D.4	5a.2a.1	USA			GS_00AH368.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5ZTU.1	2024-01-12		D.4	5a.2a.1	USA			GS_00A5ZTU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A0DEH.1	2024-01-08		D.4	5a.2a.1	USA			GS_00A0DEH.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AH42F.1	2024-03-05		D.4	5a.2a.1	USA			GS_00AH42F.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5UKF.1	2024-03-11		D.4	5a.2a.1	USA			GS_00A5UKF.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AGUHX.1	2024-05-05		D.4	5a.2a.1	USA			GS_00AGUHX.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH756.1	2024-03-18		D.4	5a.2a.1	USA			GS_00AH756.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ABL56.1	2024-04-08		D.4	5a.2a.1	USA			GS_00ABL56.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A35K8.1	2024-01-31		D.4	5a.2a.1	USA			GS_00A35K8.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A62VK.1	2024-02-01		D.4	5a.2a.1	USA			GS_00A62VK.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKVS5.1	2024-02-15		D.4	5a.2a.1	USA			GS_00AKVS5.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5WKD.1	2024-03-04		D.4	5a.2a.1	USA			GS_00A5WKD.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9R39.1	2024-03-09		D.4	5a.2a.1	USA			GS_00A9R39.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH53C.1	2024-04-04		D.4	5a.2a.1	USA			GS_00AH53C.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4SA4.1	2024-01-31		D.4	5a.2a.1	USA			GS_00A4SA4.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A2LZ1.1	2024-02-19		D.4	5a.2a.1	USA			GS_00A2LZ1.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9VZC.1	2024-02-04		D.4	5a.2a.1	USA			GS_00A9VZC.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009W4S9.1	2024-03-14		D	5a.2a.1	Switzerland			GS_009W4S9.1	
+GS_00A47RS.1	2023-12-31		D	5a.2a.1	USA			GS_00A47RS.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00A60TR.1	2024-01-01		D	5a.2a.1	USA			GS_00A60TR.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A617X.1	2024-01-29		D	5a.2a.1	USA			GS_00A617X.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A50HD.1	2024-01-29		D	5a.2a.1	USA			GS_00A50HD.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKX3G.1	2024-01-26		D	5a.2a.1	USA			GS_00AKX3G.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKX2J.1	2024-01-21		D	5a.2a.1	USA			GS_00AKX2J.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A250F.1	2024-02-28		D	5a.2a.1	Germany			GS_00A250F.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A26AU.1	2024-02-27		D	5a.2a.1	Germany			GS_00A26AU.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A2464.1	2024-02-27		D	5a.2a.1	Germany			GS_00A2464.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A26EL.1	2024-02-27		D	5a.2a.1	Germany			GS_00A26EL.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A26BS.1	2024-02-27		D	5a.2a.1	Germany			GS_00A26BS.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A26CQ.1	2024-02-27		D	5a.2a.1	Germany			GS_00A26CQ.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A26FJ.1	2024-02-28		D	5a.2a.1	Germany			GS_00A26FJ.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A24ZH.1	2024-02-27		D	5a.2a.1	Germany			GS_00A24ZH.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A24YK.1	2024-02-27		D	5a.2a.1	Germany			GS_00A24YK.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A9RXL.1	2024-02-21		D	5a.2a.1	USA			GS_00A9RXL.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKV7A.1	2024-02-24		D	5a.2a.1	USA			GS_00AKV7A.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009ZQ7N.1	2023-12-31		D	5a.2a.1	USA			GS_009ZQ7N.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5UFQ.1	2024-03-10		D	5a.2a.1	USA			GS_00A5UFQ.1	Lauring, A. S.; Papalambros, L. K.
+GS_009YR9K.1	2023-12-26		D	5a.2a.1	USA			GS_009YR9K.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ABMSW.1	2024-04-10		D	5a.2a.1	USA			GS_00ABMSW.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A61BP.1	2024-02-13		D	5a.2a.1	USA			GS_00A61BP.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+m2-VA9Yi5	2024-01-10	BS	D	5a.2a.1	Switzerland	ReVSeq	Europe	m2-VA9Yi5	
+GS_00A2XJL.1	2024-01-01		D	5a.2a.1	Peru			GS_00A2XJL.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Avendano, C.; Sobolik, E.; Greninger, A.; Tsukayama, P.
+GS_00AH3VV.1	2024-03-04		D	5a.2a.1	USA			GS_00AH3VV.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A2Y86.1	2024-01-01		D	5a.2a.1	Peru			GS_00A2Y86.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Avendano, C.; Sobolik, E.; Greninger, A.; Tsukayama, P.
+GS_00A2Y5C.1	2024-01-01		D	5a.2a.1	Peru			GS_00A2Y5C.1	Meza, E.; Cuicapuza, D.; Martinez-Ventura, A.; Ayzanoa, B.; Zamudio, C.; Avendano, C.; Sobolik, E.; Greninger, A.; Tsukayama, P.
+GS_00A485Y.1	2023-12-26		D	5a.2a.1	USA			GS_00A485Y.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00A46H9.1	2023-12-13		D	5a.2a.1	USA			GS_00A46H9.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00A2GLX.1	2024-02-17		D	5a.2a.1	USA			GS_00A2GLX.1	Lauring, A. S.; Papalambros, L. K.
+GS_00ABFDV.1	2024-03-05		D	5a.2a.1	USA			GS_00ABFDV.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A5W82.1	2024-02-23		D	5a.2a.1	USA			GS_00A5W82.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A7TP4.1	2024-03-27		D	5a.2a.1	USA			GS_00A7TP4.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A7YVM.1	2024-03-16		D	5a.2a.1	USA			GS_00A7YVM.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A38TP.1	2024-02-29		D	5a.2a.1	USA			GS_00A38TP.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0U0W.1	2024-01-28		D	5a.2a.1	USA			GS_00A0U0W.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A1SYZ.1	2024-01-28		D	5a.2a.1	USA			GS_00A1SYZ.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9THC.1	2024-01-28		D	5a.2a.1	USA			GS_00A9THC.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A59NU.1	2023-11-28		D	5a.2a.1	USA			GS_00A59NU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKX78.1	2024-02-02		D	5a.2a.1	USA			GS_00AKX78.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4SB2.1	2024-01-30		D	5a.2a.1	USA			GS_00A4SB2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A64EE.1	2024-01-28		D	5a.2a.1	USA			GS_00A64EE.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A2KAF.1	2024-01-30		D	5a.2a.1	USA			GS_00A2KAF.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AKV6C.1	2024-02-22		D	5a.2a.1	USA			GS_00AKV6C.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A63PW.1	2024-01-08		D	5a.2a.1	USA			GS_00A63PW.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AKX5C.1	2024-02-10		D	5a.2a.1	USA			GS_00AKX5C.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A7VL8.1	2024-02-21		D	5a.2a.1	USA			GS_00A7VL8.1	Lauring, A. S.; Papalambros, L. K.
+GS_009Y6KH.1	2023-12-07		D	5a.2a.1	Germany			GS_009Y6KH.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AH6P4.1	2024-03-05		D	5a.2a.1	USA			GS_00AH6P4.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AGX3P.1	2024-04-08		D	5a.2a.1	USA			GS_00AGX3P.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A57PU.1	2024-01-11		D	5a.2a.1	USA			GS_00A57PU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A2R4M.1	2024-02-12		D	5a.2a.1	USA			GS_00A2R4M.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A9TAT.1	2024-02-25		D	5a.2a.1	USA			GS_00A9TAT.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A5YSX.1	2024-02-13		D	5a.2a.1	USA			GS_00A5YSX.1	Lauring, A. S.; Papalambros, L. K.
+GS_009Y6UZ.1	2023-12-04		D	5a.2a.1	Germany			GS_009Y6UZ.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00AF0HT.1	2024-04-15		D	5a.2a.1	USA			GS_00AF0HT.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A1W7C.1	2024-01-24		D	5a.2a.1	USA			GS_00A1W7C.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A3850.1	2024-02-15		D	5a.2a.1	USA			GS_00A3850.1	Lauring, A. S.; Papalambros, L. K.
+GS_009XNWF.1	2023-12-12		D	5a.2a.1	USA			GS_009XNWF.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH98Y.1	2024-02-24		D	5a.2a.1	USA			GS_00AH98Y.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_009XRZ6.1	2024-01-05		D	5a.2a.1	USA			GS_009XRZ6.1	Lauring, A. S.; Papalambros, L. K.
+GS_009W3FZ.1	2024-05-06		D	5a.2a.1	Switzerland			GS_009W3FZ.1	
+GS_00A4H4R.1	2024-02-28		D	5a.2a.1	USA			GS_00A4H4R.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_009YRF7.1	2023-12-26		D	5a.2a.1	USA			GS_009YRF7.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0EPX.1	2024-01-03		D	5a.2a.1	USA			GS_00A0EPX.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A2T3M.1	2024-02-23		D	5a.2a.1	USA			GS_00A2T3M.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A0HDF.1	2024-01-05		D	5a.2a.1	USA			GS_00A0HDF.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A1VRA.1	2024-01-18		D	5a.2a.1	USA			GS_00A1VRA.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH1NB.1	2024-02-08		D	5a.2a.1	USA			GS_00AH1NB.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A0DDK.1	2024-01-18		D	5a.2a.1	USA			GS_00A0DDK.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A9SCQ.1	2024-02-21		D	5a.2a.1	USA			GS_00A9SCQ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4832.1	2023-12-07		D	5a.2a.1	USA			GS_00A4832.1	Carpenter-Azevedo, K.; Sierra-Patev, S.; Gosselin, G.; Sowa, C.; Huard, R.
+GS_00A9QBU.1	2024-01-10		D	5a.2a.1	USA			GS_00A9QBU.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A0WU5.1	2024-02-07		D	5a.2a.1	USA			GS_00A0WU5.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A60PZ.1	2023-12-12		D	5a.2a.1	USA			GS_00A60PZ.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00ABGGN.1	2024-04-21		D	5a.2a.1	USA			GS_00ABGGN.1	Lauring, A. S.; Papalambros, L. K.
+GS_00A4JLR.1	2024-03-04		D	5a.2a.1	USA			GS_00A4JLR.1	Gruner, W. E.; Muehleman, D. M.; Fries, A. C.; Hanson, J. F.; Kramer, D. L.; Demarcus, L. S.; Wasik, P. M.; Robbins, A. S.; Macias, E. A.; Shaw, K. B.; Johnson, C. D.; Hartless, T. R.; Hardy, J.
+GS_00A03HL.1	2023-11-29		D	5a.2a.1	USA			GS_00A03HL.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A4XR2.1	2023-11-29		D	5a.2a.1	USA			GS_00A4XR2.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AGYV3.1	2024-03-24		D	5a.2a.1	USA			GS_00AGYV3.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AH3N9.1	2024-03-15		D	5a.2a.1	USA			GS_00AH3N9.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+m2-qeHUBn	2024-04-11	BL	D	5a.2a.1	Switzerland	ReVSeq	Europe	m2-qeHUBn	
+GS_00ALUNC.1	2024-02-13		D	5a.2a.1	USA			GS_00ALUNC.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00A3454.1	2024-02-13		D	5a.2a.1	USA			GS_00A3454.1	Lauring, A. S.; Papalambros, L. K.
+GS_00AH0LG.1	2024-03-04		D	5a.2a.1	USA			GS_00AH0LG.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AGU5N.1	2024-03-24		D	5a.2a.1	USA			GS_00AGU5N.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.
+GS_00AGU6L.1	2024-03-24		D	5a.2a.1	USA			GS_00AGU6L.1	Barnes, J.; Steel, J.; Garten, R.; Davis, T.; Dugan, V.

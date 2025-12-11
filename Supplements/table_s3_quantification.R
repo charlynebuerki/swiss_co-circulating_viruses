@@ -8,7 +8,7 @@ format_data_table_quantification<-function(df)
     separate_rows(strains_PCR, panels_PCR, values_PCR, sep = ",\\s*") %>%
     distinct(pseudonymized_id, strain_name, .keep_all = TRUE) %>% 
     mutate(
-      panel_type = ifelse(grepl("resp", panels_PCR), "resp", ifelse(panels_PCR == "flua" | panels_PCR == "flub" | panels_PCR == "rspc" | panels_PCR== "wuhan0", "p2", "p1"))
+      panel_type = ifelse(grepl("resp", panels_PCR), "resp", ifelse(panels_PCR == "flua" | panels_PCR == "flub" | panels_PCR == "rspc", "p2", "p1"))
     ) %>% 
     group_by(strain_name, panel_type) %>% 
     summarise(
